@@ -1,6 +1,58 @@
 {
-  "date": "",
-  "updated_at": "",
-  "daily_summary": "아직 오늘의 브리핑이 생성되지 않았습니다.",
-  "issues": []
+  "date": "2026-08-13",
+  "updated_at": "08:52 KST",
+  "generation_mode": "RSS + Gemini summary",
+  "daily_summary": "구글이 제미나이 온디바이스 AI를 전면에 내세운 픽셀 11을 공개한 가운데, 앤트로픽의 클로드 텍스트 투명 워터마크 도입과 미국 정보기관의 자율형 AI 에이전트 사이버 위협 경고 등 AI 안전 및 보안 이슈가 주목받았습니다. 한편 팔로알토 네트워크의 오픈AI 보안 모델 기업망 배치와 엔비디아의 5,000억 달러 규모 인프라 구축 프로젝트 등 엔터프라이즈 AI 확산도 가속화되고 있습니다.",
+  "issues": [
+    {
+      "category": "온디바이스 AI / 스마트폰",
+      "title": "구글, 제미나이 AI 기반 '픽셀 11' 라인업 공식 발표",
+      "summary": "구글이 자사 AI 모델 제미나이(Gemini)와 온디바이스 AI 경험을 결합한 최신 스마트폰 '픽셀 11(Pixel 11)' 시리즈를 공개했습니다.",
+      "detail": "구글 공식 블로그에 따르면 픽셀 11 시리즈는 앱 전반에 제미나이 인텔리전스를 깊이 통합하여 개인화된 AI 기능을 제공합니다. 온디바이스 및 에이전틱(Agentic) AI 기능을 통해 사용자의 일상 작업을 보조하도록 설계되었습니다.",
+      "why_it_matters": "모바일 플랫폼 분야에서 온디바이스 AI 에이전트를 스마트폰의 핵심 경쟁력으로 통합하는 경향이 더욱 본격화되고 있음을 보여줍니다.",
+      "source_name": "blog.google",
+      "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOb2JGbUFVRnJ6a3IxeHlBYS1ybTNzQkVyS3JiUXNxY29hdGVUZ3d2VV9RUWRMaVMwMHMxUWJSWmtzWWNNR0xQMDBsMmszeGhabU1iV1ZxZEpNN3U4cUo2YzVGZ0pCRVBoeTdRQmY2RUlkNlJmcFgwQTRYc21VQ19kT0h2WHVTVjA?oc=5",
+      "published_date": "2026-08-12"
+    },
+    {
+      "category": "AI 정책 / 워터마크",
+      "title": "앤트로픽, 클로드 생성 텍스트에 투명 워터마크 적용 발표",
+      "summary": "앤트로픽이 자사 AI 모델 클로드(Claude)가 출력하는 모든 텍스트에 눈에 보이지 않는 투명 워터마크를 추가하기 시작합니다.",
+      "detail": "앤트로픽은 AI가 생성한 콘텐츠의 오용을 방지하고 출처를 명확히 식별할 수 있도록 신규 클로드 모델에 투명 워터마크 기술을 도입한다고 밝혔습니다. 이를 통해 교육 및 업무 환경에서의 무단 AI 사용이나 표절을 검출하는 데 활용될 수 있습니다.",
+      "why_it_matters": "이미지뿐만 아니라 텍스트 영역에서도 생성형 AI의 투명성 확보와 오용 방지를 위한 워터마킹 기술 적용이 글로벌 상용 표준으로 확대되는 신호탄입니다.",
+      "source_name": "Gizmodo",
+      "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSERZWk8yQ0dzU052M1RITldheU5hNDdBVFhtR0hKalVXTGVzcHp4R1pMcUMtdWJlaUNnMER0amdnUmt4RDk2djB6aGh5cGlXZjdka1c4TzhWLWNrR1lqZ0NyOXdibHZQTTU2eU5fU0xFUjlDS0hwUnVLUlNmdk1JRjZXOU1oY1NHNDhjS000WFdWV0dMRE9HanB2cXNMV3RmT0dJYUtENE5zU0dP?oc=5",
+      "published_date": "2026-08-12"
+    },
+    {
+      "category": "엔터프라이즈 / 사이버 보안",
+      "title": "팔로알토 네트워크, 고객사 내부망에서 오픈AI 보안 모델 직접 운용",
+      "summary": "팔로알토 네트워크가 고객의 내부 네트워크 안에서 오픈AI의 사이버 보안 모델을 직접 구동하는 방어 솔루션을 구축합니다.",
+      "detail": "글로벌 보안 기업 팔로알토 네트워크는 기업 온프레미스 및 내부 네트워크 환경에 오픈AI의 보안 모델을 적용한다고 밝혔습니다. 외부 유출 위험 없이 민감한 자체 데이터를 보호하면서 고급 AI 모델로 사이버 위협을 탐지하고 대응할 수 있게 됩니다.",
+      "why_it_matters": "보안과 데이터 주권이 중요한 기업 시장에서 대규모 언어모델(LLM)을 사내망에 배치해 실시간 방어에 활용하는 엔터프라이즈 도입 사례입니다.",
+      "source_name": "SiliconANGLE",
+      "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWktsemdUb1ZNa0xEMFBoZkVSYVFMQjlHTlFvLXV2MW9JWE9UaENSMl9Keml3V0pYNmhrSmhTemdwOV9JNHJSbThlVnR6TWlrc0tJRFZKRHQzQm1tRFhYc1BSRjJoUTlRR1RBaUhURmxfc29mUkVkalRfZGM1aGZrRGIwRjRtczRvUFN1STlvUWttWmRTZkJMR1BoUVQzOElPMHllTHh5NA?oc=5",
+      "published_date": "2026-08-12"
+    },
+    {
+      "category": "AI 반도체 / 인프라",
+      "title": "엔비디아, 5,000억 달러 규모 AI 인프라 구축 추진",
+      "summary": "엔비디아가 글로벌 AI 컴퓨팅 수요에 대응하기 위해 5,000억 달러 규모의 AI 인프라 구축 프로젝트를 추진합니다.",
+      "detail": "엔비디아는 AI 데이터센터 및 하드웨어 인프라 확장을 목표로 5,000억 달러에 달하는 대규모 자금 및 인프라 조달 생태계를 형성하고 있습니다. 이는 차세대 AI 컴퓨팅 클러스터 구축과 칩 공급망 유지를 포함합니다.",
+      "why_it_matters": "AI 하드웨어 시장을 주도하는 엔비디아가 단순 칩 판매를 넘어 글로벌 AI 데이터센터 인프라 투자 전체를 이끄는 거대 파이낸싱 축으로 자리 잡았음을 보여줍니다.",
+      "source_name": "Business Chief",
+      "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNQm5ta0pkd1JsMUprWGx0VHU3VHZELVNCM2lObkszNHY1QlFrbnRQc2VwbDc0QnRNaUQxT1Y3OUFRekY5QzRtYnFiQzZ1cWdmR3JEM0VqUnVKVUxrYUl5cTllZ3V2T0RJdER5RHpGbnhzbDZPeDB4M0J5c0lkRk01YjlrQS1xZw?oc=5",
+      "published_date": "2026-08-12"
+    },
+    {
+      "category": "AI 위협 / 안보 정책",
+      "title": "미국 정보기관 CIO들, 자율형 AI 에이전트의 사이버 위협 재편 경고",
+      "summary": "미국 정보기관의 최고정보책임자(CIO)들이 자율적으로 작동하는 AI 에이전트가 사이버 위협 환경을 급격히 변화시키고 있다고 경고했습니다.",
+      "detail": "정보기관 주요 인사들은 스스로 판단하고 실행하는 자율형 AI 에이전트 기술이 해킹 및 공격 기술에 결합되면서 사이버 공격의 속도와 정교함이 기존과 차원이 달라지고 있다고 지적했습니다.",
+      "why_it_matters": "단순한 생성형 텍스트 AI를 넘어 실행력을 갖춘 'AI 에이전트'가 국가 안보 및 사이버전의 가장 큰 위협 요인으로 부상했음을 보여줍니다.",
+      "source_name": "executivegov.com",
+      "source_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQT1FLd2hJQWJubUNZel9HZFJvN2ZaeXZBYTJNdnRFWGlGbDY1NnFaV3lSeVhhSkJwdlpsZWdWcFl3bGtJazhLZmVJblNCYVpOUjZmLWFUdUZzSVJRVDRDcjlxVzhvbm5HeUIycVpQRWxKdmt5UXgzdlpieUV6dXJvQzlTQ1FfNDFQV3VfWjF0Vk8?oc=5",
+      "published_date": "2026-08-12"
+    }
+  ]
 }
