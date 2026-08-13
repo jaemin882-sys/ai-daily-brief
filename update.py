@@ -1,7 +1,7 @@
 import json
 import os
 import re
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 from urllib.parse import quote_plus
 from zoneinfo import ZoneInfo
@@ -277,6 +277,40 @@ def fetch_usd_krw():
         return None
 
 
+
+def fetch_usd_krw_history():
+    """
+    최근 약 10일을 요청한 뒤 실제 환율 데이터가 존재하는
+    마지막 7영업일만 저장합니다.
+    """
+    end = datetime.now(KST).date()
+    start = end - timedelta(days=12)
+    url = (
+        f"https://api.frankfurter.dev/v1/{start.isoformat()}..{end.isoformat()}"
+        "?base=USD&symbols=KRW"
+    )
+
+    try:
+        r = requests.get(url, timeout=15)
+        r.raise_for_status()
+        payload = r.json()
+        rates = payload.get("rates", {})
+
+        rows = []
+        for date_str in sorted(rates.keys()):
+            rate = rates.get(date_str, {}).get("KRW")
+            if rate is not None:
+                rows.append({
+                    "date": date_str,
+                    "rate": float(rate)
+                })
+
+        return rows[-7:]
+    except Exception as e:
+        print(f"[WARNING] Exchange history fetch failed: {type(e).__name__}: {e}")
+        return []
+
+
 def main():
     candidates = collect_articles()
     if len(candidates) < 5:
@@ -295,6 +329,7 @@ def main():
     now = datetime.now(KST)
 
     exchange_rate = fetch_usd_krw()
+    exchange_rate_history = fetch_usd_krw_history()
 
     final = {
         "date": now.strftime("%Y-%m-%d"),
@@ -302,6 +337,7 @@ def main():
         "generation_mode": mode,
         "daily_summary": result["daily_summary"],
         "exchange_rate": exchange_rate,
+        "exchange_rate_history": exchange_rate_history,
         "issues": result["issues"][:5],
     }
 

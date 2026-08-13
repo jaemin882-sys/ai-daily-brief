@@ -72,6 +72,73 @@
       color:#a2a2a8;
     }
 
+    .fx-panel {
+      margin-top:18px;
+      padding:18px 20px 14px;
+      border-radius:18px;
+      background:#fff;
+      border:1px solid rgba(0,0,0,.035);
+      box-shadow:0 2px 12px rgba(0,0,0,.02);
+    }
+
+    .fx-panel-head {
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      gap:12px;
+      margin-bottom:8px;
+    }
+
+    .fx-panel-title {
+      font-size:12px;
+      font-weight:800;
+      letter-spacing:.04em;
+      color:#6f6f75;
+    }
+
+    .fx-panel-change {
+      font-size:12px;
+      font-weight:750;
+      color:#6f6f75;
+    }
+
+    .fx-chart-wrap {
+      height:92px;
+      width:100%;
+    }
+
+    .fx-chart {
+      display:block;
+      width:100%;
+      height:100%;
+      overflow:visible;
+    }
+
+    .fx-chart-line {
+      fill:none;
+      stroke:#1d1d1f;
+      stroke-width:2.2;
+      stroke-linecap:round;
+      stroke-linejoin:round;
+      vector-effect:non-scaling-stroke;
+    }
+
+    .fx-chart-area {
+      fill:rgba(29,29,31,.055);
+    }
+
+    .fx-chart-dot {
+      fill:#1d1d1f;
+    }
+
+    .fx-chart-labels {
+      display:flex;
+      justify-content:space-between;
+      margin-top:6px;
+      font-size:10px;
+      color:#a0a0a6;
+    }
+
     .headline h1 {
       margin:0;
       font-size:clamp(44px,7vw,70px);
@@ -90,7 +157,6 @@
       font-size:clamp(17px,2.2vw,21px);
       line-height:1.55;
       letter-spacing:-.02em;
-      max-width:780px;
     }
 
     .hero {
@@ -284,6 +350,20 @@
       </div>
     </div>
 
+    <section class="fx-panel" id="fxPanel" hidden>
+      <div class="fx-panel-head">
+        <span class="fx-panel-title">USD/KRW · 최근 7영업일</span>
+        <span class="fx-panel-change" id="fxChange"></span>
+      </div>
+      <div class="fx-chart-wrap">
+        <svg class="fx-chart" id="fxChart" viewBox="0 0 800 100" preserveAspectRatio="none" aria-label="USD KRW 최근 7영업일 환율 그래프"></svg>
+      </div>
+      <div class="fx-chart-labels">
+        <span id="fxStartDate"></span>
+        <span id="fxEndDate"></span>
+      </div>
+    </section>
+
     <header class="headline">
       <h1>AI Daily Brief</h1>
       <div class="meta" id="dateText">최신 브리핑 불러오는 중…</div>
@@ -332,6 +412,67 @@
       }).format(d);
     }
 
+
+    function renderFxChart(history) {
+      if (!Array.isArray(history) || history.length < 2) return;
+
+      const rows = history
+        .map(x => ({ date: String(x.date || ""), rate: Number(x.rate) }))
+        .filter(x => x.date && Number.isFinite(x.rate));
+
+      if (rows.length < 2) return;
+
+      const svg = document.getElementById("fxChart");
+      const width = 800;
+      const height = 100;
+      const padX = 8;
+      const padY = 12;
+
+      const values = rows.map(x => x.rate);
+      const min = Math.min(...values);
+      const max = Math.max(...values);
+      const spread = Math.max(max - min, 1);
+
+      const points = rows.map((row, i) => {
+        const x = padX + (i / (rows.length - 1)) * (width - padX * 2);
+        const y = padY + ((max - row.rate) / spread) * (height - padY * 2);
+        return { ...row, x, y };
+      });
+
+      const linePath = "M " + points.map(p => `${p.x.toFixed(1)} ${p.y.toFixed(1)}`).join(" L ");
+      const areaPath =
+        `${linePath} L ${points[points.length - 1].x.toFixed(1)} ${height} ` +
+        `L ${points[0].x.toFixed(1)} ${height} Z`;
+
+      svg.innerHTML = `
+        <path class="fx-chart-area" d="${areaPath}"></path>
+        <path class="fx-chart-line" d="${linePath}"></path>
+        ${points.map((p, i) =>
+          i === points.length - 1
+            ? `<circle class="fx-chart-dot" cx="${p.x}" cy="${p.y}" r="3.6"></circle>`
+            : ""
+        ).join("")}
+      `;
+
+      const first = rows[0];
+      const last = rows[rows.length - 1];
+      const change = last.rate - first.rate;
+      const pct = first.rate ? (change / first.rate) * 100 : 0;
+      const sign = change > 0 ? "+" : "";
+
+      document.getElementById("fxChange").textContent =
+        `${sign}${change.toFixed(2)}원 (${sign}${pct.toFixed(2)}%)`;
+
+      const shortDate = d => {
+        const parts = d.split("-");
+        return parts.length === 3 ? `${Number(parts[1])}/${Number(parts[2])}` : d;
+      };
+
+      document.getElementById("fxStartDate").textContent = shortDate(first.date);
+      document.getElementById("fxEndDate").textContent = shortDate(last.date);
+      document.getElementById("fxPanel").hidden = false;
+    }
+
     async function loadBrief() {
       const list = document.getElementById("issueList");
 
@@ -354,6 +495,10 @@
               : "-";
           document.getElementById("fxDate").textContent =
             data.exchange_rate.date ? `· ${data.exchange_rate.date}` : "";
+        }
+
+        if (Array.isArray(data.exchange_rate_history)) {
+          renderFxChart(data.exchange_rate_history);
         }
 
         const issues = Array.isArray(data.issues) ? data.issues : [];
