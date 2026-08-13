@@ -7,6 +7,7 @@ from urllib.parse import quote_plus
 from zoneinfo import ZoneInfo
 
 import feedparser
+import requests
 from google import genai
 
 ROOT = Path(__file__).resolve().parent
@@ -252,6 +253,30 @@ def fallback_without_ai(candidates: list[dict]) -> dict:
     }
 
 
+
+def fetch_usd_krw():
+    """
+    Frankfurter 공개 API의 최신 일일 기준환율.
+    실시간 체결가가 아니라 중앙은행 기반 일일 참고 환율입니다.
+    """
+    url = "https://api.frankfurter.dev/v1/latest?base=USD&symbols=KRW"
+    try:
+        r = requests.get(url, timeout=15)
+        r.raise_for_status()
+        payload = r.json()
+        rate = payload.get("rates", {}).get("KRW")
+        if rate is None:
+            raise ValueError("KRW 환율이 응답에 없습니다.")
+        return {
+            "usd_krw": float(rate),
+            "date": str(payload.get("date", "")),
+            "source": "Frankfurter"
+        }
+    except Exception as e:
+        print(f"[WARNING] Exchange rate fetch failed: {type(e).__name__}: {e}")
+        return None
+
+
 def main():
     candidates = collect_articles()
     if len(candidates) < 5:
@@ -269,11 +294,14 @@ def main():
 
     now = datetime.now(KST)
 
+    exchange_rate = fetch_usd_krw()
+
     final = {
         "date": now.strftime("%Y-%m-%d"),
         "updated_at": now.strftime("%H:%M KST"),
         "generation_mode": mode,
         "daily_summary": result["daily_summary"],
+        "exchange_rate": exchange_rate,
         "issues": result["issues"][:5],
     }
 
