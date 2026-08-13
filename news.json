@@ -89,5 +89,10 @@
       "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNclBqeDUzak1iN0lWdlk3UFVyNzAxTjJRM0F0S3kwSlRtLXpack9GUGtNelZySDliUnJ2VWRiakNCS3A0RFlrNVZ4bHJweUJ6ZU5Wa2RhRWU3ejhDcUZWa0toSXQ2YlRUR2FlRmp3Z2dzOVVtZDNmbGkzZHlMNEoxejExVGRVRl8wMUljX19xQzBBdk8xQUdCSDV4NHRKb1FLajh0UFl3?oc=5",
       "published_date": "Thu, 13 Aug 2026 15:48:15 GMT"
     }
-  ]
+  ],
+  "update_status": {
+    "ok": false,
+    "message": "오늘 AI 요약 업데이트에 실패해 마지막 정상 한국어 브리핑을 표시하고 있습니다.",
+    "failed_at": "2026-08-14 08:56 KST"
+  }
 }
