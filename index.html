@@ -103,7 +103,7 @@
     }
 
     .fx-chart-wrap {
-      height:92px;
+      height:122px;
       width:100%;
     }
 
@@ -304,6 +304,41 @@
       line-height:1.6;
     }
 
+
+    .fx-tooltip{position:fixed;z-index:50;pointer-events:none;transform:translate(-50%,-115%);
+      padding:7px 9px;border-radius:9px;background:#1d1d1f;color:#fff;font-size:11px;line-height:1.35;
+      white-space:nowrap;opacity:0;transition:opacity .12s ease}
+    .fx-chart-hit{fill:transparent;cursor:pointer}
+    .fx-chart-date{font-size:8.5px;fill:#99999f;text-anchor:middle}
+    .fx-extreme-label{font-size:9px;font-weight:700;fill:#66666c;text-anchor:middle}
+
+    .history{margin-top:34px}
+    .history-head{display:flex;justify-content:space-between;align-items:flex-end;gap:12px;margin-bottom:12px}
+    .history-title{font-size:19px;font-weight:800;letter-spacing:-.02em}
+    .history-sub{margin-top:4px;font-size:12px;color:#96969c}
+    .calendar{background:#fff;border-radius:20px;padding:18px;border:1px solid rgba(0,0,0,.035)}
+    .calendar-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px}
+    .calendar-month{font-size:15px;font-weight:800}
+    .calendar-top button{width:30px;height:30px;border:1px solid #e6e6e8;border-radius:9px;background:#fff;
+      color:#444449;cursor:pointer;font-size:15px}
+    .calendar-weekdays,.calendar-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:5px}
+    .calendar-weekdays{margin-bottom:5px;color:#a0a0a6;font-size:10px;text-align:center}
+    .calendar-day{min-height:42px;border:0;border-radius:10px;background:transparent;color:#b0b0b5;
+      font-size:12px;position:relative;display:flex;align-items:center;justify-content:center}
+    button.calendar-day{cursor:pointer;color:#343438}
+    button.calendar-day:hover{background:#f4f4f6}
+    .calendar-day.has-news::after{content:"";position:absolute;left:50%;bottom:6px;width:4px;height:4px;
+      border-radius:50%;background:#1d1d1f;transform:translateX(-50%)}
+    .calendar-day.selected{background:#1d1d1f;color:#fff;font-weight:800}
+    .calendar-day.selected::after{background:#fff}
+    .history-detail{margin-top:10px;background:#fff;border-radius:20px;padding:20px 22px;
+      border:1px solid rgba(0,0,0,.035)}
+    .history-detail-date{font-size:12px;color:#8f8f95;margin-bottom:12px}
+    .history-list{margin:0;padding:0;list-style:none}
+    .history-list li{padding:11px 0;border-top:1px solid #ededee;font-size:15px;line-height:1.45;font-weight:650}
+    .history-list li:first-child{border-top:0;padding-top:0}
+    .history-empty{color:#9a9aa0;font-size:13px}
+
     @media (max-width:600px) {
       .wrap {
         width:min(100% - 22px,920px);
@@ -358,11 +393,7 @@
       <div class="fx-chart-wrap">
         <svg class="fx-chart" id="fxChart" viewBox="0 0 800 100" preserveAspectRatio="none" aria-label="USD KRW 최근 7영업일 환율 그래프"></svg>
       </div>
-      <div class="fx-chart-labels">
-        <span id="fxStartDate"></span>
-        <span id="fxEndDate"></span>
-      </div>
-    </section>
+</section>
 
     <header class="headline">
       <h1>AI Daily Brief</h1>
@@ -384,6 +415,31 @@
     </div>
 
     <main class="grid" id="issueList"></main>
+
+
+    <section class="history">
+      <div class="history-head">
+        <div>
+          <div class="history-title">AI Brief History</div>
+          <div class="history-sub">날짜를 누르면 그날의 주요 제목만 볼 수 있습니다.</div>
+        </div>
+      </div>
+      <div class="calendar">
+        <div class="calendar-top">
+          <button type="button" id="prevMonth" aria-label="이전 달">‹</button>
+          <div class="calendar-month" id="calendarMonth"></div>
+          <button type="button" id="nextMonth" aria-label="다음 달">›</button>
+        </div>
+        <div class="calendar-weekdays">
+          <span>일</span><span>월</span><span>화</span><span>수</span><span>목</span><span>금</span><span>토</span>
+        </div>
+        <div class="calendar-grid" id="calendarGrid"></div>
+      </div>
+      <div class="history-detail" id="historyDetail" hidden>
+        <div class="history-detail-date" id="historyDetailDate"></div>
+        <ul class="history-list" id="historyList"></ul>
+      </div>
+    </section>
 
     <footer>
       AI 요약은 원문과 다를 수 있습니다. 중요한 내용은 각 카드의 원문을 확인하세요.
@@ -415,62 +471,120 @@
 
     function renderFxChart(history) {
       if (!Array.isArray(history) || history.length < 2) return;
-
-      const rows = history
-        .map(x => ({ date: String(x.date || ""), rate: Number(x.rate) }))
-        .filter(x => x.date && Number.isFinite(x.rate));
-
+      const rows = history.map(x=>({date:String(x.date||""),rate:Number(x.rate)}))
+        .filter(x=>x.date&&Number.isFinite(x.rate));
       if (rows.length < 2) return;
 
-      const svg = document.getElementById("fxChart");
-      const width = 800;
-      const height = 100;
-      const padX = 8;
-      const padY = 12;
+      const svg=document.getElementById("fxChart");
+      const tooltip=document.getElementById("fxTooltip");
+      const width=800,height=122,padX=34,chartTop=18,chartBottom=78;
+      const values=rows.map(x=>x.rate);
+      const min=Math.min(...values),max=Math.max(...values),spread=Math.max(max-min,1);
 
-      const values = rows.map(x => x.rate);
-      const min = Math.min(...values);
-      const max = Math.max(...values);
-      const spread = Math.max(max - min, 1);
+      const points=rows.map((row,i)=>({
+        ...row,
+        x:padX+(i/(rows.length-1))*(width-padX*2),
+        y:chartTop+((max-row.rate)/spread)*(chartBottom-chartTop)
+      }));
 
-      const points = rows.map((row, i) => {
-        const x = padX + (i / (rows.length - 1)) * (width - padX * 2);
-        const y = padY + ((max - row.rate) / spread) * (height - padY * 2);
-        return { ...row, x, y };
-      });
+      const linePath="M "+points.map(p=>`${p.x.toFixed(1)} ${p.y.toFixed(1)}`).join(" L ");
+      const areaPath=`${linePath} L ${points.at(-1).x.toFixed(1)} ${chartBottom+5} L ${points[0].x.toFixed(1)} ${chartBottom+5} Z`;
+      const maxIndex=values.indexOf(max),minIndex=values.indexOf(min);
+      const shortDate=d=>{const p=d.split("-");return p.length===3?`${Number(p[1])}/${Number(p[2])}`:d};
 
-      const linePath = "M " + points.map(p => `${p.x.toFixed(1)} ${p.y.toFixed(1)}`).join(" L ");
-      const areaPath =
-        `${linePath} L ${points[points.length - 1].x.toFixed(1)} ${height} ` +
-        `L ${points[0].x.toFixed(1)} ${height} Z`;
-
-      svg.innerHTML = `
+      svg.innerHTML=`
         <path class="fx-chart-area" d="${areaPath}"></path>
         <path class="fx-chart-line" d="${linePath}"></path>
-        ${points.map((p, i) =>
-          i === points.length - 1
-            ? `<circle class="fx-chart-dot" cx="${p.x}" cy="${p.y}" r="3.6"></circle>`
-            : ""
-        ).join("")}
+        ${points.map((p,i)=>`
+          <circle cx="${p.x}" cy="${p.y}" r="3" fill="#1d1d1f"></circle>
+          <circle class="fx-chart-hit" data-index="${i}" cx="${p.x}" cy="${p.y}" r="16"></circle>
+          <text class="fx-chart-date" x="${p.x}" y="108">${shortDate(p.date)}</text>
+        `).join("")}
+        <text class="fx-extreme-label" x="${points[maxIndex].x}" y="${Math.max(10,points[maxIndex].y-9)}">
+          최고 ${max.toLocaleString("ko-KR",{maximumFractionDigits:2})}
+        </text>
+        <text class="fx-extreme-label" x="${points[minIndex].x}" y="${Math.min(94,points[minIndex].y+15)}">
+          최저 ${min.toLocaleString("ko-KR",{maximumFractionDigits:2})}
+        </text>
       `;
 
-      const first = rows[0];
-      const last = rows[rows.length - 1];
-      const change = last.rate - first.rate;
-      const pct = first.rate ? (change / first.rate) * 100 : 0;
-      const sign = change > 0 ? "+" : "";
+      svg.querySelectorAll(".fx-chart-hit").forEach(hit=>{
+        const show=ev=>{
+          const p=points[Number(hit.dataset.index)];
+          tooltip.textContent=`${p.date} · ${p.rate.toLocaleString("ko-KR",{maximumFractionDigits:2})}원`;
+          tooltip.style.left=`${ev.clientX}px`; tooltip.style.top=`${ev.clientY}px`; tooltip.style.opacity="1";
+        };
+        hit.addEventListener("mouseenter",show); hit.addEventListener("mousemove",show);
+        hit.addEventListener("mouseleave",()=>tooltip.style.opacity="0");
+      });
 
-      document.getElementById("fxChange").textContent =
-        `${sign}${change.toFixed(2)}원 (${sign}${pct.toFixed(2)}%)`;
+      const first=rows[0],last=rows.at(-1),change=last.rate-first.rate,pct=first.rate?(change/first.rate)*100:0;
+      const sign=change>0?"+":"";
+      document.getElementById("fxChange").textContent=`${sign}${change.toFixed(2)}원 (${sign}${pct.toFixed(2)}%)`;
+      document.getElementById("fxPanel").hidden=false;
+    }
 
-      const shortDate = d => {
-        const parts = d.split("-");
-        return parts.length === 3 ? `${Number(parts[1])}/${Number(parts[2])}` : d;
-      };
+    let historyDates=[];
+    let calendarCursor=new Date();
 
-      document.getElementById("fxStartDate").textContent = shortDate(first.date);
-      document.getElementById("fxEndDate").textContent = shortDate(last.date);
-      document.getElementById("fxPanel").hidden = false;
+    function renderCalendar(){
+      const grid=document.getElementById("calendarGrid");
+      const year=calendarCursor.getFullYear(),month=calendarCursor.getMonth();
+      document.getElementById("calendarMonth").textContent=`${year}년 ${month+1}월`;
+
+      const firstDay=new Date(year,month,1),lastDay=new Date(year,month+1,0);
+      const available=new Set(historyDates),cells=[];
+      for(let i=0;i<firstDay.getDay();i++) cells.push('<span class="calendar-day"></span>');
+
+      for(let day=1;day<=lastDay.getDate();day++){
+        const date=`${year}-${String(month+1).padStart(2,"0")}-${String(day).padStart(2,"0")}`;
+        cells.push(available.has(date)
+          ? `<button type="button" class="calendar-day has-news" data-date="${date}">${day}</button>`
+          : `<span class="calendar-day">${day}</span>`);
+      }
+      grid.innerHTML=cells.join("");
+
+      grid.querySelectorAll("button[data-date]").forEach(btn=>{
+        btn.addEventListener("click",async()=>{
+          grid.querySelectorAll(".selected").forEach(x=>x.classList.remove("selected"));
+          btn.classList.add("selected");
+          await loadHistoryDate(btn.dataset.date);
+        });
+      });
+    }
+
+    async function loadHistoryIndex(){
+      try{
+        const r=await fetch(`./history/index.json?v=${Date.now()}`,{cache:"no-store"});
+        if(!r.ok)return;
+        const data=await r.json();
+        historyDates=Array.isArray(data.dates)?data.dates:[];
+        if(historyDates.length){
+          const p=historyDates.at(-1).split("-").map(Number);
+          calendarCursor=new Date(p[0],p[1]-1,1);
+        }
+        renderCalendar();
+      }catch(e){console.warn(e)}
+    }
+
+    async function loadHistoryDate(date){
+      const detail=document.getElementById("historyDetail");
+      const dateEl=document.getElementById("historyDetailDate");
+      const list=document.getElementById("historyList");
+      try{
+        const r=await fetch(`./history/${date}.json?v=${Date.now()}`,{cache:"no-store"});
+        if(!r.ok)throw new Error();
+        const data=await r.json();
+        const issues=Array.isArray(data.issues)?data.issues:[];
+        dateEl.textContent=formatDate(date);
+        list.innerHTML=issues.length
+          ? issues.map(x=>`<li>${escapeHtml(x.title||"")}</li>`).join("")
+          : '<li class="history-empty">저장된 이슈가 없습니다.</li>';
+      }catch(e){
+        dateEl.textContent=formatDate(date);
+        list.innerHTML='<li class="history-empty">이 날짜의 기록을 불러오지 못했습니다.</li>';
+      }
+      detail.hidden=false;
     }
 
     async function loadBrief() {
@@ -539,7 +653,10 @@
       }
     }
 
+    document.getElementById("prevMonth").addEventListener("click",()=>{calendarCursor=new Date(calendarCursor.getFullYear(),calendarCursor.getMonth()-1,1);renderCalendar();});
+    document.getElementById("nextMonth").addEventListener("click",()=>{calendarCursor=new Date(calendarCursor.getFullYear(),calendarCursor.getMonth()+1,1);renderCalendar();});
     loadBrief();
+    loadHistoryIndex();
   </script>
 </body>
 </html>

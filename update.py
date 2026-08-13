@@ -12,6 +12,8 @@ from google import genai
 
 ROOT = Path(__file__).resolve().parent
 OUTPUT = ROOT / "news.json"
+HISTORY_DIR = ROOT / "history"
+HISTORY_INDEX = HISTORY_DIR / "index.json"
 KST = ZoneInfo("Asia/Seoul")
 
 # 검색은 무료 RSS가 담당하고, Gemini는 "선별/요약"만 담당합니다.
@@ -311,6 +313,32 @@ def fetch_usd_krw_history():
         return []
 
 
+
+def archive_daily_brief(final: dict):
+    HISTORY_DIR.mkdir(parents=True, exist_ok=True)
+    date_str = str(final.get("date", "")).strip()
+    if not date_str:
+        raise ValueError("브리핑 날짜가 없습니다.")
+
+    archive_path = HISTORY_DIR / f"{date_str}.json"
+    archive_path.write_text(json.dumps(final, ensure_ascii=False, indent=2), encoding="utf-8")
+
+    dates = []
+    if HISTORY_INDEX.exists():
+        try:
+            existing = json.loads(HISTORY_INDEX.read_text(encoding="utf-8"))
+            if isinstance(existing, dict) and isinstance(existing.get("dates"), list):
+                dates = [str(x) for x in existing["dates"]]
+        except Exception:
+            dates = []
+
+    dates = sorted(set(dates + [date_str]))
+    HISTORY_INDEX.write_text(
+        json.dumps({"dates": dates}, ensure_ascii=False, indent=2),
+        encoding="utf-8"
+    )
+    print(f"Archived history: {archive_path}")
+
 def main():
     candidates = collect_articles()
     if len(candidates) < 5:
@@ -345,6 +373,8 @@ def main():
         json.dumps(final, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
+
+    archive_daily_brief(final)
 
     print(f"Updated {OUTPUT}")
     print(f"Mode: {mode}")
