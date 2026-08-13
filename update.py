@@ -348,11 +348,41 @@ def main():
         result = summarize_with_gemini(candidates)
         mode = "RSS + Gemini summary"
     except Exception as e:
-        # API 무료 쿼터가 없더라도 workflow 전체를 실패시키지 않음
         print(f"[WARNING] Gemini summary failed: {type(e).__name__}: {e}")
-        print("[INFO] Falling back to RSS-only mode.")
-        result = fallback_without_ai(candidates)
-        mode = "RSS-only fallback"
+        print("[INFO] Keeping the last successful Korean brief. news.json/history will NOT be overwritten.")
+
+        # 환율만 최신화할 수 있으면 기존 news.json 안의 환율 정보만 갱신한다.
+        # AI 뉴스 본문/날짜/히스토리는 마지막 정상 한국어 브리핑을 그대로 유지한다.
+        if OUTPUT.exists():
+            try:
+                existing = json.loads(OUTPUT.read_text(encoding="utf-8"))
+
+                exchange_rate = fetch_usd_krw()
+                exchange_rate_history = fetch_usd_krw_history()
+
+                if exchange_rate:
+                    existing["exchange_rate"] = exchange_rate
+                if exchange_rate_history:
+                    existing["exchange_rate_history"] = exchange_rate_history
+
+                existing["update_status"] = {
+                    "ok": False,
+                    "message": "오늘 AI 요약 업데이트에 실패해 마지막 정상 한국어 브리핑을 표시하고 있습니다.",
+                    "failed_at": datetime.now(KST).strftime("%Y-%m-%d %H:%M KST")
+                }
+
+                OUTPUT.write_text(
+                    json.dumps(existing, ensure_ascii=False, indent=2),
+                    encoding="utf-8",
+                )
+
+                print("[INFO] Updated exchange rate only; preserved the last successful AI brief.")
+                return
+            except Exception as preserve_error:
+                print(f"[WARNING] Could not preserve existing news.json: {type(preserve_error).__name__}: {preserve_error}")
+
+        # 기존 정상 브리핑도 없다면 실패 처리해서 잘못된 영어 fallback을 만들지 않는다.
+        raise RuntimeError("Gemini 요약에 실패했고 보존할 기존 한국어 브리핑도 없습니다.") from e
 
     now = datetime.now(KST)
 
@@ -363,6 +393,10 @@ def main():
         "date": now.strftime("%Y-%m-%d"),
         "updated_at": now.strftime("%H:%M KST"),
         "generation_mode": mode,
+        "update_status": {
+            "ok": True,
+            "message": "오늘 브리핑이 정상 업데이트되었습니다."
+        },
         "daily_summary": result["daily_summary"],
         "exchange_rate": exchange_rate,
         "exchange_rate_history": exchange_rate_history,
