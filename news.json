@@ -1,62 +1,92 @@
 {
   "date": "2026-08-13",
-  "updated_at": "09:02 KST",
+  "updated_at": "09:12 KST",
   "generation_mode": "RSS + Gemini summary",
-  "daily_summary": "2026년 8월 13일 AI 업계에서는 온디바이스 및 에이전트 AI 기술을 탑재한 구글 픽셀 11 시리즈 발표와 앤트로픽의 클로드 생성 텍스트 워터마크 도입이 주요 이슈로 떠올랐습니다. 더불어 자율형 AI 에이전트의 사이버 위협 경고와 엔터프라이즈 보안 모델 통합, 거대 AI 인프라 자금 조달 등 보안 및 하드웨어 생태계 전반의 구체적 변화가 눈에 띕니다.",
+  "daily_summary": "구글의 온디바이스 AI 스마트폰 발표와 앤스로픽의 텍스트 워터마크 도입 등 생성형 AI의 실생활 적용 및 안전 표준 도입이 구체화되었습니다. 또한 자율형 AI 에이전트에 따른 사이버 위협 경고와 대규모 AI 인프라 투자 속에 엔터프라이즈 보안 및 모바일 AI 주도권 경쟁이 본격화되고 있습니다.",
   "exchange_rate": {
     "usd_krw": 1417.13,
     "date": "2026-08-12",
     "source": "Frankfurter"
   },
+  "exchange_rate_history": [
+    {
+      "date": "2026-08-04",
+      "rate": 1427.11
+    },
+    {
+      "date": "2026-08-05",
+      "rate": 1423.72
+    },
+    {
+      "date": "2026-08-06",
+      "rate": 1423.57
+    },
+    {
+      "date": "2026-08-07",
+      "rate": 1415.95
+    },
+    {
+      "date": "2026-08-10",
+      "rate": 1416.62
+    },
+    {
+      "date": "2026-08-11",
+      "rate": 1412.17
+    },
+    {
+      "date": "2026-08-12",
+      "rate": 1417.13
+    }
+  ],
   "issues": [
     {
-      "category": "On-Device AI",
-      "title": "구글, 에이전트형 제미나이 AI 및 온디바이스 기능 탑재한 '픽셀 11' 시리즈 공개",
-      "summary": "구글이 온디바이스 AI 및 에이전트 기능을 강화한 신형 픽셀 11 스마트폰과 기기 라인업을 발표했습니다.",
-      "detail": "구글은 제미나이(Gemini) 인텔리전스를 모바일 생태계 중심으로 내세우며, 앱 간 작업을 능동적으로 수행하는 에이전트형 AI 기능을 픽셀 11 시리즈에 대거 적용했습니다. 신규 기기들은 온디바이스 NPU 및 소형 모델 연동을 바탕으로 개인화된 AI 경험을 처리하며, 스마트폰 하드웨어 시장에서의 AI 주도권 경쟁을 본격화했습니다.",
-      "why_it_matters": "온디바이스 AI와 에이전트 기술이 모바일 하드웨어와 결합하여 대중화되는 중요한 시점으로, 모바일 생태계의 패러다임 변화를 보여줍니다.",
-      "source_name": "SiliconANGLE",
-      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZEhBb29QaWZqRTBMQmhNeEw3Y3JwWFgwYUxqYlRKVlp0YXh4X1dhY0V1QmpDcTRWUGJyVnpnSEE2MkpiWXh5cHVhWkZrN1l3aVJieHFETVZxb24zTzA4ZGtlaVVxLXJNZjJSd013QmxOUzhvM1NjS1dRVXJwQnpaeGJqZm5NZ1dZMzR1MjZ3cjQxdmNGQ1c4dk9IN1NScGdFWjMzWGFoR2FDSVdkLVVF?oc=5",
+      "category": "온디바이스 AI / 모바일",
+      "title": "구글, 제미나이 AI 중심의 '픽셀 11' 공개하며 모바일 AI 주도권 경쟁 가속화",
+      "summary": "구글이 모바일 디바이스 경쟁의 핵심으로 제미나이(Gemini) AI 기능을 전면에 배치한 '픽셀 11' 스마트폰 라인업을 발표했습니다.",
+      "detail": "구글은 새로 선보인 픽셀 11 시리즈에서 온디바이스 및 모바일 에이전트형 AI 기능을 앱 전반에 깊이 통합했습니다. 하드웨어 스펙 경쟁을 넘어 AI 에이전트 경험을 전면에 내세움으로써 애플 등 경쟁사와의 모바일 AI 생태계 주도권 싸움을 심화시키고 있습니다.",
+      "why_it_matters": "스마트폰 시장에서 온디바이스 AI와 모바일 에이전트의 대중화가 본격적인 상용화 단계에 접어들었음을 보여줍니다.",
+      "source_name": "CNBC",
+      "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5QYWQzLTczOGV1N2M0SlhMWXUxcFR2RDhaVVBpYVZuLVFQOVpTd3UwN2k1RTIyX2JUV20zNnE1Y1pFUm1MQ1V2MGhRcHlQc1hoTEpRcUN6ZUlldnFfdGdlRXBsVXh0SXY1OWl3STEtc1pRcTNzTVRpbUlqMUtKQUXSAYQBQVVfeXFMTnNxZnVnbkhtUllzWU5oeEZQbUFsWklxdEpkNjlCQ0JWeFJEc01HeERYcGl2YkdHbU1zQ2tzOG9JSndfOUdkczl0czhxQ1lnY0t4QmQwVUMyamNMeXdFT2tIVkk5OE8teDM4M3lGU3JUTGxmNldCUjlaeDVtdkFyNlhMRVpF?oc=5",
       "published_date": "2026-08-12"
     },
     {
-      "category": "AI Policy & Safety",
-      "title": "앤트로픽, 클로드 생성 텍스트에 보이지 않는 워터마크 도입",
-      "summary": "앤트로픽이 자사 AI 모델 클로드(Claude)가 작성한 출력물에 감지 가능한 암묵적 워터마크 기술을 도입합니다.",
-      "detail": "앤트로픽은 AI가 생성한 콘텐츠의 출처를 식별하고 악용을 방지하기 위해 클로드의 모든 텍스트 출력에 고유 패턴의 암묵적 워터마크를 적용하기로 했습니다. 이번 조치는 과제 대필이나 오정보 확산을 막기 위한 장치로, AI 오남용을 줄이려는 구체적인 시도입니다.",
-      "why_it_matters": "생성형 AI 텍스트의 워터마크 도입은 AI 콘텐츠 투명성 확보와 규제 대응을 위한 선제적 조치로, 향후 산업 표준 수립에 영향력을 미칠 것입니다.",
-      "source_name": "Gizmodo",
-      "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSERZWk8yQ0dzU052M1RITldheU5hNDdBVFhtR0hKalVXTGVzcHp4R1pMcUMtdWJlaUNnMER0amdnUmt4RDk2djB6aGh5cGlXZjdka1c4TzhWLWNrR1lqZ0NyOXdibHZQTTU2eU5fU0xFUjlDS0hwUnVLUlNmdk1JRjZXOU1oY1NHNDhjS000WFdWV0dMRE9HanB2cXNMV3RmT0dJYUtENE5zU0dP?oc=5",
-      "published_date": "2026-08-12"
-    },
-    {
-      "category": "Cybersecurity",
-      "title": "미 정보당국, 자율형 AI 에이전트의 사이버 위협 지형 재편 경고",
-      "summary": "미국 정보공동체(IC) CIO들이 자율적으로 작동하는 AI 에이전트가 새로운 사이버 보안 위협을 가속화하고 있다고 경고했습니다.",
-      "detail": "정보당국 관계자들은 공격자가 자율형 AI 에이전트를 활용할 경우 기존 방어 체계를 능동적으로 우회하고 정교한 고성능 사이버 공격을 자동화할 수 있다고 지적했습니다. 이에 따라 공공 부문 및 국가 보안 인프라 전반에 걸친 방어 체계 재설계가 시급하다고 강조했습니다.",
-      "why_it_matters": "단순 도구를 넘어 자율성을 가진 AI 에이전트의 보안 위험성이 국가 차원의 공식 경고로 이어지며 AI 안보 및 규제 논의를 강화하고 있습니다.",
+      "category": "사이버 보안 / 정책",
+      "title": "미국 정보기관 CIO, 자율형 AI 에이전트의 사이버 위협 증대 경고",
+      "summary": "미국 정보기관 최고정보책임자(CIO)들이 자율형 AI 에이전트의 기술 발전이 글로벌 사이버 위협 지형을 빠르게 바꾸고 있다고 공식 경고했습니다.",
+      "detail": "사람의 개입 없이 작업을 수행하는 자율형 AI 에이전트 기술이 고도화됨에 따라 공격적인 사이버 작업과 침해 시도의 위험성이 가중되고 있습니다. 정보기관 당국자들은 에이전트 기반 위협에 대응할 새로운 방어 체계 및 규제 프레임워크 구축이 시급하다고 강조했습니다.",
+      "why_it_matters": "단순 보조 도구를 넘어 스몰 에이전트 등 자율형 AI가 안보 및 사이버 위협 요소로 급부상하고 있어 국가와 기업 차원의 보안 대응책 마련이 필수적입니다.",
       "source_name": "ExecutiveGov",
       "source_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQT1FLd2hJQWJubUNZel9HZFJvN2ZaeXZBYTJNdnRFWGlGbDY1NnFaV3lSeVhhSkJwdlpsZWdWcFl3bGtJazhLZmVJblNCYVpOUjZmLWFUdUZzSVJRVDRDcjlxVzhvbm5HeUIycVpQRWxKdmt5UXgzdlpieUV6dXJvQzlTQ1FfNDFQV3VfWjF0Vk8?oc=5",
       "published_date": "2026-08-12"
     },
     {
-      "category": "Enterprise AI",
-      "title": "팔로알토 네트웍스, 고객 사내 망에 오픈AI 보안 모델 직접 구축",
-      "summary": "팔로알토 네트웍스가 기업 내부 네트워크 안에서 오픈AI의 사이버 보안 전용 모델을 온프레미스로 운용하는 서비스를 발표했습니다.",
-      "detail": "기업 고객들은 민감한 프라이빗 데이터를 외부로 유출하지 않고 자체 내부 망 안에서 오픈AI 기술 기반의 위협 탐지 및 대응 모델을 실행할 수 있게 되었습니다. 이는 보안 요구사항이 높은 엔터프라이즈 환경에 실질적인 AI 솔루션을 제공하는 통합 사례입니다.",
-      "why_it_matters": "데이터 보안과 프라이버시 문제로 대형 LLM 도입을 망설이던 기업들이 사내 망 연동을 통해 AI 에이전트 및 모델을 실무에 적용하는 유용한 기준을 제공합니다.",
-      "source_name": "SiliconANGLE",
-      "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWktsemdUb1ZNa0xEMFBoZkVSYVFMQjlHTlFvLXV2MW9JWE9UaENSMl9Keml3V0pYNmhrSmhTemdwOV9JNHJSbThlVnR6TWlrc0tJRFZKRHQzQm1tRFhYc1BSRjJoUTlRR1RBaUhURmxfc29mUkVkalRfZGM1aGZrRGIwRjRtczRvUFN1STlvUWttWmRTZkJMR1BoUVQzOElPMHllTHh5NA?oc=5",
+      "category": "AI 윤리 / 안전",
+      "title": "앤스로픽, 클로드 생성 텍스트에 워터마크 도입… AI 감지 기술 새 국면",
+      "summary": "앤스로픽이 클로드(Claude) 모델이 작성한 출력물에 눈에 보이지 않는 워터마크를 공식 적용하기 시작했습니다.",
+      "detail": "AI 생성 콘텐츠의 출처 추적과 딥페이크/오남용 방지를 위해 출력 텍스트 자체에 워터마크 식별 기술이 도입됩니다. 이를 통해 학술 및 기업 현장에서 AI 작성 글에 대한 감지 기준이 마련되는 한편, 사용자의 오남용 예방 및 AI 책임성 확보가 강화될 전망입니다.",
+      "why_it_matters": "주요 프론티어 AI 모델 개발사가 텍스트 워터마크를 상용 서비스에 표준 적용하면서 AI 투명성 및 출처 검증 생태계 전환의 기점이 될 수 있습니다.",
+      "source_name": "Axios",
+      "source_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1TMFZTUmdmZWw4Q3RNNlpOcG01TkQ3bi1QRVF6LUpnWTJlTGFKT1Z5QmtONlJ1SXdtbnNfdEVpdkgxY2dvOHZGRTVPRlJBdVYyVFB0UzlGUjBsNmlvMzh3RDFWblk2SGNCZGRNM2xmS3BuMXN1SUFXZ0U0TVdOdw?oc=5",
       "published_date": "2026-08-12"
     },
     {
-      "category": "AI Chips & Infrastructure",
-      "title": "엔비디아 중심 5,000억 달러 규모 AI 인프라 자금 조달 연계",
-      "summary": "엔비디아 기반의 대규모 AI 데이터센터 인프라 구축을 위해 5,000억 달러 규모의 대형 금융 조달 조율이 진행되고 있습니다.",
-      "detail": "AI 모델 고도화에 따른 연산 자원 수요가 폭발하면서 거대 금융 자본이 엔비디아 칩과 연계된 하드웨어 인프라에 천문학적인 자금을 집행하고 있습니다. 이러한 대규모 투자는 칩 수급과 빅테크 기업들의 자체 커스텀 칩 개발 전략 간의 경쟁을 더욱 심화시키고 있습니다.",
-      "why_it_matters": "글로벌 AI 인프라 주도권을 둘러싼 기술과 대형 자본의 결합을 보여주며, 글로벌 반도체 및 데이터센터 시장에 거대한 파급력을 미칩니다.",
+      "category": "AI 반도체 / 인프라",
+      "title": "엔비디아, 5,000억 달러 규모 AI 인프라 구축 프로젝트 가동",
+      "summary": "엔비디아가 AI 연산 인프라 생태계 확장을 위해 5,000억 달러 규모의 대형 자금 조달 및 인프라 구축 사업을 추진합니다.",
+      "detail": "글로벌 AI 모델 학습 및 추론 수요가 지속 증가함에 따라 엔비디아는 거대 AI 데이터센터 및 하드웨어 인프라 확보에 대규모 자금을 투입하고 있습니다. 이러한 거대 인프라 공세는 빅테크 기업들의 자체 칩 개발 움직임과 맞물려 글로벌 반도체 및 클라우드 시장 판도에 큰 영향을 미치고 있습니다.",
+      "why_it_matters": "AI 전용 하드웨어 자원 확보가 기업과 국가 경쟁력의 핵심으로 떠오른 가운데 컴퓨팅 인프라 투자가 전례 없는 규모로 확대되고 있음을 보여줍니다.",
       "source_name": "businesschief.com",
       "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNQm5ta0pkd1JsMUprWGx0VHU3VHZELVNCM2lObkszNHY1QlFrbnRQc2VwbDc0QnRNaUQxT1Y3OUFRekY5QzRtYnFiQzZ1cWdmR3JEM0VqUnVKVUxrYUl5cTllZ3V2T0RJdER5RHpGbnhzbDZPeDB4M0J5c0lkRk01YjlrQS1xZw?oc=5",
+      "published_date": "2026-08-12"
+    },
+    {
+      "category": "엔터프라이즈 AI / 보안",
+      "title": "팔로알토 네트웍스, 고객 네트워크 내 오픈AI 보안 모델 가동",
+      "summary": "글로벌 사이버 보안 기업 팔로알토 네트웍스가 고객사의 자체 네트워크 내부에서 방어용 오픈AI 모델을 구동하는 기술을 도입했습니다.",
+      "detail": "외부 클라우드 연동 방식에서 벗어나 기업 온프레미스 및 내부 네트워크 환경에서 실시간 방어형 AI 모델을 구동하도록 구현했습니다. 이를 통해 내부 데이터 유출 우려를 낮추면서 사이버 공격 탐지 및 위협 대응을 자동화할 수 있게 되었습니다.",
+      "why_it_matters": "민감한 기업 환경에서 보안성과 실시간성을 모두 충족하는 엔터프라이즈 AI 모델 통합의 대표적인 실무 사례입니다.",
+      "source_name": "SiliconANGLE",
+      "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWktsemdUb1ZNa0xEMFBoZkVSYVFMQjlHTlFvLXV2MW9JWE9UaENSMl9Keml3V0pYNmhrSmhTemdwOV9JNHJSbThlVnR6TWlrc0tJRFZKRHQzQm1tRFhYc1BSRjJoUTlRR1RBaUhURmxfc29mUkVkalRfZGM1aGZrRGIwRjRtczRvUFN1STlvUWttWmRTZkJMR1BoUVQzOElPMHllTHh5NA?oc=5",
       "published_date": "2026-08-12"
     }
   ]
