@@ -1,8 +1,12 @@
 {
   "date": "2026-08-14",
-  "updated_at": "08:50 KST",
-  "generation_mode": "RSS-only fallback",
-  "daily_summary": "최신 AI 뉴스를 RSS로 자동 수집했습니다. 오늘은 Gemini 요약 API를 사용할 수 없어 자동 선별 요약 없이 표시합니다.",
+  "updated_at": "15:03 KST",
+  "generation_mode": "RSS + Gemini summary",
+  "update_status": {
+    "ok": true,
+    "message": "오늘 브리핑이 정상 업데이트되었습니다."
+  },
+  "daily_summary": "오늘 AI 업계에서는 구글이 코딩 및 에이전트 워크플로우에 특화된 제미니 3.7 Flash 모델을 출시했으며, 엔비디아는 AI 칩 인프라 확대를 위한 대규모 파이낸싱 계획을 발표했습니다. 또한 앤트로픽은 AI 콘텐츠의 투명성을 높이기 위해 클로드 출력물에 워터마크를 도입했고, IBM과 OpenAI는 기업용 AI 시장 공략을 위한 파트너십을 맺었으며, 미국 정보기관들은 에이전트 AI 도입에 신중한 접근법을 취했습니다.",
   "exchange_rate": {
     "usd_krw": 1420.29,
     "date": "2026-08-13",
@@ -40,59 +44,54 @@
   ],
   "issues": [
     {
-      "category": "AI",
-      "title": "DIA’s artificial intelligence chief envisions ‘agent-to-agents’ interactions that support military operations - DefenseScoop",
-      "summary": "DIA’s artificial intelligence chief envisions ‘agent-to-agents’ interactions that support military operations &nbsp;&nbsp; DefenseScoop",
-      "detail": "현재 Gemini 요약 API를 사용할 수 없어 RSS에서 수집한 기사 정보를 그대로 표시하고 있습니다. 정확한 내용은 원문을 확인해주세요.",
-      "why_it_matters": "오늘의 주요 AI 뉴스 후보로 수집된 기사입니다. 원문을 확인해 영향도를 판단할 수 있습니다.",
-      "source_name": "DefenseScoop",
-      "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOb1NwNTkyOXlqeGZLNEV1M2hmLUxJSEt5NzlnT1M2dEpHVGlJMlNuOFNmVmNFeWk5blFpMFNDTmN3SUE0RHdsWmhzU1pFSU1OWXFRejdmUGxwb1R1TWNrRm85cVktaTFVVGZmSzZ5bXVETzJoeHVqY2ZHMjNqRmd5dndOclItbXc?oc=5",
-      "published_date": "Thu, 13 Aug 2026 22:28:27 GMT"
+      "category": "Google",
+      "title": "Google, 코딩 및 에이전트 워크플로우를 위한 제미니 3.7 Flash 모델 출시",
+      "summary": "구글이 빠른 속도와 저렴한 가격이 특징인 새로운 AI 모델 '제미니 3.7 Flash'를 출시했으며, 특히 코딩 및 AI 에이전트 개발에 최적화되었다고 발표했습니다.",
+      "detail": "구글은 개발자들이 효율적으로 코딩하고 복잡한 AI 에이전트 워크플로우를 구축할 수 있도록 설계된 제미니 3.7 Flash를 공개했습니다. 이 모델은 기존 버전보다 더 빠른 처리 속도를 제공하며, 출시 기념으로 가격을 50% 인하하여 개발자들의 접근성을 높였습니다. 이는 최근 구글의 AI 모델 출시 주기가 짧아지고 있음을 보여주는 사례이기도 합니다.",
+      "why_it_matters": "빠른 속도와 저렴한 비용은 개발자들이 AI 애플리케이션을 더 쉽게 만들고 배포하는 데 크게 기여할 수 있습니다. 특히 코딩과 에이전트 기능에 특화된 것은 AI가 실제 작업에 통합되는 방식을 가속화하고, 개발자 생태계를 확장하는 중요한 동력이 될 것입니다.",
+      "source_name": "blog.google",
+      "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZnVHS2RsOVpIeE9xTGhZMUZHbWRtVi1IVHpZcFQ3RExDV1N2c3l2c1o2OW9iazVBQXRTaEpfRFU1UEdlZ3VYNGl6TFZYQTBoNENJRFd4dUNFTE9vYU5mYk05ZFJBWDhIRXE0T0xUQ1hrUzFuSzNPM0tTaGNTWTZyM1V5SzcxcGRLek5tUUZOYnhFSUFZanRnUDFMdGVKUkd2NDNR?oc=5",
+      "published_date": "2026-08-13"
     },
     {
-      "category": "AI",
-      "title": "Intel agencies take deliberate approach to agentic AI adoption - Federal News Network",
-      "summary": "Intel agencies take deliberate approach to agentic AI adoption &nbsp;&nbsp; Federal News Network",
-      "detail": "현재 Gemini 요약 API를 사용할 수 없어 RSS에서 수집한 기사 정보를 그대로 표시하고 있습니다. 정확한 내용은 원문을 확인해주세요.",
-      "why_it_matters": "오늘의 주요 AI 뉴스 후보로 수집된 기사입니다. 원문을 확인해 영향도를 판단할 수 있습니다.",
+      "category": "NVIDIA",
+      "title": "엔비디아, 노후화 GPU 활용 위한 5천억 달러 규모 AI 칩 파이낸싱 계획 발표",
+      "summary": "엔비디아가 AI 칩 시장 주도권을 유지하고 급증하는 컴퓨팅 수요에 대응하기 위해, 노후화된 GPU를 활용하는 방안을 포함한 5천억 달러 규모의 대규모 파이낸싱 계획을 발표했습니다.",
+      "detail": "엔비디아는 AI 칩 시장에서의 지배력을 강화하고 AI 컴퓨팅 자원 부족 현상을 완화하기 위해 5천억 달러 규모의 자금 조달 계획을 공개했습니다. 이 계획은 기존 노후화된 GPU의 가치를 극대화하고 새로운 AI 인프라 구축을 지원하는 데 중점을 둡니다. 이는 월스트리트의 주요 금융기관들과 협력하여 진행될 예정입니다.",
+      "why_it_matters": "이 막대한 투자는 AI 컴퓨팅 자원 부족 현상을 완화하고, 엔비디아가 AI 반도체 시장에서의 독점적 지위를 더욱 공고히 하는 데 결정적인 역할을 할 것입니다. 또한, 기존 GPU 자원의 효율적 활용은 지속 가능한 AI 인프라 구축에 대한 새로운 접근 방식을 제시합니다.",
+      "source_name": "TechCrunch",
+      "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTnhDaERRZW9PS2FkZkJUV3lSUWMwQTdSN3ljaTBUa3gzb2Z3Znc4d2V3akU3YUhvSERkdi1hLTBvdzRRakdsN1pMYVJLZGpXS1dXamxUMTdqbGFKTjR3WUlBdGJkdzhPZmFDVERPRU5TdS0zVzJzbEFwVDhXcTFMaFdKdmEwUFBGc1pUQ2ZXbVBZWXotc1B4dHA3MUk2eXRHWlh2WWx5N1k?oc=5",
+      "published_date": "2026-08-13"
+    },
+    {
+      "category": "Anthropic",
+      "title": "앤트로픽, 자사 AI 모델 클로드 출력물에 보이지 않는 워터마크 적용 시작",
+      "summary": "앤트로픽이 AI 생성 콘텐츠의 출처를 명확히 하고 오용을 방지하기 위해 클로드(Claude) AI 모델의 텍스트 및 이미지 출력물에 보이지 않는 워터마크를 도입한다고 밝혔습니다.",
+      "detail": "앤트로픽은 최근 클로드 AI를 통해 생성된 모든 텍스트 및 이미지 콘텐츠에 식별 가능한 워터마크를 삽입하는 새로운 정책을 발표했습니다. 이 워터마크는 일반 사용자의 눈에는 보이지 않지만, 특정 도구를 사용하면 AI 생성 여부를 확인할 수 있도록 설계되었습니다. 이는 AI 콘텐츠의 투명성을 높이고 딥페이크와 같은 악용 사례에 대응하기 위한 노력의 일환입니다.",
+      "why_it_matters": "AI 생성 콘텐츠의 확산과 함께 출처 및 진위 여부에 대한 우려가 커지는 상황에서, 앤트로픽의 워터마킹 도입은 책임감 있는 AI 개발의 중요한 진전으로 평가됩니다. 이는 AI의 신뢰성을 높이고 오정보 확산을 방지하는 데 기여하며, 다른 AI 기업들에게도 유사한 보안 및 투명성 기술 도입을 촉진할 수 있습니다.",
+      "source_name": "PCMag",
+      "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOQldRc1A5V2JwLWFyREsyWkt3d2JzN3pZZHY0eV9jYVc5WGZuY1RGd0lmNDQwaFRNcjBoZHpEQzZzNUhFVFZVa3VXME5fSVo4OS1fVXM1Zk0xZ1BvQlBHLVFiTng2RWVWcW1HSndEMm5JQ3B5eEtZelg1WERwWGhTQ0QyYkJ3TXlCNlYwTi1sQkxtdHB5a0ZJS3Y1aEhDZDVuaEE?oc=5",
+      "published_date": "2026-08-13"
+    },
+    {
+      "category": "OpenAI",
+      "title": "IBM과 OpenAI, 기업용 AI 솔루션 확대를 위한 파트너십 발표",
+      "summary": "IBM과 OpenAI가 협력하여 AI 기술을 기업 환경에 더욱 깊숙이 통합하고, 기업 고객을 위한 맞춤형 AI 솔루션 개발을 가속화할 것이라고 발표했습니다.",
+      "detail": "IBM과 OpenAI는 기업의 AI 도입을 촉진하기 위한 전략적 파트너십을 체결했습니다. 이번 협력을 통해 OpenAI의 첨단 AI 모델과 IBM의 방대한 기업 고객 네트워크 및 산업별 전문 지식이 결합되어, 다양한 산업 분야에 특화된 AI 솔루션이 개발될 예정입니다. 이는 기업들이 AI를 활용하여 비즈니스 프로세스를 혁신하고 생산성을 향상시키는 데 기여할 것으로 기대됩니다.",
+      "why_it_matters": "IBM의 강력한 기업용 솔루션 시장 장악력과 OpenAI의 최신 AI 기술이 결합되면서, AI가 광범위한 기업 환경에 빠르게 확산될 수 있는 계기가 마련되었습니다. 이는 기업의 디지털 전환을 가속화하고, AI 시장의 성장과 경쟁 구도에도 상당한 영향을 미칠 중요한 협력입니다.",
+      "source_name": "IBM",
+      "source_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNdmRxcEZDcGZnb0pNOU8wLVMyY2RRVGhKY2FmQ01GM3RabTJTS2dnTFFkaXRnTmFmenlIakRiQ251QV9tUDJ2TmV2bDBtSnZqVzRWSlBzdWNfY0RQOE4yMjl2emJDUkxTekh5eEpWdUtUS1FCbHFEd0FGSDRCRGhXdTVn?oc=5",
+      "published_date": "2026-08-14"
+    },
+    {
+      "category": "AI 정책/규제",
+      "title": "미국 정보기관들, 에이전트 AI 도입에 신중한 접근법 취해",
+      "summary": "미국 정보기관들이 자율적으로 복잡한 작업을 수행하는 '에이전트 AI'의 잠재적 이점과 위험성을 고려하여, 그 도입에 신중하고 체계적인 접근 방식을 채택하고 있는 것으로 알려졌습니다.",
+      "detail": "연방 뉴스 네트워크에 따르면, 미국 정보기관들은 에이전트 AI가 군사 작전 및 정보 분석을 지원하는 데 있어 혁신적인 가능성을 제공할 것으로 보고 있습니다. 그러나 동시에 이러한 강력한 AI 기술의 오작동, 윤리적 문제, 보안 위험 등을 면밀히 검토하며, 안전하고 통제된 환경에서 에이전트 AI를 점진적으로 통합해 나가는 전략을 취하고 있습니다.",
+      "why_it_matters": "에이전트 AI는 고도로 자율적인 기능을 통해 민감한 국가 안보 영역에서 큰 파급력을 가질 수 있습니다. 정보기관들의 신중한 접근은 AI 기술의 책임 있는 사용과 잠재적 위험 관리의 중요성을 강조하며, 향후 정부 및 군사 분야에서의 AI 도입 및 규제 방향에 중요한 선례를 남길 것입니다.",
       "source_name": "Federal News Network",
       "source_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNaGFqejNNaERVdkYwZW1ZVmxNaS1qV1BwQnlPX1dZMl9rM0RObVpIUDVoTjF5amV3WERaSVdnR0pHTHJjaHdIUEdNN1ZueVVQb2twMXhqaG1XWUptMGVuZnJsOFVHVW5hZUc3SzB5WGRjWGNVOTFVc3dNZUlUSFFfV3FMSEdabHNCUVk3Vk9SRDJuVmFnd2VNMU5FdHVyZDZ6RW1Rd295dHJIWjBFb2dRU216aC1LOGhSX2dYZUlfZGpuXzJD?oc=5",
-      "published_date": "Thu, 13 Aug 2026 21:30:07 GMT"
-    },
-    {
-      "category": "AI",
-      "title": "Watch: Fields Medalist Terence Tao on Artificial Intelligence and Why We Do Math - Simons Foundation",
-      "summary": "Watch: Fields Medalist Terence Tao on Artificial Intelligence and Why We Do Math &nbsp;&nbsp; Simons Foundation",
-      "detail": "현재 Gemini 요약 API를 사용할 수 없어 RSS에서 수집한 기사 정보를 그대로 표시하고 있습니다. 정확한 내용은 원문을 확인해주세요.",
-      "why_it_matters": "오늘의 주요 AI 뉴스 후보로 수집된 기사입니다. 원문을 확인해 영향도를 판단할 수 있습니다.",
-      "source_name": "Simons Foundation",
-      "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPQmEzZExWQmxsZmtBNUxvM2V4RVN1aWgxZzdTanpiN3ZDV2ZmWjZjLTgtU1NhNnJBTFp0empSaFZnc0kwMnlqNU8xcnUzSkFEN25WTzlkbE9zM25vYW5XY0diQ20tWkNHelZYUnR2UllwSTI0X0lJZVJNcE9JU293bi1ZWEdSOHZlSEZERkd4aXM5dDdFUjE0YjFBeXA0TVY4LTVmdy1jajVmbmJ5TExEbUFUdTRTb2wtQWc?oc=5",
-      "published_date": "Thu, 13 Aug 2026 21:16:27 GMT"
-    },
-    {
-      "category": "AI",
-      "title": "American Board of Radiology taking cautious approach to AI - Radiology Business",
-      "summary": "American Board of Radiology taking cautious approach to AI &nbsp;&nbsp; Radiology Business",
-      "detail": "현재 Gemini 요약 API를 사용할 수 없어 RSS에서 수집한 기사 정보를 그대로 표시하고 있습니다. 정확한 내용은 원문을 확인해주세요.",
-      "why_it_matters": "오늘의 주요 AI 뉴스 후보로 수집된 기사입니다. 원문을 확인해 영향도를 판단할 수 있습니다.",
-      "source_name": "Radiology Business",
-      "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQS0FvY3pqLW1paFRFeVoybkt2Z3h1UDhCX1drMDM4bjA5NzUzbmVsQTZna2VzMWdmT2xYUXBHZ0w1aTkyYURlMV9QaWtHRmFEOWUyaS1VSkplOV9aZk5kWnBQaDlIY3pIamFpOGFNU0JoOWtlSkktSmxWUk9MYkNsem9UWVZibGxseGZJOTIwQ2RQTllFSVVyaW5RU2FfVDFoVlRvek1NY2dZdVFncVFSdlRzYw?oc=5",
-      "published_date": "Thu, 13 Aug 2026 11:42:02 GMT"
-    },
-    {
-      "category": "AI",
-      "title": "Amazon Quick for Microsoft 365: Agentic AI where you work - Amazon Web Services (AWS)",
-      "summary": "Amazon Quick for Microsoft 365: Agentic AI where you work &nbsp;&nbsp; Amazon Web Services (AWS)",
-      "detail": "현재 Gemini 요약 API를 사용할 수 없어 RSS에서 수집한 기사 정보를 그대로 표시하고 있습니다. 정확한 내용은 원문을 확인해주세요.",
-      "why_it_matters": "오늘의 주요 AI 뉴스 후보로 수집된 기사입니다. 원문을 확인해 영향도를 판단할 수 있습니다.",
-      "source_name": "Amazon Web Services (AWS)",
-      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNclBqeDUzak1iN0lWdlk3UFVyNzAxTjJRM0F0S3kwSlRtLXpack9GUGtNelZySDliUnJ2VWRiakNCS3A0RFlrNVZ4bHJweUJ6ZU5Wa2RhRWU3ejhDcUZWa0toSXQ2YlRUR2FlRmp3Z2dzOVVtZDNmbGkzZHlMNEoxejExVGRVRl8wMUljX19xQzBBdk8xQUdCSDV4NHRKb1FLajh0UFl3?oc=5",
-      "published_date": "Thu, 13 Aug 2026 15:48:15 GMT"
+      "published_date": "2026-08-13"
     }
-  ],
-  "update_status": {
-    "ok": false,
-    "message": "오늘 AI 요약 업데이트에 실패해 마지막 정상 한국어 브리핑을 표시하고 있습니다.",
-    "failed_at": "2026-08-14 14:55 KST"
-  }
+  ]
 }
