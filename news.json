@@ -93,6 +93,6 @@
   "update_status": {
     "ok": false,
     "message": "오늘 AI 요약 업데이트에 실패해 마지막 정상 한국어 브리핑을 표시하고 있습니다.",
-    "failed_at": "2026-08-14 08:56 KST"
+    "failed_at": "2026-08-14 14:55 KST"
   }
 }
