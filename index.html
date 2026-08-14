@@ -339,6 +339,37 @@
     .history-list li:first-child{border-top:0;padding-top:0}
     .history-empty{color:#9a9aa0;font-size:13px}
 
+
+    .update-alert {
+      margin-top:14px;
+      padding:13px 15px;
+      border-radius:13px;
+      background:#fff8e8;
+      border:1px solid #f1dfb2;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:12px;
+      font-size:12px;
+      line-height:1.5;
+      color:#6c5a2e;
+    }
+    .update-alert[hidden] { display:none; }
+    .retry-btn {
+      flex:0 0 auto;
+      border:0;
+      border-radius:10px;
+      padding:9px 12px;
+      background:#1d1d1f;
+      color:#fff;
+      font-size:12px;
+      font-weight:750;
+      text-decoration:none;
+      cursor:pointer;
+      white-space:nowrap;
+    }
+    .retry-btn:hover { opacity:.88; }
+
     @media (max-width:600px) {
       .wrap {
         width:min(100% - 22px,920px);
@@ -398,6 +429,13 @@
     <header class="headline">
       <h1>AI Daily Brief</h1>
       <div class="meta" id="dateText">최신 브리핑 불러오는 중…</div>
+      <div class="update-alert" id="updateAlert" hidden>
+        <span id="updateAlertText"></span>
+        <a class="retry-btn"
+           href="https://github.com/jaemin882-sys/ai-daily-brief/actions/workflows/update-news.yml"
+           target="_blank"
+           rel="noopener noreferrer">AI 다시 생성</a>
+      </div>
       <div class="daily-summary" id="daySummary">
         오늘 알아둘 AI 업계 핵심 이슈를 자동으로 선별해 보여줍니다.
       </div>
@@ -600,6 +638,17 @@
 
         document.getElementById("daySummary").textContent =
           data.daily_summary || "오늘의 AI 핵심 이슈입니다.";
+
+        const updateAlert = document.getElementById("updateAlert");
+        const updateAlertText = document.getElementById("updateAlertText");
+        if (data.update_status && data.update_status.ok === false) {
+          updateAlertText.textContent =
+            data.update_status.message ||
+            "오늘 AI 요약 업데이트에 실패했습니다. 마지막 정상 브리핑을 표시하고 있습니다.";
+          updateAlert.hidden = false;
+        } else {
+          updateAlert.hidden = true;
+        }
 
         if (data.exchange_rate && data.exchange_rate.usd_krw) {
           const rate = Number(data.exchange_rate.usd_krw);
