@@ -1,12 +1,35 @@
 {
   "date": "2026-08-15",
-  "updated_at": "07:33 KST",
+  "updated_at": "10:35 KST",
   "generation_mode": "RSS + Gemini summary",
   "update_status": {
     "ok": true,
     "message": "오늘 브리핑이 정상 업데이트되었습니다."
   },
-  "daily_summary": "오늘 AI 업계에서는 기술의 전략적 활용과 윤리적 이슈가 부각되었다. 엔비디아 칩의 군사적 이용 논란과 OpenAI의 IPO 전 성장 및 내부 동향이 주목받았고, 구글과 Anthropic은 각각 신규 모델 및 워터마크 정책으로 시장과 사용자들의 반응을 얻으며 AI 에이전트의 기업 도입도 가속화되고 있다.",
+  "daily_summary": "오늘 AI 업계는 엔비디아의 대규모 금융 지원 계획과 OpenAI의 기업용 매출 증대로 AI 인프라 및 비즈니스 모델의 성숙을 보여주었습니다. 한편, Anthropic의 AI 워터마크 정책에 대한 사용자 반발은 윤리적 책임과 사용자 경험 사이의 균형점 탐색이 필요함을 시사합니다.",
+  "ai_terms": [
+    {
+      "term": "LLM",
+      "full_name": "Large Language Model",
+      "korean": "대규모 언어 모델",
+      "explanation": "사람이 쓰는 언어를 이해하고 생성하도록 아주 많은 텍스트 데이터로 학습된 인공지능 모델입니다. 복잡한 질문에 답하거나 글쓰기, 번역 등 다양한 언어 관련 작업을 수행할 수 있습니다.",
+      "example": "ChatGPT가 여러분의 질문을 읽고 자연스러운 답변을 만들어내는 데 LLM이 핵심적인 역할을 합니다."
+    },
+    {
+      "term": "Prompt",
+      "full_name": "Prompt",
+      "korean": "프롬프트",
+      "explanation": "AI 모델, 특히 LLM에게 특정 작업을 요청하거나 질문하기 위해 입력하는 텍스트 명령 또는 지시를 말합니다. AI가 원하는 결과를 생성하도록 유도하는 중요한 도구입니다.",
+      "example": "“내일 날씨를 알려줘” 또는 “이메일 초안을 작성해 줘”와 같이 AI 챗봇에 입력하는 모든 문장이 프롬프트입니다."
+    },
+    {
+      "term": "Agent",
+      "full_name": "Agent (AI Agent)",
+      "korean": "에이전트 (AI 에이전트)",
+      "explanation": "주어진 목표를 달성하기 위해 스스로 판단하고 행동하며, 외부 환경과 상호작용할 수 있는 AI 시스템을 의미합니다. 여러 단계를 거쳐 복잡한 작업을 자율적으로 수행할 수 있습니다.",
+      "example": "사용자가 “여행 계획을 세워줘”라고 지시하면, 에이전트 AI가 항공권 검색, 숙소 예약, 일정 추천 등의 여러 작업을 스스로 수행할 수 있습니다."
+    }
+  ],
   "exchange_rate": {
     "usd_krw": 1411.27,
     "date": "2026-08-14",
@@ -44,51 +67,51 @@
   ],
   "issues": [
     {
-      "category": "AI 반도체 / 정책/규제",
-      "title": "엔비디아 AI 칩, 러시아 미사일에 사용 의혹 제기",
-      "summary": "러시아 미사일에서 엔비디아의 AI 칩이 발견되었다는 우크라이나의 주장이 제기되었으며, 엔비디아는 이에 대해 즉각 대응하며 자사 칩의 군사적 사용에 대한 통제를 강조했다.",
-      "detail": "우크라이나 당국은 러시아의 S-71 '모노크롬' 순항 미사일에서 엔비디아 제트슨(Jetson) AI 칩이 발견되었다고 발표하며 AI 기술의 군사적 전용 가능성에 대한 심각한 우려를 제기했다. 엔비디아는 자사 제품이 상업적 용도로 설계 및 판매되었음을 강조하고, 관련 규정을 준수하며 칩의 불법 유통 방지에 대한 책임을 강조하는 입장을 밝혔다.",
-      "why_it_matters": "세계 최고 AI 칩 기업의 제품이 전쟁 무기에 사용될 수 있다는 의혹은 AI 기술의 이중 용도(dual-use) 문제와 기술 통제, 윤리적 책임에 대한 중대한 질문을 던진다. 이는 전 세계적인 AI 규제 논의와 주요 AI 기업들의 사회적 책임을 강화하는 계기가 될 것으로 보인다.",
-      "source_name": "The Register",
-      "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOblduS0ExYXBLbk1SQWNDaFBNNC1SSVdQLXowai16ZHA0Qzc1dVZNMnV5QWxVR2pRTmFSZWVFTUFpZXhiQkdRX1ZCSnZ1dXZXLXZCdExHR2pFM013S0pweExjeFdpYWNxT190Yi1LNVZTS2c4MEhmUmVGY2tEd3F6SG5QdU5pc0pOUW1obXRmLUk3UnVaOWlxVnVBZjRBVnp4alpQV1pWOXFSR3dVMkhXeXFKUQ?oc=5",
+      "category": "NVIDIA",
+      "title": "NVIDIA, 5천억 달러 규모 AI 칩 구매 금융 지원 계획 추진",
+      "summary": "엔비디아가 골드만삭스, 블랙스톤 등 금융 기관과 협력하여 5천억 달러 규모의 AI 칩 구매 금융 지원 계획을 추진하고 있습니다.",
+      "detail": "이 계획은 고객들이 고가의 AI 칩을 구매하는 데 필요한 유동성을 지원하기 위한 것으로, 엔비디아가 AI 칩 시장에서 압도적인 점유율을 유지하고 AI 인프라 확장을 가속화하려는 전략으로 풀이됩니다. 이는 대규모 AI 모델 학습 및 배포에 필수적인 컴퓨팅 자원 확보를 용이하게 할 것입니다.",
+      "why_it_matters": "엔비디아의 이러한 움직임은 AI 산업 전반의 성장을 촉진하고, 엔비디아의 시장 지배력을 더욱 공고히 할 것으로 예상됩니다. 거대한 자본 지원을 통해 AI 인프라 구축의 속도를 높이는 중요한 변화로 평가됩니다.",
+      "source_name": "Moomoo",
+      "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdXlFVDI0OTR0WHYxNEEzNjZ2Vm0wZmpDMEE4TXFaQTQwVW1YeWw0dE5OWk9jajBPZWcwdG1MbS1aNDZtOVdGZEh6RG9Uc0ZZMDE3d3l2bGEwWVRYNU5weDRrd185NGRkN1BnZ0VpUzJpUFFLTFFLbWE4VEZvX2VkVnFYc21fTncyZnBhSlBGTUZVVFNDX3NaRlFhTUM2RVRSeXkxUVRKVUg?oc=5",
       "published_date": "2026-08-14"
     },
     {
-      "category": "OpenAI / 투자",
-      "title": "OpenAI, 연 매출 400억 달러 돌파하며 IPO 청신호, 내부 동향도 주목",
-      "summary": "OpenAI가 연 매출 400억 달러를 돌파하며 기업공개(IPO) 전망을 밝게 했으나, 동시에 핵심 인력 유출 및 경영진 변화 소식도 전해지며 IPO 전 내부 안정화에 대한 관심이 집중되고 있다.",
-      "detail": "블룸버그 보도에 따르면 OpenAI는 연간 매출(run rate)이 400억 달러를 넘어섰다고 발표하며 성공적인 IPO를 위한 강력한 기반을 마련했다. 하지만 CNBC는 IPO를 앞두고 인재 유출이 '적색 신호'라는 우려를 제기했으며, 이에 대한 일환으로 OpenAI는 전 Wiz 임원 Dali Rajic을 최고 매출 책임자(CRO)로 임명하는 등 경영진을 재정비했다. 공동 창업자 Greg Brockman의 영향력 확대도 감지된다.",
-      "why_it_matters": "OpenAI의 매출 성장은 AI 산업 전반의 성장 가능성을 보여주는 중요한 지표이며, 다가오는 IPO는 AI 스타트업들의 기업 가치 평가에 큰 영향을 미칠 것이다. 동시에, 급성장하는 기업의 인력 관리 및 내부 안정화는 장기적인 성공을 위한 핵심 과제로 부각되고 있다.",
-      "source_name": "Bloomberg",
-      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVU5keXd6dll5LXFjYWZWa0J6U3BSU0pzZ3pwYUNvVXVnVWJMSkZUeHlTWU1rS0lJTHJfVld2T21qOUIzeTJmSFZ2cGpiQnByMVZiY3Nxd0Q2OG1EM0dCNTJYN3JUNjQybzZreDBNbEdzOXN6all5cFQwek02STcwbGRLUm55Wnc5QWcwc2VqazYzbXdkZ2xqY0V1R2oxOWhYY0prd09YdXFsYkJjS1hjU1dRSWtpQQ?oc=5",
-      "published_date": "2026-08-14"
-    },
-    {
-      "category": "Google / 새 모델/제품 / 온디바이스 AI/NPU",
-      "title": "구글, 신규 제미니 플래시 모델 출시 및 픽셀 11 통한 온디바이스 AI 강화",
-      "summary": "구글이 저지연 경량 모델인 '제미니 플래시'를 선보였으며, 픽셀 11 출시 행사에서 온디바이스 AI 기능을 대거 공개하며 모바일 기기에서의 AI 경험을 한층 강화하고 교육 분야에도 제미니 AI를 도입했다.",
-      "detail": "구글은 제미니 3.5 Pro에 앞서 더 빠르고 효율적인 '제미니 플래시' 모델을 출시하며 다양한 애플리케이션 통합 가능성을 높였다. 또한, 픽셀 11 출시 행사에서 새로운 온디바이스 AI 기능들을 선보이며 사용자 기기 내 AI 처리 능력을 강조했다. 교육 분야에서는 구글 클래스룸 앱에 제미니 AI를 적용하여 학생들이 AI의 도움을 받아 학습할 수 있도록 했다.",
-      "why_it_matters": "제미니 플래시 모델은 경량화된 AI 모델의 중요성을 부각하며, 픽셀 11을 통한 온디바이스 AI 강화는 모바일 기기에서의 AI 활용 범위를 넓히는 중요한 움직임이다. 이는 클라우드 의존도를 줄이고 개인화된 AI 경험을 제공하는 방향으로 AI 기술 발전이 이루어지고 있음을 시사한다.",
-      "source_name": "Axios",
-      "source_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBLZXdBMzlkSW1zbGloS0VNNXhBNXRpaFpMSGNPNzI0NThxN1JOUzcwbjZQY001T2V0OFM2eWNMX05aVk1KeUx6am9RUHdrQjEybDdhVnBGMTJGSkQ3cm5HTFRHcXBtQQ?oc=5",
-      "published_date": "2026-08-14"
-    },
-    {
-      "category": "Anthropic / 정책/규제",
-      "title": "Anthropic, 클로드 AI 워터마크 정책으로 사용자 이탈 및 논란 가중",
-      "summary": "Anthropic이 AI 생성 텍스트에 워터마크를 도입한 후, 일부 클로드(Claude) 사용자들의 구독 취소 사태가 발생하며 AI 콘텐츠 진위 논란과 사용자 제어권에 대한 논쟁이 심화되고 있다.",
-      "detail": "Anthropic은 클로드 AI가 생성한 텍스트의 출처를 명확히 하기 위해 워터마크 기술을 도입하고 워터마크 탐지 API를 공개했다. 하지만 비즈니스 인사이더는 일부 사용자들은 워터마크가 콘텐츠의 자유로운 사용을 제한하거나, 원치 않는 방식으로 정보가 기록될 수 있다는 우려를 표하며 구독을 취소하는 움직임을 보였다고 보도했다. Anthropic은 PCMag 등을 통해 워터마크의 중요성을 설명하며 사용자들의 우려를 해소하려 노력 중이다.",
-      "why_it_matters": "AI 생성 콘텐츠의 진위 여부와 책임 소재는 AI 시대의 핵심 윤리적 과제 중 하나다. Anthropic의 워터마크 도입과 이에 대한 사용자 반발은 투명성 확보와 개인의 자유로운 콘텐츠 활용 사이의 균형점을 찾는 것이 얼마나 어려운지 보여주며, 향후 AI 콘텐츠 관련 정책 및 기술 개발 방향에 중요한 시사점을 제공한다.",
+      "category": "Anthropic",
+      "title": "Anthropic, AI 텍스트 워터마크 도입 후 사용자 이탈 직면",
+      "summary": "Anthropic이 자사 AI 모델 Claude에 AI 생성 텍스트 워터마킹 기능을 도입한 후, 일부 사용자들이 구독을 취소하는 등 부정적인 반응을 보이고 있습니다.",
+      "detail": "Anthropic은 AI 생성 콘텐츠의 출처를 명확히 하고 오용을 방지하기 위해 텍스트 및 이미지 출력에 워터마크를 적용하는 정책을 발표했습니다. 그러나 이러한 워터마킹이 사용자 경험에 영향을 미치거나 프라이버시 침해 우려를 제기하면서 일부 사용자들 사이에서 불만이 확산되어 구독 취소로 이어지고 있습니다.",
+      "why_it_matters": "AI 콘텐츠의 투명성과 책임성 확보는 중요한 과제이지만, 이를 위한 기술 도입이 사용자 수용성 및 프라이버시 논란을 야기할 수 있음을 보여줍니다. 이는 AI 기술 개발사들이 윤리적 책임과 사용자 경험 사이의 균형을 찾아야 하는 핵심 쟁점으로 부상하고 있습니다.",
       "source_name": "Business Insider",
       "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxONXN4MnZiMUxiTWRjTUJpNXBnejdXM1gzNlNybmg0c1FYS01uak4zNXJ5S1RhaFA1a2p4a05sc2d2T2tDWTl6cExkTzBmU0RiaWp2LWs1dERncnVva0VjU2lCWFVrbFpVMHJhRUl4eWNSd0QwR1lWVnRHazlZZVRKXzlabGNUS0p0RmtkcTgyUXVEQkxYdi01NnIxdUFHQUVSZ1d2ejlHTFpUZw?oc=5",
       "published_date": "2026-08-14"
     },
     {
-      "category": "에이전트 / 개발자 도구",
-      "title": "AI 에이전트, 엔터프라이즈 애플리케이션의 미래로 부상",
-      "summary": "기존 규칙 기반 자동화에서 벗어나 AI 에이전트 기반의 워크플로우가 엔터프라이즈 애플리케이션의 미래로 주목받고 있으며, AWS(Amazon Web Services)는 SageMaker AI와 Bedrock AgentCore를 통해 에이전트 기반 솔루션 구축을 지원하고 있다.",
-      "detail": "ACM(Association for Computing Machinery)은 AI 에이전트가 기업 애플리케이션의 핵심이 될 것이라고 전망하며, 복잡한 작업을 자율적으로 수행하는 에이전트 시스템의 중요성을 강조했다. 이에 발맞춰 AWS는 자사의 AI 플랫폼인 SageMaker와 Bedrock AgentCore를 활용하여 개발자들이 강력한 에이전트 기반 워크플로우를 쉽게 구축할 수 있도록 지원하며, 기업들의 AI 도입을 촉진하고 있다.",
-      "why_it_matters": "AI 에이전트는 단순 반복 업무 자동화를 넘어, 스스로 판단하고 학습하며 복잡한 비즈니스 프로세스를 최적화할 수 있는 잠재력을 가진다. AWS와 같은 주요 클라우드 제공업체의 에이전트 개발 도구 출시는 기업 AI 도입의 다음 단계가 에이전트 중심 솔루션으로 전환될 것임을 강력히 시사하며, 이는 생산성 향상과 혁신을 가속화할 것이다.",
+      "category": "Google",
+      "title": "구글, 새로운 제미니 플래시 모델 출시 및 검색 서비스 통합 가속화",
+      "summary": "구글이 기존 모델보다 더 빠르고 효율적인 '제미니 플래시(Gemini Flash)' 모델을 출시했으며, 이를 자사 검색 서비스의 AI 모드에 통합하며 활용도를 높이고 있습니다.",
+      "detail": "구글은 제미니 3.5 프로 모델 출시에 앞서 제미니 플래시 모델을 먼저 선보였습니다. 이 모델은 빠른 응답 속도와 효율성을 특징으로 하여, 구글 검색의 AI 기능을 통해 사용자에게 신속한 정보 제공을 가능하게 합니다. 또한, 최근 발표된 픽셀 11 업데이트에도 관련 온디바이스 AI 성능 향상이 포함될 것으로 보입니다.",
+      "why_it_matters": "새로운 플래시 모델 출시는 AI 모델의 경량화 및 고효율화 추세를 반영하며, 이를 핵심 서비스인 검색에 빠르게 적용하는 것은 구글의 AI 대중화 전략을 보여줍니다. 이는 사용자들이 더 빠르고 쉽게 AI를 일상생활에서 접하게 될 것임을 의미합니다.",
+      "source_name": "Axios",
+      "source_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBLZXdBMzlkSW1zbGloS0VNNXhBNXRpaFpMSGNPNzI0NThxN1JOUzcwbjZQY001T2V0OFM2eWNMX05aVk1KeUx6am9RUHdrQjEybDdhVnBGMTJGSkQ3cm5HTFRHcXBtQQ?oc=5",
+      "published_date": "2026-08-14"
+    },
+    {
+      "category": "OpenAI",
+      "title": "OpenAI, 기업용 사업 매출이 소비자용 초과하며 IPO 가능성 증대",
+      "summary": "OpenAI의 연간 매출액이 400억 달러를 넘어섰고, 특히 기업용(엔터프라이즈) 사업 부문 매출이 소비자용을 초과하며 기업 가치 및 IPO 가능성을 높이고 있습니다.",
+      "detail": "OpenAI의 최고재무책임자(CFO)는 투자자들에게 기업용 사업이 소비자용보다 더 큰 매출을 기록하고 있다고 밝혔습니다. 이는 ChatGPT와 같은 소비자 대상 서비스 외에, 기업들이 자사 업무에 AI 모델을 통합하며 발생하는 수요가 폭발적으로 증가했음을 시사하며, OpenAI의 수익 모델이 더욱 견고해지고 있음을 나타냅니다.",
+      "why_it_matters": "이 소식은 OpenAI가 단순한 기술 혁신 기업을 넘어 안정적인 수익 구조를 갖춘 성숙한 기업으로 진화하고 있음을 보여줍니다. 기업용 AI 솔루션 시장의 높은 성장 잠재력을 입증하며, 향후 OpenAI의 성공적인 기업 공개에 긍정적인 신호가 될 것으로 전망됩니다.",
+      "source_name": "Bloomberg",
+      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVU5keXd6dll5LXFjYWZWa0J6U3BSU0pzZ3pwYUNvVXVnVWJMSkZUeHlTWU1rS0lJTHJfVld2T21qOUIzeTJmSFZ2cGpiQnByMVZiY3Nxd0Q2OG1EM0dCNTJYN3JUNjQybzZreDBNbEdzOXN6all5cFQwek02STcwbGRLUm55Wnc5QWcwc2VqazYzbXdkZ2xqY0V1R2oxOWhYY0prd09YdXFsYkJjS1hjU1dRSWtpQQ?oc=5",
+      "published_date": "2026-08-14"
+    },
+    {
+      "category": "AWS",
+      "title": "AWS, AI 에이전트 기반 워크플로우 구축 도구 출시로 기업 자동화 가속화",
+      "summary": "아마존 웹 서비스(AWS)가 SageMaker AI 및 Bedrock AgentCore를 활용하여 에이전트 기반 워크플로우를 구축할 수 있는 도구를 출시하며, 기업의 AI 기반 자동화를 가속화하고 있습니다.",
+      "detail": "AWS는 기업들이 복잡한 작업을 자동화하고 관리할 수 있도록 AI 에이전트 중심의 솔루션을 제공하고 있습니다. 이는 단순한 규칙 기반 자동화를 넘어, AI 에이전트가 스스로 판단하고 행동하여 엔터프라이즈 애플리케이션의 효율성을 극대화하는 방향으로 발전하고 있음을 의미합니다.",
+      "why_it_matters": "AI 에이전트는 AI 기술의 다음 단계로, 복잡한 비즈니스 프로세스를 자율적으로 수행하며 생산성을 혁신할 잠재력을 가집니다. AWS의 이러한 발표는 기업들이 AI를 통해 업무 자동화 및 최적화를 실현하는 데 필수적인 인프라와 도구를 제공하며, AI 에이전트의 실제 산업 적용을 앞당길 것입니다.",
       "source_name": "Amazon Web Services (AWS)",
       "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPclNtaTBseU1RNVdMN0ZfYTlCLXpFUmt3aEppRnNMTUhPS1BGeVR4cDRxYkR2dnY2WHpMZ2NQSk5YTGo5SE42UlFtY0h1OGZ1UFJMSkwxODI0ejRTVm1VN1l2dWdrS2MybFRBUnZVejVMZW1DNHd1b0RGQ0ZXWl9BMmRTSjFpZXpTVktsVEU2WEMwWk4tbjlRS3BPS0Z0WVhHeEhBU0pjdHVKSm1ldkRteThKUQ?oc=5",
       "published_date": "2026-08-14"
