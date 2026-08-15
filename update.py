@@ -17,7 +17,7 @@ HISTORY_INDEX = HISTORY_DIR / "index.json"
 KST = ZoneInfo("Asia/Seoul")
 
 # 검색은 무료 RSS가 담당하고, Gemini는 "선별/요약"만 담당합니다.
-MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash-lite")
+MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
 
 RSS_QUERIES = [
     "artificial intelligence AI when:1d",
@@ -143,11 +143,59 @@ def validate_ai_result(data: dict, candidates: list[dict]) -> dict:
     if len(output) < 4:
         raise ValueError("유효한 이슈 매칭이 4개 미만입니다.")
 
+    raw_terms = data.get("ai_terms", [])
+    clean_terms = []
+
+    if isinstance(raw_terms, list):
+        for item in raw_terms[:3]:
+            if not isinstance(item, dict):
+                continue
+            term = {
+                "term": str(item.get("term", "")).strip(),
+                "full_name": str(item.get("full_name", "")).strip(),
+                "korean": str(item.get("korean", "")).strip(),
+                "explanation": str(item.get("explanation", "")).strip(),
+                "example": str(item.get("example", "")).strip(),
+            }
+            if term["term"] and term["explanation"]:
+                clean_terms.append(term)
+
+    if len(clean_terms) < 3:
+        raise ValueError("AI 단어가 3개 미만입니다.")
+
     return {
         "daily_summary": str(data.get("daily_summary", "")).strip(),
         "issues": output[:5],
+        "ai_terms": clean_terms[:3],
     }
 
+
+
+def collect_previous_ai_terms(limit: int = 180) -> list[str]:
+    """history에서 이미 배운 AI 용어를 읽어 중복을 줄입니다."""
+    terms = []
+    seen = set()
+
+    if not HISTORY_DIR.exists():
+        return terms
+
+    for path in sorted(HISTORY_DIR.glob("*.json"), reverse=True):
+        if path.name == "index.json":
+            continue
+        try:
+            data = json.loads(path.read_text(encoding="utf-8"))
+            for item in data.get("ai_terms", []):
+                term = str(item.get("term", "")).strip()
+                key = term.lower()
+                if term and key not in seen:
+                    seen.add(key)
+                    terms.append(term)
+                    if len(terms) >= limit:
+                        return terms
+        except Exception:
+            continue
+
+    return terms
 
 def summarize_with_gemini(candidates: list[dict]) -> dict:
     api_key = os.getenv("GEMINI_API_KEY")
@@ -165,6 +213,8 @@ def summarize_with_gemini(candidates: list[dict]) -> dict:
         })
 
     today = datetime.now(KST).strftime("%Y-%m-%d")
+    previous_terms = collect_previous_ai_terms()
+    previous_terms_text = ", ".join(previous_terms) if previous_terms else "없음"
 
     prompt = f"""
 오늘은 {today}이다.
@@ -192,6 +242,21 @@ def summarize_with_gemini(candidates: list[dict]) -> dict:
 [뉴스 후보]
 {json.dumps(compact, ensure_ascii=False)}
 
+[오늘의 AI 단어]
+- AI를 처음 배우는 사람을 위한 기초 용어를 정확히 3개 선정한다.
+- 처음에는 LLM, Token, Parameter, Prompt, Context Window, Transformer, Inference,
+  Fine-tuning, Embedding, RAG, Agent, NPU, Quantization 같은 자주 듣는 기초 개념을 우선한다.
+- 뉴스에 나온 단어와 꼭 연결할 필요는 없다. AI 기사나 제품 설명을 이해하는 데 유용한 순서로 고른다.
+- 이미 배운 단어는 가능하면 반복하지 않는다.
+- 지금까지 배운 단어: {previous_terms_text}
+- term: 실제 용어 또는 약자. 예: LLM
+- full_name: 약자의 영어 풀네임. 약자가 아니면 대표 영문명.
+- korean: 자연스러운 한국어 뜻.
+- explanation: AI 문외한도 이해할 수 있게 2~3문장으로 쉽게 설명한다.
+- explanation 안에서 또 다른 어려운 AI 용어를 설명 없이 남발하지 않는다.
+- example: ChatGPT, 스마트폰, 앱 같은 일상적인 상황으로 한 문장 예시를 든다.
+- 약자와 풀네임은 반드시 정확해야 한다.
+
 [출력]
 설명/마크다운 없이 JSON 객체만 반환:
 
@@ -206,6 +271,15 @@ def summarize_with_gemini(candidates: list[dict]) -> dict:
       "detail": "배경과 실제 변화 2~4문장",
       "why_it_matters": "왜 중요한지 1~3문장",
       "published_date": "YYYY-MM-DD 또는 확인 어려우면 날짜 문자열"
+    }}
+  ],
+  "ai_terms": [
+    {{
+      "term": "LLM",
+      "full_name": "Large Language Model",
+      "korean": "대규모 언어 모델",
+      "explanation": "사람이 쓰는 언어를 이해하고 생성하도록 아주 많은 텍스트로 학습한 AI 모델입니다.",
+      "example": "ChatGPT가 질문을 읽고 답을 만드는 데 LLM이 핵심 역할을 합니다."
     }}
   ]
 }}
@@ -398,6 +472,7 @@ def main():
             "message": "오늘 브리핑이 정상 업데이트되었습니다."
         },
         "daily_summary": result["daily_summary"],
+        "ai_terms": result.get("ai_terms", []),
         "exchange_rate": exchange_rate,
         "exchange_rate_history": exchange_rate_history,
         "issues": result["issues"][:5],

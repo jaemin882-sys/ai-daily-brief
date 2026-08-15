@@ -370,6 +370,28 @@
     }
     .retry-btn:hover { opacity:.88; }
 
+
+    .terms-section { margin-top:34px; }
+    .terms-head { display:flex; justify-content:space-between; align-items:flex-end; gap:12px; margin-bottom:12px; }
+    .terms-title { font-size:19px; font-weight:800; letter-spacing:-.02em; }
+    .terms-sub { margin-top:4px; font-size:12px; color:#96969c; }
+    .terms-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:12px; }
+    .term-card { background:#fff; border-radius:18px; padding:19px 18px; border:1px solid rgba(0,0,0,.035); min-width:0; }
+    .term-top { display:flex; align-items:center; justify-content:space-between; gap:8px; margin-bottom:10px; }
+    .term-word { font-size:21px; line-height:1.15; font-weight:850; letter-spacing:-.03em; }
+    .term-badge { flex:0 0 auto; padding:5px 8px; border-radius:999px; background:#f1f1f3; color:#68686e; font-size:9px; font-weight:800; letter-spacing:.04em; }
+    .term-full { font-size:11px; line-height:1.45; color:#8e8e94; min-height:32px; }
+    .term-korean { margin-top:9px; font-size:13px; font-weight:750; color:#3d3d42; }
+    .term-explain { margin-top:8px; font-size:13px; line-height:1.6; color:#69696f; }
+    .term-example { margin-top:11px; padding-top:10px; border-top:1px solid #ededee; font-size:12px; line-height:1.55; color:#85858b; }
+    .history-terms-title { margin-top:17px; padding-top:15px; border-top:1px solid #ededee !important; font-size:12px !important; font-weight:800 !important; color:#77777d !important; }
+    .history-term-item { font-size:13px !important; font-weight:400 !important; color:#55555b !important; }
+    .history-term-item b { color:#1d1d1f; }
+    @media (max-width:700px) {
+      .terms-grid { grid-template-columns:1fr; }
+      .term-full { min-height:auto; }
+    }
+
     @media (max-width:600px) {
       .wrap {
         width:min(100% - 22px,920px);
@@ -454,6 +476,17 @@
 
     <main class="grid" id="issueList"></main>
 
+
+
+    <section class="terms-section" id="termsSection" hidden>
+      <div class="terms-head">
+        <div>
+          <div class="terms-title">오늘의 AI 단어</div>
+          <div class="terms-sub">하루 3개씩, AI를 처음 접하는 사람 기준으로 쉽게 설명합니다.</div>
+        </div>
+      </div>
+      <div class="terms-grid" id="termsGrid"></div>
+    </section>
 
     <section class="history">
       <div class="history-head">
@@ -615,9 +648,17 @@
         const data=await r.json();
         const issues=Array.isArray(data.issues)?data.issues:[];
         dateEl.textContent=formatDate(date);
-        list.innerHTML=issues.length
+        const issueHtml=issues.length
           ? issues.map(x=>`<li>${escapeHtml(x.title||"")}</li>`).join("")
           : '<li class="history-empty">저장된 이슈가 없습니다.</li>';
+
+        const terms=Array.isArray(data.ai_terms)?data.ai_terms:[];
+        const termHtml=terms.length
+          ? `<li class="history-terms-title">그날의 AI 단어</li>` +
+            terms.map(t=>`<li class="history-term-item"><b>${escapeHtml(t.term||"")}</b>${t.full_name?` · ${escapeHtml(t.full_name)}`:""}<br>${escapeHtml(t.korean||"")} — ${escapeHtml(t.explanation||"")}</li>`).join("")
+          : "";
+
+        list.innerHTML=issueHtml+termHtml;
       }catch(e){
         dateEl.textContent=formatDate(date);
         list.innerHTML='<li class="history-empty">이 날짜의 기록을 불러오지 못했습니다.</li>';
@@ -696,6 +737,29 @@
             </article>
           `;
         }).join("");
+
+
+        const terms = Array.isArray(data.ai_terms) ? data.ai_terms : [];
+        const termsSection = document.getElementById("termsSection");
+        const termsGrid = document.getElementById("termsGrid");
+
+        if (terms.length) {
+          termsGrid.innerHTML = terms.map(term => `
+            <article class="term-card">
+              <div class="term-top">
+                <div class="term-word">${escapeHtml(term.term || "")}</div>
+                <span class="term-badge">AI WORD</span>
+              </div>
+              <div class="term-full">${escapeHtml(term.full_name || "")}</div>
+              <div class="term-korean">${escapeHtml(term.korean || "")}</div>
+              <div class="term-explain">${escapeHtml(term.explanation || "")}</div>
+              <div class="term-example"><b>예:</b> ${escapeHtml(term.example || "")}</div>
+            </article>
+          `).join("");
+          termsSection.hidden = false;
+        } else {
+          termsSection.hidden = true;
+        }
 
       } catch (err) {
         list.innerHTML = `<div class="error">브리핑을 불러오지 못했습니다.<br>${escapeHtml(err.message)}</div>`;
