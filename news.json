@@ -5,7 +5,7 @@
   "update_status": {
     "ok": false,
     "message": "오늘 AI 요약 업데이트에 실패해 마지막 정상 한국어 브리핑을 표시하고 있습니다.",
-    "failed_at": "2026-09-02 09:00 KST"
+    "failed_at": "2026-09-03 09:03 KST"
   },
   "daily_summary": "오늘 AI 업계는 규제와 위험성에 대한 각국 기관의 경고가 잇따랐으며, Anthropic의 대규모 클라우드 계약과 Nvidia의 AI 칩 전략 강화, Anthropic에 대한 대형 저작권 소송, 그리고 미 국방부의 주요 AI 모델 도입 소식이 주요 화두였습니다.",
   "ai_terms": [
@@ -32,15 +32,11 @@
     }
   ],
   "exchange_rate": {
-    "usd_krw": 1374.61,
-    "date": "2026-09-01",
+    "usd_krw": 1362.56,
+    "date": "2026-09-02",
     "source": "Frankfurter"
   },
   "exchange_rate_history": [
-    {
-      "date": "2026-08-24",
-      "rate": 1384.26
-    },
     {
       "date": "2026-08-25",
       "rate": 1383.07
@@ -64,6 +60,10 @@
     {
       "date": "2026-09-01",
       "rate": 1374.61
+    },
+    {
+      "date": "2026-09-02",
+      "rate": 1362.56
     }
   ],
   "issues": [
