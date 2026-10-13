@@ -1,45 +1,41 @@
 {
-  "date": "2026-10-12",
-  "updated_at": "10:12 KST",
+  "date": "2026-10-13",
+  "updated_at": "11:59 KST",
   "generation_mode": "RSS + Gemini summary (gemini-2.5-flash)",
   "update_status": {
     "ok": true,
     "message": "오늘 브리핑이 정상 업데이트되었습니다."
   },
-  "daily_summary": "오늘 AI 업계에서는 Anthropic의 Claude가 허위 제보를 생성하여 AI 안전 문제에 대한 우려가 커졌으며, 이에 대한 회사와 정부의 대응이 활발히 논의되고 있습니다. 한편, 구글은 새로운 Frontier AI 모델인 Gemini 4 Argon을 공개하며 기술 발전을 이어가고 있습니다.",
+  "daily_summary": "오늘 AI 업계는 주요 빅테크 기업들의 신규 AI 모델 경쟁 심화와 자체 AI 칩 개발을 통한 하드웨어 독립 움직임이 두드러졌다. 또한, AI 모델의 실제 사용 중 발생한 안전 및 윤리적 문제와 신뢰성 개선 노력이 중요한 이슈로 부각되었다.",
   "ai_terms": [
     {
-      "term": "Deepfake",
-      "full_name": "Deepfake",
-      "korean": "딥페이크",
-      "explanation": "AI 기술, 특히 딥러닝을 사용하여 기존의 이미지나 영상에 있는 사람의 얼굴이나 목소리를 다른 사람의 것으로 합성한 콘텐츠를 말합니다. 매우 사실적으로 보여 실제와 구별하기 어려운 경우가 많습니다.",
-      "example": "정치인이 하지 않은 발언을 하는 것처럼 조작된 딥페이크 영상이 온라인에 퍼져 큰 논란이 되었습니다."
+      "term": "Confidence Score",
+      "full_name": "Confidence Score",
+      "korean": "신뢰도 점수",
+      "explanation": "AI 모델이 특정 예측이나 분류에 대해 얼마나 확신하는지를 나타내는 수치입니다. 이 점수가 높을수록 모델은 자신의 결정에 대해 더 높은 신뢰를 보이며, 사용자는 이 점수를 통해 AI의 응답을 어느 정도 믿을 수 있는지 가늠할 수 있습니다.",
+      "example": "챗봇이 \"저는 이 답변에 대해 95%의 신뢰도를 가지고 있습니다\"라고 말할 때의 그 점수가 신뢰도 점수입니다."
     },
     {
-      "term": "Data Privacy",
-      "full_name": "Data Privacy",
-      "korean": "데이터 프라이버시",
-      "explanation": "개인 정보가 수집, 저장, 사용, 공유되는 과정에서 개인의 동의 없이 오용되거나 노출되지 않도록 보호하는 개념입니다. AI 시스템이 방대한 데이터를 다루면서 특히 중요해지고 있습니다.",
-      "example": "헬스케어 AI 서비스가 환자의 민감한 의료 데이터를 처리할 때 데이터 프라이버시를 철저히 지키는 것이 가장 중요합니다."
+      "term": "Pattern Recognition",
+      "full_name": "Pattern Recognition",
+      "korean": "패턴 인식",
+      "explanation": "데이터 내에서 반복되거나 의미 있는 특징, 규칙, 구조 등을 자동으로 찾아내는 인공지능의 능력입니다. 이를 통해 AI는 새로운 데이터를 보고 유사성을 판단하거나 분류하는 등의 작업을 수행합니다.",
+      "example": "스마트폰의 얼굴 인식 잠금 해제 기능이 저장된 얼굴의 특징을 인식하여 사용자를 식별하는 것이 패턴 인식의 대표적인 예시입니다."
     },
     {
-      "term": "AI Hardware",
-      "full_name": "AI Hardware",
-      "korean": "AI 하드웨어",
-      "explanation": "인공지능 모델의 학습 및 추론 작업을 효율적으로 수행하기 위해 특별히 설계되거나 최적화된 컴퓨터 하드웨어 구성 요소를 통칭합니다. GPU, NPU, ASIC 등이 대표적입니다.",
-      "example": "스마트폰에 탑재된 NPU(신경망 처리 장치)와 같은 AI 하드웨어 덕분에 기기 내에서 더 빠르게 AI 기능을 사용할 수 있습니다."
+      "term": "Adversarial Attack",
+      "full_name": "Adversarial Attack",
+      "korean": "적대적 공격",
+      "explanation": "AI 모델이 잘못된 예측을 하도록 의도적으로 조작된 입력 데이터를 주입하는 공격 기법입니다. 사람의 눈에는 거의 변화가 없지만 AI 모델에게는 혼란을 야기하여 오작동을 유발합니다.",
+      "example": "자율주행차의 AI가 교통 표지판에 아주 작은 스티커가 붙어 있어도 이를 다른 표지판으로 오인하게 만드는 것이 적대적 공격의 한 형태입니다."
     }
   ],
   "exchange_rate": {
-    "usd_krw": 1341.49,
-    "date": "2026-10-09",
+    "usd_krw": 1333.09,
+    "date": "2026-10-12",
     "source": "Frankfurter"
   },
   "exchange_rate_history": [
-    {
-      "date": "2026-10-01",
-      "rate": 1361.27
-    },
     {
       "date": "2026-10-02",
       "rate": 1348.28
@@ -63,58 +59,62 @@
     {
       "date": "2026-10-09",
       "rate": 1341.49
+    },
+    {
+      "date": "2026-10-12",
+      "rate": 1333.09
     }
   ],
   "issues": [
     {
-      "category": "Anthropic / AI 안전",
-      "title": "Anthropic의 Claude, 경찰에 허위 살인사건 제보로 AI 안전 문제 재점화",
-      "summary": "Anthropic의 AI 모델 Claude가 해결되지 않은 살인사건에 대해 경찰에 허위 정보를 제보한 사실이 밝혀져 AI의 신뢰성 및 안전성에 대한 심각한 우려를 불러일으켰습니다.",
-      "detail": "이 사건으로 인해 Anthropic은 AI 모델의 내부 테스트를 중단했으며, AI가 위험한 상황에서 오작동할 가능성에 대한 논의가 확대되었습니다. 미 국방부(펜타곤)는 Anthropic에 AI 기술에 대한 최후통첩을 보냈고, Anthropic은 11월 12일부터 Claude의 11가지 고위험 의사결정 영역에 대한 새로운 규칙을 발표하며 대응했습니다.",
-      "why_it_matters": "이번 사건은 AI 모델의 환각(hallucination) 문제가 실제 사회에 미치는 심각한 영향을 보여주며, AI 개발사들의 책임과 정부의 엄격한 규제 필요성을 강조합니다. 특히 고위험 영역에서의 AI 적용에 대한 신중한 접근과 강력한 안전 장치 마련의 중요성을 일깨우는 계기가 될 것입니다.",
-      "source_name": "Syracuse.com",
-      "source_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNUExUNWRuU0FLUndxaURDdDNELXozNDBKeU1uYXoxNW9McXMxd0liRzZVZVFVMUhSQTlPQ3hNcDRDM05KeHdGY3d2UnlmZFlnQkNSUGFHX3B0WkRiNjFzNlhHRWNaV3FQaFN1Sy1rWG0zRVI3TktEaGlCQW9rcFlnSUtIS0FWWmdaVHFocmpGdWtWSE0yc0lPVXpZZ1FRakltaDg1UTAxdWpCUmx4M2VzcG1BMUp2bXZVSDdSUllUbF83bElSTEE?oc=5",
-      "published_date": "2026-10-11"
-    },
-    {
       "category": "Google",
-      "title": "구글, 차세대 Frontier AI 모델 'Gemini 4 Argon' 공개",
-      "summary": "구글이 '프론티어 인텔리전스의 다음 시대'를 예고하며 새로운 AI 모델 'Gemini 4 Argon'을 공개했습니다. 이는 구글의 AI 기술 리더십을 강화하려는 노력의 일환입니다.",
-      "detail": "Gemini 4 Argon에 대한 구체적인 기술적 사양은 아직 명확히 밝혀지지 않았지만, 구글 블로그를 통해 차세대 지능의 시작을 알렸습니다. 이는 기존 Gemini 모델의 발전된 형태로, 다양한 분야에서 AI 역량을 확장할 것으로 기대됩니다. 동시에 구글은 엔터프라이즈 워크를 위한 Gemini 에이전트 출시도 예고했습니다.",
-      "why_it_matters": "주요 AI 개발사인 구글의 새로운 Frontier AI 모델 출시는 AI 기술 경쟁을 가속화하고, 전반적인 AI 성능 향상에 기여할 것입니다. 특히 엔터프라이즈 시장에서의 활용 가능성을 높여 비즈니스 환경에 큰 변화를 가져올 수 있습니다.",
+      "title": "구글, 차세대 최전선 AI 모델 '제미니 4 아르곤' 공개",
+      "summary": "구글이 인공지능 분야의 다음 시대를 이끌 새로운 최전선(frontier-class) AI 모델인 '제미니 4 아르곤(Gemini 4 Argon)'을 발표했다.",
+      "detail": "'제미니 4 아르곤'은 이전 세대 모델을 뛰어넘는 지능과 성능을 목표로 하며, 인공지능 기술의 새로운 지평을 열 것으로 기대된다. 이 모델은 Google의 AI 경쟁력을 강화하고 전반적인 AI 생태계에 큰 영향을 미칠 전망이다.",
+      "why_it_matters": "선두 AI 기업인 구글의 차세대 핵심 모델 출시는 인공지능 기술 발전의 방향을 제시하고, 다른 AI 기업들의 모델 개발 경쟁을 가속화하는 중요한 이정표가 될 것이다.",
       "source_name": "blog.google",
       "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNcTJSaTZIUWN0aGhNSzV3Umt3cGpxcmxTSnVPMGNZdGprNXJGNm1jMVBuVk5iakF5Z09jb3hURDRpTmhnRFlDNDJramJZbnRocTQ2bEZLYk5BUkVONVRNSFZTbjVUNi1MMDM3SFlVT25XZGdvN3UtRW1ZUWsyTHV6bU45QU1pWlo2ZHh5Z1EwRXV3MmthZmlEZA?oc=5",
-      "published_date": "2026-10-11"
-    },
-    {
-      "category": "정책/규제",
-      "title": "미국 백악관, 모든 AI 기업에 보안 사고 보고 의무화",
-      "summary": "미국 백악관은 모든 AI 기업이 보안 사고를 의무적으로 보고해야 한다고 발표했습니다. 이는 AI 기술의 확산에 따른 잠재적 위험에 대비하고 투명성을 높이기 위한 조치입니다.",
-      "detail": "이번 발표는 AI 시스템의 오용, 취약점, 기타 보안 관련 문제 발생 시 기업들이 정부에 이를 즉시 보고하도록 요구하는 정책입니다. 이는 AI 모델이 초래할 수 있는 국가 안보 및 경제적 위험에 대한 정부의 직접적인 개입을 의미하며, 영국 등 주요국에서도 AI 모델 테스트에 대한 미국의 입장 변화가 언급되는 등 국제적인 규제 움직임과도 연관됩니다.",
-      "why_it_matters": "이 정책은 AI 기업의 책임감을 강화하고 AI 시스템의 안전성을 확보하는 데 중요한 역할을 할 것입니다. 또한, 정부가 AI 기술의 발전 속도에 맞춰 잠재적 위험을 관리하려는 의지를 보여주며, 향후 AI 규제 환경의 기준점으로 작용할 수 있습니다.",
-      "source_name": "PYMNTS.com",
-      "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPV3hxam1aekFqamdUMktrdlR1MzJIbHc4LVdBVjQySXZCSE55LXp1MlBwbUxWallYcnprOFd4aDZ1eDMyUnV2QXF5eVNPNFlEbDBlTTVJakNJSS1KY0RfbWJ2bmRQWnloRGdTLWQ0MXF3MjVLazEzdnBKSzBVbFU2VkxDWVNmV2pORVJGVnY4TzhqNFQ2dEF4bkJYWlI3WGRXVW84LU5rWWliQjREMjNiOVFDQkcweGZKaGxaMXNTZw?oc=5",
       "published_date": "2026-10-12"
     },
     {
-      "category": "OpenAI / AI 안전",
-      "title": "OpenAI, AI 안전 연구원 3명 해고, 내부 안전 논쟁 심화",
-      "summary": "OpenAI가 AI 위험에 대한 내부 이견으로 인해 안전 연구원 3명을 해고했습니다. 이는 AI 개발 속도와 안전성 확보 사이의 내부 갈등이 표면화된 사건으로 해석됩니다.",
-      "detail": "이번 해고는 AI 기술의 급격한 발전 속도에 비해 안전성 확보 노력이 부족하다는 내부 비판과 관련이 있는 것으로 보입니다. 해고된 연구원들은 AI 시스템의 잠재적 위험에 대해 우려를 제기해왔으며, 이는 OpenAI의 AI 개발 방향과 안전 철학에 대한 의문을 증폭시킬 수 있습니다.",
-      "why_it_matters": "선두 AI 기업인 OpenAI 내부에서 AI 안전 문제를 두고 핵심 연구원들이 해고된 것은 AI 커뮤니티 전반에 큰 파장을 일으킬 수 있습니다. 이는 AI 기술 개발의 윤리적 책임과 안전성 우선의 원칙을 다시 한번 되짚어보게 하며, 향후 AI 기술의 투명성과 안전성 강화를 위한 노력을 촉구하는 계기가 될 것입니다.",
-      "source_name": "Scripps News",
-      "source_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQczFMU2xmekthNXFOUjkxZTNBYi00QzVoclNxVVBScVRvbFNtcGhNQlZLdm5SdmphUTBKSGJxS3NuVm9sVF9aYVBveXhtbDdPQ3IzYko2LUM3czJnWjEyc08tSGdpOTluQ25SZ0hPNGhtOVNCRnpkWjhCQzhNSTA2WFBWZEdDWTdRUF9RUG95SDJPRDJtLS1mMTllb1Rqdm0wR2pCZDd0eWxRTExJU3J3RTE2TVFwcmRTU21pc00xY3dlSU1MWFE?oc=5",
+      "category": "AI 반도체",
+      "title": "마이크로소프트, 자체 AI 칩 대규모 도입 계획 발표",
+      "summary": "마이크로소프트가 엔비디아(Nvidia) 의존도를 줄이고 비용 절감을 목표로 자체 개발한 AI 칩을 대규모로 배포할 계획이라고 밝혔다.",
+      "detail": "이 계획은 마이크로소프트의 클라우드 서비스 및 AI 인프라에 자사 AI 칩을 적극적으로 활용하여 성능과 효율성을 높이려는 전략의 일환이다. 이는 AI 개발 및 운영 비용을 최적화하고 공급망 안정성을 확보하는 데 기여할 것으로 보인다.",
+      "why_it_matters": "주요 빅테크 기업이 자체 AI 반도체 개발 및 대규모 도입에 나서는 것은 AI 반도체 시장의 경쟁 구도를 변화시키고, 장기적으로 AI 인프라 비용 효율성 및 혁신을 촉진하는 중요한 동향이다.",
+      "source_name": "Reuters",
+      "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPWHVSM1ltUmRIUHVldm04ZU5JX2hLc0lhYjZVaDMzMDlkVkxXNUM3OTFFVU1kdlM1R3BneGN5cXp3Ui1Yc211TFF0VUU3ZlpRWjhBRy0yOGJjdlZxR3FmdmFHdFNMRDM3Rnh3WjJMd0d1MHNINEdvdWpBVEc5TTJNMjk1Xy1JNEY2b1g5RkYzWXYtakQ0SmNnMHdoUlRnbjFMSWVBUm9QaVBXbkFNUVgwSDVLdURleTBwMHc?oc=5",
       "published_date": "2026-10-12"
     },
     {
-      "category": "AI 반도체 / NVIDIA",
-      "title": "NVIDIA, AI 칩 수요 폭증으로 매출 106% 급증, 시장 기대치 상회",
-      "summary": "NVIDIA가 AI 칩 수요의 폭발적인 증가에 힘입어 매출이 106% 급증하며 시장의 기대를 뛰어넘는 실적을 발표했습니다. 이는 AI 산업의 견고한 성장세를 다시 한번 입증하는 결과입니다.",
-      "detail": "AI 칩 시장의 압도적인 선두 주자인 NVIDIA는 데이터센터용 GPU 판매 호조에 힘입어 전례 없는 성장세를 기록했습니다. SpaceX가 400억 달러 규모의 NVIDIA 칩 구매 계획을 발표하는 등 주요 기업들의 AI 인프라 투자 확대로 인해 NVIDIA의 AI 칩 수요는 지속적으로 높은 수준을 유지하고 있습니다. 또한, NVIDIA는 HBM(고대역폭 메모리) 병목 현상 완화를 위해 저전력 Rubin Ultra GPU 설계도 고려 중인 것으로 알려졌습니다.",
-      "why_it_matters": "NVIDIA의 강력한 실적은 AI 산업의 핵심 동력인 AI 반도체 시장이 여전히 뜨겁게 달아오르고 있음을 보여줍니다. 이는 AI 기술 발전의 근간이 되는 하드웨어 인프라 투자가 활발히 이루어지고 있음을 의미하며, AI 생태계 전반의 지속적인 확장을 예고합니다.",
-      "source_name": "ABC News - Breaking News, Latest News and Videos",
-      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVTdlSVdfanZLZVB3elBDNkpjOXRrVEtqODlaaVJEakxvWUhTLU9zNEpkUkUzbUpGWVhDNEQtc2JNSEpwRFlTQUpnNkw4eU5xakpQd09OaXAzQUw2ZEJaVHRlb1N5cU1rcFZ3XzYxMl9RNWx0dGwzMGtvb1dORHNqbUVmdmd1RDZXdEFIcXc4Vmp2MEFmc1hmYXpzONIBoAFBVV95cUxQbExCZEYxVi1YOTlRaVdpZVlpb1NSZVZUWExBazBJSVBhUlZtOUM3YzhpUG1EZGE0WGZ5VkNoNDM4LTBqTG82bXktaGdzb2tmcFY5dVV3VEpseDZhNXc5SGVjOTZIWFNscmRFNDJkd0IzdHJCYkZHSUFHZG1KcVdldGdOYkd4b3NnYVFMRnB0NW9lRkxIdVhRRjFHZ0lsVm92?oc=5",
-      "published_date": "2026-10-11"
+      "category": "AI 윤리 및 안전",
+      "title": "앤트로픽 클로드 AI, 필라델피아 경찰에 허위 살인 사건 제보",
+      "summary": "앤트로픽(Anthropic)의 AI 모델인 클로드(Claude)가 필라델피아 경찰에 미제 살인 사건에 대한 허위 정보를 제보하는 사건이 발생했다.",
+      "detail": "이 사건은 AI가 생성한 정보의 신뢰성과 책임 문제에 대한 심각한 우려를 제기한다. AI 모델이 의도치 않게 잘못된 정보를 생성하여 사회적 혼란이나 공권력 낭비를 초래할 수 있음을 보여준다.",
+      "why_it_matters": "AI 모델의 환각(hallucination) 문제와 함께, AI가 현실 세계의 의사결정에 미치는 영향이 커지면서 정보의 정확성과 안전장치의 중요성을 다시 한번 강조하는 사례이다. 이는 AI 윤리 및 규제 논의에 큰 영향을 미칠 것이다.",
+      "source_name": "Ars Technica",
+      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPSER5ZlJwUTROcmZEaU9pY3l3TVh6ZHpCUFcwTElGR0g2dnBicDItUDdrVTBmZnhKTVdiZGYzUmZrUG1GdEstVi1HNmlQN2Q0RHRtWkNhZFlJb3VuNHVwWUNPQk5QYUsySGdGXzJUQlltTDVhNmF2YU5XUjJuQ0g4QzBSYjdyMnhtSlVFYzM5OGJLbkZuX2Zkd19zVThHMFdMVGtZTk5mV0JsN0VPSFg1OXp3OXczdw?oc=5",
+      "published_date": "2026-10-12"
+    },
+    {
+      "category": "Meta",
+      "title": "메타, 오픈AI 및 앤트로픽에 도전하는 '뮤즈 원더' AI 모델 공개",
+      "summary": "메타(Meta)가 오픈AI와 앤트로픽에 맞설 수 있는 새로운 최전선(frontier-class) AI 모델인 '뮤즈 원더(Muse Wonder)'를 공개하며 AI 모델 경쟁에 본격적으로 뛰어들었다.",
+      "detail": "이 모델은 기존의 AI 모델 성능을 뛰어넘는 것을 목표로 하며, 다양한 애플리케이션에 적용될 예정이다. 메타는 자사의 연구 역량과 방대한 데이터셋을 활용하여 AI 분야에서의 리더십을 강화하려 한다.",
+      "why_it_matters": "메타의 강력한 신규 AI 모델 출시는 선두 AI 기업 간의 경쟁을 더욱 심화시키고, 혁신을 촉진하여 전반적인 AI 기술 발전을 가속화하는 계기가 될 것이다.",
+      "source_name": "Reuters",
+      "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOYWVqemVLdThXMGhqbFNrdkZ1NDUtWjNkdEVfenp5RUp6RXNwNjhlV0JRS3BJcEl0eHl3ZVZBY09HSl80RVV2RHhueXZzTUZQUUlpWnlDVFFTNkZGa1BqQlBxQUl3WlNudDlwNVNFYjVJNFZ1ajRNUUMxODlrWmhTV3Nha3dGQnhSUzNtamNicDR3ekVHRmpRRnZEbDJhV1pHb1Y2TUdac0VtTUE?oc=5",
+      "published_date": "2026-10-12"
+    },
+    {
+      "category": "OpenAI",
+      "title": "오픈AI, ChatGPT의 '환각 현상' 방지 기술 진전 발표",
+      "summary": "오픈AI(OpenAI)가 자사의 대화형 AI 모델인 ChatGPT의 '환각 현상(delusions)' 즉, 부정확하거나 사실과 다른 정보를 생성하는 문제를 방지하기 위한 기술적 진전을 이루었다고 밝혔다.",
+      "detail": "이 개선 사항은 ChatGPT의 정보 신뢰도를 높이고 사용자가 더 정확하고 유용한 답변을 얻을 수 있도록 돕는 데 중점을 둔다. AI 모델의 신뢰성 확보는 광범위한 AI 채택에 필수적인 요소이다.",
+      "why_it_matters": "AI 모델의 환각은 가장 큰 한계 중 하나로 꼽히며, 이 문제를 해결하려는 노력은 AI의 실용성과 안전성을 크게 향상시킬 수 있다. 이는 AI 기술의 상업적 활용과 사회적 수용도를 높이는 데 결정적인 역할을 할 것이다.",
+      "source_name": "WSJ",
+      "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1xQ0lVRVpfMENMYlZ2Ulg5LW0tTnNFQmxPZXVqdlQ5UEpGbVlKd2lvRS1GaXJqLTZGMkhteW1HRWl1XzBSdEZqS2tsYUFNa0c1ajlHYklwcHNtZ0ZVV0ZzYW85aHVCdVdtdmJfblJyRnJmUTZscXk3MVFR?oc=5",
+      "published_date": "2026-10-13"
     }
   ]
 }
