@@ -3,8 +3,10 @@
   "updated_at": "11:59 KST",
   "generation_mode": "RSS + Gemini summary (gemini-2.5-flash)",
   "update_status": {
-    "ok": true,
-    "message": "오늘 브리핑이 정상 업데이트되었습니다."
+    "ok": false,
+    "message": "오늘 AI 요약 업데이트에 실패해 마지막 정상 한국어 브리핑을 표시하고 있습니다.",
+    "failed_at": "2026-10-14 10:09 KST",
+    "error": "모든 Gemini 모델 호출에 실패했습니다. | gemini-2.5-flash: ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}} | gemini-3.6-flash: ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
   },
   "daily_summary": "오늘 AI 업계는 주요 빅테크 기업들의 신규 AI 모델 경쟁 심화와 자체 AI 칩 개발을 통한 하드웨어 독립 움직임이 두드러졌다. 또한, AI 모델의 실제 사용 중 발생한 안전 및 윤리적 문제와 신뢰성 개선 노력이 중요한 이슈로 부각되었다.",
   "ai_terms": [
@@ -31,15 +33,11 @@
     }
   ],
   "exchange_rate": {
-    "usd_krw": 1333.09,
-    "date": "2026-10-12",
+    "usd_krw": 1341.45,
+    "date": "2026-10-13",
     "source": "Frankfurter"
   },
   "exchange_rate_history": [
-    {
-      "date": "2026-10-02",
-      "rate": 1348.28
-    },
     {
       "date": "2026-10-05",
       "rate": 1343.98
@@ -63,6 +61,10 @@
     {
       "date": "2026-10-12",
       "rate": 1333.09
+    },
+    {
+      "date": "2026-10-13",
+      "rate": 1341.45
     }
   ],
   "issues": [
