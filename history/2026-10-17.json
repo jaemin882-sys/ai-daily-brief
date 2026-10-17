@@ -1,0 +1,120 @@
+{
+  "date": "2026-10-17",
+  "updated_at": "09:19 KST",
+  "generation_mode": "RSS + Gemini summary (gemini-2.5-flash)",
+  "update_status": {
+    "ok": true,
+    "message": "오늘 브리핑이 정상 업데이트되었습니다."
+  },
+  "daily_summary": "오늘 AI 업계는 주요 기업들의 기술 발전과 함께 규제 및 법적 이슈가 부각되었습니다. 구글의 새로운 모델 출시와 엔비디아의 온디바이스 AI PC 발표는 기술 진보를 보여주며, 동시에 중국의 AI 수출 규제 및 OpenAI를 둘러싼 법적 분쟁은 AI의 사회적, 지정학적 파급력을 드러냈습니다.",
+  "ai_terms": [
+    {
+      "term": "Precision",
+      "full_name": "Precision",
+      "korean": "정밀도",
+      "explanation": "AI 모델의 분류 성능을 평가하는 지표 중 하나로, 모델이 '긍정'이라고 예측한 것들 중에서 실제로 '긍정'인 것의 비율을 의미합니다. 예를 들어, 스팸 메일 분류 모델이 100개의 메일을 스팸으로 예측했는데, 그 중 90개만 실제로 스팸이었다면 정밀도는 90%입니다.",
+      "example": "스팸 메일 앱이 어떤 메일을 '스팸'으로 분류했을 때, 그 메일이 정말 스팸일 확률이 바로 정밀도입니다."
+    },
+    {
+      "term": "Recall",
+      "full_name": "Recall",
+      "korean": "재현율",
+      "explanation": "AI 모델의 분류 성능을 평가하는 지표 중 하나로, 실제 '긍정'인 것들 중에서 모델이 '긍정'이라고 정확하게 예측한 것의 비율을 의미합니다. 예를 들어, 실제 스팸 메일 100개 중에서 모델이 80개를 스팸으로 정확히 찾아냈다면 재현율은 80%입니다.",
+      "example": "스팸 메일 앱이 실제 스팸 메일들을 얼마나 놓치지 않고 잘 찾아냈는지 나타내는 것이 재현율입니다."
+    },
+    {
+      "term": "SVM",
+      "full_name": "Support Vector Machine",
+      "korean": "서포트 벡터 머신",
+      "explanation": "데이터를 두 개의 그룹으로 나누는 데 사용되는 강력한 머신러닝 알고리즘입니다. 각 그룹의 데이터 포인트에서 가장 멀리 떨어져 있으면서 그룹을 가장 잘 구분하는 최적의 경계(결정 경계)를 찾아냅니다.",
+      "example": "고객 데이터를 기반으로 어떤 고객이 특정 상품을 구매할지 안 할지 두 그룹으로 분류할 때 SVM을 사용할 수 있습니다."
+    }
+  ],
+  "exchange_rate": {
+    "usd_krw": 1332.1,
+    "date": "2026-10-16",
+    "source": "Frankfurter"
+  },
+  "exchange_rate_history": [
+    {
+      "date": "2026-10-08",
+      "rate": 1343.46
+    },
+    {
+      "date": "2026-10-09",
+      "rate": 1341.49
+    },
+    {
+      "date": "2026-10-12",
+      "rate": 1333.09
+    },
+    {
+      "date": "2026-10-13",
+      "rate": 1341.45
+    },
+    {
+      "date": "2026-10-14",
+      "rate": 1336.79
+    },
+    {
+      "date": "2026-10-15",
+      "rate": 1345.9
+    },
+    {
+      "date": "2026-10-16",
+      "rate": 1332.1
+    }
+  ],
+  "issues": [
+    {
+      "category": "OpenAI / 정책 및 규제",
+      "title": "미국 여러 주 정부, OpenAI의 챗봇이 아동에게 유해하고 성인을 기만한다며 고소",
+      "summary": "미국 복수의 주 정부가 OpenAI의 인기 챗봇이 아동에게 유해하며 성인 사용자를 기만한다는 이유로 OpenAI를 고소했다.",
+      "detail": "AP 통신에 따르면, 복수의 주 검찰총장들이 OpenAI를 상대로 소송을 제기했으며, 이는 챗봇의 안전성 및 소비자 보호 문제를 제기하는 광범위한 법적 움직임의 일환이다. 특히 챗봇이 아동에게 미치는 부정적인 영향과 성인 사용자에게 제공되는 정보의 기만 가능성이 주요 쟁점이다.",
+      "why_it_matters": "선도적인 AI 기업인 OpenAI가 국가 단위의 법적 도전에 직면했다는 점에서 AI 기술의 책임과 규제 필요성에 대한 사회적 압력이 커지고 있음을 보여준다. 이는 향후 AI 서비스 개발 및 운영에 있어 안전 및 윤리 기준 강화에 큰 영향을 미칠 수 있다.",
+      "source_name": "AP News",
+      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPOFdMbjctMUxlYlQ0VnBoa3Jpc09HdE9CWlM5b1NjbzhLZ2YwWWUtbTVucWVuMDZwRWozUmNUajh4bm45MjlZY0xiVHdxczJHQW5UZG9NdXEzLUVQaFZlUTB6cW53bVg5MUdpWExJRU5aYzRwVjNTMkY3U0NycUpsaEhRaHZ0cEw3N0xoTFpCZWZTemdsYkFJcGVCVVNhMjVLdmhJZUMyWWd3YTQxemh3MmZ6UHZiZw?oc=5",
+      "published_date": "2026-10-16"
+    },
+    {
+      "category": "Google / 새 모델",
+      "title": "구글, 새로운 최첨단 AI 모델 '제미니 4 아르곤' 공개",
+      "summary": "구글이 수개월 만에 가장 진보된 AI 모델인 '제미니 4 아르곤(Gemini 4 Argon)'을 선보이며 AI 기술 선두 경쟁에 박차를 가하고 있다.",
+      "detail": "더 디코더(The Decoder)에 따르면, '제미니 4 아르곤'은 구글의 이전 모델들에 비해 AI 프론티어에 더욱 근접한 성능을 보인다고 평가된다. 이 모델은 구글의 방대한 TPU 인프라에도 불구하고 엄격한 사용 제한을 두는 것으로 알려져 있어, 모델의 컴퓨팅 집약도를 시사한다.",
+      "why_it_matters": "주요 AI 기업 간의 경쟁이 심화되는 가운데, 구글의 새로운 플래그십 모델 출시는 AI 기술 발전 속도와 방향성을 보여주는 중요한 지표이다. 특히 성능 향상과 동시에 제한된 사용 정책은 최신 AI 모델의 컴퓨팅 자원 요구사항과 비용 문제에 대한 논의를 촉발할 수 있다.",
+      "source_name": "The Decoder",
+      "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSzdXRWFBYmFCTmVtLUNoX0NQOWl2ajE2ektFS29LdHQyY09TMVlDSXg2REgzdjlZcWRLS2dlVGlMRmg4SUNBM05sYlBjam1NZ0czREpwVXBxdFF1UGpEcFFQVDFKQTI1ZU9mV3BubkZtWmpCemQ4bENJUXlvVUdRb3Q3NnNtWVBDUkdEVmpxTjQ3TWN4YnVTVHNEM2QtX0N0Sk96YkxaUGFsNEl5?oc=5",
+      "published_date": "2026-10-16"
+    },
+    {
+      "category": "정책 및 규제 / 지정학",
+      "title": "중국, 국가 안보 위협 명목으로 AI 포함 첨단 기술 수출 제한 발표",
+      "summary": "중국 정부가 국가 안보를 이유로 AI 기술을 포함한 첨단 기술 수출을 제한하겠다고 발표했다.",
+      "detail": "PBS 보도에 따르면, 중국은 자국의 핵심 기술이 해외로 유출되거나 오용되는 것을 막기 위해 새로운 수출 규제 조치를 시행할 계획이다. 이러한 조치는 특히 AI 관련 하드웨어 및 소프트웨어 기술에 적용될 것으로 예상된다.",
+      "why_it_matters": "이는 글로벌 AI 기술 공급망과 개발 협력에 상당한 영향을 미칠 수 있는 중요한 지정학적 움직임이다. 중국의 AI 기술 자립화 및 서방 국가들과의 기술 경쟁 심화를 예고하며, AI 기술의 상업적, 군사적 활용에 대한 국제적 긴장을 고조시킬 수 있다.",
+      "source_name": "PBS",
+      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQV1VUdmQwc0xPcG5KT3AxZFJ2dVJTVXNFc3RYc2lUTlA2R2xGeGJ3TjVqRGlpYUt2WUhNNEZDSDZkX1dJYm1INV9TaTI3eVlMM0RIaHh4V1g4U2FLdGJWOGJNRjFia1Q1amNoWUwzamlLWGFDVVhPNlZzbjRoU29YN3V1X2wyM2E5clBsTnp2MGJkSDNjOTFSVWVBd3MtZUZ1Sk1Yb1JGOGhZUlVoQmR3azVzZzU2Z9IBuwFBVV95cUxOSGI4Vm0wMmNIV3ZNY1NqNkRsaG1kTkd1bm1aZ3ZwZkFERU9YQ29Id3Bnc3FOU2NFNHVPbWwxclR4ZlFYY0hYLVNuMW1KbVRnNGdNTXpQODVReFdOaXZMV3E5cGx3ME9Ha25CZ3V3OXF1Zl9KSFhjWldWcHBwbjJDdGFudGJXVTdwY3dEa0JpYU96VEJqdG5hdW5pVmVvaEcxcFZXUTZoSVlpTWFtMTFlOE1YbUtVYVlBZTdV?oc=5",
+      "published_date": "2026-10-16"
+    },
+    {
+      "category": "NVIDIA / 온디바이스 AI / AI 반도체",
+      "title": "엔비디아, 미디어텍과 협력해 온디바이스 AI를 위한 'RTX 스파크 PC' 출시",
+      "summary": "엔비디아가 미디어텍과 협력하여 새로운 온디바이스 AI 칩을 탑재한 'RTX 스파크 PC'를 출시하며 윈도우 PC의 AI 기능을 강화한다.",
+      "detail": "엔비디아 뉴스룸에 따르면, 오늘부터 RTX 스파크 PC를 구매할 수 있으며, 이는 엔비디아가 미디어텍과 함께 개발한 새로운 AI 칩을 기반으로 한다. 이 제품은 에이전트 AI를 비롯한 온디바이스 AI 애플리케이션을 위한 강력한 성능을 제공할 것으로 기대된다.",
+      "why_it_matters": "PC 시장에서 온디바이스 AI 및 NPU 통합의 중요성이 커지는 가운데, 엔비디아와 미디어텍의 협력은 새로운 AI PC 시대를 열고 있다. 이는 사용자들이 인터넷 연결 없이도 더 빠르고 효율적인 AI 경험을 할 수 있게 하며, 개인 컴퓨팅의 미래를 바꿀 잠재력을 가진다.",
+      "source_name": "NVIDIA Newsroom",
+      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTFF1Y3NscnpKMlBtdk52SF9LOFE5Y2F3VjBMRGZFNVhOX2NTQkJEUGFENTdvZVQ0ajI0R012ZmNxeTBYaVZzaEJhc0J2YVM2Vy0xZVpqOTNKeno5TDZqMEJSWFU2b1BNb3FrOVZHU29ERXoxYzBKVW9lR1JyVzlIUmRYSXVLX28yNmtja3hDdWQ5QXI4SHBWLTlmNkQ5TTFwRVh6VXZB?oc=5",
+      "published_date": "2026-10-16"
+    },
+    {
+      "category": "Anthropic / 주요 연구",
+      "title": "앤스로픽의 클로드 AI, 양자 메모리 병목 현상 해결을 위한 효율적인 양자 회로 설계 성공",
+      "summary": "앤스로픽의 AI 모델 클로드(Claude)가 기존 대비 17배 더 간결한 양자 회로를 설계하여 양자 메모리 병목 현상을 해결하는 데 기여했다.",
+      "detail": "Interesting Engineering에 따르면, 클로드는 기존에 발표된 최적의 양자 회로 설계보다 훨씬 효율적인 방법을 찾아냈다. 이는 양자 컴퓨터의 핵심 문제 중 하나인 양자 메모리(quantum memory)의 효율성을 획기적으로 개선할 수 있는 가능성을 보여준다.",
+      "why_it_matters": "양자 컴퓨팅은 차세대 컴퓨팅 기술로 주목받고 있으나, 양자 메모리 등 효율성 문제가 큰 도전 과제로 남아 있다. AI가 이러한 복잡한 과학 문제 해결에 기여할 수 있음을 보여줌으로써, AI의 연구 개발 역량이 기초 과학 분야로 확장되고 있음을 입증하는 중요한 사례이다.",
+      "source_name": "Interesting Engineering",
+      "source_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNOVhKaVRPckVaSUJydDEwYU1hWTFDTEMzT2dDbVdjaWlkRmo1aVRyeGxvZktwYU1KQU1nTVcwTHNoWDVfR1h4ZnBkelBJZ3ZrNGRLRFl0SHI4RWZPX2x1QXZpeXV0NTYybjFPS2VGUEhMTmlYaW5jUjVlQmxHbGc4cW9n?oc=5",
+      "published_date": "2026-10-16"
+    }
+  ]
+}
