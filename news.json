@@ -1,45 +1,41 @@
 {
-  "date": "2026-10-19",
-  "updated_at": "09:08 KST",
+  "date": "2026-10-20",
+  "updated_at": "10:03 KST",
   "generation_mode": "RSS + Gemini summary (gemini-2.5-flash)",
   "update_status": {
     "ok": true,
     "message": "오늘 브리핑이 정상 업데이트되었습니다."
   },
-  "daily_summary": "구글과 메타가 각각 최신 프런티어 AI 모델을 공개하며 기술 경쟁을 가속화하는 가운데, 앤스로픽의 클로드는 25년 난제를 해결하는 뛰어난 성능을 입증했다. 한편, 중국의 AI 기술 수출 통제 확대 제안과 엔비디아의 에이전트 AI 최적화 칩 설계 전략 변화는 AI 산업의 지정학적 지형과 하드웨어 발전 방향에 중대한 영향을 미칠 전망이다.",
+  "daily_summary": "Google은 차세대 AI 모델인 제미니 4 아르곤을 공개하며 마인크래프트 완전 자율 플레이 및 핵융합 가설 해결 등 인상적인 에이전트 및 과학적 문제 해결 능력을 선보였다. 한편, OpenAI는 전직 엔지니어의 스파이 혐의로 보안 논란에 휩싸였으며, Anthropic은 저작권 침해 소송에 직면하는 등 AI 업계는 기술 발전과 함께 법적, 보안 문제에도 주목하고 있다.",
   "ai_terms": [
     {
-      "term": "Frontier Model",
-      "full_name": "Frontier Model",
-      "korean": "프런티어 모델",
-      "explanation": "현재까지 개발된 AI 모델 중 가장 크고 강력하며, 최첨단 성능을 자랑하는 모델을 말합니다. 새로운 기능과 능력을 개척하며 AI 기술의 한계를 넓히는 역할을 합니다.",
-      "example": "구글의 제미니 4 아르곤이나 메타의 뮤즈 원더와 같이 최근 발표되는 최신 대규모 모델들이 프런티어 모델의 대표적인 예시입니다."
+      "term": "Dropout",
+      "full_name": "Dropout",
+      "korean": "드롭아웃",
+      "explanation": "인공신경망 학습 시 과적합을 방지하기 위한 기법 중 하나입니다. 각 학습 단계에서 무작위로 일부 뉴런을 일시적으로 비활성화하여 모델이 특정 뉴런에 과하게 의존하는 것을 막고 일반화 성능을 향상시킵니다.",
+      "example": "마치 시험 전날 일부 친구들이 갑자기 결석해서 모든 문제를 혼자 풀어봐야 더 실력이 느는 것처럼, AI 모델도 일부 뉴런을 쉬게 하면 더 강해집니다."
     },
     {
-      "term": "Chiplet",
-      "full_name": "Chiplet",
-      "korean": "칩렛",
-      "explanation": "하나의 큰 반도체 칩 대신 여러 개의 작은 기능별 반도체 조각(칩렛)을 만들어 패키징 기술로 연결하여 하나의 프로세서처럼 작동하게 하는 설계 방식입니다. 이를 통해 칩 생산 비용을 절감하고 유연성을 높일 수 있습니다.",
-      "example": "엔비디아가 에이전트 AI 성능 향상을 위해 칩렛 설계 전략을 조정하는 것을 고려하는 것은, 이 기술이 AI 반도체 개발에 핵심적인 요소가 되고 있음을 보여줍니다."
+      "term": "Pooling Layer",
+      "full_name": "Pooling Layer",
+      "korean": "풀링 계층",
+      "explanation": "합성곱 신경망(CNN)에서 주로 사용되는 계층으로, 입력 데이터의 차원을 줄이고 중요한 특징을 강조하며 위치 변화에 대한 민감도를 낮춥니다. 보통 최대 풀링(Max Pooling)이나 평균 풀링(Average Pooling) 방식이 사용됩니다.",
+      "example": "고해상도 사진을 웹사이트에 올릴 때, 파일 크기를 줄이면서도 주요 이미지를 유지하기 위해 사진을 압축하는 것과 유사합니다."
     },
     {
-      "term": "Federated Learning",
-      "full_name": "Federated Learning",
-      "korean": "연합 학습",
-      "explanation": "여러 분산된 기기나 서버에 있는 데이터들을 중앙 서버로 모으지 않고, 각 기기에서 AI 모델을 학습시킨 후 그 학습 결과(모델 가중치)만을 중앙 서버로 전송하여 통합하는 방식입니다. 이를 통해 데이터 프라이버시를 보호하면서도 모델을 공동으로 개선할 수 있습니다.",
-      "example": "스마트폰 앱이 사용자 데이터를 개인 기기 밖으로 내보내지 않고도 앱 사용 패턴을 학습하여 전체 서비스의 AI 정확도를 높일 때 연합 학습 기술이 활용될 수 있습니다."
+      "term": "LSTM",
+      "full_name": "Long Short-Term Memory",
+      "korean": "장단기 기억망",
+      "explanation": "순환 신경망(RNN)의 한 종류로, 긴 시퀀스의 데이터를 처리할 때 발생하는 기울기 소실 문제를 해결하기 위해 고안되었습니다. 셀 상태(cell state)라는 메커니즘을 통해 정보를 장기간 기억하고 필요한 정보를 선택적으로 업데이트하거나 제거할 수 있습니다.",
+      "example": "긴 스토리가 있는 소설을 읽으면서 초반의 중요한 인물이나 사건을 잊지 않고 계속 기억하며 전체 내용을 이해하는 것과 같습니다."
     }
   ],
   "exchange_rate": {
-    "usd_krw": 1332.1,
-    "date": "2026-10-16",
+    "usd_krw": 1329.49,
+    "date": "2026-10-19",
     "source": "Frankfurter"
   },
   "exchange_rate_history": [
-    {
-      "date": "2026-10-08",
-      "rate": 1343.46
-    },
     {
       "date": "2026-10-09",
       "rate": 1341.49
@@ -63,58 +59,62 @@
     {
       "date": "2026-10-16",
       "rate": 1332.1
+    },
+    {
+      "date": "2026-10-19",
+      "rate": 1329.49
     }
   ],
   "issues": [
     {
       "category": "Google",
-      "title": "구글, 최신 프런티어 모델 '제미니 4 아르곤' 공개",
-      "summary": "구글이 새로운 최첨단 AI 모델인 제미니 4 아르곤(Gemini 4 Argon)을 발표하며, 벤치마크 결과와 함께 접근 방식 및 가격 정책을 공개했다.",
-      "detail": "제미니 4 아르곤은 구글의 차세대 AI 모델로, 이전 모델을 뛰어넘는 성능을 보여주며 벤치마크 결과가 공개되었다. 이 모델은 에이전트 기능으로 마인크래프트 게임을 인간의 도움 없이 완수하고, 구글 검색의 AI 모드를 통해 접근성을 높이는 등 다양한 활용 가능성을 제시하고 있다.",
-      "why_it_matters": "대규모 AI 모델 경쟁이 심화되는 가운데, 구글이 새로운 프런티어 모델을 출시하며 기술 리더십을 강화하고 있다. 이는 AI 기술 발전의 속도와 방향을 제시하며, 향후 AI 서비스의 성능 향상과 새로운 활용 사례 창출에 큰 영향을 미칠 것이다.",
+      "title": "Google, 차세대 프론티어 모델 '제미니 4 아르곤' 공개 및 주요 성과 발표",
+      "summary": "Google이 최신 프론티어 AI 모델인 제미니 4 아르곤을 출시했으며, 특히 마인크래프트 완전 자율 플레이 및 59년 묵은 핵융합 가설 해결 등 놀라운 에이전트 및 과학적 문제 해결 능력을 시연했다.",
+      "detail": "제미니 4 아르곤은 Google의 차세대 플래그십 모델로, 벤치마크 점수와 함께 구체적인 사용 방법 및 가격 정보가 공개되었다. 이 모델은 AI 에이전트의 발전을 보여주며, 인간의 개입 없이 마인크래프트의 엔더 드래곤을 격파하고 수십 년간 미해결이었던 핵융합 이론의 난제를 수 시간 만에 해결하는 등 뛰어난 문제 해결 능력을 입증했다.",
+      "why_it_matters": "이는 범용 AI 에이전트의 실현 가능성을 한층 높이고, AI가 복잡한 환경에서 자율적으로 학습하고 문제를 해결하는 능력이 크게 향상되었음을 보여준다. 과학 연구 및 게임 등 다양한 분야에 혁신적인 영향을 미칠 잠재력을 가지고 있다.",
       "source_name": "Mashable",
       "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE02ZGlQM0xOMUw2NkM5ZVBUb0UzeXVFZV9BcEp4cGY4RzdyVjNDRXVPM3pQdUp2UnladkZmeDRYZGVsdDF1VG9qekhNaU5xeXVYVkRQSjVZdnhvTjZmWUtYVi1tUzhwZTQ?oc=5",
-      "published_date": "2026-10-18"
+      "published_date": "2026-10-19"
     },
     {
-      "category": "Meta",
-      "title": "메타, 새로운 AI 모델 '뮤즈 원더' 공개하며 경쟁 심화",
-      "summary": "메타가 새로운 AI 모델 '뮤즈 원더(Muse Wonder)'를 출시하며, 오픈AI와 앤스로픽 등 선두 기업들과의 경쟁에 본격적으로 뛰어들었다.",
-      "detail": "메타의 뮤즈 원더는 최신 벤치마크 결과와 함께 공개되었으며, 이를 통해 사용자들은 새로운 AI 모델을 경험할 수 있다. 메타는 이 모델을 통해 자체 AI 역량을 강화하고, 치열한 AI 개발 경쟁에서 입지를 다지려는 것으로 보인다.",
-      "why_it_matters": "주요 기술 기업들이 더욱 강력한 AI 모델을 연이어 출시하면서 AI 개발 경쟁이 가속화되고 있음을 보여준다. 이는 AI 기술의 빠른 발전과 혁신을 촉진하며, 궁극적으로 더 다양한 고성능 AI 서비스가 시장에 나올 기반을 마련할 것이다.",
-      "source_name": "Mashable",
-      "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9jQWhkclNlSmV2TEZzY19JYW8wQ3pkZVhFNzFLaElxdHh2bFprTGwyYWxIVmtMd2tEMEw3bjVaMFJfQU9xU0lVQ2Q1S2owb185YXFpdElfZzVxTnJ6b1FMSWdZaFJSTFFWb1dTRzBqbjJjcngyb0E?oc=5",
-      "published_date": "2026-10-18"
+      "category": "OpenAI",
+      "title": "OpenAI 전직 엔지니어, 사무실 도청 혐의 및 사우디아라비아 연루 의혹으로 구금",
+      "summary": "OpenAI의 전직 엔지니어가 사무실 도청 혐의로 구금되었으며, 검찰은 그가 사우디 왕실과 접촉하고 '사우디 정부 문서'를 소지하는 등 사우디아라비아와 연루되었을 가능성을 제기했다.",
+      "detail": "압둘라만 알파잔이라는 이름의 전직 OpenAI 엔지니어는 OpenAI 사무실에 버그를 심은 혐의를 받고 있다. 검찰은 그가 사우디 왕실과 직업에 대해 논의했으며, 사우디아라비아로 출국하려 했고, '사우디 정부 문서'라는 폴더를 가지고 있었다고 주장했다. 그는 현재 구금된 상태이다.",
+      "why_it_matters": "이는 선도적인 AI 기업의 내부 보안 및 기밀 유출 위험성을 부각하며, AI 기술 경쟁의 이면에서 발생할 수 있는 산업 스파이 및 국가 안보 관련 문제에 대한 경각심을 높인다.",
+      "source_name": "The New York Times",
+      "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPR292Q1N2clU2Rzlac3ZpRVNWN0lndWhGUXlicS1TMHVDRUNCNVRBdGtuTXE3STdtZlVGZXdoVnMycHNCaHc1TnJjVGVLV1E5RTE1OGxNNG5mVXZjVHNNZUxmek5iRmphSGU1V2RRQ1BySGt5cVpJMVp1MV9LLWY2X0w0TkxaMXB5TmtPX0Jkcw?oc=5",
+      "published_date": "2026-10-19"
     },
     {
       "category": "Anthropic",
-      "title": "앤스로픽 클로드 AI, 25년 된 NSA 암호 키 출처 규명",
-      "summary": "앤스로픽의 클로드(Claude) AI가 25년 동안 미스터리로 남아있던 미국 국가안보국(NSA)이 제공한 암호화 키의 기원을 불과 30분 만에 밝혀내는 놀라운 성능을 시연했다.",
-      "detail": "클로드는 복잡하고 오래된 암호화 문제를 분석하여 그 기원을 성공적으로 추적함으로써, 고난도 문제 해결 능력과 심층적인 분석 역량을 입증했다. 이는 AI가 인간의 오랜 연구 과제를 단시간에 해결할 수 있음을 보여주는 사례이다.",
-      "why_it_matters": "특정 분야의 오랜 난제를 AI가 빠르고 정확하게 해결할 수 있음을 보여주는 중요한 사례다. 이는 AI가 연구, 보안, 과학 등 다양한 분야에서 혁신적인 도구로 활용될 잠재력을 강조하며, AI의 실질적인 문제 해결 능력에 대한 기대를 높인다.",
-      "source_name": "GBHackers News",
-      "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNMVhES0NHQUV1VlZRT2RJdmsxbDFxa2ozN1ZEdWk5MHRDWm14Q0tfMnNhX0J2d2tfTDVIWi03Q1dxTzF2MGNySTJkX09jWjlLYXZUX2NzbU5NNVZZNVNIYUZoeG9BZXYxdFZGRXFUbjdseFNWR1g5UHRkUHVTX2FPUdIBhgFBVV95cUxOdllyd0Z5Z3pWeVVHTXVTZU1QS29JLUdlVjR4bll4cWNsUkU1WFdIUjFfeXk2RFByVGx0ZXBLSnh3dzhxZ1JhUElwVDFuNVk2bEY5VmwxTVJ0cDVYNVVhVFhiWWotNlVuTkNzcVpyQWFXNWdZcGhfOFEtWmQxTFRHMkFmSlVQdw?oc=5",
-      "published_date": "2026-10-18"
+      "title": "Anthropic, 캐나다 주요 언론사들로부터 저작권 침해 혐의로 피소",
+      "summary": "주요 AI 개발사 Anthropic이 캐나다 언론사들로부터 자사 AI 모델 학습에 저작권이 있는 기사를 무단 사용했다는 혐의로 저작권 침해 소송을 당했다.",
+      "detail": "CBC 보도에 따르면, Anthropic은 온타리오 법원에서 캐나다의 여러 주요 뉴스 출판사들로부터 저작권 침해 소송을 제기당했다. 언론사들은 Anthropic의 Claude 모델이 자신들의 저작물을 무단으로 사용하여 학습되었으며, 이는 저작권 법을 위반하는 행위라고 주장하고 있다.",
+      "why_it_matters": "이 소송은 AI 모델 학습 데이터의 저작권 문제에 대한 중요한 법적 선례를 만들 수 있으며, 이는 AI 산업 전반의 데이터 수집 및 모델 개발 방식에 중대한 영향을 미칠 수 있다.",
+      "source_name": "CBC",
+      "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNRlBzRzJOclVTWWVNQVd5VFVYRkVOQVB3MUxfNFZTTEZ4ZkU1QkxjMUtQS19YRlhLLWx4c1hjTHBVSW9jQ3FvbWJldkRtODR2SG9sMjhWVENudlB0YWZBcmg5MHZzcUc2M0syc2t1Y1ZITE9qRWNVZzRkUW9rZWx6VHpHWTkyNlRMUzAwX3RTWHRYVHc0RWI5NG1DMy1UanhQVG5tc2M3bzRkcnRiMHc?oc=5",
+      "published_date": "2026-10-19"
     },
     {
-      "category": "Policy/Regulation",
-      "title": "중국, AI 등 첨단 기술에 대한 수출 통제 확대 제안",
-      "summary": "중국이 인공지능(AI), 바이오 제약, 태양 에너지 기술 등 주요 첨단 기술 분야에 대한 수출 통제를 확대할 것을 제안했다.",
-      "detail": "이번 제안은 특정 첨단 기술의 해외 유출을 막고 자국 기술 경쟁력을 보호하려는 중국 정부의 의지를 반영한다. 이는 국제 기술 공급망과 지정학적 경쟁에 상당한 영향을 미칠 수 있는 조치로 평가된다.",
-      "why_it_matters": "주요 강대국 간의 기술 패권 경쟁이 심화되는 가운데, 중국의 AI 관련 기술 수출 통제 확대는 글로벌 AI 산업의 공급망 및 기술 협력에 중대한 변화를 가져올 수 있다. 이는 AI 기술의 발전 속도와 방향, 그리고 기업들의 전략 수립에 영향을 미칠 것이다.",
-      "source_name": "Global Sanctions and Export Controls Blog",
-      "source_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQUzR6T2xvUUt2Njl6TUZXaWFPYWxRU3QwRTZKM0d6N2tQUFlLcE1yUWZZLWlXc0w0Y0pMUzRaNlp2LWRZSUUtTWFBY0YzYllNT0dQNGx0eFo5YXUyQkpaZE44aUUtTUhpd29vZ1NmdGc2bFZUd1pSMW9OekJ2ZUljekNvRTFaZ0dNdTNFcVNmNDJic0M1T1RreXNWRUZ6ckxTVUE4NVBPdmRjcjJYTHlObTlFZjhDWHZuVkl4YXcwTk83TE8y?oc=5",
-      "published_date": "2026-10-18"
+      "category": "AI Hardware",
+      "title": "아마존, 새로운 개발 도구 'TorchNeuron'으로 엔비디아 AI 칩 시장에 도전",
+      "summary": "아마존이 인기 코딩 언어와 호환되는 새로운 AI 칩 개발 도구인 'TorchNeuron'을 출시하며 엔비디아가 장악하고 있는 AI 칩 소프트웨어 생태계에 대한 도전을 본격화했다.",
+      "detail": "아마존은 자사 AI 칩인 Trainium 및 Inferentia에서 PyTorch와 같은 인기 머신러닝 프레임워크를 더 쉽게 사용할 수 있도록 하는 TorchNeuron을 발표했다. 이는 엔비디아의 CUDA와 같은 독점적인 소프트웨어 스택에 맞서 개발자들이 아마존의 AI 하드웨어를 더 편리하게 활용할 수 있도록 지원함으로써 엔비디아의 시장 지배력에 균열을 내기 위한 전략으로 풀이된다.",
+      "why_it_matters": "AI 워크로드에 필수적인 고성능 AI 칩 시장에서 경쟁을 심화시키고, 개발자들에게 더 많은 하드웨어 및 소프트웨어 선택지를 제공하여 AI 생태계의 다양성과 혁신을 촉진할 수 있다.",
+      "source_name": "Reuters",
+      "source_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOUGVNVWtyU1BHU0pGZFJTZk9RV3NHOXBoSHVqaHVEeXN1TEJveTNIVzQ4eGkxZ2RWbER1clItSk16ODNaVnBFbWhKamR1RURGdG90X3F0ZEF2bko3SW5mUGxjZzBKVm50UFI5eUp2ampsV08ySWlMUEZyQmRUd1M1NF91UGJoZWxiVmR5NGRCMmNNM0V2R3pLMVhBT05EbmRjY0dxMXlSNklIVE9xeG5DQWNPcjVXY1ZBRTBrVU9RMTNPaVJOUHpjS2RrZ3huLXlZa2c?oc=5",
+      "published_date": "2026-10-19"
     },
     {
-      "category": "NVIDIA / AI Hardware",
-      "title": "엔비디아, 에이전트 AI 최적화를 위한 칩 설계 전략 변화 시사",
-      "summary": "엔비디아의 베라(Vera) 팀이 에이전트 AI의 부상에 대응하여, 코어 수 중심의 칩렛(Chiplet) 설계에서 단일 스레드 성능을 강화하는 방향으로 칩 설계 전략을 전환할 가능성을 시사했다.",
-      "detail": "이전에는 멀티코어와 칩렛 아키텍처를 통해 병렬 처리 성능을 극대화하는 데 주력했으나, 에이전트 AI가 요구하는 순차적 추론 및 복잡한 의사결정에는 단일 스레드 성능이 중요해졌다. 이에 엔비디아가 새로운 AI 워크로드에 맞춰 아키텍처 전환을 고려하고 있다는 내용이다.",
-      "why_it_matters": "AI 하드웨어 시장의 선두 주자인 엔비디아가 AI의 발전 방향(특히 에이전트 AI)에 맞춰 칩 설계 철학을 근본적으로 변경하려는 움직임은 전체 AI 반도체 산업에 큰 파장을 일으킬 수 있다. 이는 향후 AI 모델의 성능 향상 및 효율적인 실행에 필수적인 하드웨어 인프라의 발전 방향을 제시할 것이다.",
-      "source_name": "Wccftech",
-      "source_url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNVlA2RVA3clNBZnp3N1plRXhaQXREdWhxbE9YSDNPa0tHMHBBelFNN2pfOFNSVkJ0MEoyMTAzUmhwNWk1TTBUalZMeHJmQUpLSGEzNlZ1VmhYMC1qeVIwNWRGOXhOalhwckdobjVtM3Zpd2lwamZKRjlvcmMtMGsxYmZyN2cwbG9sczdqMnotcHJJT2NWaUpGMXNPdDNMYVN2RDlvNXh1N184Mi1qWTNxQzQ4cWladVdtd2pZMVlSdk9KbUx1MWhza3VXU2E2dndQSFJYaHk1UjloYzk4RGl1ZjQ4TW04RXpuVzNRNkR5QUFQTVdyYlY1MdIB_gFBVV95cUxQWVJjTmZvUmZ4Z1FkY3ZGZGRmUDEzdDJqVDY1bzF4bUE5UUxlbVhBTjI4MGNnYlhVQVJueW1MZHhyNjNPNkVwTjBFa3RJLU0zMjBFUG1wczRXSFlWNng5NjNnT2dWVWw4bjBZanU4a0dkYXpIaFZSc2k1RFNXaHZpZ29LdXhabDVqWEFCOEQyemFUU0dUc1d0WFRiLXhqMmRQbzFlVW1yLVI0cVFJVE1rOXJuWEV3RXFpaTR4TDJnYi1sTmFZaDBtWW5GQ0pFdEdTUXlEXzViblItVHhGZ09lWnhucC0xNVpyb1hvSjVpNlpBWjRrcTFfanpQVklTQQ?oc=5",
-      "published_date": "2026-10-18"
+      "category": "OpenAI",
+      "title": "OpenAI, Anthropic IPO 앞두고 자금 조달 가속화 추진",
+      "summary": "소식통에 따르면 OpenAI가 경쟁사인 Anthropic의 기업공개(IPO)를 앞두고 자금 조달 노력을 가속화하고 있다고 로이터 통신이 보도했다.",
+      "detail": "OpenAI는 빠르게 성장하는 AI 시장에서 선두를 유지하기 위해 상당한 자본 투자를 필요로 하고 있으며, 주요 경쟁사인 Anthropic이 곧 IPO를 단행할 것으로 예상됨에 따라 자금 확보에 더욱 속도를 내는 것으로 보인다. 이는 AI 산업 내에서의 치열한 경쟁과 시장 선점을 위한 자본 전쟁을 시사한다.",
+      "why_it_matters": "이는 글로벌 AI 시장의 과열된 투자 경쟁 상황을 보여주며, 선도적인 AI 기업들이 기술 개발과 시장 확장을 위해 막대한 자금을 유치하려는 전략적 움직임을 파악하는 데 중요하다.",
+      "source_name": "Reuters",
+      "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZHQyOU05TVZ4RVNpTGdJX18zeHlMZ1pGOGdNeGFmRnFMNERObThVUTl2Ny1CVGU1Vm5IMF9aSS1qaWpOTWlFdDBLeHZIa1lkYnltX1pnU1BLbGdGM3duM1FJZDhocndUWGlUZ0pSaEV6U2RUdzgwX1FaY2s2YllieUo3cTBSWVUtRzJEczR3YXliUzB0d0dRQkRsWjlaQ0FCeXBKM1A2MjlaYzdZa0E?oc=5",
+      "published_date": "2026-10-19"
     }
   ]
 }
