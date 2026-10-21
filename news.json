@@ -1,45 +1,41 @@
 {
-  "date": "2026-10-20",
-  "updated_at": "10:03 KST",
+  "date": "2026-10-21",
+  "updated_at": "09:32 KST",
   "generation_mode": "RSS + Gemini summary (gemini-2.5-flash)",
   "update_status": {
     "ok": true,
     "message": "오늘 브리핑이 정상 업데이트되었습니다."
   },
-  "daily_summary": "Google은 차세대 AI 모델인 제미니 4 아르곤을 공개하며 마인크래프트 완전 자율 플레이 및 핵융합 가설 해결 등 인상적인 에이전트 및 과학적 문제 해결 능력을 선보였다. 한편, OpenAI는 전직 엔지니어의 스파이 혐의로 보안 논란에 휩싸였으며, Anthropic은 저작권 침해 소송에 직면하는 등 AI 업계는 기술 발전과 함께 법적, 보안 문제에도 주목하고 있다.",
+  "daily_summary": "OpenAI가 생명공학 분야로 진출하고 Google은 차량 내 AI를 강화하는 등 주요 기술 기업들이 AI 응용 분야를 확장하고 있습니다. 한편, Anthropic은 신약 개발 AI 연구 성과를 보였고, AI 반도체 시장의 경쟁이 심화되는 가운데 미국 정부의 AI 구매 규제 움직임도 주목받고 있습니다.",
   "ai_terms": [
     {
-      "term": "Dropout",
-      "full_name": "Dropout",
-      "korean": "드롭아웃",
-      "explanation": "인공신경망 학습 시 과적합을 방지하기 위한 기법 중 하나입니다. 각 학습 단계에서 무작위로 일부 뉴런을 일시적으로 비활성화하여 모델이 특정 뉴런에 과하게 의존하는 것을 막고 일반화 성능을 향상시킵니다.",
-      "example": "마치 시험 전날 일부 친구들이 갑자기 결석해서 모든 문제를 혼자 풀어봐야 더 실력이 느는 것처럼, AI 모델도 일부 뉴런을 쉬게 하면 더 강해집니다."
+      "term": "MLP",
+      "full_name": "Multilayer Perceptron",
+      "korean": "다층 퍼셉트론",
+      "explanation": "가장 기본적인 형태의 심층 신경망으로, 여러 개의 은닉층(Hidden Layer)을 가진 퍼셉트론들을 연결하여 복잡한 패턴을 학습할 수 있습니다. 입력층, 하나 이상의 은닉층, 출력층으로 구성됩니다.",
+      "example": "손글씨 숫자 인식 같은 비교적 단순한 분류 문제에 MLP 모델을 사용하여 학습할 수 있습니다."
     },
     {
-      "term": "Pooling Layer",
-      "full_name": "Pooling Layer",
-      "korean": "풀링 계층",
-      "explanation": "합성곱 신경망(CNN)에서 주로 사용되는 계층으로, 입력 데이터의 차원을 줄이고 중요한 특징을 강조하며 위치 변화에 대한 민감도를 낮춥니다. 보통 최대 풀링(Max Pooling)이나 평균 풀링(Average Pooling) 방식이 사용됩니다.",
-      "example": "고해상도 사진을 웹사이트에 올릴 때, 파일 크기를 줄이면서도 주요 이미지를 유지하기 위해 사진을 압축하는 것과 유사합니다."
+      "term": "Pre-trained Model",
+      "full_name": "Pre-trained Model",
+      "korean": "사전 학습 모델",
+      "explanation": "대규모 데이터셋으로 미리 학습되어 기본적인 지식이나 패턴을 가지고 있는 모델을 의미합니다. 이 모델은 특정 작업을 위해 다시 학습(Fine-tuning)될 수 있어 시간과 자원을 절약해 줍니다.",
+      "example": "ChatGPT와 같은 대규모 언어 모델은 방대한 텍스트 데이터로 사전 학습된 모델을 기반으로 합니다."
     },
     {
-      "term": "LSTM",
-      "full_name": "Long Short-Term Memory",
-      "korean": "장단기 기억망",
-      "explanation": "순환 신경망(RNN)의 한 종류로, 긴 시퀀스의 데이터를 처리할 때 발생하는 기울기 소실 문제를 해결하기 위해 고안되었습니다. 셀 상태(cell state)라는 메커니즘을 통해 정보를 장기간 기억하고 필요한 정보를 선택적으로 업데이트하거나 제거할 수 있습니다.",
-      "example": "긴 스토리가 있는 소설을 읽으면서 초반의 중요한 인물이나 사건을 잊지 않고 계속 기억하며 전체 내용을 이해하는 것과 같습니다."
+      "term": "Narrow AI",
+      "full_name": "Narrow Artificial Intelligence",
+      "korean": "약인공지능",
+      "explanation": "특정 작업을 수행하도록 설계된 인공지능으로, 해당 작업 외의 다른 영역에서는 작동하지 않습니다. 현재 우리가 일상에서 접하는 대부분의 AI 시스템이 약인공지능에 해당합니다.",
+      "example": "체스 두는 AI, 이미지 인식 앱, 날씨 예측 시스템 등은 모두 특정 목적을 위해 만들어진 약인공지능의 예시입니다."
     }
   ],
   "exchange_rate": {
-    "usd_krw": 1329.49,
-    "date": "2026-10-19",
+    "usd_krw": 1327.84,
+    "date": "2026-10-20",
     "source": "Frankfurter"
   },
   "exchange_rate_history": [
-    {
-      "date": "2026-10-09",
-      "rate": 1341.49
-    },
     {
       "date": "2026-10-12",
       "rate": 1333.09
@@ -63,58 +59,62 @@
     {
       "date": "2026-10-19",
       "rate": 1329.49
+    },
+    {
+      "date": "2026-10-20",
+      "rate": 1327.84
     }
   ],
   "issues": [
     {
-      "category": "Google",
-      "title": "Google, 차세대 프론티어 모델 '제미니 4 아르곤' 공개 및 주요 성과 발표",
-      "summary": "Google이 최신 프론티어 AI 모델인 제미니 4 아르곤을 출시했으며, 특히 마인크래프트 완전 자율 플레이 및 59년 묵은 핵융합 가설 해결 등 놀라운 에이전트 및 과학적 문제 해결 능력을 시연했다.",
-      "detail": "제미니 4 아르곤은 Google의 차세대 플래그십 모델로, 벤치마크 점수와 함께 구체적인 사용 방법 및 가격 정보가 공개되었다. 이 모델은 AI 에이전트의 발전을 보여주며, 인간의 개입 없이 마인크래프트의 엔더 드래곤을 격파하고 수십 년간 미해결이었던 핵융합 이론의 난제를 수 시간 만에 해결하는 등 뛰어난 문제 해결 능력을 입증했다.",
-      "why_it_matters": "이는 범용 AI 에이전트의 실현 가능성을 한층 높이고, AI가 복잡한 환경에서 자율적으로 학습하고 문제를 해결하는 능력이 크게 향상되었음을 보여준다. 과학 연구 및 게임 등 다양한 분야에 혁신적인 영향을 미칠 잠재력을 가지고 있다.",
-      "source_name": "Mashable",
-      "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE02ZGlQM0xOMUw2NkM5ZVBUb0UzeXVFZV9BcEp4cGY4RzdyVjNDRXVPM3pQdUp2UnladkZmeDRYZGVsdDF1VG9qekhNaU5xeXVYVkRQSjVZdnhvTjZmWUtYVi1tUzhwZTQ?oc=5",
-      "published_date": "2026-10-19"
+      "category": "OpenAI",
+      "title": "OpenAI, 생명공학 스타트업 인수하며 신약 개발 분야 진출",
+      "summary": "OpenAI가 생명공학 스타트업인 Orchestra Bio를 인수하며 AI 에이전트를 활용한 신약 개발 사업으로 영역을 확장합니다.",
+      "detail": "이번 인수는 OpenAI가 단순히 언어 모델을 넘어 바이오 및 헬스케어 등 고부가가치 산업에서 AI의 적용 가능성을 모색하고 있음을 보여줍니다. AI 에이전트 기술을 활용하여 신약 발견 및 개발 프로세스를 가속화할 것으로 기대됩니다.",
+      "why_it_matters": "이는 OpenAI의 사업 다각화 및 AI 기술의 적용 범위 확대를 의미하며, AI가 생명공학 분야에 혁신적인 변화를 가져올 잠재력을 시사합니다. 미래 AI 기술의 방향성에 중요한 이정표가 될 수 있습니다.",
+      "source_name": "Axios",
+      "source_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNMkpaOUNKeWsxZVN1WXZhZkFCMkxUSnpCUWJtTTdKdDYtd2tycEdxU0RJbmgyR3QzQ2FfS1o2dVJqQ090VE9vZFJ5RVZyZ1loYTljWnVZalBTNEJuWlFCb0MycGFtcFZXeUNUTTFwYlBpQzVyRkZjclR2UzJDVDVsNVVTcGVCSTJidEE?oc=5",
+      "published_date": "2026-10-20"
     },
     {
-      "category": "OpenAI",
-      "title": "OpenAI 전직 엔지니어, 사무실 도청 혐의 및 사우디아라비아 연루 의혹으로 구금",
-      "summary": "OpenAI의 전직 엔지니어가 사무실 도청 혐의로 구금되었으며, 검찰은 그가 사우디 왕실과 접촉하고 '사우디 정부 문서'를 소지하는 등 사우디아라비아와 연루되었을 가능성을 제기했다.",
-      "detail": "압둘라만 알파잔이라는 이름의 전직 OpenAI 엔지니어는 OpenAI 사무실에 버그를 심은 혐의를 받고 있다. 검찰은 그가 사우디 왕실과 직업에 대해 논의했으며, 사우디아라비아로 출국하려 했고, '사우디 정부 문서'라는 폴더를 가지고 있었다고 주장했다. 그는 현재 구금된 상태이다.",
-      "why_it_matters": "이는 선도적인 AI 기업의 내부 보안 및 기밀 유출 위험성을 부각하며, AI 기술 경쟁의 이면에서 발생할 수 있는 산업 스파이 및 국가 안보 관련 문제에 대한 경각심을 높인다.",
-      "source_name": "The New York Times",
-      "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPR292Q1N2clU2Rzlac3ZpRVNWN0lndWhGUXlicS1TMHVDRUNCNVRBdGtuTXE3STdtZlVGZXdoVnMycHNCaHc1TnJjVGVLV1E5RTE1OGxNNG5mVXZjVHNNZUxmek5iRmphSGU1V2RRQ1BySGt5cVpJMVp1MV9LLWY2X0w0TkxaMXB5TmtPX0Jkcw?oc=5",
-      "published_date": "2026-10-19"
+      "category": "Google",
+      "title": "Google, Gemini AI를 안드로이드 오토에 통합하여 차량 내 개인화된 경험 제공",
+      "summary": "Google이 개인화된 Gemini AI를 안드로이드 오토(Android Auto)에 통합하여 운전 중에도 더욱 스마트하고 개인화된 핸즈프리 지원을 제공합니다.",
+      "detail": "운전자는 음성 명령만으로 길 안내, 메시지 전송, 미디어 제어 등 다양한 기능을 Gemini AI를 통해 이용할 수 있게 됩니다. 이는 운전자에게 더 안전하고 편리한 경험을 제공하며, 온디바이스 AI의 실제 적용 사례를 넓히는 중요한 진전입니다.",
+      "why_it_matters": "주요 IT 기업의 AI가 자동차 시스템에 깊이 통합되는 흐름을 보여주며, 온디바이스 AI의 중요성과 사용자 경험 향상 가능성을 강조합니다. 모바일 및 차량 환경에서 AI 어시스턴트의 역할이 더욱 확대될 것입니다.",
+      "source_name": "Engadget",
+      "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWW5QMm1iakxRanphYTZjTU85anN2OUNzd2tGUjBpc29yWVJPWFFEQ2JzOXVXZmg5QVBxZGktMlZQZzdLQUJDQVk1cHh3eFdHTmtNMjN4ekZLLWFHcDIwMDlZWDQyQXRFd21SdFNEUXAzZWtFN3JCUmQ5bGJ1QThUbGdqVG9heG9rQ2JZZ0dQSFVhOXVyR0pZ?oc=5",
+      "published_date": "2026-10-20"
     },
     {
       "category": "Anthropic",
-      "title": "Anthropic, 캐나다 주요 언론사들로부터 저작권 침해 혐의로 피소",
-      "summary": "주요 AI 개발사 Anthropic이 캐나다 언론사들로부터 자사 AI 모델 학습에 저작권이 있는 기사를 무단 사용했다는 혐의로 저작권 침해 소송을 당했다.",
-      "detail": "CBC 보도에 따르면, Anthropic은 온타리오 법원에서 캐나다의 여러 주요 뉴스 출판사들로부터 저작권 침해 소송을 제기당했다. 언론사들은 Anthropic의 Claude 모델이 자신들의 저작물을 무단으로 사용하여 학습되었으며, 이는 저작권 법을 위반하는 행위라고 주장하고 있다.",
-      "why_it_matters": "이 소송은 AI 모델 학습 데이터의 저작권 문제에 대한 중요한 법적 선례를 만들 수 있으며, 이는 AI 산업 전반의 데이터 수집 및 모델 개발 방식에 중대한 영향을 미칠 수 있다.",
-      "source_name": "CBC",
-      "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNRlBzRzJOclVTWWVNQVd5VFVYRkVOQVB3MUxfNFZTTEZ4ZkU1QkxjMUtQS19YRlhLLWx4c1hjTHBVSW9jQ3FvbWJldkRtODR2SG9sMjhWVENudlB0YWZBcmg5MHZzcUc2M0syc2t1Y1ZITE9qRWNVZzRkUW9rZWx6VHpHWTkyNlRMUzAwX3RTWHRYVHc0RWI5NG1DMy1UanhQVG5tc2M3bzRkcnRiMHc?oc=5",
-      "published_date": "2026-10-19"
+      "title": "Anthropic Claude AI, 전갈 독소 표적 단백질 설계 성공",
+      "summary": "Anthropic의 Claude AI가 전갈 독소에 대항하는 단백질 결합체(protein binders)를 성공적으로 설계하여, AI 기반 신약 연구 및 생명 과학 분야에서의 발전 가능성을 입증했습니다.",
+      "detail": "Claude AI는 64시간 만에 수십만 개의 단백질을 설계하여 독소 표적화 능력을 보여주었으며, 이는 기존 방식보다 훨씬 빠르고 효율적인 방법으로 약물 후보 물질을 발견할 수 있음을 의미합니다. 이러한 연구는 AI가 복잡한 생물학적 문제를 해결하는 데 탁월한 잠재력을 가지고 있음을 보여줍니다.",
+      "why_it_matters": "AI가 생명 과학 분야에서 단순한 데이터 분석을 넘어 실제 분자를 설계하는 수준으로 발전했음을 보여주는 중요한 연구 성과입니다. 이는 신약 개발 기간 단축 및 비용 절감에 기여하고, 난치병 치료제 개발에 새로운 희망을 제시할 수 있습니다.",
+      "source_name": "Anthropic",
+      "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9VNkRtQVc2UUZVVmgyWUJOQU5RSjdCMjQ0V1JuczVKVmxoME1pQ295LWZ5a3J1M21SWk1yWUtGQ01pbTN3bFVldVVmc01QLXNYYlBqRi04UnZ4VWR5NzU1dTZuYzFxRVA5enZObVVFeE1sVURIVFp1NGVn?oc=5",
+      "published_date": "2026-10-20"
     },
     {
-      "category": "AI Hardware",
-      "title": "아마존, 새로운 개발 도구 'TorchNeuron'으로 엔비디아 AI 칩 시장에 도전",
-      "summary": "아마존이 인기 코딩 언어와 호환되는 새로운 AI 칩 개발 도구인 'TorchNeuron'을 출시하며 엔비디아가 장악하고 있는 AI 칩 소프트웨어 생태계에 대한 도전을 본격화했다.",
-      "detail": "아마존은 자사 AI 칩인 Trainium 및 Inferentia에서 PyTorch와 같은 인기 머신러닝 프레임워크를 더 쉽게 사용할 수 있도록 하는 TorchNeuron을 발표했다. 이는 엔비디아의 CUDA와 같은 독점적인 소프트웨어 스택에 맞서 개발자들이 아마존의 AI 하드웨어를 더 편리하게 활용할 수 있도록 지원함으로써 엔비디아의 시장 지배력에 균열을 내기 위한 전략으로 풀이된다.",
-      "why_it_matters": "AI 워크로드에 필수적인 고성능 AI 칩 시장에서 경쟁을 심화시키고, 개발자들에게 더 많은 하드웨어 및 소프트웨어 선택지를 제공하여 AI 생태계의 다양성과 혁신을 촉진할 수 있다.",
-      "source_name": "Reuters",
-      "source_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOUGVNVWtyU1BHU0pGZFJTZk9RV3NHOXBoSHVqaHVEeXN1TEJveTNIVzQ4eGkxZ2RWbER1clItSk16ODNaVnBFbWhKamR1RURGdG90X3F0ZEF2bko3SW5mUGxjZzBKVm50UFI5eUp2ampsV08ySWlMUEZyQmRUd1M1NF91UGJoZWxiVmR5NGRCMmNNM0V2R3pLMVhBT05EbmRjY0dxMXlSNklIVE9xeG5DQWNPcjVXY1ZBRTBrVU9RMTNPaVJOUHpjS2RrZ3huLXlZa2c?oc=5",
-      "published_date": "2026-10-19"
+      "category": "AI 반도체/산업",
+      "title": "Google과 Amazon, Nvidia의 AI 칩 독점 견제 움직임 가속화",
+      "summary": "Google과 Amazon이 AI 앱 개발자 시장에서 Nvidia의 독점적 지위를 견제하기 위한 움직임을 가속화하며, 자체 AI 칩 및 소프트웨어 개발 도구를 통해 경쟁 구도를 심화하고 있습니다.",
+      "detail": "이들 기업은 PyTorch와 같은 오픈소스 프레임워크와 연동되는 자체 AI 가속기 및 개발 도구를 출시하여, 개발자들이 Nvidia GPU에 덜 의존하도록 유도하고 있습니다. 한편, 중국 기업들은 Nvidia 칩에 여전히 350억 달러 이상을 주문하며 시장 수요는 건재함을 보여줬습니다.",
+      "why_it_matters": "AI 반도체 시장의 경쟁이 심화되고 있음을 보여주며, Nvidia의 장기적인 독점 구도에 균열이 생길 가능성을 시사합니다. 이는 AI 하드웨어 생태계의 다양성을 촉진하고, 개발자들에게 더 많은 선택지를 제공할 수 있습니다.",
+      "source_name": "TechCrunch",
+      "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSkRFYm5NWUd5M3dQUzVGWDlhWkxOd3BpRFZCazZfNlVhWktoSTVFVTNoOHJKZDNRLUMtRmdJQ2ZVY3Y5S0plNzl6Q0toR2RtNWZHRlNUOHd6c044YmpmVWE3LWdDMnJHRmU3WkZSdnFSLUExY2diNW5BTUkyQlVlcTFwM0pKUk9WMEVKWC02Nl9jRlFXandQQkprYlAtaG1jYTZNT1RTaHpBRlBQSnFWVVg3V0w?oc=5",
+      "published_date": "2026-10-20"
     },
     {
-      "category": "OpenAI",
-      "title": "OpenAI, Anthropic IPO 앞두고 자금 조달 가속화 추진",
-      "summary": "소식통에 따르면 OpenAI가 경쟁사인 Anthropic의 기업공개(IPO)를 앞두고 자금 조달 노력을 가속화하고 있다고 로이터 통신이 보도했다.",
-      "detail": "OpenAI는 빠르게 성장하는 AI 시장에서 선두를 유지하기 위해 상당한 자본 투자를 필요로 하고 있으며, 주요 경쟁사인 Anthropic이 곧 IPO를 단행할 것으로 예상됨에 따라 자금 확보에 더욱 속도를 내는 것으로 보인다. 이는 AI 산업 내에서의 치열한 경쟁과 시장 선점을 위한 자본 전쟁을 시사한다.",
-      "why_it_matters": "이는 글로벌 AI 시장의 과열된 투자 경쟁 상황을 보여주며, 선도적인 AI 기업들이 기술 개발과 시장 확장을 위해 막대한 자금을 유치하려는 전략적 움직임을 파악하는 데 중요하다.",
-      "source_name": "Reuters",
-      "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZHQyOU05TVZ4RVNpTGdJX18zeHlMZ1pGOGdNeGFmRnFMNERObThVUTl2Ny1CVGU1Vm5IMF9aSS1qaWpOTWlFdDBLeHZIa1lkYnltX1pnU1BLbGdGM3duM1FJZDhocndUWGlUZ0pSaEV6U2RUdzgwX1FaY2s2YllieUo3cTBSWVUtRzJEczR3YXliUzB0d0dRQkRsWjlaQ0FCeXBKM1A2MjlaYzdZa0E?oc=5",
-      "published_date": "2026-10-19"
+      "category": "정책/규제",
+      "title": "미국 정부, AI 구매에 대한 새로운 규정 시행 예정",
+      "summary": "미국 정부가 AI 시스템 구매 및 활용에 대한 새로운 규칙을 시행할 예정이며, 이는 공공 부문에서 AI 기술 도입에 중요한 영향을 미칠 것입니다.",
+      "detail": "새로운 규정은 AI 기술의 투명성, 책임성, 그리고 윤리적 사용을 강조하며, 정부 기관들이 AI를 조달하고 배치하는 방식에 대한 명확한 지침을 제공할 것으로 보입니다. 이는 공공 서비스에서의 AI 활용이 증가함에 따라 발생할 수 있는 잠재적 위험을 관리하기 위한 조치입니다.",
+      "why_it_matters": "정부 차원의 AI 규제 및 조달 정책은 AI 기술의 건전한 발전과 사회적 수용에 필수적입니다. 이는 AI 개발 및 공급 기업들에게도 중요한 가이드라인이 될 것이며, 책임 있는 AI 생태계 구축에 기여할 것입니다.",
+      "source_name": "Federal News Network",
+      "source_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPSnEzSUx2Xzd3YjdRWjFTbzQwWndJT2xXLXlDNTZZWkhKU05UUTFHaGZZM29oQzZVMWNVOGQwNS1BN0E3dE1kN0RRWjZiYkpucWhteW45QzFBUGk2Qjg0RlJCaFZNSnJZZGlQVV92TE5FSVdpLVltaFo1bG9Td1diTzNWWUFLRDNLWC16enJPd0d1ZGozc212MFJ3N0Foc2l3YVBmb29EaWVOU2JQVXA1RnNPZVl1cldxUy03OGM5cHg2eFFVUlhXSlFiX0NuNkdN?oc=5",
+      "published_date": "2026-10-20"
     }
   ]
 }

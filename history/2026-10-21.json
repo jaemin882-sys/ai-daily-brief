@@ -1,0 +1,120 @@
+{
+  "date": "2026-10-21",
+  "updated_at": "09:32 KST",
+  "generation_mode": "RSS + Gemini summary (gemini-2.5-flash)",
+  "update_status": {
+    "ok": true,
+    "message": "오늘 브리핑이 정상 업데이트되었습니다."
+  },
+  "daily_summary": "OpenAI가 생명공학 분야로 진출하고 Google은 차량 내 AI를 강화하는 등 주요 기술 기업들이 AI 응용 분야를 확장하고 있습니다. 한편, Anthropic은 신약 개발 AI 연구 성과를 보였고, AI 반도체 시장의 경쟁이 심화되는 가운데 미국 정부의 AI 구매 규제 움직임도 주목받고 있습니다.",
+  "ai_terms": [
+    {
+      "term": "MLP",
+      "full_name": "Multilayer Perceptron",
+      "korean": "다층 퍼셉트론",
+      "explanation": "가장 기본적인 형태의 심층 신경망으로, 여러 개의 은닉층(Hidden Layer)을 가진 퍼셉트론들을 연결하여 복잡한 패턴을 학습할 수 있습니다. 입력층, 하나 이상의 은닉층, 출력층으로 구성됩니다.",
+      "example": "손글씨 숫자 인식 같은 비교적 단순한 분류 문제에 MLP 모델을 사용하여 학습할 수 있습니다."
+    },
+    {
+      "term": "Pre-trained Model",
+      "full_name": "Pre-trained Model",
+      "korean": "사전 학습 모델",
+      "explanation": "대규모 데이터셋으로 미리 학습되어 기본적인 지식이나 패턴을 가지고 있는 모델을 의미합니다. 이 모델은 특정 작업을 위해 다시 학습(Fine-tuning)될 수 있어 시간과 자원을 절약해 줍니다.",
+      "example": "ChatGPT와 같은 대규모 언어 모델은 방대한 텍스트 데이터로 사전 학습된 모델을 기반으로 합니다."
+    },
+    {
+      "term": "Narrow AI",
+      "full_name": "Narrow Artificial Intelligence",
+      "korean": "약인공지능",
+      "explanation": "특정 작업을 수행하도록 설계된 인공지능으로, 해당 작업 외의 다른 영역에서는 작동하지 않습니다. 현재 우리가 일상에서 접하는 대부분의 AI 시스템이 약인공지능에 해당합니다.",
+      "example": "체스 두는 AI, 이미지 인식 앱, 날씨 예측 시스템 등은 모두 특정 목적을 위해 만들어진 약인공지능의 예시입니다."
+    }
+  ],
+  "exchange_rate": {
+    "usd_krw": 1327.84,
+    "date": "2026-10-20",
+    "source": "Frankfurter"
+  },
+  "exchange_rate_history": [
+    {
+      "date": "2026-10-12",
+      "rate": 1333.09
+    },
+    {
+      "date": "2026-10-13",
+      "rate": 1341.45
+    },
+    {
+      "date": "2026-10-14",
+      "rate": 1336.79
+    },
+    {
+      "date": "2026-10-15",
+      "rate": 1345.9
+    },
+    {
+      "date": "2026-10-16",
+      "rate": 1332.1
+    },
+    {
+      "date": "2026-10-19",
+      "rate": 1329.49
+    },
+    {
+      "date": "2026-10-20",
+      "rate": 1327.84
+    }
+  ],
+  "issues": [
+    {
+      "category": "OpenAI",
+      "title": "OpenAI, 생명공학 스타트업 인수하며 신약 개발 분야 진출",
+      "summary": "OpenAI가 생명공학 스타트업인 Orchestra Bio를 인수하며 AI 에이전트를 활용한 신약 개발 사업으로 영역을 확장합니다.",
+      "detail": "이번 인수는 OpenAI가 단순히 언어 모델을 넘어 바이오 및 헬스케어 등 고부가가치 산업에서 AI의 적용 가능성을 모색하고 있음을 보여줍니다. AI 에이전트 기술을 활용하여 신약 발견 및 개발 프로세스를 가속화할 것으로 기대됩니다.",
+      "why_it_matters": "이는 OpenAI의 사업 다각화 및 AI 기술의 적용 범위 확대를 의미하며, AI가 생명공학 분야에 혁신적인 변화를 가져올 잠재력을 시사합니다. 미래 AI 기술의 방향성에 중요한 이정표가 될 수 있습니다.",
+      "source_name": "Axios",
+      "source_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNMkpaOUNKeWsxZVN1WXZhZkFCMkxUSnpCUWJtTTdKdDYtd2tycEdxU0RJbmgyR3QzQ2FfS1o2dVJqQ090VE9vZFJ5RVZyZ1loYTljWnVZalBTNEJuWlFCb0MycGFtcFZXeUNUTTFwYlBpQzVyRkZjclR2UzJDVDVsNVVTcGVCSTJidEE?oc=5",
+      "published_date": "2026-10-20"
+    },
+    {
+      "category": "Google",
+      "title": "Google, Gemini AI를 안드로이드 오토에 통합하여 차량 내 개인화된 경험 제공",
+      "summary": "Google이 개인화된 Gemini AI를 안드로이드 오토(Android Auto)에 통합하여 운전 중에도 더욱 스마트하고 개인화된 핸즈프리 지원을 제공합니다.",
+      "detail": "운전자는 음성 명령만으로 길 안내, 메시지 전송, 미디어 제어 등 다양한 기능을 Gemini AI를 통해 이용할 수 있게 됩니다. 이는 운전자에게 더 안전하고 편리한 경험을 제공하며, 온디바이스 AI의 실제 적용 사례를 넓히는 중요한 진전입니다.",
+      "why_it_matters": "주요 IT 기업의 AI가 자동차 시스템에 깊이 통합되는 흐름을 보여주며, 온디바이스 AI의 중요성과 사용자 경험 향상 가능성을 강조합니다. 모바일 및 차량 환경에서 AI 어시스턴트의 역할이 더욱 확대될 것입니다.",
+      "source_name": "Engadget",
+      "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWW5QMm1iakxRanphYTZjTU85anN2OUNzd2tGUjBpc29yWVJPWFFEQ2JzOXVXZmg5QVBxZGktMlZQZzdLQUJDQVk1cHh3eFdHTmtNMjN4ekZLLWFHcDIwMDlZWDQyQXRFd21SdFNEUXAzZWtFN3JCUmQ5bGJ1QThUbGdqVG9heG9rQ2JZZ0dQSFVhOXVyR0pZ?oc=5",
+      "published_date": "2026-10-20"
+    },
+    {
+      "category": "Anthropic",
+      "title": "Anthropic Claude AI, 전갈 독소 표적 단백질 설계 성공",
+      "summary": "Anthropic의 Claude AI가 전갈 독소에 대항하는 단백질 결합체(protein binders)를 성공적으로 설계하여, AI 기반 신약 연구 및 생명 과학 분야에서의 발전 가능성을 입증했습니다.",
+      "detail": "Claude AI는 64시간 만에 수십만 개의 단백질을 설계하여 독소 표적화 능력을 보여주었으며, 이는 기존 방식보다 훨씬 빠르고 효율적인 방법으로 약물 후보 물질을 발견할 수 있음을 의미합니다. 이러한 연구는 AI가 복잡한 생물학적 문제를 해결하는 데 탁월한 잠재력을 가지고 있음을 보여줍니다.",
+      "why_it_matters": "AI가 생명 과학 분야에서 단순한 데이터 분석을 넘어 실제 분자를 설계하는 수준으로 발전했음을 보여주는 중요한 연구 성과입니다. 이는 신약 개발 기간 단축 및 비용 절감에 기여하고, 난치병 치료제 개발에 새로운 희망을 제시할 수 있습니다.",
+      "source_name": "Anthropic",
+      "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9VNkRtQVc2UUZVVmgyWUJOQU5RSjdCMjQ0V1JuczVKVmxoME1pQ295LWZ5a3J1M21SWk1yWUtGQ01pbTN3bFVldVVmc01QLXNYYlBqRi04UnZ4VWR5NzU1dTZuYzFxRVA5enZObVVFeE1sVURIVFp1NGVn?oc=5",
+      "published_date": "2026-10-20"
+    },
+    {
+      "category": "AI 반도체/산업",
+      "title": "Google과 Amazon, Nvidia의 AI 칩 독점 견제 움직임 가속화",
+      "summary": "Google과 Amazon이 AI 앱 개발자 시장에서 Nvidia의 독점적 지위를 견제하기 위한 움직임을 가속화하며, 자체 AI 칩 및 소프트웨어 개발 도구를 통해 경쟁 구도를 심화하고 있습니다.",
+      "detail": "이들 기업은 PyTorch와 같은 오픈소스 프레임워크와 연동되는 자체 AI 가속기 및 개발 도구를 출시하여, 개발자들이 Nvidia GPU에 덜 의존하도록 유도하고 있습니다. 한편, 중국 기업들은 Nvidia 칩에 여전히 350억 달러 이상을 주문하며 시장 수요는 건재함을 보여줬습니다.",
+      "why_it_matters": "AI 반도체 시장의 경쟁이 심화되고 있음을 보여주며, Nvidia의 장기적인 독점 구도에 균열이 생길 가능성을 시사합니다. 이는 AI 하드웨어 생태계의 다양성을 촉진하고, 개발자들에게 더 많은 선택지를 제공할 수 있습니다.",
+      "source_name": "TechCrunch",
+      "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSkRFYm5NWUd5M3dQUzVGWDlhWkxOd3BpRFZCazZfNlVhWktoSTVFVTNoOHJKZDNRLUMtRmdJQ2ZVY3Y5S0plNzl6Q0toR2RtNWZHRlNUOHd6c044YmpmVWE3LWdDMnJHRmU3WkZSdnFSLUExY2diNW5BTUkyQlVlcTFwM0pKUk9WMEVKWC02Nl9jRlFXandQQkprYlAtaG1jYTZNT1RTaHpBRlBQSnFWVVg3V0w?oc=5",
+      "published_date": "2026-10-20"
+    },
+    {
+      "category": "정책/규제",
+      "title": "미국 정부, AI 구매에 대한 새로운 규정 시행 예정",
+      "summary": "미국 정부가 AI 시스템 구매 및 활용에 대한 새로운 규칙을 시행할 예정이며, 이는 공공 부문에서 AI 기술 도입에 중요한 영향을 미칠 것입니다.",
+      "detail": "새로운 규정은 AI 기술의 투명성, 책임성, 그리고 윤리적 사용을 강조하며, 정부 기관들이 AI를 조달하고 배치하는 방식에 대한 명확한 지침을 제공할 것으로 보입니다. 이는 공공 서비스에서의 AI 활용이 증가함에 따라 발생할 수 있는 잠재적 위험을 관리하기 위한 조치입니다.",
+      "why_it_matters": "정부 차원의 AI 규제 및 조달 정책은 AI 기술의 건전한 발전과 사회적 수용에 필수적입니다. 이는 AI 개발 및 공급 기업들에게도 중요한 가이드라인이 될 것이며, 책임 있는 AI 생태계 구축에 기여할 것입니다.",
+      "source_name": "Federal News Network",
+      "source_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPSnEzSUx2Xzd3YjdRWjFTbzQwWndJT2xXLXlDNTZZWkhKU05UUTFHaGZZM29oQzZVMWNVOGQwNS1BN0E3dE1kN0RRWjZiYkpucWhteW45QzFBUGk2Qjg0RlJCaFZNSnJZZGlQVV92TE5FSVdpLVltaFo1bG9Td1diTzNWWUFLRDNLWC16enJPd0d1ZGozc212MFJ3N0Foc2l3YVBmb29EaWVOU2JQVXA1RnNPZVl1cldxUy03OGM5cHg2eFFVUlhXSlFiX0NuNkdN?oc=5",
+      "published_date": "2026-10-20"
+    }
+  ]
+}
