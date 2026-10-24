@@ -1,0 +1,120 @@
+{
+  "date": "2026-10-24",
+  "updated_at": "09:30 KST",
+  "generation_mode": "RSS + Gemini summary (gemini-2.5-flash)",
+  "update_status": {
+    "ok": true,
+    "message": "오늘 브리핑이 정상 업데이트되었습니다."
+  },
+  "daily_summary": "오늘 AI 업계에서는 OpenAI가 모델 학습 보안 강화를 위해 프론티어 모델의 인터넷 접근을 차단하는 중대한 정책 변화를 발표했으며, 동시에 텍사스 주로부터 제품 안전성 관련 소송을 당하는 등 주요 기업들의 안전 및 규제 이슈가 부각되었습니다. 또한, 앤스로픽의 새로운 개인 AI 에이전트 출시와 구글 딥마인드 직원들의 군사 AI 계약 관련 사임, 그리고 엔비디아의 AI 칩 시장 독주에 대한 주요 기업들의 견제 움직임 등 기술 발전과 윤리적, 상업적 경쟁이 활발하게 전개되고 있습니다.",
+  "ai_terms": [
+    {
+      "term": "LLM",
+      "full_name": "Large Language Model",
+      "korean": "대규모 언어 모델",
+      "explanation": "대규모 언어 모델은 방대한 양의 텍스트 데이터를 학습하여 사람의 언어를 이해하고 생성하는 AI 모델입니다. 문장 완성, 번역, 요약 등 다양한 언어 관련 작업을 수행할 수 있습니다. 수십억 개 이상의 매개변수를 가지고 있어 복잡한 언어 패턴을 학습합니다.",
+      "example": "ChatGPT는 대표적인 LLM으로, 사용자의 질문에 맞춰 자연스러운 대화를 나누거나 글을 작성해 줍니다."
+    },
+    {
+      "term": "Inference",
+      "full_name": "Inference",
+      "korean": "추론",
+      "explanation": "추론은 학습된 AI 모델이 새로운 데이터를 입력받아 결과를 예측하거나 판단하는 과정을 말합니다. 학습이 완료된 모델을 실제 서비스에 적용하여 사용하는 단계입니다. 예를 들어, 사진을 보고 고양이인지 강아지인지 판단하는 것이 추론입니다.",
+      "example": "스마트폰의 AI 기능이 사진을 인식하여 자동으로 인물 사진 모드를 적용하는 것은 모델이 추론을 수행한 결과입니다."
+    },
+    {
+      "term": "Quantization",
+      "full_name": "Quantization",
+      "korean": "양자화",
+      "explanation": "양자화는 AI 모델의 계산에 사용되는 숫자의 정밀도를 낮춰 모델의 크기를 줄이고 계산 속도를 높이는 기술입니다. 주로 32비트 부동소수점 대신 8비트 정수 등으로 표현하여 메모리 사용량과 전력 소모를 줄입니다. 이는 특히 온디바이스 AI처럼 자원이 제한된 환경에서 모델을 효율적으로 실행하는 데 중요합니다.",
+      "example": "스마트폰에서 구동되는 AI 앱의 모델이 양자화를 통해 더 가벼워져 배터리 소모를 줄이고 빠르게 작동할 수 있습니다."
+    }
+  ],
+  "exchange_rate": {
+    "usd_krw": 1324.45,
+    "date": "2026-10-23",
+    "source": "Frankfurter"
+  },
+  "exchange_rate_history": [
+    {
+      "date": "2026-10-15",
+      "rate": 1345.9
+    },
+    {
+      "date": "2026-10-16",
+      "rate": 1332.1
+    },
+    {
+      "date": "2026-10-19",
+      "rate": 1329.49
+    },
+    {
+      "date": "2026-10-20",
+      "rate": 1327.84
+    },
+    {
+      "date": "2026-10-21",
+      "rate": 1325.57
+    },
+    {
+      "date": "2026-10-22",
+      "rate": 1324.63
+    },
+    {
+      "date": "2026-10-23",
+      "rate": 1324.45
+    }
+  ],
+  "issues": [
+    {
+      "category": "OpenAI / AI Safety",
+      "title": "OpenAI, 프론티어 AI 모델 학습 시 인터넷 접근 차단 결정",
+      "summary": "OpenAI는 미래의 '프론티어 AI 모델' 학습 시 실시간 인터넷 접속을 완전히 차단하기로 결정했다. 이는 최근 사이버 보안 사고 및 중대한 보안 위험에 대한 우려 때문이라고 밝혔다.",
+      "detail": "OpenAI는 자사 블로그를 통해 향후 가장 발전된 AI 모델 학습 환경에서 인터넷 접근을 영구적으로 제거할 것이라고 발표했다. 이는 이전의 훈련 방식에서 발생할 수 있는 보안 취약점과 데이터 유출 가능성을 근본적으로 차단하기 위한 조치로, 심각한 사이버 사고에 대한 대응의 일환이다. 로이터 통신은 이러한 변화가 회사의 AI 안전 강화 노력의 일환이라고 보도했다.",
+      "why_it_matters": "세계 최고 수준의 AI 개발사가 모델 안전 및 보안을 위해 학습 방식을 대폭 변경했다는 점에서 AI 안전과 보안에 대한 업계의 경각심을 높이는 중요한 사건이다. 이는 잠재적으로 다른 선도 기업들에게도 영향을 미쳐 AI 모델 개발의 새로운 표준을 제시할 수 있다.",
+      "source_name": "Reuters",
+      "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQOS01OUZRS1hEaFFMU0pJSkEwdEVKQThtcVJITXJ6elVKbFVHV0QwQVFyc1VUb1NVZExxQ2J4YkN0MTVxS094bUFqdmZYa3QwSUprRjlVX3YwSkZfcEF5U1JEV0h0aWVjUldENHFIaEtZR0RPU3Y0WHpjQXFmRUw2SVROYXQ2NWwzZmNGWG9lcTdwYkhFd0NvY3poSG1YVHRfclVsMmZ0OXRDV245cmx3ckRFVENhZUJydkVXYjVrOA?oc=5",
+      "published_date": "2026-10-23"
+    },
+    {
+      "category": "OpenAI / Policy & Regulation",
+      "title": "텍사스 주, OpenAI 및 샘 올트먼을 제품 안전 문제로 고소",
+      "summary": "텍사스 주 법무장관은 OpenAI와 CEO 샘 올트먼을 상대로 ChatGPT의 제품 안전과 관련하여 고소를 제기했다. 이 고소는 ChatGPT의 안전장치에 대한 거짓 진술 의혹을 포함하고 있다.",
+      "detail": "폴리티코 보도에 따르면, 텍사스 주 법무장관 켄 팩스턴은 OpenAI가 ChatGPT의 안전성에 대해 허위로 주장하고 사용자들을 오도했다고 비난하며 소송을 제기했다. 고소장은 ChatGPT가 잠재적으로 유해하거나 오용될 수 있는 콘텐츠 생성에 대한 충분한 안전장치를 갖추지 못했으며, 이에 대한 OpenAI의 공개적인 진술이 실제와 다르다는 내용을 담고 있다.",
+      "why_it_matters": "대규모 AI 모델의 안전성과 기업의 책임에 대한 중요한 법적 선례를 만들 수 있는 사건이다. AI 기술이 사회에 미치는 영향이 커짐에 따라 정부 및 규제 당국의 개입이 확대되고 있음을 보여주며, 향후 AI 제품 개발 및 배포에 있어 안전성 검증과 투명성 확보의 중요성을 강조한다.",
+      "source_name": "Politico",
+      "source_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPcm00d0JOd3dfc2ROWW5vaklsUk9MWDZXN1hLNWNwMWllNmZ1N2p5WGQ2VVUtOTlzQUdlUDZOcFB1WUpVcWE3WVcxZk16b09BNHZlcHJjWkVYZVNIdE1lbWFJWHRNOGIxbWR2cHFUazdsakh4NnBMcmhyUVdGbzVKNk1Mc001NjhzT09pNFdGanA?oc=5",
+      "published_date": "2026-10-23"
+    },
+    {
+      "category": "Anthropic / Agent",
+      "title": "앤스로픽, 개인 AI 에이전트 '클로드 듀엣' 출시",
+      "summary": "앤스로픽이 새로운 개인 AI 에이전트 '클로드 듀엣(Claude Duet)'을 공개하며 개인 생산성 도구 시장에 진출했다. 이는 여러 앱과 연동하여 사용자 업무를 관리하는 것을 목표로 한다.",
+      "detail": "CBS 뉴스에 따르면, 앤스로픽의 클로드 듀엣은 사용자의 다양한 작업 흐름을 통합하고 관리할 수 있는 개인 비서형 AI 에이전트다. 이 에이전트는 수천 개의 연결된 애플리케이션과 연동되어 이메일 작성, 문서 요약, 일정 관리 등 광범위한 업무를 자동화하거나 지원할 수 있도록 설계되었다. 이는 OpenAI의 개인 비서와 같은 경쟁 제품들과 직접적으로 맞붙게 될 것이다.",
+      "why_it_matters": "OpenAI, Meta 등 주요 기업들과의 개인 AI 비서 경쟁이 심화되고 있음을 보여주는 중요한 제품 출시이다. AI 에이전트가 점차 사용자 개인의 업무 환경에 깊이 통합되면서 생산성 향상과 함께 새로운 비즈니스 모델을 창출할 잠재력을 가지고 있음을 시사한다.",
+      "source_name": "CBS News",
+      "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQS3M2TXpYVGJXT2txOW5uaVExTzJPRmhDVG1UZ1hWWUEwSmRMV3JFZklxeHBCRDd3bkNocVhSZXlQc1M0VXJvdjhiYnNyaVgwdmJ2c1o4R2oxaFd5MGZFY181d2VjbFJuYU5IcTJzUU1fa0l1RmdNd2lOZ0ZkdUN0VUpaNFBnS0k?oc=5",
+      "published_date": "2026-10-23"
+    },
+    {
+      "category": "Google / AI Ethics",
+      "title": "구글 딥마인드 직원들, 군사 AI 계약에 반발하며 사임",
+      "summary": "구글 딥마인드 직원들이 회사의 군사 AI 관련 계약에 대한 윤리적 우려를 표명하며 사임했다. 이는 AI 기술의 군사적 활용에 대한 내부 반발이 지속되고 있음을 보여준다.",
+      "detail": "야후 뉴스 보도에 따르면, 구글 딥마인드의 일부 직원들이 회사가 국방부와 체결한 AI 계약에 반대하며 직장을 떠났다. 이들은 AI 기술이 전쟁 및 감시 목적으로 사용될 가능성에 대해 깊은 윤리적 우려를 표명했으며, 이러한 계약이 회사의 도덕적 가치와 상충된다고 주장했다. NDTV 또한 '일하기 부끄럽다'는 직원들의 목소리를 전했다.",
+      "why_it_matters": "AI 기술의 윤리적 사용에 대한 중요한 논쟁을 다시 한번 부각시킨다. 주요 기술 기업 내부에서 AI의 군사적 적용에 대한 강한 반대 의견이 존재함을 보여주며, 기업들이 기술 개발과 상업적 이익 추구 사이에서 윤리적 책임을 어떻게 다룰 것인지에 대한 압력을 증대시킬 것이다.",
+      "source_name": "Yahoo",
+      "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPQV9GSkxtaUpGbEdITUowaklBNHFxMHB4U1JHVkR0MTFVUnRIdWd0MjhMOGRUbS1LWHJoSDNFZXZWSUpzNi1xU2czWURZUGdseHRaa2lIVzF5LUxPTi1GN0dLelR2RHhaVXFRY1I5MlN6NTZLdS1sanB4V2dxdUJDN1ViM1luZElXLVg5bXBQLURSdlVWYnVkdg?oc=5",
+      "published_date": "2026-10-23"
+    },
+    {
+      "category": "AI Hardware / Competition",
+      "title": "구글 및 마이크로소프트, 자체 AI 칩 개발로 엔비디아 의존도 줄이기 모색",
+      "summary": "구글과 마이크로소프트 같은 주요 기술 기업들이 막대한 비용 절감과 성능 최적화를 위해 자체 AI 칩 개발에 박차를 가하며 엔비디아(NVIDIA)의 시장 지배력에 도전하고 있다.",
+      "detail": "I/O Fund에 따르면, 엔비디아는 현재 AI 칩 시장에서 독보적인 위치를 차지하고 있지만, 구글(TPU)과 마이크로소프트(Maia, Athena)와 같은 대규모 AI 서비스 제공업체들은 자체적인 맞춤형 AI 칩을 개발하여 비용을 절감하고 특정 워크로드에 최적화된 성능을 얻으려 하고 있다. 이는 장기적으로 엔비디아에 대한 의존도를 줄이고자 하는 전략의 일환이며, 엔비디아의 이익에도 영향을 미칠 수 있다.",
+      "why_it_matters": "AI 산업의 핵심인 반도체 시장의 경쟁 구도가 변화하고 있음을 보여준다. 주요 클라우드 및 AI 기업들의 자체 칩 개발은 엔비디아의 독점을 견제하고, AI 하드웨어 혁신을 가속화하며, 장기적으로는 AI 서비스 비용에도 영향을 미칠 수 있다.",
+      "source_name": "I/O Fund",
+      "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNOVdXLUJZTUxqMGpEamllS0tKMmx3MERqZnUyMnZQem1GYmNraVl4YWdlZTRzNl9aZERRVHprM3JTV3o1QkRidktIcE0tTkFBakwzcDk0U2h3WEM4YlpDOVRQS3hnVG9OeU1HNWRoMlZqUVU4UHpkTVdiTjZmYnhKZnpNemk?oc=5",
+      "published_date": "2026-10-23"
+    }
+  ]
+}
