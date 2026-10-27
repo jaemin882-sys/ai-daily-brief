@@ -1,0 +1,120 @@
+{
+  "date": "2026-10-27",
+  "updated_at": "10:25 KST",
+  "generation_mode": "RSS + Gemini summary (gemini-2.5-flash)",
+  "update_status": {
+    "ok": true,
+    "message": "오늘 브리핑이 정상 업데이트되었습니다."
+  },
+  "daily_summary": "오늘 AI 업계는 OpenAI의 새로운 GPT-6.1 테라 모델 출시와 Anthropic의 기업공개(IPO) 신청이라는 두 가지 큰 소식으로 주목받고 있습니다. 이와 함께 엔비디아가 GPU 소프트웨어에 연간 사용료를 부과하는 새로운 전략을 발표했으며, 구글은 온디바이스 AI 모델 성능의 한계를 인정했습니다.",
+  "ai_terms": [
+    {
+      "term": "Fine-tuning",
+      "full_name": "Fine-tuning",
+      "korean": "미세 조정",
+      "explanation": "미리 학습된 대규모 AI 모델을 특정 작업이나 데이터에 맞게 추가로 학습시키는 과정입니다. 적은 양의 데이터로도 모델의 성능을 특정 분야에서 크게 향상시킬 수 있습니다.",
+      "example": "ChatGPT와 같은 언어 모델을 특정 기업의 고객 응대 질문에 더 잘 답변하도록 미세 조정할 수 있습니다."
+    },
+    {
+      "term": "RAG",
+      "full_name": "Retrieval Augmented Generation",
+      "korean": "검색 증강 생성",
+      "explanation": "AI 모델이 외부 데이터베이스나 문서에서 관련 정보를 검색한 후, 이 정보를 바탕으로 답변을 생성하는 방식입니다. 이를 통해 모델은 최신 정보에 접근하고 환각(Hallucination) 현상을 줄일 수 있습니다.",
+      "example": "최신 뉴스를 포함하는 검색 엔진에서 정보를 찾아 사용자 질문에 답변하는 챗봇은 RAG 방식을 활용한 것입니다."
+    },
+    {
+      "term": "Dataset",
+      "full_name": "Dataset",
+      "korean": "데이터셋",
+      "explanation": "AI 모델을 학습시키거나 평가하는 데 사용되는 구조화된 데이터의 집합입니다. 이미지, 텍스트, 숫자 등 다양한 형태의 데이터를 포함할 수 있습니다.",
+      "example": "수많은 고양이 사진과 '고양이'라는 라벨로 구성된 이미지 데이터셋은 AI가 고양이를 인식하도록 학습시키는 데 사용됩니다."
+    }
+  ],
+  "exchange_rate": {
+    "usd_krw": 1325.28,
+    "date": "2026-10-26",
+    "source": "Frankfurter"
+  },
+  "exchange_rate_history": [
+    {
+      "date": "2026-10-16",
+      "rate": 1332.1
+    },
+    {
+      "date": "2026-10-19",
+      "rate": 1329.49
+    },
+    {
+      "date": "2026-10-20",
+      "rate": 1327.84
+    },
+    {
+      "date": "2026-10-21",
+      "rate": 1325.57
+    },
+    {
+      "date": "2026-10-22",
+      "rate": 1324.63
+    },
+    {
+      "date": "2026-10-23",
+      "rate": 1324.45
+    },
+    {
+      "date": "2026-10-26",
+      "rate": 1325.28
+    }
+  ],
+  "issues": [
+    {
+      "category": "OpenAI",
+      "title": "OpenAI, 새로운 GPT-6.1 테라 모델 출시로 ChatGPT 및 Codex 업그레이드",
+      "summary": "OpenAI가 ChatGPT와 Codex를 위한 새로운 대규모 언어 모델인 GPT-6.1 테라를 발표하며, 자사 모델의 업그레이드를 단행했습니다.",
+      "detail": "이번 업그레이드는 기존 ChatGPT 및 Codex 모델의 성능 향상을 목표로 하며, 사용자들이 더욱 발전된 AI 기능을 경험할 수 있도록 합니다. 이는 OpenAI의 지속적인 모델 개발 노력의 일환입니다.",
+      "why_it_matters": "새로운 모델 출시는 AI 기술 발전의 핵심 동력으로, 성능 향상은 다양한 AI 애플리케이션의 가능성을 확장하고 사용자 경험을 개선하는 데 직접적인 영향을 미칩니다.",
+      "source_name": "9to5Mac",
+      "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPcDNDOXFwYlZrb2tIeUVMR0NkTkdmaG01WUw1VldPMmR5LUZUREVObVZwVWkwMElnZ2MwV0RPS1VsbVRWU3phdmtGeEM0NEdramlacmhQUFAyZTBuNm5RMzRITE5CbldCd0g1RDhPMWFrU3J4R1ZqbDJBd2pXdVMwSG5Mb1ZWQmNBRTNOYXBqbXJkSmFaa1dTZlB3?oc=5",
+      "published_date": "2026-10-26"
+    },
+    {
+      "category": "Anthropic",
+      "title": "AI 기업 Anthropic, 사상 최대 규모의 IPO 신청",
+      "summary": "선도적인 AI 개발사 Anthropic이 기업공개(IPO)를 신청하며 AI 산업에 큰 파장을 예고하고 있습니다.",
+      "detail": "Anthropic의 IPO 신청은 회사의 급속한 성장과 AI 시장의 성숙도를 보여주는 중요한 지표입니다. 제출된 서류에는 회사의 재무 상태, 전략, 그리고 AI 안전 관련 경고 등이 포함되어 있습니다.",
+      "why_it_matters": "주요 AI 기업의 상장은 AI 기술에 대한 시장의 높은 기대를 반영하며, 대규모 자본 조달을 통해 연구 및 개발에 더욱 투자할 수 있는 기반을 마련합니다. 이는 경쟁 심화와 AI 산업 전반의 성장을 촉진할 수 있습니다.",
+      "source_name": "NPR",
+      "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZWRLbnU1SW5mV0hFN0luc05jT3VYaU4yTEc2MVdvTGpZUnVkcXJsTElPZUNWNEM0TDZBalFMYWhEeHVNY2hUYjB2cUhBYUEtV3BCT1JLQjF0ZnBmNkJkY3FGamZBdlJmS2hVV21neFJHblpROHZYTVN2OFU3LTZ5Zy14ZGdQMjcz?oc=5",
+      "published_date": "2026-10-26"
+    },
+    {
+      "category": "NVIDIA",
+      "title": "엔비디아, AI GPU에 연간 소프트웨어 사용료 $2,000 부과 예정",
+      "summary": "엔비디아가 AI 칩 판매 외에 GPU당 연간 2,000달러의 소프트웨어 사용료를 부과하는 새로운 수익 모델을 발표했습니다.",
+      "detail": "이 정책은 엔비디아가 하드웨어 판매를 넘어 AI 소프트웨어 생태계에서 더 많은 수익을 창출하려는 전략의 일환입니다. 이는 AI 개발 및 운영 비용에 상당한 영향을 미 미칠 수 있습니다.",
+      "why_it_matters": "엔비디아의 이러한 사업 모델 변화는 AI 인프라 비용에 직접적인 영향을 주어, AI 개발 및 배포를 계획하는 기업들의 재정적 부담을 가중시킬 수 있습니다. 이는 AI 산업 전반의 투자 및 비용 구조에 중요한 변수가 될 것입니다.",
+      "source_name": "Yahoo Finance",
+      "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQU3BiU185OFRSVVhwaWFBZ0VYVldiQXRQaktMMTNvNVFIZVpZaTdVTTV0MGJqVjVRYmg5N0xJSjlWUEhyRlRYVXpiWEhXcFBHcFhBMFMtM0dNTGt5X0xHN2cwdWdPOHVFNjJVQkNjd2VkZDM1OHdvZWRFZGxYV0Q2cUwyeXJsR1dnWTlpNWlhUUIxTE45bnctdHJBSEdTN1NHNGRj?oc=5",
+      "published_date": "2026-10-26"
+    },
+    {
+      "category": "Google",
+      "title": "구글, 안드로이드 코딩용 제미니 4 아르곤 모델 성능 경쟁 모델에 뒤처짐 인정",
+      "summary": "구글이 안드로이드 코딩 작업에 특화된 제미니 4 아르곤(Gemini 4 Argon) 모델이 경쟁사인 Claude 및 GPT-6 모델에 비해 성능이 떨어진다고 밝혔습니다.",
+      "detail": "구글은 제미니 4 아르곤 모델이 안드로이드 환경에서의 코드 생성 및 지원에 초점을 맞추고 있지만, 특정 벤치마크에서 경쟁사 모델보다 낮은 순위를 기록했다고 인정했습니다. 이는 온디바이스 AI 및 소형 모델 최적화의 어려움을 시사합니다.",
+      "why_it_matters": "온디바이스 AI 성능은 모바일 기기에서의 AI 활용도를 결정하는 중요한 요소입니다. 경쟁사 대비 성능 부족은 구글이 온디바이스 AI 시장에서 우위를 점하기 위한 추가적인 노력이 필요함을 보여주며, 향후 소형 AI 모델 개발 경쟁에 영향을 줄 수 있습니다.",
+      "source_name": "9to5Google",
+      "source_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE16QW5PSFRuZllfaWVqVmRrWXM4Vk01LTc0VjZlalphQi1Ld2RodkN4cVpMZHB5dXRCME0wU2h1ckJmYnUxajVTcFk5MjlGWVVTSnBQNVZDbEdrTnY3Vmx2Y3RzeFcwa2VwazN1Y1NsbUUwM2FVT1pzcDR1Zno?oc=5",
+      "published_date": "2026-10-26"
+    },
+    {
+      "category": "OpenAI",
+      "title": "OpenAI, 수학, 컴퓨터 과학, 물리학 분야 3가지 과학적 발견 및 학계 협력 방식 공개",
+      "summary": "OpenAI가 자사 모델을 통해 수학, 컴퓨터 과학, 물리학 분야에서 3가지 주요 과학적 증명을 성공적으로 수행했으며, 학계와의 새로운 협력 방식을 발표했습니다.",
+      "detail": "OpenAI는 AI 모델이 복잡한 과학 문제를 해결할 수 있는 능력을 입증하는 동시에, 학술 커뮤니티와 더욱 긴밀하게 협력하여 과학적 이해를 증진하고 연구 결과를 공유할 계획을 밝혔습니다.",
+      "why_it_matters": "AI 모델이 실제 과학 분야에서 새로운 발견을 이끌어냈다는 것은 AI의 문제 해결 능력의 한계를 확장하는 중요한 진전입니다. 이는 AI가 연구 도구로서의 잠재력을 입증하고, 인간 과학자들과의 협력을 통해 과학 발전에 기여할 수 있음을 보여줍니다.",
+      "source_name": "The Verge",
+      "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNazJEN01kcXphd2FkLUpjdExaMENSQnBhRV9FU0xBZXdEUUZyMkljemQwUXlWamY0ZHBTckQ3RzNEMlUwYzdWUWFBV2pfRzdhaG85TEJULW12VEpkUUswZlFuQzhTSnhIdnIyd1BQUDFNZzZZaGYxQ3pHTEtmbV9paUp6ZVNPSkpsc18xX1ctclp2bUIyZmFTYVYxNTRXbDg?oc=5",
+      "published_date": "2026-10-26"
+    }
+  ]
+}
