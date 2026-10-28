@@ -3,8 +3,10 @@
   "updated_at": "10:25 KST",
   "generation_mode": "RSS + Gemini summary (gemini-2.5-flash)",
   "update_status": {
-    "ok": true,
-    "message": "오늘 브리핑이 정상 업데이트되었습니다."
+    "ok": false,
+    "message": "오늘 AI 요약 업데이트에 실패해 마지막 정상 한국어 브리핑을 표시하고 있습니다.",
+    "failed_at": "2026-10-28 10:11 KST",
+    "error": "모든 Gemini 모델 호출에 실패했습니다. | gemini-2.5-flash: ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}} | gemini-3.6-flash: ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
   },
   "daily_summary": "오늘 AI 업계는 OpenAI의 새로운 GPT-6.1 테라 모델 출시와 Anthropic의 기업공개(IPO) 신청이라는 두 가지 큰 소식으로 주목받고 있습니다. 이와 함께 엔비디아가 GPU 소프트웨어에 연간 사용료를 부과하는 새로운 전략을 발표했으며, 구글은 온디바이스 AI 모델 성능의 한계를 인정했습니다.",
   "ai_terms": [
@@ -31,15 +33,11 @@
     }
   ],
   "exchange_rate": {
-    "usd_krw": 1325.28,
-    "date": "2026-10-26",
+    "usd_krw": 1327.75,
+    "date": "2026-10-27",
     "source": "Frankfurter"
   },
   "exchange_rate_history": [
-    {
-      "date": "2026-10-16",
-      "rate": 1332.1
-    },
     {
       "date": "2026-10-19",
       "rate": 1329.49
@@ -63,6 +61,10 @@
     {
       "date": "2026-10-26",
       "rate": 1325.28
+    },
+    {
+      "date": "2026-10-27",
+      "rate": 1327.75
     }
   ],
   "issues": [
