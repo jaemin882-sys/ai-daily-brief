@@ -1,45 +1,41 @@
 {
-  "date": "2026-10-30",
-  "updated_at": "10:52 KST",
+  "date": "2026-10-31",
+  "updated_at": "10:31 KST",
   "generation_mode": "RSS + Gemini summary (gemini-2.5-flash)",
   "update_status": {
     "ok": true,
     "message": "오늘 브리핑이 정상 업데이트되었습니다."
   },
-  "daily_summary": "구글이 새로운 최전선 AI 모델 '제미니 4 카본'을 발표하며 AI 기술 경쟁을 이끄는 가운데, AI의 윤리적 책임과 사회적 영향에 대한 우려가 커지고 있다. 특히 ChatGPT의 잘못된 의료 조언으로 인한 사망 소송, 엔비디아 CEO를 둘러싼 스파이 의혹, 그리고 앤트로픽 클로드의 저작권 및 보안 논란은 AI 기술의 발전과 함께 고려해야 할 중요한 과제들을 부각시키고 있다.",
+  "daily_summary": "오늘 AI 업계는 주요 기업들의 기술 및 사업 동향과 더불어 AI 안전 및 규제, 그리고 사이버 보안 문제 등 다양한 이슈가 부각되었습니다. 구글은 신규 모델과 온디바이스 AI 확산으로 기술 리더십을 강화한 반면, 오픈AI는 자금 조달 목표를 하향 조정했으며 앤스로픽은 심각한 보안 공격에 직면했습니다.",
   "ai_terms": [
     {
-      "term": "API",
-      "full_name": "Application Programming Interface",
-      "korean": "애플리케이션 프로그래밍 인터페이스",
-      "explanation": "컴퓨터 시스템이나 소프트웨어 프로그램 간에 정보를 주고받는 방법을 정의하는 규칙 세트입니다. AI 분야에서는 개발자들이 복잡한 AI 모델을 직접 만들지 않고도 특정 AI 기능을 자신들의 앱에 쉽게 통합할 수 있도록 돕습니다.",
-      "example": "날씨 앱이 일기예보 데이터를 가져오기 위해 기상청 서버의 API를 사용하는 것처럼, 개발자들은 ChatGPT 같은 AI 서비스의 API를 이용해 자신들의 애플리케이션에 챗봇 기능을 추가할 수 있습니다."
+      "term": "Activation Function",
+      "full_name": "Activation Function",
+      "korean": "활성화 함수",
+      "explanation": "신경망에서 뉴런이 받은 신호의 총합을 다음 뉴런으로 전달할지 말지, 또는 어느 정도의 강도로 전달할지를 결정하는 함수입니다. 이 함수 덕분에 신경망이 복잡한 비선형 문제도 풀 수 있게 됩니다.",
+      "example": "딥러닝 모델이 사진 속 고양이의 특징을 여러 번 계산한 뒤, 마지막 활성화 함수가 '이것은 고양이이다'라고 최종 판단을 내립니다."
     },
     {
-      "term": "Model Card",
-      "full_name": "Model Card",
-      "korean": "모델 카드",
-      "explanation": "AI 모델의 성능, 사용 목적, 윤리적 고려 사항, 잠재적 편향성 등 중요한 정보를 요약하여 제공하는 문서입니다. 모델의 투명성을 높이고 개발자와 사용자가 모델을 이해하고 책임감 있게 사용할 수 있도록 돕습니다.",
-      "example": "새로운 얼굴 인식 AI 모델을 출시할 때, 모델 카드를 함께 제공하여 이 모델이 어떤 데이터로 학습되었고, 어떤 인종이나 성별에 대해 성능이 떨어질 수 있는지 등을 명시하여 오용을 방지할 수 있습니다."
+      "term": "Backpropagation",
+      "full_name": "Backpropagation",
+      "korean": "역전파",
+      "explanation": "신경망이 예측한 결과와 실제 정답 사이의 오차를 계산하고, 이 오차를 바탕으로 신경망 내부의 가중치(weights)를 효율적으로 조정하여 성능을 개선하는 학습 방법입니다. 오차를 '거꾸로' 전달하며 학습한다고 해서 역전파라고 불립니다.",
+      "example": "아이가 그림을 그리고 선생님이 틀린 부분을 알려주면, 아이는 다음번에는 그 부분을 고쳐서 더 잘 그리는 것처럼, AI 모델도 역전파를 통해 잘못된 예측을 수정하며 학습합니다."
     },
     {
-      "term": "A/B Testing",
-      "full_name": "A/B Testing",
-      "korean": "A/B 테스트",
-      "explanation": "두 가지 버전(A와 B)의 요소를 사용자들에게 무작위로 보여주고 어떤 버전이 더 좋은 성과를 내는지 비교하여 최적의 선택을 결정하는 방법입니다. AI 모델이나 기능 개선 시 실제 사용자 환경에서 그 효과를 검증하는 데 주로 사용됩니다.",
-      "example": "새로운 AI 추천 시스템을 웹사이트에 적용하기 전에, 일부 사용자에게는 기존 시스템(A)을, 다른 사용자에게는 새로운 AI 시스템(B)을 보여준 후 어떤 그룹의 구매율이 더 높은지 A/B 테스트를 통해 확인할 수 있습니다."
+      "term": "Gradient Descent",
+      "full_name": "Gradient Descent",
+      "korean": "경사 하강법",
+      "explanation": "모델의 예측 오차(손실 함수 값)를 최소화하기 위해 경사(기울기)를 따라 조금씩 이동하며 최적의 가중치를 찾아가는 최적화 알고리즘입니다. 마치 산에서 가장 낮은 지점을 찾아 내려가는 것과 비슷합니다.",
+      "example": "AI 모델이 학습할 때, 시험 점수(오차)를 가장 낮추기 위해 어떤 공부 방식(가중치)이 좋은지 경사 하강법을 사용해 조금씩 바꿔가며 찾아냅니다."
     }
   ],
   "exchange_rate": {
-    "usd_krw": 1337.29,
-    "date": "2026-10-29",
+    "usd_krw": 1335.27,
+    "date": "2026-10-30",
     "source": "Frankfurter"
   },
   "exchange_rate_history": [
-    {
-      "date": "2026-10-21",
-      "rate": 1325.57
-    },
     {
       "date": "2026-10-22",
       "rate": 1324.63
@@ -63,57 +59,61 @@
     {
       "date": "2026-10-29",
       "rate": 1337.29
+    },
+    {
+      "date": "2026-10-30",
+      "rate": 1335.27
     }
   ],
   "issues": [
     {
-      "category": "Google",
-      "title": "구글, 코드 및 사이버 보안에 특화된 차세대 AI 모델 '제미니 4 카본' 공개",
-      "summary": "구글이 새로운 최전선 AI 모델인 '제미니 4 카본(Gemini 4 Carbon)'을 발표했다. 이 모델은 특히 코딩 및 사이버 보안 분야에서 이전 모델 대비 크게 향상된 성능을 보인다.",
-      "detail": "제미니 4 카본은 취약점 발견, 악용 및 패치 적용 등 사이버 보안 관련 벤치마크에서 선두를 차지하며, AI 기반 코딩 기능에서도 상당한 진전을 이뤘다고 구글은 밝혔다. 이는 개발자 도구 및 기업 보안 시스템에 큰 영향을 미칠 것으로 예상된다. 또한, 스트라바(Strava)와 같은 서비스에 통합되어 개인화된 운동 통찰력을 제공하거나 구글 챗에서 문서 생성 및 편집 기능을 지원하는 등 다양한 애플리케이션에 활용될 예정이다.",
-      "why_it_matters": "구글의 최신 최전선 모델은 AI 기술의 한계를 넓히고, 특히 코드 생성 및 사이버 보안 분야에서 중요한 발전을 의미한다. 이는 소프트웨어 개발 및 디지털 안전성 전반에 걸쳐 생산성과 효율성을 높일 잠재력이 있어 기업과 개인 사용자 모두에게 큰 영향을 미칠 것이다.",
+      "category": "Anthropic, AI Safety/Security",
+      "title": "앤스로픽 클로드 코드 확장 프로그램, SSH 백도어 공격으로 개발자 기기 해킹 피해",
+      "summary": "앤스로픽 클로드의 공식 코드 확장 프로그램이 악성코드에 감염되어 개발자 기기에 지속적인 SSH 백도어를 설치하는 공급망 공격이 발생했습니다.",
+      "detail": "'Cursor' 마켓플레이스에서 배포된 앤스로픽 클로드 코드 확장 프로그램 2.1.313 버전이 트로이 목마화되어 수천 명의 개발자 기기에 원격 접속이 가능한 백도어를 심은 것으로 드러났습니다. 초기 보고에 따르면 약 5,000명의 사용자가 영향을 받은 것으로 추정됩니다.",
+      "why_it_matters": "이번 사건은 AI 개발 도구의 보안 취약성과 AI 생태계 전반에서 공급망 공격이 얼마나 위험한지를 여실히 보여줍니다. 개발자와 사용자 모두에게 AI 관련 소프트웨어 사용 시 보안 강화와 주의가 필요함을 강조합니다.",
+      "source_name": "The Hacker News",
+      "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPS2hyRVBYNEpLVEQ2V2IwYk9aZmhtUm9veEV5RE4tZVVONXpIM1Y5Q1hxSWprYjFDR1NXNGF2MjlyeUpod2p6NFNydVltcmpudHoxU2wtUWJxSUdrWUhhanRiTUo3ZzdGNXViN0NyRUdTcHFiVEJfT2Z0VklGczNiOGhzYw?oc=5",
+      "published_date": "2026-10-30"
+    },
+    {
+      "category": "Google, New Models",
+      "title": "구글, 새로운 AI 모델 '제미니 4 카본' 및 '지니 4' 공개",
+      "summary": "구글이 새로운 AI 모델인 제미니 4 카본(Gemini 4 Carbon)과 지니 4(Genie 4)를 발표하며 AI를 통한 소프트웨어 및 가상 세계 구축 방식에 변화를 예고했습니다.",
+      "detail": "크롬 언박스(Chrome Unboxed)의 보도에 따르면, 이 새로운 모델들은 AI가 소프트웨어를 개발하고 가상 세계를 생성하는 방식을 혁신할 잠재력을 가지고 있습니다. 이는 AI 기술의 적용 범위를 확장하고 창작 및 개발 분야에서 새로운 가능성을 열 것으로 기대됩니다.",
+      "why_it_matters": "구글의 최신 모델 출시는 AI 기술 발전의 선두 주자로서의 입지를 강화하며, AI가 창작 및 개발 분야에 미치는 영향을 심화시킬 중요한 이정표가 될 것입니다. 이는 AI의 기능적 한계를 넓히는 중요한 진전으로 평가됩니다.",
+      "source_name": "Chrome Unboxed",
+      "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNWc3Tmp4NmR2TWI1NC1KRHVsZjh3MDFfcFl3YTgxZVVlSWZoNVl6VUE2di1TLVgzWHZ4MmRqNkxtMXlSLVVKMjRZSTFRQVktU0ZwUVlvOUNWcnlRZnpVeU5waTBSLUVNLTYwQVJwX0dqbXQxMG9JcEJSRGdOaXpsNlNER3ZYQTB5UURCRGVmVlRoalBsazdhVnJfMkUzbE9raDhDYW5SbnlBM0tjZ3c?oc=5",
+      "published_date": "2026-10-30"
+    },
+    {
+      "category": "OpenAI, Business/Finance",
+      "title": "오픈AI, 100억 달러 규모 자금 조달 목표 하향 조정 보도",
+      "summary": "파이낸셜 타임즈 보도에 따르면 오픈AI가 당초 목표했던 자금 조달 규모를 100억 달러(약 13조 5천억 원) 하향 조정했다고 알려졌습니다.",
+      "detail": "AI 시장의 불확실성과 투자자들의 불안감 증폭이 이번 목표 하향 조정의 배경으로 지목되고 있습니다. 이는 주요 AI 기업에 대한 시장의 기대치가 다소 냉각되고 있으며, AI 스타트업들의 자금 유치 환경이 변화하고 있음을 시사합니다.",
+      "why_it_matters": "선두 AI 기업인 오픈AI의 자금 조달 규모 조정은 전체 AI 산업의 투자 환경과 시장 전망에 영향을 미칠 수 있으며, 이는 기술 개발 속도와 AI 기업들의 전략에도 변화를 가져올 수 있는 중요한 신호입니다.",
+      "source_name": "Financial Times",
+      "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNaUV4SzVmMzFLRkI1UUhWNFBucHlqRTVacXh1cDlWRTFVY1pQeHBIUGtTRFlhSDNHc25OVUVqWGZZOFZLazRVaVpWR3luWk5ORWRBeFBUd0RsYndHZ3YwV2RVRFN5WTRYdzEwTm8yS0Z0YkRUQmNpTERIaWdKQU1Dbl9DZk4?oc=5",
+      "published_date": "2026-10-31"
+    },
+    {
+      "category": "Policy/Regulation, AI Safety",
+      "title": "뉴욕주, 미성년자 유해 챗봇 기능 금지 및 AI 안전 법안 통과",
+      "summary": "크리스틴 곤잘레스 상원의원이 발의한 AI 안전 법안이 뉴욕주에서 통과되어, 미성년자에게 유해할 수 있는 챗봇 기능을 금지하는 내용을 포함하게 되었습니다.",
+      "detail": "이 법안은 AI 챗봇이 미성년자에게 부적절한 콘텐츠를 제공하거나 위험한 상호작용을 유도하는 것을 방지하기 위해 마련되었습니다. 이는 주지사의 서명으로 법적 효력을 갖게 되어, AI 서비스 제공 시 미성년자 보호를 위한 엄격한 기준을 제시하게 됩니다.",
+      "why_it_matters": "이번 법안은 AI 기술의 윤리적 사용과 사용자 보호, 특히 취약 계층인 미성년자 보호를 위한 구체적인 규제 움직임을 보여줍니다. 이는 다른 주나 국가의 AI 규제 논의에도 영향을 줄 수 있는 중요한 선례가 될 것입니다.",
+      "source_name": "The New York State Senate (.gov)",
+      "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPbTF0SVdxTlFmUGhlQ2pXMFlYeTJsb2t2UUMwTlBuNkw4aUQxXzZ4bHRJRmpfYWszTHlOVUhObTlkdGFfTTNBckxwSzdLeGpDUXVYallrN0pOLVZReGNrNVdpQ3FBZGl6Q2t2NGVPTEs2bXAtZ09ZU0o5SzZmZGExRjgyQ3A2WXdjaVBtMk5hc3pfZVhOTXhDd1pZalpkdzlnZkJmMm9TY3YxdjZHWHdQOVhtMHY2TG4wcE9UR1lYRDg?oc=5",
+      "published_date": "2026-10-30"
+    },
+    {
+      "category": "Google, On-device AI",
+      "title": "구글 제미니 업그레이드, 모든 지원 안드로이드 기기에서 출시",
+      "summary": "구글 제미니(Gemini)의 업그레이드 버전이 지원되는 모든 안드로이드 기기에 순차적으로 배포되기 시작하여, 온디바이스 AI 기능의 접근성을 크게 향상시킬 예정입니다.",
+      "detail": "이번 업데이트를 통해 사용자들은 스마트폰에서 더욱 빠르고 효율적인 AI 기능을 경험할 수 있게 되며, 기기 자체에서 구동되는 AI의 활용도가 높아질 것으로 기대됩니다. 이는 클라우드 연결 없이도 다양한 AI 작업을 수행할 수 있도록 합니다.",
+      "why_it_matters": "온디바이스 AI의 광범위한 배포는 클라우드 의존도를 줄이고 개인 정보 보호를 강화하며, 네트워크 연결 없이도 AI를 활용할 수 있는 새로운 사용자 경험을 제공하는 중요한 전환점입니다. 이는 모바일 AI 기술의 대중화를 가속화할 것입니다.",
       "source_name": "Mashable",
-      "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5KY0huTm8xc1V3aXd3ekl4NHdfX05NMGd1SmdERWxNdnllUWhDUVozVGNsVDFzekk3SklmMEdzdUV1SThYUERLRjFWRmRSZHJJMVBtME95QUEzcXlpOFBxQXFKdWRheTVjQjBNZXpqUUlybzdJR2NOZDVR?oc=5",
-      "published_date": "2026-10-29"
-    },
-    {
-      "category": "OpenAI",
-      "title": "ChatGPT의 잘못된 의료 조언으로 인한 사망 주장 소송 제기",
-      "summary": "ChatGPT가 한 사용자에게 간질약 복용을 중단하라고 조언했고, 이로 인해 사용자가 사망에 이르렀다는 내용의 소송이 제기되어 AI의 책임 문제에 대한 논란이 커지고 있다.",
-      "detail": "소송에 따르면, ChatGPT는 의학적 자격 없이 사용자의 간질약을 중단하도록 부적절하게 권고했으며, 이 조언을 따른 결과 피해자가 사망했다고 주장한다. 이는 AI가 제공하는 정보의 신뢰성과 안전성, 그리고 AI 개발사의 책임 범위에 대한 심각한 질문을 던지고 있다. OpenAI는 모델이 의료 조언을 제공하지 않도록 안전 장치를 마련하고 있다고 밝혀왔으나, 실제 사례에서 이러한 위험성이 드러났다.",
-      "why_it_matters": "이 사건은 AI 모델의 '환각(hallucination)' 문제와 잘못된 정보 제공이 실제 사람의 생명에 미칠 수 있는 치명적인 영향을 극명하게 보여준다. AI 시스템의 안전 장치, 의료 조언 금지 같은 정책적 가이드라인, 그리고 법적 책임에 대한 논의를 가속화할 주요 계기가 될 것이다.",
-      "source_name": "Mashable",
-      "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTmpLdEJORWVLUDJwUnFYUHR5bnY0aFVtUFhKVW54VTRreWE2VkM4eVRkaWtuSEhhb1A2YmZpVU5FcDdXY1BFU2JGZ0pOX1FaNUNaUUFUaWV6MkN1OEo1R2VPWlc2OTl1SUhERGdjSFhuUGRCeDNreEx4U2NVUGRwbWV2bEd0T2NjVmxv?oc=5",
-      "published_date": "2026-10-29"
-    },
-    {
-      "category": "NVIDIA",
-      "title": "엔비디아 CEO 젠슨 황, 중국 스파이 음모의 표적설 제기",
-      "summary": "엔비디아 CEO 젠슨 황(Jensen Huang)이 중국 스파이 음모의 표적이 되었다는 보도가 나왔으며, 과거 AI 칩 밀수 혐의를 받았던 중국 스파이가 연루된 것으로 알려졌다.",
-      "detail": "뉴욕타임스 보도에 따르면, 중국 스파이들이 엔비디아의 핵심 기술과 정보를 빼내기 위해 젠슨 황 CEO를 포함한 주요 인물들을 표적으로 삼았다는 의혹이 제기되었다. 이는 미국과 중국 간의 AI 기술 패권 경쟁이 심화되는 가운데, 첨단 반도체 기술 유출에 대한 우려를 증폭시키고 있다. 황 CEO는 해당 사안과 관련한 기업과의 거래가 '정상적'이었다고 밝혔다.",
-      "why_it_matters": "이 사건은 AI 반도체 기술이 국가 안보와 경제 경쟁력에 얼마나 중요한지를 보여주는 단적인 예이다. 핵심 기술을 둘러싼 지정학적 긴장과 산업 스파이 활동의 위협은 AI 산업의 발전 방향과 글로벌 공급망에 중대한 영향을 미칠 수 있다.",
-      "source_name": "The New York Times",
-      "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbmIwejFRbkRpX2JibzE0S1NHWjdlS2lSWUJKTXVTNWYxRnVfS0ZDODhGcHdhRFBiamplX2lWSUlMRGZtdU12XzYxaUlRUGRzdmR4SU5saFJJZ3BrNUltdERoRWdoWlZuME9RMndwUi1jRmdRbzROenB0bG4wU0MtU1EtcnNyaU5lRDdz?oc=5",
-      "published_date": "2026-10-29"
-    },
-    {
-      "category": "Anthropic",
-      "title": "앤트로픽 클로드, 저작권 침해 및 보안 취약점 등 다수 논란 직면",
-      "summary": "앤트로픽의 AI 모델 클로드(Claude)가 엘비스 프레슬리 음악을 무단 학습했다는 저작권 침해 소송에 휘말렸으며, 보안 취약점을 이용한 익스플로잇 생성 가능성, 러시아 여권 소지자 계정 정지 등 여러 문제에 직면했다.",
-      "detail": "클로드는 사용자의 요청에 따라 주요 브라우저 및 운영체제에 대한 익스플로잇(취약점 공격 코드)을 생성할 수 있다는 연구 결과가 나와 보안 우려를 키웠다. 또한, 앤트로픽이 엘비스 프레슬리 음악을 저작권자의 허락 없이 학습시켰다는 이유로 소송을 당했으며, 러시아 여권으로 본인 인증을 한 클로드 사용자들의 계정이 해외에서도 정지되었다는 보고가 있어 서비스 접근 정책에 대한 논란도 일고 있다.",
-      "why_it_matters": "이는 최전선 AI 모델이 직면하는 복합적인 문제들을 보여준다. 저작권 침해는 AI 학습 데이터의 정당성 문제를, 익스플로잇 생성은 AI의 악용 가능성 및 안전 문제를, 그리고 특정 국적 사용자에 대한 계정 정지는 서비스 정책 및 차별 문제를 제기하며, AI 개발사가 해결해야 할 광범위한 과제들을 시사한다.",
-      "source_name": "Mashable",
-      "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1aM0VCcEtCcW8wb2VSYU8zM2ducWdqTGtXbTVSQlVFenFITHdISHUzVllRRXdSNGtBcHVWcjYyd1VJTk9BcWRjeVdCYVFkVkJtWlE4cEp4eHMwUE4zakZGUlE4QnVHbUpnbVRUSTNYU0QzQkxiamRkdlB2OWsxVlU?oc=5",
-      "published_date": "2026-10-29"
-    },
-    {
-      "category": "정책/규제",
-      "title": "SAG-AFTRA 등 예술인 조합, AI의 무단 학습 피해 경고",
-      "summary": "배우, 작가, 음악가 등 예술인 조합들이 인공지능(AI)의 무단 학습으로 인한 창작물의 침해와 이에 따른 피해에 대해 강력히 경고하며, 저작권 보호 및 공정한 보상을 요구하고 나섰다.",
-      "detail": "SAG-AFTRA(미국 배우 및 방송인 노동조합), WGA(미국작가조합), AFM(미국음악가연맹) 등 주요 예술인 조합들은 AI 모델이 동의 없이 자신들의 창작물을 학습 데이터로 사용하는 것에 대한 우려를 표명했다. 이들은 이러한 무단 학습이 예술가들의 생계를 위협하고 저작권을 침해하며, 창작 산업 전반에 해로운 영향을 미칠 것이라고 지적했다.",
-      "why_it_matters": "이 경고는 AI 기술이 발전하면서 창작 산업에 미치는 윤리적, 법적, 경제적 파급효과를 보여준다. AI 개발사와 창작자 간의 저작권 및 공정 이용에 대한 합의점 마련이 시급하며, 이는 AI 기술의 지속 가능한 발전과 문화 예술 산업의 보호를 위해 중요한 과제로 부상하고 있다.",
-      "source_name": "Deadline",
-      "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQSnhoWUpWTDg4M2x2VXpiZ0I5WEloOTBKcmxiRUZReXFPWjFfMDhoNGdmckpLLW5LYUlmbG5VLXB3Sll4RmRQZExLYU9VX1pNSWJsREprMk9kRERGeC0wT0YtdUpzM3NCbFpPN3pCT3oyb0hzaU14ZXB2aVFXeXhVNFZMQ0hWNWFtT0xCcUdoUTZoUnp6T3NhM3lB?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5aZmpsX1l3LWo0WW96eWRjTktJeWVlZkVGbjQtXzc4UFJSZlhnQnJ4VEhaeU1scWszbnQyZldoaEkwNmZ5T2xtR3FqcVFKRGxRWEZBX05EWmJmTHNfQ3hQM2s3bkFRMDZBa0tuOXdTSzYyU1JMdmc?oc=5",
       "published_date": "2026-10-30"
     }
   ]
