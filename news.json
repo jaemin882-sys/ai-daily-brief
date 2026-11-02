@@ -1,33 +1,33 @@
 {
-  "date": "2026-11-01",
-  "updated_at": "09:59 KST",
+  "date": "2026-11-02",
+  "updated_at": "10:27 KST",
   "generation_mode": "RSS + Gemini summary (gemini-2.5-flash)",
   "update_status": {
     "ok": true,
     "message": "오늘 브리핑이 정상 업데이트되었습니다."
   },
-  "daily_summary": "오늘은 엔비디아가 차세대 AI 플랫폼 '블랙웰'을 공개하며 하드웨어 경쟁을 심화시켰으며, 구글은 코딩과 보안에 특화된 '제미니 4 카본' 모델을 선보였다. 한편, OpenAI는 자금 조달 목표를 하향 조정하고 앤트로픽은 보안 사고에 직면하는 등 주요 AI 기업들의 사업 및 안정성 관련 소식이 이어졌다.",
+  "daily_summary": "AI 업계는 사용자 안전 및 윤리적 문제와 함께 신기술 발표 및 시장 확장이라는 양면성을 보이고 있습니다. 특히 의료 조언 관련 AI 오용 사고는 AI 책임론을 부각시켰으며, 주요 기업들은 신규 모델 출시와 함께 저작권 및 규제 문제에 직면하고 있습니다.",
   "ai_terms": [
     {
-      "term": "Supervised Learning",
-      "full_name": "Supervised Learning",
-      "korean": "지도 학습",
-      "explanation": "미리 정답(레이블)이 있는 데이터를 컴퓨터에 학습시켜 새로운 데이터에 대한 예측이나 분류를 수행하는 머신러닝 방법입니다. 데이터를 통해 정답을 찾아가는 과정을 감독받는 것처럼 학습한다고 해서 '지도 학습'이라고 불립니다.",
-      "example": "이메일이 스팸인지 아닌지(정답: 스팸/정상)를 미리 분류된 수많은 메일 데이터로 학습시킨 후, 새로운 메일이 왔을 때 스팸 여부를 자동으로 판단하는 것이 지도 학습의 예시입니다."
+      "term": "Deep Learning",
+      "full_name": "Deep Learning",
+      "korean": "심층 학습",
+      "explanation": "인간의 뇌 신경망을 모방한 인공 신경망을 여러 층(심층)으로 쌓아 데이터를 학습하는 기계 학습의 한 분야입니다. 복잡한 패턴을 인식하고 학습하는 데 뛰어난 성능을 보입니다.",
+      "example": "얼굴 인식, 음성 비서, 자율 주행 자동차 등 우리가 일상에서 접하는 많은 AI 기술에 심층 학습이 활용됩니다."
     },
     {
-      "term": "Objective Function",
-      "full_name": "Objective Function",
-      "korean": "목표 함수",
-      "explanation": "인공지능 모델이 학습하는 동안 달성하고자 하는 목표를 수학적으로 정의한 함수입니다. 이 함수의 값을 최소화하거나 최대화하는 방향으로 모델을 최적화하여 성능을 향상시킵니다.",
-      "example": "모델이 사진 속 고양이와 강아지를 정확히 구분하도록 학습할 때, 정답과 예측 사이의 오차를 최소화하는 것을 목표 함수로 설정하여 모델을 훈련시킬 수 있습니다."
+      "term": "Computer Vision",
+      "full_name": "Computer Vision",
+      "korean": "컴퓨터 비전",
+      "explanation": "컴퓨터가 이미지나 비디오 같은 시각 데이터를 '보고', '이해'하며, 그 안의 정보를 해석할 수 있도록 연구하는 AI 분야입니다. 사물 인식, 얼굴 감지, 동작 분석 등의 기술을 포함합니다.",
+      "example": "스마트폰 카메라 앱이 사람의 얼굴을 인식하여 자동으로 초점을 맞추거나, 공장에서 불량품을 자동으로 검사하는 시스템이 컴퓨터 비전 기술의 예시입니다."
     },
     {
-      "term": "Decision Boundary",
-      "full_name": "Decision Boundary",
-      "korean": "결정 경계",
-      "explanation": "분류 모델이 서로 다른 종류의 데이터를 나누는 가상의 선이나 평면을 말합니다. 이 경계를 기준으로 모델은 새로운 데이터가 어느 범주에 속할지 판단합니다.",
-      "example": "특정 질병의 유무를 판단하는 AI 모델이 있다면, 환자의 혈압, 콜레스테롤 수치 등 여러 데이터를 기반으로 질병이 있는 그룹과 없는 그룹을 나누는 기준선이 결정 경계가 됩니다."
+      "term": "NLG",
+      "full_name": "Natural Language Generation",
+      "korean": "자연어 생성",
+      "explanation": "컴퓨터가 숫자나 구조화된 데이터 같은 비언어적 정보를 입력받아 사람이 이해할 수 있는 자연어 텍스트로 자동 변환하는 AI 기술입니다. 보고서 작성, 요약, 스토리텔링 등에 사용됩니다.",
+      "example": "날씨 데이터나 주식 시장 데이터를 바탕으로 기사를 자동으로 작성하거나, 챗봇이 사용자의 질문에 맞춰 답을 만들어내는 것이 자연어 생성의 대표적인 예입니다."
     }
   ],
   "exchange_rate": {
@@ -67,54 +67,54 @@
   ],
   "issues": [
     {
-      "category": "NVIDIA / AI Hardware",
-      "title": "엔비디아, 차세대 AI 컴퓨팅 플랫폼 '블랙웰' 공개",
-      "summary": "엔비디아가 차세대 AI 컴퓨팅 플랫폼 '블랙웰(Blackwell)'을 공식 발표하며 AI 반도체 시장에서의 리더십을 강화했다.",
-      "detail": "'블랙웰' 플랫폼은 이전 세대보다 향상된 성능과 효율성을 제공하며, 대규모 언어 모델(LLM) 학습 및 추론, 데이터 분석 등 복잡한 AI 워크로드를 처리하도록 설계되었다. 이는 AI 기술 발전의 핵심 기반이 될 것으로 예상된다.",
-      "why_it_matters": "엔비디아의 새로운 플랫폼은 AI 산업 전반의 기술 발전 속도를 가속화하고, 데이터센터 및 클라우드 AI 인프라의 성능 기준을 새롭게 정립할 것으로 기대된다. 경쟁사들의 AI 반도체 개발에도 영향을 미칠 중요한 발표이다.",
-      "source_name": "The Herald Insight",
-      "source_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1HdnRwa2JZbVQzcUxmZERfbXJ6NmZoVmU2Qlkyb3hRbzUzM3ZVNUJWR2N6MVBYcGRrVlNFSGlITkFhbUpnSWdaN0gzbHZvaFlNMmloR3I4cHBsM2pjMWJuMDVaTV9nTlpXLVQ5clFiLTFEakI4?oc=5",
-      "published_date": "2026-10-31"
-    },
-    {
-      "category": "Google / AI Model",
-      "title": "구글, 코딩 및 사이버 보안 특화 '제미니 4 카본' 공개",
-      "summary": "구글이 복잡한 코딩 및 사이버 보안 작업을 위해 특별히 제작된 새로운 대규모 언어 모델(LLM) '제미니 4 카본(Gemini 4 Carbon)'을 발표했다.",
-      "detail": "'제미니 4 카본'은 개발자들이 코드 작성 및 디버깅을 효율적으로 수행하고, 사이버 보안 전문가들이 위협 분석 및 대응 능력을 향상시킬 수 있도록 설계된 전문 AI 모델이다. 이는 특정 도메인에 최적화된 AI 솔루션의 확장을 보여준다.",
-      "why_it_matters": "이 모델은 엔터프라이즈 환경에서 생산성 향상과 보안 강화에 기여할 것으로 보이며, LLM이 일반적인 작업 외에 고도의 전문성을 요구하는 분야로 진화하고 있음을 시사한다. 이는 AI 모델의 실용적 활용 범위를 넓히는 중요한 단계다.",
-      "source_name": "Yahoo Tech",
-      "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOM1JZcHdKaXZJbjU0Y1BhbFZEVlFNSkVOOW1RaEhnaHRZVlVha3JJZnpueEZ1dUpPWFdQNU03WGtLSXoxa3FNbDhORC0xaFNGSlRtb3pZTlpJa2VBUklIeEVocTZQOU1oMVdEZWlRYi0yZWU5VWxNQVBUXzJtcWt3Q0hXcmsxVzZwZ1Z4LXZn?oc=5",
-      "published_date": "2026-10-31"
-    },
-    {
-      "category": "OpenAI / Business & Finance",
-      "title": "OpenAI, 최신 자금 조달 목표액 최대 200억 달러로 하향 조정",
-      "summary": "OpenAI가 최근 투자 유치 라운드에서 초기 목표액인 300억 달러에서 최대 200억 달러로 하향 조정하고 있다고 CNBC가 보도했다.",
-      "detail": "이전 보도에서는 OpenAI가 300억 달러 이상을 목표로 했으나, 현재는 200억 달러 수준에서 자금 조달을 추진 중인 것으로 알려졌다. 이는 투자 시장의 변화 또는 회사의 전략적 조정에 따른 것으로 풀이된다.",
-      "why_it_matters": "AI 산업 선두 주자인 OpenAI의 자금 조달 규모 조정은 AI 시장 전반의 투자 심리 및 기업 가치 평가에 영향을 미칠 수 있다. 이는 거대 AI 기업의 성장 동력과 시장 전망을 가늠하는 중요한 지표가 될 것이다.",
-      "source_name": "CNBC",
-      "source_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOb2hwU1RZMjNaMVpkcW13aDRGb3M0UGlMb21CRTI4dDU5STc4eEJkZHNMc2VPQjVnYm80MEEzWm80RDFZdElReXNmbG1sS0xBYjNnNWNOZVJsSUhySmhIUTJfV0tEZjJncTFLSHJFbDVqU2FrdmlSVW1hNzdxZG8tbktn0gGHAUFVX3lxTFBEd2ZuVFNJR09vWjBBWUtDMF80c1luQkFnVWRkN2RWMG1DWmZJd3Z4clZwcjNIeEcwaExPcjc5MWt2MkZ1SW9KUHdZODhtV3NGanVTSVkzdFl0aTQtUmxZa1V6dHpDUkxacTNhTk1PWXFDbnVIR3NraVRJODh3MjFGdUhBNl9rTQ?oc=5",
-      "published_date": "2026-10-31"
-    },
-    {
-      "category": "Anthropic / AI Safety & Security",
-      "title": "액센츄어 계약직 직원, 클로드 AI 에이전트에 미 국방부 보안 네트워크 접근 권한 부여 의혹 제기",
-      "summary": "액센츄어의 한 계약직 직원이 앤트로픽의 클로드(Claude) AI 에이전트에게 미 국방부의 보안 네트워크에 접근할 수 있는 권한을 부여했다는 의혹이 제기되어 파장이 예상된다.",
-      "detail": "이 사건은 클로드 AI를 활용하는 과정에서 발생한 것으로 보이며, AI 시스템이 민감한 정보나 보안 네트워크에 접근하게 될 경우 발생할 수 있는 심각한 보안 위험과 데이터 유출 가능성을 보여준다.",
-      "why_it_matters": "민감한 정부 시스템과 AI의 통합에 대한 심각한 보안 우려를 제기하며, AI 사용에 있어 강력한 데이터 거버넌스 및 접근 통제 정책의 필요성을 강조한다. 이는 AI 배포의 신뢰성과 안전성에 대한 논의를 촉발할 것이다.",
-      "source_name": "CyberSecurityNews",
-      "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQY3lFdkF1LW9iWHFYdElfVEFNMXRsTnhJS1VMWExuZzB4ckpZMDdjWFczYzBwX28tejBCenVyVmpMU29lV1A0UU5GNExKV09xbUFFZUhvOHU4OVRpVTRqSGNWdnU1MHhiRUhuSF9pLVpEd0thVE5WUXBfUVZhQmR6N2tGTkU3TlHSAYwBQVVfeXFMTVcwVm1CY29wRkRLYnF3VFVCaHYydl9qRTJTTWRtTnB4Y0JsMEhtdlF5NzN2a0kxajlsM2RsYldEQUs2VzFuMUtybHRBLW9pVG9ESDN0X2V3cjktbElEcnNaeVFEb1BjUThtOVpUSzBvSzFYSXg1TWJfS005YVVPd3ZlYlBOZjVOZFdWd1E?oc=5",
+      "category": "AI 안전 및 윤리",
+      "title": "챗GPT 의료 오진으로 인한 사망 사건, OpenAI 피소",
+      "summary": "챗GPT의 잘못된 의료 조언으로 간질 약 복용을 중단한 여성이 사망하자 유족이 OpenAI를 상대로 소송을 제기했습니다.",
+      "detail": "보도에 따르면, 한 여성이 챗GPT의 권유로 간질 치료제 복용을 중단했고, 이로 인해 발생한 발작으로 사망했습니다. 이에 유족들은 챗GPT의 위험한 잘못된 정보를 제공한 책임을 물어 OpenAI에 법적 책임을 묻는 소송을 시작했습니다. 이 사건은 AI가 제공하는 정보의 신뢰성과 안전성에 대한 중대한 의문을 제기합니다.",
+      "why_it_matters": "이 사건은 AI의 의료 및 생명 관련 조언에 대한 규제 필요성과 개발사의 윤리적, 법적 책임 범위를 다시 한번 부각시킵니다. AI 모델의 답변이 사용자에게 심각한 피해를 줄 수 있음을 보여주며, AI 안전성 연구와 안전 장치 마련의 중요성을 강조합니다.",
+      "source_name": "Mashable",
+      "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTmpLdEJORWVLUDJwUnFYUHR5bnY0aFVtUFhKVW54VTRreWE2VkM4eVRkaWtuSEhhb1A2YmZpVU5FcDdXY1BFU2JGZ0pOX1FaNUNaUUFUaWV6MkN1OEo1R2VPWlc2OTl1SUhERGdjSFhuUGRCeDNreEx4U2NVUGRwbWV2bEd0T2NjVmxv?oc=5",
       "published_date": "2026-11-01"
     },
     {
-      "category": "Intel / AI Hardware Market",
-      "title": "인텔 주가 급락, AI 칩 수요 속 약한 4분기 전망 제시",
-      "summary": "인텔의 주가가 1970년대 이후 최악의 하락폭인 약 30%를 기록하며 급락했으며, 이는 AI 칩 수요에도 불구하고 부진한 4분기 전망 때문인 것으로 분석된다.",
-      "detail": "인텔은 AI 칩 시장에서 엔비디아와의 경쟁 심화와 더불어 전반적인 칩 수요에 대한 보수적인 전망을 제시하면서 투자자들의 우려를 샀다. 이는 기존 사업 부문의 약세가 AI 칩 시장의 잠재적 성장 모멘텀을 상쇄하고 있음을 시사한다.",
-      "why_it_matters": "AI 반도체 시장의 경쟁 구도와 전통적인 반도체 기업들의 AI 전환 과정에서의 어려움을 보여주는 사례이다. AI 칩 수요가 증가함에도 불구하고, 시장 리더십 확보와 효율적인 포트폴리오 전환의 중요성을 강조한다.",
-      "source_name": "eGamers.io",
-      "source_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZEFsTEMydk5PNVNDU0VqOUdjV0xRZnFYWERpTHF1Q2pQMml4X2lzSVd1dy1xTjdIX3NCOEpkRHllMjNCYWdKOTlUSW12cjZFcDFyVnQ3SzYzdE5LSWtQOWswWmZpZTZLWmlwMWFSN1MxZFlzWjlSMXRfaDBJQjZuWkpTc1hTdjVwek9XVjB2dmEwX25HOFhDQ09kUzJLQkpzdThibF9hdFlHM1J5WDY5a3VyRXpjUERvZ0hyZ2lHckZ6X05DT1E?oc=5",
-      "published_date": "2026-10-31"
+      "category": "Google, 신규 모델",
+      "title": "구글, 사이버 보안 특화 차세대 AI 모델 '제미니 4 카본' 공개",
+      "summary": "구글이 사이버 보안 전문가들을 위한 차세대 프론티어 모델 '제미니 4 카본'을 얼리 액세스 형태로 출시했습니다.",
+      "detail": "'제미니 4 카본'은 구글의 새로운 프론티어 모델로, 특히 사이버 보안 분야의 방어자들을 지원하기 위해 설계되었습니다. 이 모델은 복잡한 위협 분석, 취약점 탐지, 대응 자동화 등 고도의 보안 작업에 최적화된 기능을 제공하며, 점진적으로 다른 산업군으로 확장될 것으로 보입니다.",
+      "why_it_matters": "특정 전문 분야에 특화된 고성능 AI 모델의 출시는 AI 적용 범위가 더욱 정교하고 심층적으로 확장되고 있음을 보여줍니다. 특히 사이버 보안과 같은 중요 인프라 분야에서 AI의 활용은 효율성과 안정성을 크게 향상시킬 잠재력을 가집니다.",
+      "source_name": "EdTech Innovation Hub",
+      "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQR3ZvTFhOSFZhWVgtd0gzYmF2WG9LU3ZSUkthd1VxZlhGbnh0VTRac1RCcmc5dTRhcjRXTHdsbVRhamdDdWwybXA3bURwQk9TNVBIQTVtVjFmUWhRY1ZnZVpBRE51cEdsS2s3THlpeS1fNHJGLWp1TWlMQlJIY1RSVFBUVXVLVHdlMVRhVE84RVFWanJfYkxGdlRaa0Z5LWdFaEpOWWpvTlQyc1VCWndNUXNPN2dtU3E0RDhHTA?oc=5",
+      "published_date": "2026-11-02"
+    },
+    {
+      "category": "Microsoft, 윤리 및 기술",
+      "title": "마이크로소프트, 타인의 말을 생성하는 실시간 AI 시스템 특허 출원",
+      "summary": "마이크로소프트가 사람의 발언을 실시간으로 조작하거나 생성하여 '말을 넣을 수 있는' AI 시스템 특허를 출원했습니다.",
+      "detail": "이 특허는 AI가 사용자의 의도와 상관없이 다른 사람의 입에서 말이 나오도록 하는 기술에 대한 것으로, 음성 위조(Deepfake audio)를 넘어선 더욱 정교한 언어 조작 가능성을 시사합니다. 기술의 잠재적 응용 분야는 광범위하지만, 오용될 경우 심각한 윤리적, 사회적 문제를 야기할 수 있습니다.",
+      "why_it_matters": "이 기술은 디지털 커뮤니케이션의 신뢰성에 큰 영향을 미칠 수 있으며, 개인의 의사 표현 자유와 진실성 문제에 대한 새로운 논쟁을 불러일으킬 것입니다. AI 기술 개발에 있어 윤리적 고려와 강력한 오용 방지 메커니즘의 중요성을 다시금 강조합니다.",
+      "source_name": "Futurism",
+      "source_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQS2hoMWw5c2MwUVlFbUxRYVhLLUhvT2pZQXVPMnJPUWVyZU52R2FWbE5ZdENMQTU4dHlQSmVJVHE5WTR3VFlIeE14M3VxOW5OVm5SYlFCeG9vb09ZNHBKMUc2TUtUS3ZMc3p4RkVLUFN4NnpMOHhoRDdMcTBlNFlxWS04dk1Gc3BJdEFNNkgwWkNmS0E?oc=5",
+      "published_date": "2026-11-01"
+    },
+    {
+      "category": "Anthropic, 저작권 및 윤리",
+      "title": "Anthropic, 엘비스 프레슬리 음악 저작권 침해로 피소 및 AI의 게임 재창조 제한",
+      "summary": "Anthropic이 클로드(Claude) 모델 훈련에 엘비스 프레슬리 음악을 무단 사용했다는 혐의로 피소되었으며, 동시에 클로드가 기존 비디오 게임을 재창조하는 것을 제한하기 시작했습니다.",
+      "detail": "최근 Anthropic은 자사 AI 모델인 클로드의 훈련 과정에서 엘비스 프레슬리의 저작권 있는 음악을 사용했다는 이유로 소송을 당했습니다. 이와 함께 Anthropic은 클로드가 기존 비디오 게임을 재창조하는 것을 막는 조치를 취하고 있는데, 이는 생성형 AI가 창작물을 만들 때 원본 저작물의 저작권을 침해할 수 있는 문제에 대한 대응으로 풀이됩니다.",
+      "why_it_matters": "이 사건들은 생성형 AI 개발사들이 직면한 저작권 문제의 심각성을 보여주며, AI 훈련 데이터의 출처 투명성과 AI 생성 콘텐츠의 저작권 귀속에 대한 명확한 가이드라인이 시급함을 강조합니다. 이는 AI 산업의 지속 가능한 성장을 위한 중요한 선례가 될 것입니다.",
+      "source_name": "Mashable",
+      "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1aM0VCcEtCcW8wb2VSYU8zM2ducWdqTGtXbTVSQlVFenFITHdISHUzVllRRXdSNGtBcHVWcjYyd1VJTk9BcWRjeVdCYVFkVkJtWlE4cEp4eHMwUE4zakZGUlE4QnVHbUpnbVRUSTNYU0QzQkxiamRkdlB2OWsxVlU?oc=5",
+      "published_date": "2026-11-01"
+    },
+    {
+      "category": "AI 하드웨어 및 인프라",
+      "title": "OpenAI, AI 인프라 수요 급증에 따라 구글 TPU 칩 구매 계약",
+      "summary": "OpenAI가 AI 인프라 수요 급증에 대응하기 위해 구글의 TPU 칩을 구매할 계획임을 밝혔습니다.",
+      "detail": "AI 모델의 개발 및 운영에 필요한 막대한 컴퓨팅 자원 확보가 AI 업계의 주요 과제로 부상하면서, OpenAI가 이러한 수요를 충족시키기 위해 구글의 텐서 처리 장치(TPU) 칩을 도입하기로 했습니다. 이는 AI 서비스 확장에 필요한 하드웨어 인프라 확보 경쟁이 심화되고 있음을 보여줍니다.",
+      "why_it_matters": "거대 AI 모델의 성능 향상과 서비스 확장을 위해서는 고성능 AI 반도체가 필수적이며, 이번 계약은 이러한 AI 인프라 시장의 중요성과 대형 AI 기업 간의 협력 및 경쟁 구도를 명확히 보여줍니다. 또한, 엔비디아 중심의 시장에서 구글 TPU의 역할 확대 가능성도 시사합니다.",
+      "source_name": "TechRadar",
+      "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOV21EWUJNd3NYZTRXSU5RQVFtRjY1Z1ZWQTFrSnlPSENPOXNkNHpjRGI4dlFMbjh3Z0lxNFVmR1NCV2NpTUtTVlVFNkE0VHM3RG5mR0tUd1lVUU1neHpucThZMVRnakFBMENtT0dlTFhKbkxuYko2UGZGMkNMendLVFdjWk9IRFQweWVOVnk2TTV1T1JST1pnLTBLT3FCZkktWktlT3BLblJxbUE1NDMyRGY2LXpsQ21tNHQ3aWo3dw?oc=5",
+      "published_date": "2026-11-01"
     }
   ]
 }
