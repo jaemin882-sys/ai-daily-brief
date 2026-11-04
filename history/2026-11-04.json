@@ -1,0 +1,120 @@
+{
+  "date": "2026-11-04",
+  "updated_at": "11:09 KST",
+  "generation_mode": "RSS + Gemini summary (gemini-2.5-flash)",
+  "update_status": {
+    "ok": true,
+    "message": "오늘 브리핑이 정상 업데이트되었습니다."
+  },
+  "daily_summary": "오늘 AI 업계에서는 구글의 교육 시장 AI 통합 강제 정책, 앤트로픽의 AGI 개발 속도 조절, FTC의 AI 안전성 조사 등 정책과 규제 관련 주요 이슈가 부각되었다. 또한, AMD의 AI 칩 수요 급증과 OpenAI의 자금 조달 난항은 AI 하드웨어 시장의 역동성과 거대 AI 기업들의 재정적 현실을 동시에 보여주었다.",
+  "ai_terms": [
+    {
+      "term": "Unsupervised Learning",
+      "full_name": "Unsupervised Learning",
+      "korean": "비지도 학습",
+      "explanation": "정답(레이블)이 없는 데이터를 가지고 모델이 스스로 데이터 내의 패턴이나 구조를 찾아 학습하는 방식입니다. 데이터 분류나 그룹화에 주로 사용됩니다.",
+      "example": "온라인 쇼핑몰에서 고객 구매 이력을 분석하여, 누가 어떤 상품을 함께 구매하는지 그룹(클러스터)을 나누는 것이 비지도 학습의 예시입니다."
+    },
+    {
+      "term": "Learning Rate",
+      "full_name": "Learning Rate",
+      "korean": "학습률",
+      "explanation": "인공지능 모델이 학습하는 과정에서 얼마나 빠르게 또는 느리게 새로운 정보를 학습할 것인지를 조절하는 값입니다. 학습률이 너무 높으면 학습이 불안정해질 수 있고, 너무 낮으면 학습 속도가 매우 느려질 수 있습니다.",
+      "example": "자전거를 처음 배우는 사람이 페달을 얼마나 세게 밟을지 조절하는 것과 비슷하게, AI가 문제를 풀 때 한 번에 얼마나 많은 부분을 고쳐나갈지 정하는 값입니다."
+    },
+    {
+      "term": "Image Data",
+      "full_name": "Image Data",
+      "korean": "이미지 데이터",
+      "explanation": "컴퓨터가 인식하고 처리할 수 있는 그림, 사진 등의 시각적 정보입니다. 주로 픽셀(점)들의 배열로 이루어져 있으며, 각 픽셀은 색상이나 밝기 정보를 가집니다.",
+      "example": "스마트폰으로 사진을 찍거나, 인스타그램에 올리는 모든 사진이 이미지 데이터에 해당하며, AI는 이 데이터를 분석하여 내용을 이해할 수 있습니다."
+    }
+  ],
+  "exchange_rate": {
+    "usd_krw": 1344.59,
+    "date": "2026-11-03",
+    "source": "Frankfurter"
+  },
+  "exchange_rate_history": [
+    {
+      "date": "2026-10-26",
+      "rate": 1325.28
+    },
+    {
+      "date": "2026-10-27",
+      "rate": 1327.75
+    },
+    {
+      "date": "2026-10-28",
+      "rate": 1340.47
+    },
+    {
+      "date": "2026-10-29",
+      "rate": 1337.29
+    },
+    {
+      "date": "2026-10-30",
+      "rate": 1335.27
+    },
+    {
+      "date": "2026-11-02",
+      "rate": 1342.9
+    },
+    {
+      "date": "2026-11-03",
+      "rate": 1344.59
+    }
+  ],
+  "issues": [
+    {
+      "category": "Google / Policy",
+      "title": "구글, AI 거부 학교에 검색 서비스 사용 제한 예고",
+      "summary": "구글이 인공지능(AI) 사용을 거부하는 학교에 대해 자사의 검색 서비스 접근을 제한할 것이라고 발표했다. 이는 구글 검색에 AI가 필수적으로 통합되었음을 시사한다.",
+      "detail": "뉴욕타임즈에 따르면, 구글은 학교들이 AI를 거부할 경우 구글 검색 사용을 중단할 것이라는 강경한 정책을 발표했다. 구글은 이미 자사 검색 서비스에 AI 기술이 깊이 통합되어 있어 AI 없이 검색을 사용하는 것은 불가능하다고 설명했으며, 이는 학교들이 제미니(Gemini)와 같은 특정 AI 도구를 사용하지 않더라도 구글 검색의 AI 기능을 비활성화할 수 없음을 의미한다.",
+      "why_it_matters": "이 정책은 교육 분야에서 AI 기술 채택을 사실상 강제하는 것으로, AI 교육 및 활용에 대한 학교들의 자율성을 크게 제한할 수 있다. AI가 현대 디지털 서비스의 핵심 요소로 자리매김하고 있음을 보여주며, 기술 기업이 서비스 접근성을 통해 특정 기술의 확산을 주도하는 중요한 사례이다.",
+      "source_name": "The New York Times",
+      "source_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPa2ZWRmYyZW9YZng5SmhjYnpjQ213dnRKVjVjNW1rcS1RRFoxVUFKYnl2VlVjMk1abE1kQTE2Qk1Ea09WcHlvMjFNbTREWnhmYXZiTjE5RTY0bUdMZGsyRFRCNDNWQjg0SG90WXlaSVV1d19iV0x4UEVnVlFzS3dyVWZB?oc=5",
+      "published_date": "2026-11-03"
+    },
+    {
+      "category": "Anthropic / Research Strategy",
+      "title": "앤트로픽, 자가 개선 AI 연구 속도 조절 의사 표명",
+      "summary": "선도적인 AI 연구 기업인 앤트로픽이 수백억 달러의 R&D 비용 지출에도 불구하고 자가 개선(Self-improving) AI 추구 속도를 늦출 이유를 발견했다고 밝혔다.",
+      "detail": "R&D World 보도에 따르면, 앤트로픽은 자가 개선 AI 개발에 막대한 투자를 했음에도 불구하고 이 분야의 속도를 조절할 필요성을 느끼고 있다. 이는 인공 일반 지능(AGI) 개발의 윤리적, 안전적 문제에 대한 우려가 커지면서, 선도적인 AI 기업들조차 기술 발전의 방향과 속도에 대해 재고하는 움직임을 보이고 있음을 시사한다.",
+      "why_it_matters": "AI 안전(AI Safety)을 강조해 온 앤트로픽의 이러한 결정은 AGI 개발 경쟁에 대한 업계 전반의 경고음이 될 수 있으며, AI 기술의 무분별한 발전에 대한 신중한 접근과 잠재적 위험 관리에 대한 논의를 촉발할 것으로 예상된다.",
+      "source_name": "R&D World",
+      "source_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOTXk1MUM1T211NlhyM0tfUDZnN1czZTdGdGVpSUZqb3RnNktPd3dOZ2xjNDVMLXoxd1R5WE9iN0hrX0NaNmpreWxoNm1Nb1gyRElOUXI1WkJSMFh3aS1FZGpKNDRCTnAweGJyeHUwbmE5VnM3WmFPcXoxSWtLc0JJX2dUREg1SHlPZDZGS1lqakIzVzdDNDZ6N050SF9hajV3UXlVOU15Z0tjbTNTRDNDLU5oV1ZodG5FY0dwZVZMY0kzR2ZsN1JEVU9mbWo?oc=5",
+      "published_date": "2026-11-04"
+    },
+    {
+      "category": "Policy / Regulation",
+      "title": "미국 연방거래위원회(FTC), OpenAI 및 앤트로픽 등 AI 안전성 조사 착수",
+      "summary": "미국 연방거래위원회(FTC)가 OpenAI와 앤트로픽을 포함한 주요 AI 기업들의 AI 안전성 문제에 대해 공식 조사에 착수했다.",
+      "detail": "ABC News에 따르면, FTC는 AI 시스템의 안전성에 대한 우려가 커지면서 주요 AI 개발사인 OpenAI와 앤트로픽을 대상으로 조사를 시작했다. 이번 조사는 AI 모델이 유해하거나 편향된 콘텐츠를 생성할 가능성, 데이터 프라이버시 침해, 소비자 보호 문제 등 광범위한 안전 및 윤리적 측면을 다룰 것으로 보인다.",
+      "why_it_matters": "AI 기술의 급속한 발전에 따라 정부 차원의 규제 및 감독 움직임이 본격화되고 있음을 보여준다. 이는 AI 기업들이 제품 개발과 출시 과정에서 안전 및 윤리적 기준을 더욱 강화해야 할 필요성을 증대시키고, 향후 AI 산업의 발전 방향에 중요한 영향을 미칠 수 있다.",
+      "source_name": "ABC News - Breaking News, Latest News and Videos",
+      "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNekhUaUxwdkZqR01YY01YYkpuMUVfckMyc1RKT2ZKVkVIR21CaGpTOHIyT2pYb3BlZzBVWFh0UGxGbEtDZlg1SVBOY3NjOGF1bVB5UF8wY2NiU0RSRFlNblVlSldNZjNiN3lHdHJ6X09aTm1qLTlkbWQtTjJmbFJmRkNNS2lGTkhYTHpIbm9peFlwLWJuMjlPQVZVTld3Z0nSAaQBQVVfeXFMTzR3RUtELUM4bGpzZ3RGaUJUQ0VFbHpsR0hwQnAzSFVaYlRndXdwanFxdWFCNUxpQTg1OFFmOFBJd05QUC02V1hGYUxpWlFmcUhGeUFPSHFKNXk2UVV4cTBCb01IQmRlN003bVlwaTZuTVJxNEhKZi1WczVhQWE0MWRaRnBFbXNTSHppUzNCbm51M20wVEU0SFdnZUFvamVkYUhlYXY?oc=5",
+      "published_date": "2026-11-03"
+    },
+    {
+      "category": "AI Hardware / Market Trend",
+      "title": "AI 칩 수요 폭증으로 AMD의 실적 전망치 상회",
+      "summary": "AMD가 AI 칩 수요의 급증에 힘입어 분기별 실적 전망치를 초과 달성했으며, 이는 강력한 AI 반도체 시장 성장을 보여준다.",
+      "detail": "블룸버그 통신에 따르면, AMD는 최신 실적 발표에서 데이터센터 부문 매출이 AI 칩 수요 가속화로 거의 두 배 가까이 증가했다고 밝혔다. 이는 엔비디아(NVIDIA)가 독점하다시피 했던 AI 반도체 시장에서 AMD가 강력한 경쟁자로 부상하고 있음을 시사하며, 다양한 기업들이 AI 인프라 구축을 위해 고성능 AI 칩을 적극적으로 도입하고 있음을 나타낸다.",
+      "why_it_matters": "AI 반도체 시장의 강력한 성장세를 재확인하고, 특정 기업에 편중되지 않은 수요 다변화 가능성을 보여준다. 이는 AI 인프라 투자 확대로 이어져 전체 AI 생태계 발전에 긍정적인 영향을 미칠 것으로 예상된다.",
+      "source_name": "Bloomberg.com",
+      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQYURlOUxxRUMybEdmbkJoTHZiZEVTTUtCN0gyZ1RsV0s3YlEteXR1NFZIWDNwXzJKTUdCRUpJY0RWNlRqVC02M0VaMFgtY0piUFNGSkhKQmZ3bTVwMHFERHN6ZExPSnVFbWdBWDYxQnNnX0RJRnF6QVlld0FBeDhySGlrUEZ4bEtmWkkybFFVRU9EcnhRd2F5c1M1eGc2OFk5VG95X0dUa1dWUGhPZzJJ?oc=5",
+      "published_date": "2026-11-03"
+    },
+    {
+      "category": "OpenAI / Business",
+      "title": "OpenAI, 최신 펀딩 라운드에서 목표액 절반 미만 유치",
+      "summary": "OpenAI가 최근 진행한 자금 조달 라운드에서 목표했던 300억 달러의 절반에도 미치지 못하는 금액을 유치한 것으로 알려졌다.",
+      "detail": "월스트리트저널(WSJ) 보도에 따르면, OpenAI는 당초 300억 달러를 목표로 했던 최신 투자 유치 라운드에서 절반 미만의 자금을 모으는 데 그쳤다. 이는 전 세계적으로 AI 기술에 대한 막대한 투자가 이어지는 가운데서도, 선도적인 AI 기업조차 대규모 자금 조달에 예상치 못한 어려움을 겪을 수 있음을 시사한다.",
+      "why_it_matters": "AI 산업의 투자 열기가 식어가고 있거나, 특정 기업에 대한 투자자들의 신중함이 반영된 결과일 수 있다. 이는 OpenAI의 향후 연구 개발 및 사업 확장 계획에 영향을 미칠 수 있으며, 전체 AI 스타트업 시장에 대한 투자 심리에도 영향을 줄 수 있는 중요한 신호이다.",
+      "source_name": "WSJ",
+      "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTW9TMmVsZkc2b05TYkloVW41X050RjdtZ1F5U01TRnJOSEthYTJpcDdPWVhJb0FvRGEteHgtbVhSS0lOVEZ3T2N5MTNpSUNWNXpETThZR0RvcFQwY2Q5R3ctRUFvM1ZtdFdMaXhGSnpPM2FiLUhORXNrem84cUpfVGpuQ0VmaGNsZUlxUVQ0dk4zQUE2cWFzUk8yM1R3cjc3dEczVw?oc=5",
+      "published_date": "2026-11-03"
+    }
+  ]
+}
