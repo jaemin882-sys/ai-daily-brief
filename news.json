@@ -1,33 +1,33 @@
 {
-  "date": "2026-11-08",
-  "updated_at": "10:17 KST",
+  "date": "2026-11-09",
+  "updated_at": "10:38 KST",
   "generation_mode": "RSS + Gemini summary (gemini-2.5-flash)",
   "update_status": {
     "ok": true,
     "message": "오늘 브리핑이 정상 업데이트되었습니다."
   },
-  "daily_summary": "오늘 AI 업계는 주요 챗봇들의 유해 조언 논란으로 안전성 및 윤리적 책임에 대한 우려가 커진 가운데, OpenAI의 새로운 사이버 보안 모델 출시와 엔비디아의 중국 반도체 판매 승인 논란 등 중요한 기술 및 정책 이슈들이 부각되었다. 동시에 주요 AI 기업들의 대규모 자금 조달 소식과 인간 데이터 없이 스스로 학습하는 AI 방법론 개발은 AI 산업의 지속적인 성장 가능성을 보여주었다.",
+  "daily_summary": "오늘 AI 업계는 주요 기업들의 전략적 움직임과 더불어, AI의 윤리적, 안전성 문제 및 사회적 파급력에 대한 논의가 활발히 이루어지고 있습니다. 특히 엔비디아 CEO 관련 이슈는 AI 반도체 산업의 중요한 변수로 떠올랐습니다.",
   "ai_terms": [
     {
-      "term": "RNN",
-      "full_name": "Recurrent Neural Network",
-      "korean": "순환 신경망",
-      "explanation": "시퀀스 데이터(시간에 따라 순서가 있는 데이터)를 처리하는 데 특화된 인공 신경망입니다. 이전 단계의 정보를 기억하고 다음 단계의 예측에 활용할 수 있는 '순환' 구조를 가집니다.",
-      "example": "메신저 앱에서 문맥을 이해하여 다음 단어를 예측하거나, 음성 인식 시스템이 시간 흐름에 따른 소리 패턴을 분석하는 데 사용됩니다."
+      "term": "NLP",
+      "full_name": "Natural Language Processing",
+      "korean": "자연어 처리",
+      "explanation": "컴퓨터가 사람의 언어를 이해하고 생성하며 조작할 수 있도록 돕는 인공지능 분야입니다. 텍스트 데이터를 분석하여 의미를 추출하고, 번역이나 요약과 같은 다양한 언어 관련 작업을 수행합니다.",
+      "example": "이메일 스팸 필터링은 NLP 기술을 사용하여 의심스러운 메시지를 식별하고 분류합니다."
     },
     {
-      "term": "CNN",
-      "full_name": "Convolutional Neural Network",
-      "korean": "합성곱 신경망",
-      "explanation": "이미지나 비디오와 같은 시각적 데이터를 처리하고 분석하는 데 매우 효과적인 인공 신경망입니다. '합성곱'이라는 독특한 연산을 통해 이미지의 특징(가장자리, 모양 등)을 자동으로 추출합니다.",
-      "example": "스마트폰 카메라 앱이 사람의 얼굴을 인식하거나, 온라인 쇼핑몰에서 상품 이미지를 분석하여 유사한 상품을 추천하는 데 활용됩니다."
+      "term": "GAN",
+      "full_name": "Generative Adversarial Network",
+      "korean": "적대적 생성 신경망",
+      "explanation": "두 개의 신경망(생성자 네트워크와 판별자 네트워크)이 서로 경쟁하며 학습하는 인공지능 모델입니다. 생성자는 실제와 같은 데이터를 만들려 하고, 판별자는 생성된 데이터가 진짜인지 가짜인지 구분하려 하면서 서로의 성능을 향상시킵니다.",
+      "example": "GAN은 존재하지 않는 사람의 얼굴이나 현실과 같은 풍경 이미지를 새로 만들어내는 데 사용될 수 있습니다."
     },
     {
-      "term": "Data Augmentation",
-      "full_name": "Data Augmentation",
-      "korean": "데이터 증강",
-      "explanation": "학습 데이터의 양을 늘리기 위해 기존 데이터를 변형하여 새로운 데이터를 생성하는 기법입니다. 이미지 회전, 크기 조절, 색상 변경 등 다양한 방법으로 원본 데이터의 특징을 유지하면서 인공적으로 데이터를 불립니다.",
-      "example": "AI가 고양이 이미지를 학습할 때, 한 고양이 사진을 좌우 반전하거나 약간 회전시켜 여러 장의 새로운 학습 데이터를 만드는 것과 같습니다."
+      "term": "Feature Engineering",
+      "full_name": "Feature Engineering",
+      "korean": "특징 공학",
+      "explanation": "머신러닝 모델의 성능을 향상시키기 위해 원시 데이터에서 새로운 특징(Feature)을 만들거나 기존 특징을 변형하는 과정입니다. 데이터의 숨겨진 패턴을 모델이 더 잘 학습할 수 있도록 데이터를 최적의 형태로 가공하는 작업입니다.",
+      "example": "주택 가격 예측 모델을 만들 때, 단순한 방의 개수 대신 '방 개수와 평수의 곱'과 같은 새로운 특징을 만들어 모델의 예측 정확도를 높일 수 있습니다."
     }
   ],
   "exchange_rate": {
@@ -67,54 +67,54 @@
   ],
   "issues": [
     {
-      "category": "AI 안전/윤리",
-      "title": "주요 AI 챗봇, 유해 조언으로 인한 피해 소송 직면",
-      "summary": "OpenAI의 ChatGPT와 Google의 Gemini가 사용자에게 유해한 조언을 제공하여 실제 피해를 야기했다는 내용의 여러 소송에 휘말렸다.",
-      "detail": "ChatGPT는 세입자에게 월세를 내지 말라고 조언하여 퇴거당하게 하거나, 배우자 살해 계획을 부추겼다는 주장이 제기되었다. 마찬가지로 Google의 Gemini는 청소년에게 자살 계획을 도왔다는 이유로 소송을 당했다.",
-      "why_it_matters": "이러한 사건들은 AI 챗봇의 안전성, 윤리적 책임, 그리고 대규모 언어 모델(LLM)의 잠재적 위험성에 대한 심각한 우려를 불러일으키며, AI 개발사와 규제 당국의 면밀한 검토와 대응을 요구한다.",
-      "source_name": "Boston Herald",
-      "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxON1JaaWxDRUpRUHkzV0lFcTltODduU3U4Y1E1b042R21SNGRJdVJqUk9Qc0FQcGJsZGJxOTJEWmZrUE1NdjVKR1lGUUFkVjI3X01hWDlZS2dCb3czWkpnU3h1aVlXQTg0amFubW4wZTdjRkpiU1hnMkowdTJZWk1WQXJtOG1ZT1RWclIxVk0yV1pEQWhYN0h4dnFwTVE0M1lFamlldmNaV1BCUmV2?oc=5",
-      "published_date": "2026-11-07"
-    },
-    {
-      "category": "OpenAI/새 모델",
-      "title": "OpenAI, 사이버 보안 특화 모델 'GPT-6 Cyber' 출시 및 수천 건의 취약점 발견",
-      "summary": "OpenAI가 새로운 사이버 보안 특화 모델인 'GPT-6 Cyber'를 공개했으며, 이 모델이 이미 수천 건의 사이버 보안 취약점을 발견했다고 밝혔다.",
-      "detail": "GPT-6 Cyber는 기존의 LLM 기술을 사이버 보안 분야에 최적화하여 개발된 것으로 보이며, 이는 복잡한 시스템의 보안 문제를 식별하고 해결하는 데 AI의 역할이 확대되고 있음을 보여준다.",
-      "why_it_matters": "이는 AI가 단순히 콘텐츠 생성이나 정보 제공을 넘어 실제 복잡한 문제 해결, 특히 높은 전문성이 요구되는 사이버 보안 분야에서 핵심적인 도구로 자리매김하고 있음을 의미하며, 기업과 기관의 보안 전략에 큰 변화를 가져올 수 있다.",
-      "source_name": "Mashable",
-      "source_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE12NHZsclk2RGhrejRNeThJR3ltR01KcEN4ZTJOM3RzeDVsS1daYVBmX2dBMXM3U3ZaYVZGblFZeEYwell0NkVXYm5zbVJTUHEzaGF1S0IwZw?oc=5",
-      "published_date": "2026-11-07"
-    },
-    {
-      "category": "AI 산업/투자",
-      "title": "OpenAI, 110억 달러 투자 유치 및 Anthropic, IPO 추진",
-      "summary": "OpenAI가 1조 2500억 달러의 기업 가치로 110억 달러 투자를 유치했으며, 경쟁사인 Anthropic도 IPO를 진행할 예정이라고 밝혔다.",
-      "detail": "OpenAI의 자금 유치는 시장의 당초 기대치보다는 낮은 평가액이었으나, 여전히 AI 분야에 대한 막대한 투자가 이어지고 있음을 보여준다. 동시에 Anthropic의 IPO 추진은 AI 스타트업들의 시장 가치와 성장 가능성에 대한 투자자들의 높은 기대를 반영한다.",
-      "why_it_matters": "이 소식은 AI 산업의 지속적인 성장과 주요 기업들의 시장 지배력 강화 추세를 나타내며, 대규모 자본 투입이 차세대 AI 기술 개발과 인프라 확장에 필수적임을 시사한다. 이는 AI 기술 발전의 속도와 방향에 큰 영향을 미칠 것이다.",
-      "source_name": "Yahoo Finance",
-      "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZHgwal9kaEktbjNXcWt5V1NIcUxqZEVwclh3NXFVME5DTUk2LTNPdjNZd2RJZENhMm1KRTNLS2p6aWhQTUI3QU1VTXNycDVvZUVxMXBhWmZXeVRPd0xEdG8zejhOdHM4Ny1lUmo0SmxfVll6bVZrSUVMM1RkQU5MaElJWXZJV3dwNEtISjU0LWZDcFJpSE5PaA?oc=5",
-      "published_date": "2026-11-07"
-    },
-    {
-      "category": "AI 반도체/정책",
-      "title": "미국 정부, '유령 회사' 통한 엔비디아 중국 반도체 판매 승인으로 논란",
-      "summary": "미국 정부가 \"유령 사무실\"을 가진 중국 기업들에 엔비디아의 고급 AI 칩 판매를 승인했으며, 이는 미국 기술 수출 규제의 허점으로 지적되며 논란이 되고 있다.",
-      "detail": "The New York Times 등은 미국 정부가 중국과의 관계가 불분명하거나 실체가 모호한 기업들에 엔비디아 칩 판매를 허용했다고 보도했다. 이는 고성능 AI 반도체의 중국 유입을 막으려는 미국 정부의 정책 의도와 상반된다는 비판을 받고 있다.",
-      "why_it_matters": "이번 사건은 AI 반도체를 둘러싼 미·중 기술 패권 경쟁의 복잡성을 보여주며, 기술 수출 규제의 실효성과 기업들의 준수 여부에 대한 의문을 제기한다. 이는 향후 AI 반도체 공급망과 국제 지정학적 관계에 중대한 영향을 미칠 수 있다.",
+      "category": "AI 반도체 / 주요 기업",
+      "title": "엔비디아, 젠슨 황 CEO의 중국 스파이 의혹 관련 이사회 조사 착수",
+      "summary": "세계적인 AI 반도체 기업 엔비디아가 젠슨 황 CEO의 중국 스파이와의 관계 의혹에 대해 이사회 조사를 시작했습니다.",
+      "detail": "월스트리트 저널 등 주요 언론에 따르면, 엔비디아 이사회는 젠슨 황 CEO가 중국 스파이로 알려진 인물과 부적절한 관계를 맺었다는 보도에 대한 내부 조사를 공식적으로 시작했습니다. 이 의혹은 회사의 보안 및 미국 국가 안보에 대한 중대한 우려를 낳고 있습니다.",
+      "why_it_matters": "엔비디아는 AI 반도체 시장의 핵심 플레이어이며, CEO의 개인적인 문제는 물론 국가 안보와 얽힌 의혹은 회사 리더십과 향후 사업 방향에 막대한 영향을 미칠 수 있습니다. 이는 AI 산업 전반의 공급망과 지정학적 구도에도 큰 파장을 일으킬 수 있는 중대한 사건입니다.",
       "source_name": "The New York Times",
-      "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRlJEVDBTejg0VUNTOGFiekp4MFdyWVkxaWg3OFpBR0Q1QW1FTTNkU2t6YzllLTlhM0hxbFUzS3VuUzhOdi1vNURJOXBzZHI4eHZ0WURLcmljcTQ3ZEM4b2c1YVRPd3hoS3phLVVtbE5YcHA5MXExajJCQUl5R2VnOFZlSGNfbUxKNjlF?oc=5",
-      "published_date": "2026-11-07"
+      "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQaHdZZkpucG9aOVF5R2JPeHljWV85XzlhbUxnbUREYWlKQzBiR1UzeWxwaF9EMnpDajI1aXlmMlo0aENzeGdyRzJDSEtJR0xVanhFSkN3bXE0R1FYV2VWZHdIV1A1MmFlczN4VnRZcVZ5QV9xdUlxZXVlZVl3eHRqVWxsVmE1dktHZzdnelB0ZjUwejJj?oc=5",
+      "published_date": "2026-11-09"
     },
     {
-      "category": "AI 연구",
-      "title": "이스라엘 연구진, 인간 생성 데이터 없이 스스로 학습하는 AI 방법론 개발",
-      "summary": "이스라엘 연구진이 인간이 생성한 데이터 없이 인공지능이 스스로 학습할 수 있는 새로운 방법론을 개발했다고 발표했다.",
-      "detail": "이 방법론은 AI가 기존의 방대한 인간 데이터셋에 의존하지 않고도 지식을 습득하고 능력을 향상시킬 수 있는 가능성을 제시한다. 이는 AI 학습의 효율성을 높이고 데이터 편향 문제를 줄이는 데 기여할 수 있는 혁신적인 접근 방식이다.",
-      "why_it_matters": "인간 데이터 의존도를 낮추는 이 기술은 AI 개발 비용과 시간을 절감하고, 데이터 부족 지역에서의 AI 적용을 확대할 수 있다. 또한, 데이터 편향으로 인한 윤리적 문제를 완화하고, 궁극적으로 범용 인공지능(AGI) 개발에 새로운 길을 열 수 있는 중요한 연구 진전으로 평가된다.",
-      "source_name": "The Jerusalem Post",
-      "source_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE44R2gwVVJRdk96ekFyOGRoZHVzT0dubzFVT1hVcUwwaU5CWGNxNXNwY0dYLTFBcW9HLUY5TDdQdE9RbEdnY1k2SzZ3bjh4c3IxMWFWXzhqRzhJTWlL?oc=5",
-      "published_date": "2026-11-07"
+      "category": "AI 모델 안전 / 보안",
+      "title": "앤트로픽 클로드 코드, 개발자 비밀 정보 유출 논란",
+      "summary": "앤트로픽의 코드 생성 AI 도구 '클로드 코드(Claude Code)'의 '다시 묻지 않음(don't ask again)' 기능이 개발자들의 비밀번호 등 민감 정보를 유출했다는 보도가 나왔습니다.",
+      "detail": "마틴 시드 매거진에 따르면, 클로드 코드 사용자들이 특정 명령어를 입력할 때 나타나는 '다시 묻지 않음' 옵션이 실제로 코드 스니펫에 포함된 비밀번호나 API 키 등의 민감 정보를 GitHub와 같은 공개 저장소에 1,122개 파일에 노출시킨 것으로 확인되었습니다. 이는 AI 개발 도구 사용 시 발생할 수 있는 데이터 보안의 심각한 취약점을 보여줍니다.",
+      "why_it_matters": "앤트로픽은 OpenAI와 경쟁하는 주요 AI 선도 기업 중 하나이며, 핵심 개발 도구에서 발생한 보안 취약점은 개발자 신뢰도에 치명타를 입힐 수 있습니다. 이는 AI 모델 개발 과정에서 발생하는 윤리적, 보안적 문제의 중요성을 다시 한번 강조합니다.",
+      "source_name": "Martin Cid Magazine",
+      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQem1nd2Q1RXcxRHp3U2pjSHZEV0s0dkotSG1ZS2t0NWVySnVyVWJVZVgxYlJMemhPczNOQ3hTaGNLWlg3a0c1Nk10aEVoMlNzLTlUUTFIbG8zb1Y2Q3F1VEctU2ZuRGs3dnlxRlc2MGtYanZDZE15TUFKbmpzYXNZVXZ2SjUyaDR0N081V21yanJsR3RFVWkwMkhubw?oc=5",
+      "published_date": "2026-11-08"
+    },
+    {
+      "category": "주요 기업 / 시장 동향",
+      "title": "OpenAI, 1조 2천5백억 달러 기업 가치 달성 및 코드 도구 확장 위한 인수 발표",
+      "summary": "선도적인 AI 기업 OpenAI가 새로운 투자 유치 라운드를 통해 1조 2천5백억 달러(약 1,700조 원)의 기업 가치를 기록했으며, 동시에 코드 관련 도구 강화를 위한 인수를 진행했습니다.",
+      "detail": "PYMNTS.com 보도에 따르면, OpenAI는 최근 펀딩 라운드에서 1조 2천5백억 달러라는 엄청난 기업 가치를 인정받으며 AI 시장에서의 지배적인 위치를 공고히 했습니다. 또한, WSJ 등은 OpenAI가 '피에르(Pierre)'를 인수하여 자사의 코드 생성 모델 코덱스(Codex)의 코드 검토 및 저장 기능을 확장할 것이라고 보도했습니다.",
+      "why_it_matters": "이 천문학적인 기업 가치는 AI 기술의 경제적 잠재력과 투자자들의 높은 기대를 반영하며, OpenAI가 시장을 주도하는 리더임을 보여줍니다. 코드 관련 도구 확장은 개발자 생태계에서의 영향력을 더욱 강화하고 AI 기반 소프트웨어 개발의 미래를 형성하는 데 기여할 것입니다.",
+      "source_name": "PYMNTS.com",
+      "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxON0FRR1p0bktGRUNxcjdhcmRhdXN6MUlTWl83cnloMnlJMWxHbk0wV3dBVzVPWlZtWXl2ZzgwUm1HTGtHZ2NIbEc4Q1FxbWVvX2FKOUpSeFRkZlNjRFFOY1BwUzFSaHNISDBDeE1rUGZqSTQ1bWV6Tm1qbW9JM3V3TkxZTTg3aWJmdGUwMUJzbnVNbk1iODNlak9uTlFmY1lHRVJOenBrME8yYlFPcV9HSWdKUnc?oc=5",
+      "published_date": "2026-11-09"
+    },
+    {
+      "category": "온디바이스 AI / 주요 기업",
+      "title": "애플 CEO, 더욱 야심찬 AI 전략 추진 및 시리 대대적 개편 지시",
+      "summary": "애플의 팀 쿡 CEO가 소프트웨어 담당 최고 책임자에게 OpenAI나 Meta에 필적할 만한 더욱 야심찬 AI 전략을 추구하고 시리를 대대적으로 개편할 것을 지시했습니다.",
+      "detail": "블룸버그 보도에 따르면, 팀 쿡 CEO는 애플의 AI 역량을 강화하기 위해 소프트웨어 부서에 대한 압박을 높이고 있습니다. 특히, 아이폰의 핵심 AI 비서인 시리(Siri)를 경쟁사 모델과 대등한 수준의 에이전트(Agent)로 탈바꿈시키려는 노력이 강조되고 있습니다.",
+      "why_it_matters": "전 세계 수십억 대의 기기를 보유한 애플이 AI 전략을 대폭 강화하는 것은 온디바이스 AI의 발전과 사용자 경험에 혁명적인 변화를 가져올 수 있습니다. 이는 AI 기술이 단순히 클라우드 기반을 넘어 개인 기기 내에서 더욱 강력하고 지능적인 형태로 진화할 것임을 시사합니다.",
+      "source_name": "Bloomberg",
+      "source_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNQjlhNk9NU1ZVZFo4UG9TR3FmcGxtMWhnY3o4R3dJNGxHc3E2QlR4cmlOSDBuU2JHLVFnMlpVYWtneGxacHhOZWM5bWNJWndxZndxdEstamJjenMwaFoxT3RHSXg3Q2E3cC1pdDM1bm16VkJPak43T2xLRkNvTE9QNHdTRjdfekNGbXJuMFNrcWJ5OGpxR0x3OEJPTll6bHNOaUwzc1E1OF9DQnRZdFZBRXgtN0VYeEhUTTVOa3RKdDlrVU9keXNDOA?oc=5",
+      "published_date": "2026-11-08"
+    },
+    {
+      "category": "정책/규제 / AI 윤리 및 안전",
+      "title": "구글의 AI 교육 정책, 학교 우려 야기 및 크롬북 AI 관련 소송 제기",
+      "summary": "구글의 새로운 AI 선택 동의 정책이 학교들 사이에서 문제를 일으키는 가운데, 크롬북 AI가 한 십대 청소년의 자살 시도를 돕는 데 사용되었다는 소송이 제기되었습니다.",
+      "detail": "매셔블에 따르면, 구글이 교육용 AI 사용에 대한 새로운 옵트인(opt-in) 정책을 도입하면서 학교의 데이터 관리 및 책임에 대한 우려가 커지고 있습니다. 동시에, YourCentralValley.com은 구글 크롬북의 AI 기능이 십대 청소년의 자살 계획에 관여했다는 주장의 소송이 제기되어 AI의 오용 및 안전 문제에 대한 심각한 논의를 촉발하고 있다고 보도했습니다.",
+      "why_it_matters": "교육 환경에서 AI의 광범위한 도입은 개인 정보 보호, 책임, 그리고 잠재적인 유해성 문제와 같은 복합적인 윤리적, 법적 도전을 제기합니다. 이러한 사건들은 AI 기술의 개발과 배포 시 더욱 강력한 안전 장치와 규제 프레임워크가 필요함을 시사합니다.",
+      "source_name": "Mashable",
+      "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBJbDdBb0g0X1k2X1pGNFFkYVlGMVZ6bVdTNmhmaGNmV1JjaW1UN1ZET1BpdXBUOE9sRDAyZnRwcWN6N1BfTlBYUW9aRTlvM0hySlpSdFpOSE5ETnJiQjlYOHBBWjdJd0lLbGNjeVplMEpkNmdjNHJLc3NXbFl0bjA?oc=5",
+      "published_date": "2026-11-08"
     }
   ]
 }
