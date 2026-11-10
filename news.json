@@ -1,45 +1,41 @@
 {
-  "date": "2026-11-09",
-  "updated_at": "10:38 KST",
+  "date": "2026-11-10",
+  "updated_at": "13:04 KST",
   "generation_mode": "RSS + Gemini summary (gemini-2.5-flash)",
   "update_status": {
     "ok": true,
     "message": "오늘 브리핑이 정상 업데이트되었습니다."
   },
-  "daily_summary": "오늘 AI 업계는 주요 기업들의 전략적 움직임과 더불어, AI의 윤리적, 안전성 문제 및 사회적 파급력에 대한 논의가 활발히 이루어지고 있습니다. 특히 엔비디아 CEO 관련 이슈는 AI 반도체 산업의 중요한 변수로 떠올랐습니다.",
+  "daily_summary": "오늘 AI 업계는 엔비디아 CEO 관련 지정학적 리스크와 구글의 AI 칩 경쟁 심화 속에서, 앤스로픽과 OpenAI가 각각 신규 모델 출시 및 기업용 솔루션 확장으로 시장 경쟁을 가열시켰으며, AI 에이전트 보안 문제로 인한 호주의 AI 규제 강화도 주목받았습니다.",
   "ai_terms": [
     {
-      "term": "NLP",
-      "full_name": "Natural Language Processing",
-      "korean": "자연어 처리",
-      "explanation": "컴퓨터가 사람의 언어를 이해하고 생성하며 조작할 수 있도록 돕는 인공지능 분야입니다. 텍스트 데이터를 분석하여 의미를 추출하고, 번역이나 요약과 같은 다양한 언어 관련 작업을 수행합니다.",
-      "example": "이메일 스팸 필터링은 NLP 기술을 사용하여 의심스러운 메시지를 식별하고 분류합니다."
+      "term": "Synthetic Data",
+      "full_name": "Synthetic Data",
+      "korean": "합성 데이터",
+      "explanation": "실제 데이터를 기반으로 AI 모델이 생성한 가상의 데이터입니다. 실제 데이터가 부족하거나 개인 정보 보호 문제로 사용이 어려울 때, 모델 학습용으로 활용될 수 있습니다.",
+      "example": "의료 AI 모델을 개발할 때 환자 개인 정보 보호를 위해 실제 환자 데이터와 통계적 특성이 유사한 합성 데이터를 만들어 사용할 수 있습니다."
     },
     {
-      "term": "GAN",
-      "full_name": "Generative Adversarial Network",
-      "korean": "적대적 생성 신경망",
-      "explanation": "두 개의 신경망(생성자 네트워크와 판별자 네트워크)이 서로 경쟁하며 학습하는 인공지능 모델입니다. 생성자는 실제와 같은 데이터를 만들려 하고, 판별자는 생성된 데이터가 진짜인지 가짜인지 구분하려 하면서 서로의 성능을 향상시킵니다.",
-      "example": "GAN은 존재하지 않는 사람의 얼굴이나 현실과 같은 풍경 이미지를 새로 만들어내는 데 사용될 수 있습니다."
+      "term": "In-context Learning",
+      "full_name": "In-context Learning",
+      "korean": "문맥 내 학습",
+      "explanation": "대규모 언어 모델(LLM)이 별도의 가중치 업데이트 없이, 주어진 프롬프트(입력 문맥) 내의 예시를 통해 새로운 작업을 수행하는 능력입니다. 소수의 예시만으로도 모델이 새로운 패턴을 파악하여 답을 생성할 수 있습니다.",
+      "example": "'사과: 빨간색, 바나나: 노란색'이라는 예시를 준 다음 '수박:'이라고 물었을 때, 모델이 '초록색'이라고 답하는 것이 문맥 내 학습의 한 예시입니다."
     },
     {
-      "term": "Feature Engineering",
-      "full_name": "Feature Engineering",
-      "korean": "특징 공학",
-      "explanation": "머신러닝 모델의 성능을 향상시키기 위해 원시 데이터에서 새로운 특징(Feature)을 만들거나 기존 특징을 변형하는 과정입니다. 데이터의 숨겨진 패턴을 모델이 더 잘 학습할 수 있도록 데이터를 최적의 형태로 가공하는 작업입니다.",
-      "example": "주택 가격 예측 모델을 만들 때, 단순한 방의 개수 대신 '방 개수와 평수의 곱'과 같은 새로운 특징을 만들어 모델의 예측 정확도를 높일 수 있습니다."
+      "term": "Domain Adaptation",
+      "full_name": "Domain Adaptation",
+      "korean": "도메인 적응",
+      "explanation": "특정 분야(소스 도메인)에서 학습된 AI 모델을 다른 유사한 분야(타겟 도메인)에서 잘 작동하도록 조정하는 기술입니다. 타겟 도메인의 데이터가 부족할 때 특히 유용하며, 모델의 일반화 능력을 향상시킵니다.",
+      "example": "맑은 날씨 도로 영상으로 학습된 자율주행 모델이 비가 오는 날씨의 도로에서도 정확하게 차선과 장애물을 인식하도록 추가 학습 없이 모델을 조정하는 것을 도메인 적응이라고 할 수 있습니다."
     }
   ],
   "exchange_rate": {
-    "usd_krw": 1358.73,
-    "date": "2026-11-06",
+    "usd_krw": 1346.79,
+    "date": "2026-11-09",
     "source": "Frankfurter"
   },
   "exchange_rate_history": [
-    {
-      "date": "2026-10-29",
-      "rate": 1337.29
-    },
     {
       "date": "2026-10-30",
       "rate": 1335.27
@@ -63,58 +59,62 @@
     {
       "date": "2026-11-06",
       "rate": 1358.73
+    },
+    {
+      "date": "2026-11-09",
+      "rate": 1346.79
     }
   ],
   "issues": [
     {
-      "category": "AI 반도체 / 주요 기업",
-      "title": "엔비디아, 젠슨 황 CEO의 중국 스파이 의혹 관련 이사회 조사 착수",
-      "summary": "세계적인 AI 반도체 기업 엔비디아가 젠슨 황 CEO의 중국 스파이와의 관계 의혹에 대해 이사회 조사를 시작했습니다.",
-      "detail": "월스트리트 저널 등 주요 언론에 따르면, 엔비디아 이사회는 젠슨 황 CEO가 중국 스파이로 알려진 인물과 부적절한 관계를 맺었다는 보도에 대한 내부 조사를 공식적으로 시작했습니다. 이 의혹은 회사의 보안 및 미국 국가 안보에 대한 중대한 우려를 낳고 있습니다.",
-      "why_it_matters": "엔비디아는 AI 반도체 시장의 핵심 플레이어이며, CEO의 개인적인 문제는 물론 국가 안보와 얽힌 의혹은 회사 리더십과 향후 사업 방향에 막대한 영향을 미칠 수 있습니다. 이는 AI 산업 전반의 공급망과 지정학적 구도에도 큰 파장을 일으킬 수 있는 중대한 사건입니다.",
+      "category": "NVIDIA / 정책 및 규제",
+      "title": "엔비디아 CEO, 중국 스파이 연루 의혹 조사 및 구글의 AI 칩 경쟁 심화",
+      "summary": "엔비디아가 젠슨 황 CEO의 중국 스파이 연루 의혹에 대한 조사를 시작했으며, 동시에 구글은 엔비디아에 맞서 자체 AI 칩 개발을 강화하며 AI 반도체 시장의 경쟁을 심화하고 있습니다.",
+      "detail": "엔비디아는 젠슨 황 CEO가 의심되는 중국 스파이와 관계를 맺었다는 의혹에 대해 내부 조사를 개시했습니다. 이 의혹은 미국 상무부의 관련 조사 중 엔비디아의 개입으로 중단된 사건과도 연결되어 있어 지정학적 긴장감을 높입니다. 한편, 구글은 엔비디아의 시장 지배력에 도전하며 자체적으로 개발한 특화 AI 칩으로 AI 반도체 시장 경쟁을 가속화하고 있습니다.",
+      "why_it_matters": "이 사건은 AI 반도체 공급망, 미중 기술 경쟁, 그리고 기업의 투명성에 미치는 영향을 보여주는 중요한 사례입니다. 엔비디아의 리더십 위기뿐만 아니라 AI 칩 시장의 판도 변화와 국가 안보 측면에서 AI 기술의 전략적 중요성을 부각시키며 업계 전반에 큰 파장을 일으킬 것으로 예상됩니다.",
       "source_name": "The New York Times",
       "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQaHdZZkpucG9aOVF5R2JPeHljWV85XzlhbUxnbUREYWlKQzBiR1UzeWxwaF9EMnpDajI1aXlmMlo0aENzeGdyRzJDSEtJR0xVanhFSkN3bXE0R1FYV2VWZHdIV1A1MmFlczN4VnRZcVZ5QV9xdUlxZXVlZVl3eHRqVWxsVmE1dktHZzdnelB0ZjUwejJj?oc=5",
       "published_date": "2026-11-09"
     },
     {
-      "category": "AI 모델 안전 / 보안",
-      "title": "앤트로픽 클로드 코드, 개발자 비밀 정보 유출 논란",
-      "summary": "앤트로픽의 코드 생성 AI 도구 '클로드 코드(Claude Code)'의 '다시 묻지 않음(don't ask again)' 기능이 개발자들의 비밀번호 등 민감 정보를 유출했다는 보도가 나왔습니다.",
-      "detail": "마틴 시드 매거진에 따르면, 클로드 코드 사용자들이 특정 명령어를 입력할 때 나타나는 '다시 묻지 않음' 옵션이 실제로 코드 스니펫에 포함된 비밀번호나 API 키 등의 민감 정보를 GitHub와 같은 공개 저장소에 1,122개 파일에 노출시킨 것으로 확인되었습니다. 이는 AI 개발 도구 사용 시 발생할 수 있는 데이터 보안의 심각한 취약점을 보여줍니다.",
-      "why_it_matters": "앤트로픽은 OpenAI와 경쟁하는 주요 AI 선도 기업 중 하나이며, 핵심 개발 도구에서 발생한 보안 취약점은 개발자 신뢰도에 치명타를 입힐 수 있습니다. 이는 AI 모델 개발 과정에서 발생하는 윤리적, 보안적 문제의 중요성을 다시 한번 강조합니다.",
-      "source_name": "Martin Cid Magazine",
-      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQem1nd2Q1RXcxRHp3U2pjSHZEV0s0dkotSG1ZS2t0NWVySnVyVWJVZVgxYlJMemhPczNOQ3hTaGNLWlg3a0c1Nk10aEVoMlNzLTlUUTFIbG8zb1Y2Q3F1VEctU2ZuRGs3dnlxRlc2MGtYanZDZE15TUFKbmpzYXNZVXZ2SjUyaDR0N081V21yanJsR3RFVWkwMkhubw?oc=5",
-      "published_date": "2026-11-08"
-    },
-    {
-      "category": "주요 기업 / 시장 동향",
-      "title": "OpenAI, 1조 2천5백억 달러 기업 가치 달성 및 코드 도구 확장 위한 인수 발표",
-      "summary": "선도적인 AI 기업 OpenAI가 새로운 투자 유치 라운드를 통해 1조 2천5백억 달러(약 1,700조 원)의 기업 가치를 기록했으며, 동시에 코드 관련 도구 강화를 위한 인수를 진행했습니다.",
-      "detail": "PYMNTS.com 보도에 따르면, OpenAI는 최근 펀딩 라운드에서 1조 2천5백억 달러라는 엄청난 기업 가치를 인정받으며 AI 시장에서의 지배적인 위치를 공고히 했습니다. 또한, WSJ 등은 OpenAI가 '피에르(Pierre)'를 인수하여 자사의 코드 생성 모델 코덱스(Codex)의 코드 검토 및 저장 기능을 확장할 것이라고 보도했습니다.",
-      "why_it_matters": "이 천문학적인 기업 가치는 AI 기술의 경제적 잠재력과 투자자들의 높은 기대를 반영하며, OpenAI가 시장을 주도하는 리더임을 보여줍니다. 코드 관련 도구 확장은 개발자 생태계에서의 영향력을 더욱 강화하고 AI 기반 소프트웨어 개발의 미래를 형성하는 데 기여할 것입니다.",
-      "source_name": "PYMNTS.com",
-      "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxON0FRR1p0bktGRUNxcjdhcmRhdXN6MUlTWl83cnloMnlJMWxHbk0wV3dBVzVPWlZtWXl2ZzgwUm1HTGtHZ2NIbEc4Q1FxbWVvX2FKOUpSeFRkZlNjRFFOY1BwUzFSaHNISDBDeE1rUGZqSTQ1bWV6Tm1qbW9JM3V3TkxZTTg3aWJmdGUwMUJzbnVNbk1iODNlak9uTlFmY1lHRVJOenBrME8yYlFPcV9HSWdKUnc?oc=5",
+      "category": "Anthropic",
+      "title": "앤스로픽, 차세대 Claude Fable 5.2 및 Mythos 5.2 모델 공개 및 IPO 준비 가속화",
+      "summary": "앤스로픽이 OpenAI의 GPT-6 Astra보다 20% 저렴한 가격으로 새로운 Claude Fable 5.2 및 Mythos 5.2 모델을 출시하며, 기업 공개(IPO)를 위한 준비를 본격화하고 있습니다.",
+      "detail": "앤스로픽은 두 가지 새로운 LLM인 Claude Fable 5.2와 Mythos 5.2를 선보이며 AI 시장에서 경쟁력을 강화했습니다. 이 모델들은 경쟁사인 OpenAI의 GPT-6 Astra 대비 20% 낮은 가격으로 책정되어 가격 경쟁력을 앞세웠습니다. 동시에 앤스로픽은 IPO 절차에 속도를 내고 있으며, 창립자와 주요 투자자가 참여하는 IPO 라이브 스트림을 계획하는 등 시장의 주목을 받고 있습니다.",
+      "why_it_matters": "주요 LLM 개발사 중 하나인 앤스로픽의 새 모델 출시는 AI 성능 경쟁을 심화시키고, 가격 인하를 통해 더 많은 기업과 개발자가 첨단 AI를 활용할 수 있도록 할 것입니다. 또한, IPO 추진은 AI 산업의 성숙도와 투자자들의 기대감을 반영하며, 향후 AI 스타트업들의 자금 조달 및 성장 전략에 중요한 참고점이 될 것입니다.",
+      "source_name": "Fortune",
+      "source_url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNZXh5WWJvWmxMbkZBakNhNWhkR3R2YnFvS2Uwc3JuOFlPOGh0aU1mbWZXZEJJU0xuRDZ2TW1nLXdyMWxnWllFcnRnRGlHWDJBdWUxdHJaR1NIZDc5Y0djdEliTUhGTDlxazlFbER1cmZyTk9udlJ1eHJxRHo1cmlKV2QtMW0yVTFaVk55dFJJVE9DRVYyM21nMXl0eEVzVEVxR1lVVGJWb2lzNDl1MmJONWVsc2ZET2VST3dEUUxGQWdIeFFkQjB6TnlKY0M5WmFqck80Q1VaSHQ?oc=5",
       "published_date": "2026-11-09"
     },
     {
-      "category": "온디바이스 AI / 주요 기업",
-      "title": "애플 CEO, 더욱 야심찬 AI 전략 추진 및 시리 대대적 개편 지시",
-      "summary": "애플의 팀 쿡 CEO가 소프트웨어 담당 최고 책임자에게 OpenAI나 Meta에 필적할 만한 더욱 야심찬 AI 전략을 추구하고 시리를 대대적으로 개편할 것을 지시했습니다.",
-      "detail": "블룸버그 보도에 따르면, 팀 쿡 CEO는 애플의 AI 역량을 강화하기 위해 소프트웨어 부서에 대한 압박을 높이고 있습니다. 특히, 아이폰의 핵심 AI 비서인 시리(Siri)를 경쟁사 모델과 대등한 수준의 에이전트(Agent)로 탈바꿈시키려는 노력이 강조되고 있습니다.",
-      "why_it_matters": "전 세계 수십억 대의 기기를 보유한 애플이 AI 전략을 대폭 강화하는 것은 온디바이스 AI의 발전과 사용자 경험에 혁명적인 변화를 가져올 수 있습니다. 이는 AI 기술이 단순히 클라우드 기반을 넘어 개인 기기 내에서 더욱 강력하고 지능적인 형태로 진화할 것임을 시사합니다.",
-      "source_name": "Bloomberg",
-      "source_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNQjlhNk9NU1ZVZFo4UG9TR3FmcGxtMWhnY3o4R3dJNGxHc3E2QlR4cmlOSDBuU2JHLVFnMlpVYWtneGxacHhOZWM5bWNJWndxZndxdEstamJjenMwaFoxT3RHSXg3Q2E3cC1pdDM1bm16VkJPak43T2xLRkNvTE9QNHdTRjdfekNGbXJuMFNrcWJ5OGpxR0x3OEJPTll6bHNOaUwzc1E1OF9DQnRZdFZBRXgtN0VYeEhUTTVOa3RKdDlrVU9keXNDOA?oc=5",
-      "published_date": "2026-11-08"
+      "category": "Google",
+      "title": "구글 제미니, 로봇 제어 및 시뮬레이션용 'Gemini 4 Argon' 공개하며 활용 범위 확장",
+      "summary": "구글이 로봇 제어, 시뮬레이션 및 정책 개선을 위한 새로운 AI 모델 'Gemini 4 Argon'을 출시하며, 제미니의 적용 범위를 대화형 AI를 넘어 로봇 공학 분야로 확장했습니다.",
+      "detail": "구글은 제미니(Gemini) 모델 제품군에 로봇 공학 특화 모델인 'Gemini 4 Argon'을 추가했습니다. 이 모델은 로봇의 정교한 제어, 복잡한 환경 시뮬레이션, 그리고 행동 정책 개선에 초점을 맞춰 개발되었습니다. 이는 구글이 제미니를 단순히 대화형 AI를 넘어 실제 물리적 세계와 상호작용하는 에이전트 AI로 발전시키려는 전략의 일환으로 해석됩니다.",
+      "why_it_matters": "Gemini 4 Argon의 출시는 AI가 실제 로봇 시스템에 통합되어 자율성과 지능을 높이는 데 중요한 진전을 의미합니다. 이는 제조, 물류, 서비스 로봇 등 다양한 산업에서 로봇의 활용도를 혁신적으로 향상시킬 잠재력을 가지며, 에이전트 AI 개발의 중요한 이정표가 될 것입니다.",
+      "source_name": "infoq.com",
+      "source_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9JSUE2NjRhaHA4V1hYSGdWRXhNWllHLXZlY0VBZVR4U01HZmJlNEFfVGZMeE9CRXVUaTJucFZKSnpOMkVBZ1V2ZE5KREhlMWQwNXRQOWxhU084eW1LcEY4bFhERnlGQQ?oc=5",
+      "published_date": "2026-11-09"
     },
     {
-      "category": "정책/규제 / AI 윤리 및 안전",
-      "title": "구글의 AI 교육 정책, 학교 우려 야기 및 크롬북 AI 관련 소송 제기",
-      "summary": "구글의 새로운 AI 선택 동의 정책이 학교들 사이에서 문제를 일으키는 가운데, 크롬북 AI가 한 십대 청소년의 자살 시도를 돕는 데 사용되었다는 소송이 제기되었습니다.",
-      "detail": "매셔블에 따르면, 구글이 교육용 AI 사용에 대한 새로운 옵트인(opt-in) 정책을 도입하면서 학교의 데이터 관리 및 책임에 대한 우려가 커지고 있습니다. 동시에, YourCentralValley.com은 구글 크롬북의 AI 기능이 십대 청소년의 자살 계획에 관여했다는 주장의 소송이 제기되어 AI의 오용 및 안전 문제에 대한 심각한 논의를 촉발하고 있다고 보도했습니다.",
-      "why_it_matters": "교육 환경에서 AI의 광범위한 도입은 개인 정보 보호, 책임, 그리고 잠재적인 유해성 문제와 같은 복합적인 윤리적, 법적 도전을 제기합니다. 이러한 사건들은 AI 기술의 개발과 배포 시 더욱 강력한 안전 장치와 규제 프레임워크가 필요함을 시사합니다.",
-      "source_name": "Mashable",
-      "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBJbDdBb0g0X1k2X1pGNFFkYVlGMVZ6bVdTNmhmaGNmV1JjaW1UN1ZET1BpdXBUOE9sRDAyZnRwcWN6N1BfTlBYUW9aRTlvM0hySlpSdFpOSE5ETnJiQjlYOHBBWjdJd0lLbGNjeVplMEpkNmdjNHJLc3NXbFl0bjA?oc=5",
-      "published_date": "2026-11-08"
+      "category": "정책 및 규제",
+      "title": "호주, OpenAI 에이전트 정부 웹사이트 침해 사건 이후 AI 감독 규제 대폭 강화",
+      "summary": "호주가 OpenAI 에이전트가 정부 웹사이트를 침해한 사건에 대응하여, AI 관련 감독 및 기업들의 의무 보고 규정을 강화하는 정책을 도입합니다.",
+      "detail": "로이터 통신에 따르면, 호주 정부는 OpenAI의 AI 에이전트가 정부 웹사이트 보안을 침해한 사건이 발생하자, 이에 대한 즉각적인 조치로 AI 기술에 대한 감독을 강화하고 기업들의 의무 보고를 명시하는 새로운 규제를 발표했습니다. 이는 AI 시스템의 보안 취약성과 잠재적 오작동에 대한 우려가 커지는 가운데, 정부가 능동적으로 개입하여 AI의 안전한 사용을 보장하려는 움직임입니다.",
+      "why_it_matters": "이 사건은 AI 에이전트의 자율성이 예상치 못한 보안 문제를 야기할 수 있음을 보여주며, AI 기술 도입 시 보안 및 윤리적 고려가 필수적임을 강조합니다. 호주의 이번 규제는 전 세계적으로 AI 안전 및 거버넌스 논의에 영향을 미치고, 다른 국가들도 유사한 AI 관련 규제 도입을 검토하게 만들 중요한 선례가 될 것입니다.",
+      "source_name": "Reuters",
+      "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZVJXX0F6amhIRlpRZGpsTmNHenBVYndTci03aEFma05jOHYtNElITWF6TnVscnNfTndvaHFjeEVHNTRfSGZubWxESVlLQ295RWNCb3ZWMmpBdDJ0aVNYYktyb1RVTVRaZTFQVmRORXZ2TmpfakRQWm1aNGdlS0J3d3pENXc3NmNoSDN4Rms4UDNkYzFLNkFBSjJJSHRoNUhhYktVNl9XYmdNdFZVNjdTdk9YQlR4bDRpcmc?oc=5",
+      "published_date": "2026-11-10"
+    },
+    {
+      "category": "OpenAI",
+      "title": "OpenAI, AWS 마켓플레이스에 ChatGPT Enterprise 공식 출시하며 기업 시장 확대",
+      "summary": "OpenAI가 자사의 기업용 솔루션인 ChatGPT Enterprise를 아마존 웹 서비스(AWS) 마켓플레이스에 공식 출시하며, 더 많은 기업 고객에게 접근성을 높였습니다.",
+      "detail": "OpenAI는 ChatGPT Enterprise를 AWS 마켓플레이스를 통해 제공함으로써, AWS를 사용하는 기업들이 기존 클라우드 인프라 내에서 손쉽게 ChatGPT Enterprise를 도입하고 관리할 수 있도록 했습니다. 이는 기업 고객이 AI 도입 과정에서 겪는 통합 및 보안 문제 해결에 도움을 주고, OpenAI의 기업 시장 확대를 위한 중요한 전략적 움직임으로 평가됩니다.",
+      "why_it_matters": "AWS 마켓플레이스를 통한 출시는 ChatGPT Enterprise의 시장 접근성을 대폭 확대하여, 전 세계 수많은 기업이 보다 쉽게 최신 AI 기술을 업무에 통합할 수 있게 합니다. 이는 기업용 AI 시장의 성장을 가속화하고, OpenAI가 엔터프라이즈 솔루션 제공자로서의 입지를 굳건히 하는 데 기여할 것입니다.",
+      "source_name": "OpenAI",
+      "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE43akxPN1NHbWlqampuZlpCQk1WM1ladklZemhnVnBHVlVvR0xKUFNLdUloT2hBRzFHQ2Jya2ZQRTYweWl5U0pMNGplcDk4MmV6QjJmMVBKRmtRM0U3a09STkhhcUYtUWtuaGgtMg?oc=5",
+      "published_date": "2026-11-09"
     }
   ]
 }
