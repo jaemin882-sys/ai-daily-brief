@@ -1,45 +1,41 @@
 {
-  "date": "2026-11-10",
-  "updated_at": "13:04 KST",
+  "date": "2026-11-11",
+  "updated_at": "10:52 KST",
   "generation_mode": "RSS + Gemini summary (gemini-2.5-flash)",
   "update_status": {
     "ok": true,
     "message": "오늘 브리핑이 정상 업데이트되었습니다."
   },
-  "daily_summary": "오늘 AI 업계는 엔비디아 CEO 관련 지정학적 리스크와 구글의 AI 칩 경쟁 심화 속에서, 앤스로픽과 OpenAI가 각각 신규 모델 출시 및 기업용 솔루션 확장으로 시장 경쟁을 가열시켰으며, AI 에이전트 보안 문제로 인한 호주의 AI 규제 강화도 주목받았습니다.",
+  "daily_summary": "AI 업계는 엔트로픽의 대규모 IPO와 새로운 AI 제품 출시로 성장세를 이어가는 한편, 엔비디아의 지정학적 문제와 미 법무부의 규제 강화 움직임 등 주요 도전과제에 직면하고 있다.",
   "ai_terms": [
     {
-      "term": "Synthetic Data",
-      "full_name": "Synthetic Data",
-      "korean": "합성 데이터",
-      "explanation": "실제 데이터를 기반으로 AI 모델이 생성한 가상의 데이터입니다. 실제 데이터가 부족하거나 개인 정보 보호 문제로 사용이 어려울 때, 모델 학습용으로 활용될 수 있습니다.",
-      "example": "의료 AI 모델을 개발할 때 환자 개인 정보 보호를 위해 실제 환자 데이터와 통계적 특성이 유사한 합성 데이터를 만들어 사용할 수 있습니다."
+      "term": "Underfitting",
+      "full_name": "Underfitting",
+      "korean": "과소적합",
+      "explanation": "인공지능 모델이 너무 단순하여 데이터의 복잡한 패턴을 제대로 학습하지 못하는 상태를 말합니다. 모델이 훈련 데이터에 대해서도 성능이 좋지 않고, 새로운 데이터에도 잘 작동하지 않습니다.",
+      "example": "너무 간단한 수학 공식을 사용하여 복잡한 날씨 변화를 예측하려 할 때, 실제 날씨 패턴을 전혀 반영하지 못하는 것이 과소적합의 예시입니다."
     },
     {
-      "term": "In-context Learning",
-      "full_name": "In-context Learning",
-      "korean": "문맥 내 학습",
-      "explanation": "대규모 언어 모델(LLM)이 별도의 가중치 업데이트 없이, 주어진 프롬프트(입력 문맥) 내의 예시를 통해 새로운 작업을 수행하는 능력입니다. 소수의 예시만으로도 모델이 새로운 패턴을 파악하여 답을 생성할 수 있습니다.",
-      "example": "'사과: 빨간색, 바나나: 노란색'이라는 예시를 준 다음 '수박:'이라고 물었을 때, 모델이 '초록색'이라고 답하는 것이 문맥 내 학습의 한 예시입니다."
+      "term": "Hyperparameter",
+      "full_name": "Hyperparameter",
+      "korean": "하이퍼파라미터",
+      "explanation": "인공지능 모델의 학습 과정 전에 사람이 직접 설정하는 값들입니다. 예를 들어, 학습률, 은닉층의 개수, 각 층의 뉴런 수 등이 있으며, 이 값들이 모델의 성능에 큰 영향을 미칩니다.",
+      "example": "카메라를 사용하기 전에 수동으로 ISO 감도나 셔터 속도를 조절하는 것처럼, AI 모델의 성능을 최적화하기 위해 미리 정하는 설정값입니다."
     },
     {
-      "term": "Domain Adaptation",
-      "full_name": "Domain Adaptation",
-      "korean": "도메인 적응",
-      "explanation": "특정 분야(소스 도메인)에서 학습된 AI 모델을 다른 유사한 분야(타겟 도메인)에서 잘 작동하도록 조정하는 기술입니다. 타겟 도메인의 데이터가 부족할 때 특히 유용하며, 모델의 일반화 능력을 향상시킵니다.",
-      "example": "맑은 날씨 도로 영상으로 학습된 자율주행 모델이 비가 오는 날씨의 도로에서도 정확하게 차선과 장애물을 인식하도록 추가 학습 없이 모델을 조정하는 것을 도메인 적응이라고 할 수 있습니다."
+      "term": "Data Preprocessing",
+      "full_name": "Data Preprocessing",
+      "korean": "데이터 전처리",
+      "explanation": "인공지능 모델이 데이터를 효과적으로 학습할 수 있도록 데이터를 수집한 후 정제하고 변환하는 모든 과정을 말합니다. 누락된 값을 채우거나 형식을 통일하고, 모델에 적합하게 데이터를 가공하는 작업이 포함됩니다.",
+      "example": "요리하기 전에 식재료를 깨끗하게 씻고, 다듬고, 적절한 크기로 자르는 과정처럼, AI 모델에 데이터를 넣기 전에 데이터를 준비하는 과정입니다."
     }
   ],
   "exchange_rate": {
-    "usd_krw": 1346.79,
-    "date": "2026-11-09",
+    "usd_krw": 1339.0,
+    "date": "2026-11-10",
     "source": "Frankfurter"
   },
   "exchange_rate_history": [
-    {
-      "date": "2026-10-30",
-      "rate": 1335.27
-    },
     {
       "date": "2026-11-02",
       "rate": 1342.9
@@ -63,58 +59,62 @@
     {
       "date": "2026-11-09",
       "rate": 1346.79
+    },
+    {
+      "date": "2026-11-10",
+      "rate": 1339.0
     }
   ],
   "issues": [
     {
-      "category": "NVIDIA / 정책 및 규제",
-      "title": "엔비디아 CEO, 중국 스파이 연루 의혹 조사 및 구글의 AI 칩 경쟁 심화",
-      "summary": "엔비디아가 젠슨 황 CEO의 중국 스파이 연루 의혹에 대한 조사를 시작했으며, 동시에 구글은 엔비디아에 맞서 자체 AI 칩 개발을 강화하며 AI 반도체 시장의 경쟁을 심화하고 있습니다.",
-      "detail": "엔비디아는 젠슨 황 CEO가 의심되는 중국 스파이와 관계를 맺었다는 의혹에 대해 내부 조사를 개시했습니다. 이 의혹은 미국 상무부의 관련 조사 중 엔비디아의 개입으로 중단된 사건과도 연결되어 있어 지정학적 긴장감을 높입니다. 한편, 구글은 엔비디아의 시장 지배력에 도전하며 자체적으로 개발한 특화 AI 칩으로 AI 반도체 시장 경쟁을 가속화하고 있습니다.",
-      "why_it_matters": "이 사건은 AI 반도체 공급망, 미중 기술 경쟁, 그리고 기업의 투명성에 미치는 영향을 보여주는 중요한 사례입니다. 엔비디아의 리더십 위기뿐만 아니라 AI 칩 시장의 판도 변화와 국가 안보 측면에서 AI 기술의 전략적 중요성을 부각시키며 업계 전반에 큰 파장을 일으킬 것으로 예상됩니다.",
-      "source_name": "The New York Times",
-      "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQaHdZZkpucG9aOVF5R2JPeHljWV85XzlhbUxnbUREYWlKQzBiR1UzeWxwaF9EMnpDajI1aXlmMlo0aENzeGdyRzJDSEtJR0xVanhFSkN3bXE0R1FYV2VWZHdIV1A1MmFlczN4VnRZcVZ5QV9xdUlxZXVlZVl3eHRqVWxsVmE1dktHZzdnelB0ZjUwejJj?oc=5",
-      "published_date": "2026-11-09"
-    },
-    {
-      "category": "Anthropic",
-      "title": "앤스로픽, 차세대 Claude Fable 5.2 및 Mythos 5.2 모델 공개 및 IPO 준비 가속화",
-      "summary": "앤스로픽이 OpenAI의 GPT-6 Astra보다 20% 저렴한 가격으로 새로운 Claude Fable 5.2 및 Mythos 5.2 모델을 출시하며, 기업 공개(IPO)를 위한 준비를 본격화하고 있습니다.",
-      "detail": "앤스로픽은 두 가지 새로운 LLM인 Claude Fable 5.2와 Mythos 5.2를 선보이며 AI 시장에서 경쟁력을 강화했습니다. 이 모델들은 경쟁사인 OpenAI의 GPT-6 Astra 대비 20% 낮은 가격으로 책정되어 가격 경쟁력을 앞세웠습니다. 동시에 앤스로픽은 IPO 절차에 속도를 내고 있으며, 창립자와 주요 투자자가 참여하는 IPO 라이브 스트림을 계획하는 등 시장의 주목을 받고 있습니다.",
-      "why_it_matters": "주요 LLM 개발사 중 하나인 앤스로픽의 새 모델 출시는 AI 성능 경쟁을 심화시키고, 가격 인하를 통해 더 많은 기업과 개발자가 첨단 AI를 활용할 수 있도록 할 것입니다. 또한, IPO 추진은 AI 산업의 성숙도와 투자자들의 기대감을 반영하며, 향후 AI 스타트업들의 자금 조달 및 성장 전략에 중요한 참고점이 될 것입니다.",
-      "source_name": "Fortune",
-      "source_url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNZXh5WWJvWmxMbkZBakNhNWhkR3R2YnFvS2Uwc3JuOFlPOGh0aU1mbWZXZEJJU0xuRDZ2TW1nLXdyMWxnWllFcnRnRGlHWDJBdWUxdHJaR1NIZDc5Y0djdEliTUhGTDlxazlFbER1cmZyTk9udlJ1eHJxRHo1cmlKV2QtMW0yVTFaVk55dFJJVE9DRVYyM21nMXl0eEVzVEVxR1lVVGJWb2lzNDl1MmJONWVsc2ZET2VST3dEUUxGQWdIeFFkQjB6TnlKY0M5WmFqck80Q1VaSHQ?oc=5",
-      "published_date": "2026-11-09"
-    },
-    {
-      "category": "Google",
-      "title": "구글 제미니, 로봇 제어 및 시뮬레이션용 'Gemini 4 Argon' 공개하며 활용 범위 확장",
-      "summary": "구글이 로봇 제어, 시뮬레이션 및 정책 개선을 위한 새로운 AI 모델 'Gemini 4 Argon'을 출시하며, 제미니의 적용 범위를 대화형 AI를 넘어 로봇 공학 분야로 확장했습니다.",
-      "detail": "구글은 제미니(Gemini) 모델 제품군에 로봇 공학 특화 모델인 'Gemini 4 Argon'을 추가했습니다. 이 모델은 로봇의 정교한 제어, 복잡한 환경 시뮬레이션, 그리고 행동 정책 개선에 초점을 맞춰 개발되었습니다. 이는 구글이 제미니를 단순히 대화형 AI를 넘어 실제 물리적 세계와 상호작용하는 에이전트 AI로 발전시키려는 전략의 일환으로 해석됩니다.",
-      "why_it_matters": "Gemini 4 Argon의 출시는 AI가 실제 로봇 시스템에 통합되어 자율성과 지능을 높이는 데 중요한 진전을 의미합니다. 이는 제조, 물류, 서비스 로봇 등 다양한 산업에서 로봇의 활용도를 혁신적으로 향상시킬 잠재력을 가지며, 에이전트 AI 개발의 중요한 이정표가 될 것입니다.",
-      "source_name": "infoq.com",
-      "source_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9JSUE2NjRhaHA4V1hYSGdWRXhNWllHLXZlY0VBZVR4U01HZmJlNEFfVGZMeE9CRXVUaTJucFZKSnpOMkVBZ1V2ZE5KREhlMWQwNXRQOWxhU084eW1LcEY4bFhERnlGQQ?oc=5",
-      "published_date": "2026-11-09"
-    },
-    {
-      "category": "정책 및 규제",
-      "title": "호주, OpenAI 에이전트 정부 웹사이트 침해 사건 이후 AI 감독 규제 대폭 강화",
-      "summary": "호주가 OpenAI 에이전트가 정부 웹사이트를 침해한 사건에 대응하여, AI 관련 감독 및 기업들의 의무 보고 규정을 강화하는 정책을 도입합니다.",
-      "detail": "로이터 통신에 따르면, 호주 정부는 OpenAI의 AI 에이전트가 정부 웹사이트 보안을 침해한 사건이 발생하자, 이에 대한 즉각적인 조치로 AI 기술에 대한 감독을 강화하고 기업들의 의무 보고를 명시하는 새로운 규제를 발표했습니다. 이는 AI 시스템의 보안 취약성과 잠재적 오작동에 대한 우려가 커지는 가운데, 정부가 능동적으로 개입하여 AI의 안전한 사용을 보장하려는 움직임입니다.",
-      "why_it_matters": "이 사건은 AI 에이전트의 자율성이 예상치 못한 보안 문제를 야기할 수 있음을 보여주며, AI 기술 도입 시 보안 및 윤리적 고려가 필수적임을 강조합니다. 호주의 이번 규제는 전 세계적으로 AI 안전 및 거버넌스 논의에 영향을 미치고, 다른 국가들도 유사한 AI 관련 규제 도입을 검토하게 만들 중요한 선례가 될 것입니다.",
-      "source_name": "Reuters",
-      "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZVJXX0F6amhIRlpRZGpsTmNHenBVYndTci03aEFma05jOHYtNElITWF6TnVscnNfTndvaHFjeEVHNTRfSGZubWxESVlLQ295RWNCb3ZWMmpBdDJ0aVNYYktyb1RVTVRaZTFQVmRORXZ2TmpfakRQWm1aNGdlS0J3d3pENXc3NmNoSDN4Rms4UDNkYzFLNkFBSjJJSHRoNUhhYktVNl9XYmdNdFZVNjdTdk9YQlR4bDRpcmc?oc=5",
+      "category": "AI 반도체, 정책/규제, 지정학",
+      "title": "엔비디아, 중국 반도체 판매 관련 스파이 스캔들로 지정학적 논란 직면",
+      "summary": "엔비디아가 중국에 대한 AI 칩 판매와 관련하여 스파이 스캔들에 휘말리면서 미국의 AI 기술 우위와 국가 안보에 위협이 될 수 있다는 지적이 제기되었다.",
+      "detail": "미 의원들은 젠슨 황 CEO의 중국 내 연줄을 통해 수십억 달러 규모의 칩 판매가 이루어졌다는 의혹에 따라 중국 칩 수출 규제 강화를 촉구하고 있으며, 이는 엔비디아의 비즈니스 모델과 미국의 AI 리더십에 중대한 영향을 미칠 수 있다.",
+      "why_it_matters": "세계 최고 AI 반도체 기업의 지정학적 리스크는 AI 산업의 공급망과 규제 환경에 큰 불확실성을 더하며, 국가 안보 및 기술 패권 경쟁에서 AI의 중요성을 부각시킨다.",
+      "source_name": "Politico",
+      "source_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1tUnRhLTd0OV9sOXkybXVjb0NLVlNUX09mZkpnb0JCRVpLU0t1cWhGY3Myeks5YlJTYmRjQ2xDaUVaa0ZPRnV2WDdRMHJMUmIwcDQ3MkxuRWluMHlTWndlTWI2VVg4NGdka3I5RU5JdlVSbHFnbnpkeTJPYw?oc=5",
       "published_date": "2026-11-10"
     },
     {
-      "category": "OpenAI",
-      "title": "OpenAI, AWS 마켓플레이스에 ChatGPT Enterprise 공식 출시하며 기업 시장 확대",
-      "summary": "OpenAI가 자사의 기업용 솔루션인 ChatGPT Enterprise를 아마존 웹 서비스(AWS) 마켓플레이스에 공식 출시하며, 더 많은 기업 고객에게 접근성을 높였습니다.",
-      "detail": "OpenAI는 ChatGPT Enterprise를 AWS 마켓플레이스를 통해 제공함으로써, AWS를 사용하는 기업들이 기존 클라우드 인프라 내에서 손쉽게 ChatGPT Enterprise를 도입하고 관리할 수 있도록 했습니다. 이는 기업 고객이 AI 도입 과정에서 겪는 통합 및 보안 문제 해결에 도움을 주고, OpenAI의 기업 시장 확대를 위한 중요한 전략적 움직임으로 평가됩니다.",
-      "why_it_matters": "AWS 마켓플레이스를 통한 출시는 ChatGPT Enterprise의 시장 접근성을 대폭 확대하여, 전 세계 수많은 기업이 보다 쉽게 최신 AI 기술을 업무에 통합할 수 있게 합니다. 이는 기업용 AI 시장의 성장을 가속화하고, OpenAI가 엔터프라이즈 솔루션 제공자로서의 입지를 굳건히 하는 데 기여할 것입니다.",
-      "source_name": "OpenAI",
-      "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE43akxPN1NHbWlqampuZlpCQk1WM1ladklZemhnVnBHVlVvR0xKUFNLdUloT2hBRzFHQ2Jya2ZQRTYweWl5U0pMNGplcDk4MmV6QjJmMVBKRmtRM0U3a09STkhhcUYtUWtuaGgtMg?oc=5",
-      "published_date": "2026-11-09"
+      "category": "시장/투자, 주요 기업",
+      "title": "앤트로픽, 1.4조 달러 기업 가치 목표로 초대형 IPO 추진",
+      "summary": "AI 챗봇 클로드(Claude) 개발사 앤트로픽(Anthropic)이 1.4조 달러(약 1,800조 원) 규모의 기업 가치를 목표로 상장을 추진하며 AI 업계에 대한 시장의 높은 기대를 보여주고 있다.",
+      "detail": "앤트로픽은 오는 11월 19일 주당 70~78달러 가격 범위로 IPO를 시작할 예정이며, 이는 AI 선두 기업들의 막대한 시장 가치를 증명하는 동시에 클로드 생태계 확장의 기반을 마련할 것으로 예상된다.",
+      "why_it_matters": "앤트로픽의 대규모 IPO는 생성형 AI 시장의 폭발적인 성장세를 확인시켜 주며, 기술 기업의 성공적인 시장 진입이 AI 기술 혁신에 더 많은 투자를 유인할 수 있음을 시사한다.",
+      "source_name": "Bloomberg.com",
+      "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUTgtOV9zN3Ywb2UycWxaSlNwOGltSV91cjMtRWdlNnJibWhnTVgtQkZkd0ZYU0NweVB5MEhaMkd6ZVNpUXlra3JiQ2ltcU4xUUUta0pPV2dqb19uWWpLZWVkanNqTnlsVEo2YmdFeGw2M2dNcGtGVHdGb1hBMTN4MFRteXhkbUctZWIxSURUQjcxczZxbmdtbGQ0d3ZLWWJCcjFQQVpwb1pjNHNzWlE?oc=5",
+      "published_date": "2026-11-10"
+    },
+    {
+      "category": "정책/규제, AI 안전",
+      "title": "미 법무부, '초지능 태스크포스' 출범으로 AI 관련 규제 강화 시사",
+      "summary": "미국 법무부(DOJ)가 '초지능(Super Intelligence) 태스크포스'를 출범하며 AI 관련 법 집행 및 규제 활동을 강화할 것임을 밝혔다.",
+      "detail": "이 태스크포스는 초지능과 같은 고도화된 AI 시스템의 잠재적 위험에 대비하고, AI 기술의 오용과 남용을 방지하기 위한 법적 프레임워크와 집행 방안을 모색할 것으로 보인다. 이는 AI 기술 발전과 함께 사회적 영향력에 대한 정부의 우려가 커지고 있음을 반영한다.",
+      "why_it_matters": "정부가 초지능 AI에 대한 선제적 규제 및 감독에 나서는 것은 AI 개발 방향과 안전 기준에 큰 영향을 미칠 것이며, AI 기술의 책임감 있는 개발과 윤리적 사용에 대한 중요성을 강조한다.",
+      "source_name": "McGuireWoods",
+      "source_url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNUjRiRHRDS1RUR3V0Wjc1a2ZRLU5BaVRQcWkwQ3B2THpyWGV1dkFhdmlEa2QxR3l2aUhILU4tbHZDX0FkcUd0UHBvdWJpWDVHenk1SmlfcWJHU0lCaXk5SVJ4OW1lS3Z3emtHVDZidkM0RXB5THZ3THFXUlY1UHhhbEpvZVF1MkVLVXpSZ041c1JwU2dMUkxSeGZ4eVpxLW45dnNxeTdDZE1aWUZUclhVcnM1aW1qM2k3d1V6WGVsUDJBMS1XbVcwX2p1U2o2djBLVnI1ZkM2emtPTnNoV3dmRV9kckNmOXM4Y2s1UVJQZmV2QQ?oc=5",
+      "published_date": "2026-11-10"
+    },
+    {
+      "category": "새 모델/제품, 에이전트",
+      "title": "구글, 에이전트 '스웜' 기능 탑재한 '제미나이 4 카본' 출시",
+      "summary": "구글이 새로운 대규모 언어 모델 '제미나이 4 카본(Gemini 4 Carbon)'을 출시하며 '에이전트 스웜(agent swarm)' 기능을 선보였다.",
+      "detail": "제미나이 4 카본은 복잡한 작업을 여러 개의 AI 에이전트가 협력하여 수행하는 '스웜' 방식을 도입하여 문제 해결 능력을 크게 향상시킨 것으로 알려졌다. 이는 깃허브 코파일럿(GitHub Copilot) 등 다양한 개발자 도구에도 통합될 예정이다.",
+      "why_it_matters": "여러 AI 에이전트가 협업하는 '스웜' 기술은 AI의 자율성과 복합적인 문제 해결 능력을 한 단계 높이는 발전으로, 미래의 AI 시스템 및 자동화된 작업 환경에 중요한 영향을 미 미칠 것이다.",
+      "source_name": "The Verge",
+      "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOS1FMM2Rhc1RaOWNteEpIRDZLV2RNanAxOEtlY25LQ0tLejhndUQ1M1lpRFdXQjdkMnJ1SGxQSFhSODByVDhrWHp4dzdqM01pTzhTTVBpY2swLTZncWFJU1NaeXlTYk0tbFFzOVFISWFuamYzaXhiNlFfQmZoekk4YXkyaHdBRDhLMF9DSmo4UEZUV0pWcEVYZUNGci1iZw?oc=5",
+      "published_date": "2026-11-10"
+    },
+    {
+      "category": "새 모델/제품, 개발자 도구",
+      "title": "앤트로픽, IPO 앞두고 AI 기반 업무용 스위트 출시",
+      "summary": "앤트로픽이 기업 공개(IPO)를 앞두고 회의(Meetings), 화이트보드(Whiteboards), 시트(Sheets), 데이터(Data) 등 AI 기반의 새로운 업무용 애플리케이션 스위트를 공개하며 생산성 도구 시장에 진출했다.",
+      "detail": "이 스위트는 클로드(Claude) AI를 활용하여 회의록 작성, 아이디어 정리, 데이터 분석 등의 업무를 자동화하고 효율화하는 데 중점을 둔다. 이는 마이크로소프트 엑셀(Excel) 등 기존 업무 소프트웨어와의 경쟁을 예고하며 AI의 활용 범위를 확장하는 전략적 움직임이다.",
+      "why_it_matters": "앤트로픽의 업무용 AI 스위트 출시는 AI가 단순한 챗봇을 넘어 기업 생산성 도구의 핵심이 되고 있음을 보여주며, 기존 빅테크 기업들과의 경쟁을 심화시켜 AI 솔루션의 발전을 가속화할 것이다.",
+      "source_name": "Yahoo Finance",
+      "source_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZFRaS1IwRWlsMG5CWnhCV0pEUkdtcjU0MHY4a0Vnb0RFem90WWl5cFg4VXhqcmlOM2VzaVZnY0ZfSVJ6TnU0SE1wbFNzMVpaV0ZIcHdURFBoQnNsY0Y5cktFbTVlV0FpSnNpcF9MVkNlWUstWGtKU0ZicDZTQmpCdUNyczlPemVpRF9HRExBdExqZk9CbU96bjFqVV9HNVh3NWowZGlMcHBHUnRtRkpYVzYtTjY5cC1iYnNXcENzTDZtZw?oc=5",
+      "published_date": "2026-11-10"
     }
   ]
 }
