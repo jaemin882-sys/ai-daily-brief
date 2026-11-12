@@ -1,45 +1,41 @@
 {
-  "date": "2026-11-11",
-  "updated_at": "10:52 KST",
+  "date": "2026-11-12",
+  "updated_at": "11:51 KST",
   "generation_mode": "RSS + Gemini summary (gemini-2.5-flash)",
   "update_status": {
     "ok": true,
     "message": "오늘 브리핑이 정상 업데이트되었습니다."
   },
-  "daily_summary": "AI 업계는 엔트로픽의 대규모 IPO와 새로운 AI 제품 출시로 성장세를 이어가는 한편, 엔비디아의 지정학적 문제와 미 법무부의 규제 강화 움직임 등 주요 도전과제에 직면하고 있다.",
+  "daily_summary": "오늘 AI 업계는 엔비디아의 대중국 수출 규제 및 리더십 위기, 그리고 앤스로픽의 새로운 모델이 엔비디아 CUDA의 독점적 지위에 도전하는 등 중요한 변화를 겪고 있습니다. 동시에 구글과 OpenAI는 각각 제미니의 서비스 영역 확장과 코드 생성 AI 코덱스 강화 인수를 통해 기술 발전을 이어가고 있으며, 구글 딥마인드는 생명 과학 분야에서 AI의 활용 가능성을 넓히는 연구 성과를 발표했습니다.",
   "ai_terms": [
     {
-      "term": "Underfitting",
-      "full_name": "Underfitting",
-      "korean": "과소적합",
-      "explanation": "인공지능 모델이 너무 단순하여 데이터의 복잡한 패턴을 제대로 학습하지 못하는 상태를 말합니다. 모델이 훈련 데이터에 대해서도 성능이 좋지 않고, 새로운 데이터에도 잘 작동하지 않습니다.",
-      "example": "너무 간단한 수학 공식을 사용하여 복잡한 날씨 변화를 예측하려 할 때, 실제 날씨 패턴을 전혀 반영하지 못하는 것이 과소적합의 예시입니다."
+      "term": "Bias",
+      "full_name": "Bias",
+      "korean": "편향 (바이어스)",
+      "explanation": "인공신경망의 뉴런에서 입력값과 가중치를 곱한 결과에 더해지는 고정된 값입니다. 이 값은 뉴런이 활성화되는 기준점을 조절하여, 모델이 데이터를 더 유연하게 학습하고 다양한 패턴을 포착할 수 있도록 돕습니다.",
+      "example": "어떤 사람에게는 새로운 정보에 대한 '편향'이 있어서 특정 방식으로만 해석하려는 경향이 있는데, AI 모델에서도 이와 유사하게 학습 데이터로부터 특정 경향이 '바이어스'로 반영될 수 있습니다."
     },
     {
-      "term": "Hyperparameter",
-      "full_name": "Hyperparameter",
-      "korean": "하이퍼파라미터",
-      "explanation": "인공지능 모델의 학습 과정 전에 사람이 직접 설정하는 값들입니다. 예를 들어, 학습률, 은닉층의 개수, 각 층의 뉴런 수 등이 있으며, 이 값들이 모델의 성능에 큰 영향을 미칩니다.",
-      "example": "카메라를 사용하기 전에 수동으로 ISO 감도나 셔터 속도를 조절하는 것처럼, AI 모델의 성능을 최적화하기 위해 미리 정하는 설정값입니다."
+      "term": "Kernel",
+      "full_name": "Kernel (or Filter)",
+      "korean": "커널 (또는 필터)",
+      "explanation": "합성곱 신경망(CNN)에서 이미지의 특정 특징(경계선, 질감 등)을 감지하기 위해 사용되는 작은 행렬입니다. 이미지를 스캔하듯이 이동하며 해당 영역의 픽셀 값과 연산하여 특징 맵을 생성합니다.",
+      "example": "스마트폰 카메라 앱이 사진에서 강아지의 귀 모양을 인식할 때, '커널'이 강아지 귀의 특정 패턴을 찾아내도록 학습되어 작동하는 것과 유사합니다."
     },
     {
-      "term": "Data Preprocessing",
-      "full_name": "Data Preprocessing",
-      "korean": "데이터 전처리",
-      "explanation": "인공지능 모델이 데이터를 효과적으로 학습할 수 있도록 데이터를 수집한 후 정제하고 변환하는 모든 과정을 말합니다. 누락된 값을 채우거나 형식을 통일하고, 모델에 적합하게 데이터를 가공하는 작업이 포함됩니다.",
-      "example": "요리하기 전에 식재료를 깨끗하게 씻고, 다듬고, 적절한 크기로 자르는 과정처럼, AI 모델에 데이터를 넣기 전에 데이터를 준비하는 과정입니다."
+      "term": "Feature Map",
+      "full_name": "Feature Map",
+      "korean": "특징 맵",
+      "explanation": "합성곱 신경망(CNN)에서 이미지가 커널(필터)을 통과한 후 생성되는 출력입니다. 원본 이미지에서 특정 특징(예: 수직선, 수평선)이 어디에 얼마나 강하게 존재하는지를 보여주는 맵입니다.",
+      "example": "얼굴 인식 AI가 사람의 눈, 코, 입 같은 특징을 따로 감지한 뒤, 이러한 특징들이 어디에 있는지를 보여주는 중간 결과물이 바로 '특징 맵'이라고 볼 수 있습니다."
     }
   ],
   "exchange_rate": {
-    "usd_krw": 1339.0,
-    "date": "2026-11-10",
+    "usd_krw": 1336.9,
+    "date": "2026-11-11",
     "source": "Frankfurter"
   },
   "exchange_rate_history": [
-    {
-      "date": "2026-11-02",
-      "rate": 1342.9
-    },
     {
       "date": "2026-11-03",
       "rate": 1344.59
@@ -63,58 +59,62 @@
     {
       "date": "2026-11-10",
       "rate": 1339.0
+    },
+    {
+      "date": "2026-11-11",
+      "rate": 1336.9
     }
   ],
   "issues": [
     {
-      "category": "AI 반도체, 정책/규제, 지정학",
-      "title": "엔비디아, 중국 반도체 판매 관련 스파이 스캔들로 지정학적 논란 직면",
-      "summary": "엔비디아가 중국에 대한 AI 칩 판매와 관련하여 스파이 스캔들에 휘말리면서 미국의 AI 기술 우위와 국가 안보에 위협이 될 수 있다는 지적이 제기되었다.",
-      "detail": "미 의원들은 젠슨 황 CEO의 중국 내 연줄을 통해 수십억 달러 규모의 칩 판매가 이루어졌다는 의혹에 따라 중국 칩 수출 규제 강화를 촉구하고 있으며, 이는 엔비디아의 비즈니스 모델과 미국의 AI 리더십에 중대한 영향을 미칠 수 있다.",
-      "why_it_matters": "세계 최고 AI 반도체 기업의 지정학적 리스크는 AI 산업의 공급망과 규제 환경에 큰 불확실성을 더하며, 국가 안보 및 기술 패권 경쟁에서 AI의 중요성을 부각시킨다.",
-      "source_name": "Politico",
-      "source_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1tUnRhLTd0OV9sOXkybXVjb0NLVlNUX09mZkpnb0JCRVpLU0t1cWhGY3Myeks5YlJTYmRjQ2xDaUVaa0ZPRnV2WDdRMHJMUmIwcDQ3MkxuRWluMHlTWndlTWI2VVg4NGdka3I5RU5JdlVSbHFnbnpkeTJPYw?oc=5",
-      "published_date": "2026-11-10"
+      "category": "NVIDIA/정책 및 규제",
+      "title": "엔비디아, 젠슨 황 CEO 거취 논의 이사회 개최 및 대중국 수출 규제 강화 직면",
+      "summary": "엔비디아 이사회가 젠슨 황 CEO의 미래를 논의하기 위해 소집되었으며, 이는 대중국 AI 칩 수출 규제 관련 논란과 맞물려 있어 리더십 위기와 정책적 압박에 직면했음을 시사합니다.",
+      "detail": "보도에 따르면 엔비디아 이사회는 젠슨 황 CEO의 거취에 대해 논의하는 회의를 진행했습니다. 이는 미국 정부의 대중국 AI 칩 수출 규제 관련 논란이 재점화되고, 일부 정치권에서 규제 강화를 요구하는 가운데 발생한 일입니다. 최근 중국 대학이 미국의 금지에도 불구하고 엔비디아 H200 칩을 구매했다는 기록이 공개되면서, 엔비디아의 대중국 사업 모델과 미국 정책 준수에 대한 의구심이 커지고 있습니다.",
+      "why_it_matters": "엔비디아는 AI 반도체 시장의 핵심 플레이어로, CEO의 리더십 위기와 대중국 수출 규제 문제는 글로벌 AI 산업의 공급망 및 기술 경쟁 구도에 막대한 영향을 미칠 수 있습니다. 정책적 불확실성은 엔비디아의 사업 전략뿐만 아니라 전 세계 AI 기업의 하드웨어 수급에도 불안정성을 야기할 수 있습니다.",
+      "source_name": "The New York Times",
+      "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9SV0s4M3NYaTUtT2tIVWpBRHdfTk51cUIxcE0tLU9LV3M1akRWMTRheE9qY3BCa0pRVDR0MGhxaGVIcERRakZ0LWxJUWtpeFk4aW50TlRLVWt0NUEwSzVBVWFoZGNMQ0NEUWl4eUZyR3h0YmpHRjNfVk1n?oc=5",
+      "published_date": "2026-11-11"
     },
     {
-      "category": "시장/투자, 주요 기업",
-      "title": "앤트로픽, 1.4조 달러 기업 가치 목표로 초대형 IPO 추진",
-      "summary": "AI 챗봇 클로드(Claude) 개발사 앤트로픽(Anthropic)이 1.4조 달러(약 1,800조 원) 규모의 기업 가치를 목표로 상장을 추진하며 AI 업계에 대한 시장의 높은 기대를 보여주고 있다.",
-      "detail": "앤트로픽은 오는 11월 19일 주당 70~78달러 가격 범위로 IPO를 시작할 예정이며, 이는 AI 선두 기업들의 막대한 시장 가치를 증명하는 동시에 클로드 생태계 확장의 기반을 마련할 것으로 예상된다.",
-      "why_it_matters": "앤트로픽의 대규모 IPO는 생성형 AI 시장의 폭발적인 성장세를 확인시켜 주며, 기술 기업의 성공적인 시장 진입이 AI 기술 혁신에 더 많은 투자를 유인할 수 있음을 시사한다.",
-      "source_name": "Bloomberg.com",
-      "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUTgtOV9zN3Ywb2UycWxaSlNwOGltSV91cjMtRWdlNnJibWhnTVgtQkZkd0ZYU0NweVB5MEhaMkd6ZVNpUXlra3JiQ2ltcU4xUUUta0pPV2dqb19uWWpLZWVkanNqTnlsVEo2YmdFeGw2M2dNcGtGVHdGb1hBMTN4MFRteXhkbUctZWIxSURUQjcxczZxbmdtbGQ0d3ZLWWJCcjFQQVpwb1pjNHNzWlE?oc=5",
-      "published_date": "2026-11-10"
+      "category": "Anthropic/AI 반도체",
+      "title": "앤스로픽, 신규 모델 '클로드 미소스 5.2'로 엔비디아 CUDA 독점적 지위 위협",
+      "summary": "앤스로픽이 새로운 모델 클로드 미소스 5.2를 발표하며, 이 모델이 AMD의 MI355X GPU에서 다른 모델을 단 3일 만에 구동하는 방법을 알아내 엔비디아 CUDA 생태계의 장기적인 지배력에 도전장을 내밀었습니다.",
+      "detail": "앤스로픽이 최신 AI 모델인 클로드 미소스 5.2를 공개하며, 기존에 수개월이 걸리던 AMD GPU로의 모델 전환 과정을 단 3일로 단축시켰다고 밝혔습니다. 이는 엔비디아 GPU에 최적화된 CUDA 플랫폼이 가진 독점적 지위에 대한 중요한 도전입니다. 앤스로픽은 또한 '클로드 페이블 5.2'를 통해 1번의 프롬프트로 슈팅 게임을 제작하는 등 새로운 기능과 함께 기업용 협업 도구인 '클로드 미팅즈'도 선보였습니다.",
+      "why_it_matters": "앤스로픽의 발표는 AI 모델이 특정 하드웨어 플랫폼에 대한 의존도를 줄일 수 있음을 보여주며, 이는 AI 칩 시장에서 AMD와 같은 후발 주자들에게 기회를 제공할 수 있습니다. 엔비디아의 CUDA 생태계가 장악한 AI 하드웨어 시장에 경쟁을 촉진하고, 개발자들이 더 다양한 하드웨어에서 AI 모델을 효율적으로 활용할 수 있는 가능성을 열어줄 것으로 기대됩니다.",
+      "source_name": "Wccftech",
+      "source_url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQLWxCdDFqWG83WGFjblJ5bkc4azA3TzFOQ3FXa294MkRVMlFIV1JwSTB6MjBxb1pVdEk0Q2dMQTBvTmZFNTRSSnFJX2ZyZTRvZVlvSEJRNHQ1cUpaMVlNTDJqLUJHTlgxbUYxTFVyMlJZcDBYWm9ZWW5lLUNCVmdDMnBNdHJfSXpFd1c1T1pwVW5FTHBhdHhyWjl4bEkxZVExczgwNGFZek1UOUFOUnh5aThKeTUzWFNvc3VVTmpNTlU0dkNJLXg5cURjVVdBbmxieUxNUVl6U1EzZ20xUWpQMGlKT1dFajdpZ0l2bmFsQUlaUWtxbWxB0gH8AUFVX3lxTE1pcmlkV3Q5Q1ZyTnJaV1Vpc1BpRjBFb2NpdTIyc1VHb1dLaVF6REZBZWVYa19vS3lwQWJDY0kybWNoNmdVX0FGWVFrZVIxWDZyREpBMkFycTJzUWQ3cTV0SU1oZDVXd05ieXp1bWs0MlFzZFlPS19tRlQ2R1JmQnFqUGpSbVdIUEVGb2JxMmliM2JuSlpRUzlfRHIxUUM2OFItNXdEUGxPSEhaZER4YUJHOTVzSGw0Z1ZFYVJFRXF4QUc0OWdER1RoaWY2bmYzVVF6eW1zdG8yeFJXRkp4MG5uSE5PV1JOdldWTzVJb25qM043YU5IWkVoWjRMZw?oc=5",
+      "published_date": "2026-11-11"
     },
     {
-      "category": "정책/규제, AI 안전",
-      "title": "미 법무부, '초지능 태스크포스' 출범으로 AI 관련 규제 강화 시사",
-      "summary": "미국 법무부(DOJ)가 '초지능(Super Intelligence) 태스크포스'를 출범하며 AI 관련 법 집행 및 규제 활동을 강화할 것임을 밝혔다.",
-      "detail": "이 태스크포스는 초지능과 같은 고도화된 AI 시스템의 잠재적 위험에 대비하고, AI 기술의 오용과 남용을 방지하기 위한 법적 프레임워크와 집행 방안을 모색할 것으로 보인다. 이는 AI 기술 발전과 함께 사회적 영향력에 대한 정부의 우려가 커지고 있음을 반영한다.",
-      "why_it_matters": "정부가 초지능 AI에 대한 선제적 규제 및 감독에 나서는 것은 AI 개발 방향과 안전 기준에 큰 영향을 미칠 것이며, AI 기술의 책임감 있는 개발과 윤리적 사용에 대한 중요성을 강조한다.",
-      "source_name": "McGuireWoods",
-      "source_url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNUjRiRHRDS1RUR3V0Wjc1a2ZRLU5BaVRQcWkwQ3B2THpyWGV1dkFhdmlEa2QxR3l2aUhILU4tbHZDX0FkcUd0UHBvdWJpWDVHenk1SmlfcWJHU0lCaXk5SVJ4OW1lS3Z3emtHVDZidkM0RXB5THZ3THFXUlY1UHhhbEpvZVF1MkVLVXpSZ041c1JwU2dMUkxSeGZ4eVpxLW45dnNxeTdDZE1aWUZUclhVcnM1aW1qM2k3d1V6WGVsUDJBMS1XbVcwX2p1U2o2djBLVnI1ZkM2emtPTnNoV3dmRV9kckNmOXM4Y2s1UVJQZmV2QQ?oc=5",
-      "published_date": "2026-11-10"
+      "category": "Google/제품 및 서비스",
+      "title": "구글, 제미니 기반 '결정 모델' API 및 애플 카플레이 통합으로 서비스 확장",
+      "summary": "구글이 Gemini Decisions API를 출시하여 의사결정 모델 시장에 진입하고, 동시에 Gemini 앱을 애플 카플레이에 통합하여 사용자 접점을 넓히는 등 제미니 생태계를 다방면으로 확장하고 있습니다.",
+      "detail": "구글은 Gemini Decisions API를 통해 빠르고 교정된 멀티모달 의사결정을 지원하며, 단일 패스에 1,000개 질문을 처리하는 등 새로운 기능으로 의사결정 모델 시장에 본격적으로 뛰어들었습니다. 또한, 구글은 제미니 앱을 애플 카플레이에 탑재하기 시작하여 아이폰 사용자들도 차량 내에서 제미니의 음성 AI 기능을 활용할 수 있게 되었습니다. 이는 제미니의 온디바이스 AI 및 모바일 플랫폼 통합을 가속화하는 중요한 단계입니다.",
+      "why_it_matters": "Gemini Decisions API 출시는 AI가 복잡한 의사결정 과정에 직접 관여하는 새로운 시장을 창출할 잠재력을 가집니다. 애플 카플레이와의 통합은 제미니의 활용 범위를 가정과 사무실을 넘어 자동차로 확장하여, 온디바이스 AI의 실생활 적용을 촉진하고 사용자 접근성을 크게 높일 것입니다.",
+      "source_name": "SiliconANGLE",
+      "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSGJUSThZcHo0dy1rYmlqQ3cwOHVWWGkxdmlGUnNMdWItMjNnVHI2UE94eHFlTW1CcnN5MWU2b2lvYVRyXzNnRHQtSUF0LWw2TkNfSjlmVVAtZWV4RFRKbFk5XzlFYzFWNUlDaG1VbDdfZnNvdGo3OU85cmJKeUdSM3NMVG43UkZpWEJRaGptenZsZUM4ck1jbTFZcGdheEN2VnBTQw?oc=5",
+      "published_date": "2026-11-12"
     },
     {
-      "category": "새 모델/제품, 에이전트",
-      "title": "구글, 에이전트 '스웜' 기능 탑재한 '제미나이 4 카본' 출시",
-      "summary": "구글이 새로운 대규모 언어 모델 '제미나이 4 카본(Gemini 4 Carbon)'을 출시하며 '에이전트 스웜(agent swarm)' 기능을 선보였다.",
-      "detail": "제미나이 4 카본은 복잡한 작업을 여러 개의 AI 에이전트가 협력하여 수행하는 '스웜' 방식을 도입하여 문제 해결 능력을 크게 향상시킨 것으로 알려졌다. 이는 깃허브 코파일럿(GitHub Copilot) 등 다양한 개발자 도구에도 통합될 예정이다.",
-      "why_it_matters": "여러 AI 에이전트가 협업하는 '스웜' 기술은 AI의 자율성과 복합적인 문제 해결 능력을 한 단계 높이는 발전으로, 미래의 AI 시스템 및 자동화된 작업 환경에 중요한 영향을 미 미칠 것이다.",
-      "source_name": "The Verge",
-      "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOS1FMM2Rhc1RaOWNteEpIRDZLV2RNanAxOEtlY25LQ0tLejhndUQ1M1lpRFdXQjdkMnJ1SGxQSFhSODByVDhrWHp4dzdqM01pTzhTTVBpY2swLTZncWFJU1NaeXlTYk0tbFFzOVFISWFuamYzaXhiNlFfQmZoekk4YXkyaHdBRDhLMF9DSmo4UEZUV0pWcEVYZUNGci1iZw?oc=5",
-      "published_date": "2026-11-10"
+      "category": "OpenAI/개발자 도구",
+      "title": "OpenAI, Pierre Computer의 코드 스토리지 기술 인수해 코덱스 강화 예정",
+      "summary": "OpenAI가 피에르 컴퓨터(Pierre Computer)의 코드 스토리지 기술을 인수하여 자사의 코드 생성 AI 모델인 코덱스(Codex)의 기능을 강화할 계획이라고 월스트리트저널이 보도했습니다.",
+      "detail": "월스트리트저널에 따르면 OpenAI는 피에르 컴퓨터의 코드 스토리지 기술을 인수하기로 했습니다. 이 기술은 OpenAI의 AI 코딩 보조 도구인 코덱스에 통합되어 개발자들이 코드를 저장하고 관리하며 생성하는 방식을 더욱 효율적으로 개선할 것으로 예상됩니다. 이는 개발자 생태계에서의 코덱스 경쟁력을 높이려는 전략으로 풀이됩니다.",
+      "why_it_matters": "이번 인수는 OpenAI가 개발자 도구 영역, 특히 코드 생성 및 관리 분야에서 리더십을 공고히 하려는 의지를 보여줍니다. 코덱스의 기능 강화는 소프트웨어 개발 생산성 향상에 기여하고, AI를 활용한 코딩 지원 도구 시장의 발전을 가속화할 것입니다.",
+      "source_name": "WSJ",
+      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQMHB3WDNrSi01NF8zXzUyZWdSb0U0ZUZyVlZWUF9jeVBfeHVTNkpESjFRSk1FWTk1aFZNcVl2LTRXdlpnR2N5eTRURXJMZkVRM0o5dlVSZWRuY0dVc2ZRTGRLb3M1WVZjRk54Z0doRGt2MVlDTURZaHR6LWpPR3RiT0FmU19vWWd6dE5iY3FLOWozZkNhSHJENktiRGtmc3dJM2xXSDFyOFNlM0N2b2FLWQ?oc=5",
+      "published_date": "2026-11-12"
     },
     {
-      "category": "새 모델/제품, 개발자 도구",
-      "title": "앤트로픽, IPO 앞두고 AI 기반 업무용 스위트 출시",
-      "summary": "앤트로픽이 기업 공개(IPO)를 앞두고 회의(Meetings), 화이트보드(Whiteboards), 시트(Sheets), 데이터(Data) 등 AI 기반의 새로운 업무용 애플리케이션 스위트를 공개하며 생산성 도구 시장에 진출했다.",
-      "detail": "이 스위트는 클로드(Claude) AI를 활용하여 회의록 작성, 아이디어 정리, 데이터 분석 등의 업무를 자동화하고 효율화하는 데 중점을 둔다. 이는 마이크로소프트 엑셀(Excel) 등 기존 업무 소프트웨어와의 경쟁을 예고하며 AI의 활용 범위를 확장하는 전략적 움직임이다.",
-      "why_it_matters": "앤트로픽의 업무용 AI 스위트 출시는 AI가 단순한 챗봇을 넘어 기업 생산성 도구의 핵심이 되고 있음을 보여주며, 기존 빅테크 기업들과의 경쟁을 심화시켜 AI 솔루션의 발전을 가속화할 것이다.",
-      "source_name": "Yahoo Finance",
-      "source_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZFRaS1IwRWlsMG5CWnhCV0pEUkdtcjU0MHY4a0Vnb0RFem90WWl5cFg4VXhqcmlOM2VzaVZnY0ZfSVJ6TnU0SE1wbFNzMVpaV0ZIcHdURFBoQnNsY0Y5cktFbTVlV0FpSnNpcF9MVkNlWUstWGtKU0ZicDZTQmpCdUNyczlPemVpRF9HRExBdExqZk9CbU96bjFqVV9HNVh3NWowZGlMcHBHUnRtRkpYVzYtTjY5cC1iYnNXcENzTDZtZw?oc=5",
-      "published_date": "2026-11-10"
+      "category": "Google DeepMind/주요 연구",
+      "title": "구글 딥마인드, DNA 해독 AI '알파게놈 2' 공개하며 질병 이해 발전",
+      "summary": "구글 딥마인드가 세포가 DNA를 읽는 방식을 해독하는 AI 모델 '알파게놈 2'를 발표했으며, 이를 통해 질병에 대한 이해를 심화하고 새로운 치료법 개발에 기여할 것으로 기대됩니다.",
+      "detail": "구글 딥마인드가 '알파게놈 2(AlphaGenome 2)'라는 새로운 AI 시스템을 공개했습니다. 이 모델은 세포가 DNA 정보를 어떻게 해석하고 활용하는지를 정밀하게 분석하여, 유전자 발현 및 질병 발생 메커니즘을 밝히는 데 중점을 둡니다. 이는 생명과학 연구에서 AI의 역할을 확장하는 중요한 발전으로 평가됩니다.",
+      "why_it_matters": "알파게놈 2는 생물학적 프로세스에 대한 인간의 이해를 획기적으로 향상시킬 수 있는 잠재력을 가집니다. 유전 질환, 암 등 복잡한 질병의 원인을 더 깊이 이해하고, 이를 바탕으로 개인 맞춤형 의약품 개발이나 새로운 치료 전략을 모색하는 데 결정적인 기여를 할 수 있습니다.",
+      "source_name": "Google DeepMind",
+      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOTFJXSTYyMXR1RmNUdmgxZWhSNU5HVndHbzh4eW9FU2hPNDhTQzlwa2pjYVZ0MUFIWFBUSUxCRTVnWGQwdEZ4eGpMWUd5UWJ4blVZRUdQUVdsY1d0cjdLZWw1NUZEYU5rUm5UTHRmN1lIOWViUnM2RG11ZUVCX1ExZWhpcXFCQlh3bEx4eDRLR3FaR1d4UE92TnpHWkhOU1RCUlVRa1F3?oc=5",
+      "published_date": "2026-11-11"
     }
   ]
 }
