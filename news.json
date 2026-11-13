@@ -1,45 +1,41 @@
 {
-  "date": "2026-11-12",
-  "updated_at": "11:51 KST",
+  "date": "2026-11-13",
+  "updated_at": "11:33 KST",
   "generation_mode": "RSS + Gemini summary (gemini-2.5-flash)",
   "update_status": {
     "ok": true,
     "message": "오늘 브리핑이 정상 업데이트되었습니다."
   },
-  "daily_summary": "오늘 AI 업계는 엔비디아의 대중국 수출 규제 및 리더십 위기, 그리고 앤스로픽의 새로운 모델이 엔비디아 CUDA의 독점적 지위에 도전하는 등 중요한 변화를 겪고 있습니다. 동시에 구글과 OpenAI는 각각 제미니의 서비스 영역 확장과 코드 생성 AI 코덱스 강화 인수를 통해 기술 발전을 이어가고 있으며, 구글 딥마인드는 생명 과학 분야에서 AI의 활용 가능성을 넓히는 연구 성과를 발표했습니다.",
+  "daily_summary": "구글과 앤트로픽이 각각 새로운 AI 모델과 IPO 소식으로 시장의 주목을 받는 가운데, 엔비디아 CEO 사임과 AI 반도체 수출 통제 강화 가능성이 글로벌 공급망에 긴장을 불어넣고 있습니다. 한편, 주요 AI 기업들을 대상으로 한 최첨단 AI 개발 중단 소송과 OpenAI의 보안 특화 모델 출시는 기술 발전과 규제, 그리고 응용 분야 확장 사이의 복잡한 역학 관계를 보여줍니다.",
   "ai_terms": [
     {
-      "term": "Bias",
-      "full_name": "Bias",
-      "korean": "편향 (바이어스)",
-      "explanation": "인공신경망의 뉴런에서 입력값과 가중치를 곱한 결과에 더해지는 고정된 값입니다. 이 값은 뉴런이 활성화되는 기준점을 조절하여, 모델이 데이터를 더 유연하게 학습하고 다양한 패턴을 포착할 수 있도록 돕습니다.",
-      "example": "어떤 사람에게는 새로운 정보에 대한 '편향'이 있어서 특정 방식으로만 해석하려는 경향이 있는데, AI 모델에서도 이와 유사하게 학습 데이터로부터 특정 경향이 '바이어스'로 반영될 수 있습니다."
+      "term": "Attention",
+      "full_name": "Attention Mechanism",
+      "korean": "어텐션 메커니즘",
+      "explanation": "딥러닝 모델, 특히 트랜스포머에서 입력 데이터의 중요한 부분에 더 집중하게 하는 기술입니다. 모델이 긴 문장에서 특정 단어가 다른 단어와 어떻게 관련되는지 이해하는 데 도움을 줍니다.",
+      "example": "긴 보고서를 요약할 때, 어텐션 메커니즘을 사용하는 AI는 핵심 문장이나 단어에 더 큰 가중치를 두어 중요한 정보를 놓치지 않습니다."
     },
     {
-      "term": "Kernel",
-      "full_name": "Kernel (or Filter)",
-      "korean": "커널 (또는 필터)",
-      "explanation": "합성곱 신경망(CNN)에서 이미지의 특정 특징(경계선, 질감 등)을 감지하기 위해 사용되는 작은 행렬입니다. 이미지를 스캔하듯이 이동하며 해당 영역의 픽셀 값과 연산하여 특징 맵을 생성합니다.",
-      "example": "스마트폰 카메라 앱이 사진에서 강아지의 귀 모양을 인식할 때, '커널'이 강아지 귀의 특정 패턴을 찾아내도록 학습되어 작동하는 것과 유사합니다."
+      "term": "Diffusion Model",
+      "full_name": "Diffusion Model",
+      "korean": "확산 모델",
+      "explanation": "노이즈가 섞인 이미지나 데이터를 점진적으로 원래의 깨끗한 상태로 되돌리는 방식으로 작동하는 생성 AI 모델입니다. 이를 통해 매우 사실적인 이미지나 다른 형태의 데이터를 만들어낼 수 있습니다.",
+      "example": "Midjourney나 DALL-E 3 같은 이미지 생성 AI는 확산 모델을 사용하여 텍스트 설명으로부터 실제 같은 이미지를 만들어냅니다."
     },
     {
-      "term": "Feature Map",
-      "full_name": "Feature Map",
-      "korean": "특징 맵",
-      "explanation": "합성곱 신경망(CNN)에서 이미지가 커널(필터)을 통과한 후 생성되는 출력입니다. 원본 이미지에서 특정 특징(예: 수직선, 수평선)이 어디에 얼마나 강하게 존재하는지를 보여주는 맵입니다.",
-      "example": "얼굴 인식 AI가 사람의 눈, 코, 입 같은 특징을 따로 감지한 뒤, 이러한 특징들이 어디에 있는지를 보여주는 중간 결과물이 바로 '특징 맵'이라고 볼 수 있습니다."
+      "term": "On-device AI",
+      "full_name": "On-device Artificial Intelligence",
+      "korean": "온디바이스 AI",
+      "explanation": "인공지능 모델이 클라우드 서버가 아닌 스마트폰, 태블릿, 노트북 등 기기 자체에서 직접 데이터를 처리하고 추론하는 기술입니다. 인터넷 연결 없이도 AI 기능을 사용할 수 있고, 데이터 보안과 응답 속도를 향상시킵니다.",
+      "example": "스마트폰에서 인터넷 연결 없이 사진을 분석하여 자동으로 인물이나 사물을 태그하거나, 음성을 인식하여 비서를 실행하는 기능이 온디바이스 AI의 예시입니다."
     }
   ],
   "exchange_rate": {
-    "usd_krw": 1336.9,
-    "date": "2026-11-11",
+    "usd_krw": 1334.1,
+    "date": "2026-11-12",
     "source": "Frankfurter"
   },
   "exchange_rate_history": [
-    {
-      "date": "2026-11-03",
-      "rate": 1344.59
-    },
     {
       "date": "2026-11-04",
       "rate": 1338.58
@@ -63,58 +59,62 @@
     {
       "date": "2026-11-11",
       "rate": 1336.9
+    },
+    {
+      "date": "2026-11-12",
+      "rate": 1334.1
     }
   ],
   "issues": [
     {
-      "category": "NVIDIA/정책 및 규제",
-      "title": "엔비디아, 젠슨 황 CEO 거취 논의 이사회 개최 및 대중국 수출 규제 강화 직면",
-      "summary": "엔비디아 이사회가 젠슨 황 CEO의 미래를 논의하기 위해 소집되었으며, 이는 대중국 AI 칩 수출 규제 관련 논란과 맞물려 있어 리더십 위기와 정책적 압박에 직면했음을 시사합니다.",
-      "detail": "보도에 따르면 엔비디아 이사회는 젠슨 황 CEO의 거취에 대해 논의하는 회의를 진행했습니다. 이는 미국 정부의 대중국 AI 칩 수출 규제 관련 논란이 재점화되고, 일부 정치권에서 규제 강화를 요구하는 가운데 발생한 일입니다. 최근 중국 대학이 미국의 금지에도 불구하고 엔비디아 H200 칩을 구매했다는 기록이 공개되면서, 엔비디아의 대중국 사업 모델과 미국 정책 준수에 대한 의구심이 커지고 있습니다.",
-      "why_it_matters": "엔비디아는 AI 반도체 시장의 핵심 플레이어로, CEO의 리더십 위기와 대중국 수출 규제 문제는 글로벌 AI 산업의 공급망 및 기술 경쟁 구도에 막대한 영향을 미칠 수 있습니다. 정책적 불확실성은 엔비디아의 사업 전략뿐만 아니라 전 세계 AI 기업의 하드웨어 수급에도 불안정성을 야기할 수 있습니다.",
-      "source_name": "The New York Times",
-      "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9SV0s4M3NYaTUtT2tIVWpBRHdfTk51cUIxcE0tLU9LV3M1akRWMTRheE9qY3BCa0pRVDR0MGhxaGVIcERRakZ0LWxJUWtpeFk4aW50TlRLVWt0NUEwSzVBVWFoZGNMQ0NEUWl4eUZyR3h0YmpHRjNfVk1n?oc=5",
-      "published_date": "2026-11-11"
-    },
-    {
-      "category": "Anthropic/AI 반도체",
-      "title": "앤스로픽, 신규 모델 '클로드 미소스 5.2'로 엔비디아 CUDA 독점적 지위 위협",
-      "summary": "앤스로픽이 새로운 모델 클로드 미소스 5.2를 발표하며, 이 모델이 AMD의 MI355X GPU에서 다른 모델을 단 3일 만에 구동하는 방법을 알아내 엔비디아 CUDA 생태계의 장기적인 지배력에 도전장을 내밀었습니다.",
-      "detail": "앤스로픽이 최신 AI 모델인 클로드 미소스 5.2를 공개하며, 기존에 수개월이 걸리던 AMD GPU로의 모델 전환 과정을 단 3일로 단축시켰다고 밝혔습니다. 이는 엔비디아 GPU에 최적화된 CUDA 플랫폼이 가진 독점적 지위에 대한 중요한 도전입니다. 앤스로픽은 또한 '클로드 페이블 5.2'를 통해 1번의 프롬프트로 슈팅 게임을 제작하는 등 새로운 기능과 함께 기업용 협업 도구인 '클로드 미팅즈'도 선보였습니다.",
-      "why_it_matters": "앤스로픽의 발표는 AI 모델이 특정 하드웨어 플랫폼에 대한 의존도를 줄일 수 있음을 보여주며, 이는 AI 칩 시장에서 AMD와 같은 후발 주자들에게 기회를 제공할 수 있습니다. 엔비디아의 CUDA 생태계가 장악한 AI 하드웨어 시장에 경쟁을 촉진하고, 개발자들이 더 다양한 하드웨어에서 AI 모델을 효율적으로 활용할 수 있는 가능성을 열어줄 것으로 기대됩니다.",
-      "source_name": "Wccftech",
-      "source_url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQLWxCdDFqWG83WGFjblJ5bkc4azA3TzFOQ3FXa294MkRVMlFIV1JwSTB6MjBxb1pVdEk0Q2dMQTBvTmZFNTRSSnFJX2ZyZTRvZVlvSEJRNHQ1cUpaMVlNTDJqLUJHTlgxbUYxTFVyMlJZcDBYWm9ZWW5lLUNCVmdDMnBNdHJfSXpFd1c1T1pwVW5FTHBhdHhyWjl4bEkxZVExczgwNGFZek1UOUFOUnh5aThKeTUzWFNvc3VVTmpNTlU0dkNJLXg5cURjVVdBbmxieUxNUVl6U1EzZ20xUWpQMGlKT1dFajdpZ0l2bmFsQUlaUWtxbWxB0gH8AUFVX3lxTE1pcmlkV3Q5Q1ZyTnJaV1Vpc1BpRjBFb2NpdTIyc1VHb1dLaVF6REZBZWVYa19vS3lwQWJDY0kybWNoNmdVX0FGWVFrZVIxWDZyREpBMkFycTJzUWQ3cTV0SU1oZDVXd05ieXp1bWs0MlFzZFlPS19tRlQ2R1JmQnFqUGpSbVdIUEVGb2JxMmliM2JuSlpRUzlfRHIxUUM2OFItNXdEUGxPSEhaZER4YUJHOTVzSGw0Z1ZFYVJFRXF4QUc0OWdER1RoaWY2bmYzVVF6eW1zdG8yeFJXRkp4MG5uSE5PV1JOdldWTzVJb25qM043YU5IWkVoWjRMZw?oc=5",
-      "published_date": "2026-11-11"
-    },
-    {
-      "category": "Google/제품 및 서비스",
-      "title": "구글, 제미니 기반 '결정 모델' API 및 애플 카플레이 통합으로 서비스 확장",
-      "summary": "구글이 Gemini Decisions API를 출시하여 의사결정 모델 시장에 진입하고, 동시에 Gemini 앱을 애플 카플레이에 통합하여 사용자 접점을 넓히는 등 제미니 생태계를 다방면으로 확장하고 있습니다.",
-      "detail": "구글은 Gemini Decisions API를 통해 빠르고 교정된 멀티모달 의사결정을 지원하며, 단일 패스에 1,000개 질문을 처리하는 등 새로운 기능으로 의사결정 모델 시장에 본격적으로 뛰어들었습니다. 또한, 구글은 제미니 앱을 애플 카플레이에 탑재하기 시작하여 아이폰 사용자들도 차량 내에서 제미니의 음성 AI 기능을 활용할 수 있게 되었습니다. 이는 제미니의 온디바이스 AI 및 모바일 플랫폼 통합을 가속화하는 중요한 단계입니다.",
-      "why_it_matters": "Gemini Decisions API 출시는 AI가 복잡한 의사결정 과정에 직접 관여하는 새로운 시장을 창출할 잠재력을 가집니다. 애플 카플레이와의 통합은 제미니의 활용 범위를 가정과 사무실을 넘어 자동차로 확장하여, 온디바이스 AI의 실생활 적용을 촉진하고 사용자 접근성을 크게 높일 것입니다.",
-      "source_name": "SiliconANGLE",
-      "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSGJUSThZcHo0dy1rYmlqQ3cwOHVWWGkxdmlGUnNMdWItMjNnVHI2UE94eHFlTW1CcnN5MWU2b2lvYVRyXzNnRHQtSUF0LWw2TkNfSjlmVVAtZWV4RFRKbFk5XzlFYzFWNUlDaG1VbDdfZnNvdGo3OU85cmJKeUdSM3NMVG43UkZpWEJRaGptenZsZUM4ck1jbTFZcGdheEN2VnBTQw?oc=5",
-      "published_date": "2026-11-12"
-    },
-    {
-      "category": "OpenAI/개발자 도구",
-      "title": "OpenAI, Pierre Computer의 코드 스토리지 기술 인수해 코덱스 강화 예정",
-      "summary": "OpenAI가 피에르 컴퓨터(Pierre Computer)의 코드 스토리지 기술을 인수하여 자사의 코드 생성 AI 모델인 코덱스(Codex)의 기능을 강화할 계획이라고 월스트리트저널이 보도했습니다.",
-      "detail": "월스트리트저널에 따르면 OpenAI는 피에르 컴퓨터의 코드 스토리지 기술을 인수하기로 했습니다. 이 기술은 OpenAI의 AI 코딩 보조 도구인 코덱스에 통합되어 개발자들이 코드를 저장하고 관리하며 생성하는 방식을 더욱 효율적으로 개선할 것으로 예상됩니다. 이는 개발자 생태계에서의 코덱스 경쟁력을 높이려는 전략으로 풀이됩니다.",
-      "why_it_matters": "이번 인수는 OpenAI가 개발자 도구 영역, 특히 코드 생성 및 관리 분야에서 리더십을 공고히 하려는 의지를 보여줍니다. 코덱스의 기능 강화는 소프트웨어 개발 생산성 향상에 기여하고, AI를 활용한 코딩 지원 도구 시장의 발전을 가속화할 것입니다.",
-      "source_name": "WSJ",
-      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQMHB3WDNrSi01NF8zXzUyZWdSb0U0ZUZyVlZWUF9jeVBfeHVTNkpESjFRSk1FWTk1aFZNcVl2LTRXdlpnR2N5eTRURXJMZkVRM0o5dlVSZWRuY0dVc2ZRTGRLb3M1WVZjRk54Z0doRGt2MVlDTURZaHR6LWpPR3RiT0FmU19vWWd6dE5iY3FLOWozZkNhSHJENktiRGtmc3dJM2xXSDFyOFNlM0N2b2FLWQ?oc=5",
-      "published_date": "2026-11-12"
-    },
-    {
-      "category": "Google DeepMind/주요 연구",
-      "title": "구글 딥마인드, DNA 해독 AI '알파게놈 2' 공개하며 질병 이해 발전",
-      "summary": "구글 딥마인드가 세포가 DNA를 읽는 방식을 해독하는 AI 모델 '알파게놈 2'를 발표했으며, 이를 통해 질병에 대한 이해를 심화하고 새로운 치료법 개발에 기여할 것으로 기대됩니다.",
-      "detail": "구글 딥마인드가 '알파게놈 2(AlphaGenome 2)'라는 새로운 AI 시스템을 공개했습니다. 이 모델은 세포가 DNA 정보를 어떻게 해석하고 활용하는지를 정밀하게 분석하여, 유전자 발현 및 질병 발생 메커니즘을 밝히는 데 중점을 둡니다. 이는 생명과학 연구에서 AI의 역할을 확장하는 중요한 발전으로 평가됩니다.",
-      "why_it_matters": "알파게놈 2는 생물학적 프로세스에 대한 인간의 이해를 획기적으로 향상시킬 수 있는 잠재력을 가집니다. 유전 질환, 암 등 복잡한 질병의 원인을 더 깊이 이해하고, 이를 바탕으로 개인 맞춤형 의약품 개발이나 새로운 치료 전략을 모색하는 데 결정적인 기여를 할 수 있습니다.",
+      "category": "Google",
+      "title": "구글, 더욱 빠르고 스마트한 에이전트 워크플로우를 위한 Gemini 4 Hydrogen 출시",
+      "summary": "구글이 기존 Gemini 3.8 Flash를 대체하는 새로운 대규모 언어 모델인 Gemini 4 Hydrogen을 출시했으며, 이 모델은 향상된 속도, 지능 및 비용 효율성을 제공합니다.",
+      "detail": "Google DeepMind는 Gemini 4 Hydrogen이 이전 버전인 3.8 Flash를 완전히 대체하며, 특히 에이전트(Agent) 워크플로우에 최적화되어 복잡한 질문 이해 및 작업 처리 능력이 크게 개선되었다고 밝혔습니다. 이 모델은 기존 Argon 모델보다 높은 성능을 보이면서도 더 낮은 비용으로 제공될 수 있으며, 헬스케어 등 다양한 산업 분야에 적용될 예정입니다.",
+      "why_it_matters": "주요 AI 기업인 구글의 핵심 모델 업데이트는 AI 시장의 경쟁을 심화시키고, 특히 에이전트 기반 AI 서비스 개발을 가속화할 것입니다. 더 높은 성능과 비용 효율성은 기업 및 개발자들이 AI를 더 폭넓게 도입하는 데 기여할 것으로 예상됩니다.",
       "source_name": "Google DeepMind",
-      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOTFJXSTYyMXR1RmNUdmgxZWhSNU5HVndHbzh4eW9FU2hPNDhTQzlwa2pjYVZ0MUFIWFBUSUxCRTVnWGQwdEZ4eGpMWUd5UWJ4blVZRUdQUVdsY1d0cjdLZWw1NUZEYU5rUm5UTHRmN1lIOWViUnM2RG11ZUVCX1ExZWhpcXFCQlh3bEx4eDRLR3FaR1d4UE92TnpHWkhOU1RCUlVRa1F3?oc=5",
-      "published_date": "2026-11-11"
+      "source_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5tcFA0eUdfTldGdV9NTDA4bkVfbVljVVZfaHg4OExYbXptenFGT3otNU40YXZQWE9ka3V3cGw1Z01EaDR6bFpUMHlGV0IyTG5tVDdrZU9jQnZJcm1nTm5UY0dQamlVRG1BYldB?oc=5",
+      "published_date": "2026-11-12"
+    },
+    {
+      "category": "Anthropic",
+      "title": "앤트로픽, IPO 임박 및 기업용 Claude 제품군 확장",
+      "summary": "AI 모델 Claude 개발사인 앤트로픽이 다가오는 11월 19일 IPO를 앞두고 있으며, 이미 IPO가 6배 이상 초과 청약되는 등 큰 관심을 받고 있습니다.",
+      "detail": "앤트로픽은 IPO를 앞두고 기업 시장 공략을 강화하기 위해 'Claude for Manufacturing'과 화상 통화에 참여하여 문서를 작성하고 화이트보드를 정리하는 'Claude Meetings' 같은 새로운 솔루션들을 발표했습니다. 또한 자체 호스팅이 가능한 Claude Managed Agents를 통해 기업 환경에서의 보안과 제어를 강화하는 방안도 제시했습니다.",
+      "why_it_matters": "앤트로픽의 IPO는 AI 기술 기업에 대한 투자자들의 뜨거운 관심을 보여주며, 경쟁사들과의 격차를 좁히기 위한 자금 확보의 발판이 될 것입니다. 동시에 기업용 AI 솔루션 확장은 실제 산업 현장에서의 AI 도입을 가속화하고, 앤트로픽의 시장 입지를 강화할 중요한 전략입니다.",
+      "source_name": "Yahoo Finance",
+      "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOYVlrWkVzSzVWeVdsNDFGams2U1ZST2dRSjQtY2R5c3YzVmw5UGg2YVM3VG1uVExFYVZBTGFXd01qZUc2dmpTdW83Q2dIUnh3X1BhaUF4S2tLbk9RSnhOS2c2N2lnOVNUNVpOQm9aZ0t0UFQxU3JEcVVjMXN6RzgwbkswUjlwZGQ2NEJQeFhKM1dZbUF1VEROY196OUU1QmNBXy01MHRVdnNlX3NBcGZDaGlreWxpbnBiSWllcDRhQQ?oc=5",
+      "published_date": "2026-11-12"
+    },
+    {
+      "category": "NVIDIA / Policy",
+      "title": "엔비디아 CEO 젠슨 황 사임, AI 반도체 대중국 수출 통제 강화 가능성 제기",
+      "summary": "엔비디아의 최고경영자(CEO) 젠슨 황의 사임 발표 이후, 미국의 AI 반도체 대중국 수출 통제가 더욱 강화될 가능성이 제기되고 있습니다.",
+      "detail": "젠슨 황의 사임은 엔비디아의 리더십에 큰 변화를 예고하며, 이는 AI 반도체 시장, 특히 대중국 수출 정책에 중요한 영향을 미칠 것으로 분석됩니다. 전문가들은 그의 사임이 미국 정부가 중국으로의 AI 칩 유입을 막기 위한 추가적인 조치를 취하는 계기가 될 수 있다고 보고 있으며, 이미 엔비디아 칩의 중국 우회 수출에 대한 우려가 제기되어 왔습니다.",
+      "why_it_matters": "엔비디아는 AI 반도체 시장의 압도적인 선두 주자로, CEO 교체는 회사의 전략과 시장 경쟁 구도에 큰 영향을 줄 수 있습니다. 특히 대중국 수출 통제 강화는 글로벌 AI 반도체 공급망에 큰 파장을 일으키고, 중국의 AI 발전 속도에도 영향을 미칠 수 있어 국제적인 주목을 받고 있습니다.",
+      "source_name": "Reuters",
+      "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRERObVhKZklNOEliOFhfQmhqMmZaQWktbkVWTXlxZU8zbUtxQ1cwZnZpaGJwZ1djUHFFVVlydTFsQUd3UUJEV0NOdUliUGY1ZGNKN1ZPWG1zYkpxcEgtNGJlSFVrTi1EVm84MnFFbWxmeXR1YmotNUdzVFBtUVU1VmhPR3ZGTHFUcHlSUnRQQmU0WUYyRi1fdnNHOHc3QUh2OWVsQURUb3BwVTVaMm9NRUdnbw?oc=5",
+      "published_date": "2026-11-12"
+    },
+    {
+      "category": "Legal / Policy",
+      "title": "주요 AI 개발사에 대한 연이은 소송 제기: 최첨단 AI 개발 중단 및 특허 침해 주장",
+      "summary": "비영리 단체들이 OpenAI, Google, Anthropic 등 주요 AI 개발사들을 상대로 최첨단 AI(프론티어 AI) 개발 중단을 요구하는 소송을 제기했으며, 별도로 특허 침해 소송도 진행 중입니다.",
+      "detail": "미국 내 비영리 단체들은 이들 거대 기술 기업들이 통제 불가능한 AI를 개발하고 있어 잠재적 위험이 크다고 주장하며 개발 중단을 법원에 요청했습니다. 이와는 별개로, 앤트로픽과 OpenAI는 뉴럴 네트워크 관련 특허를 침해했다는 주장에 기반한 소송에도 직면해 있어, AI 기술 개발에 대한 법적, 윤리적 논란이 가중되고 있습니다.",
+      "why_it_matters": "이 소송들은 AI 기술의 급속한 발전이 야기하는 사회적, 윤리적, 법적 문제에 대한 우려를 반영합니다. 최첨단 AI 개발 중단 요구는 AI 규제 및 안전 논의의 핵심 의제가 될 것이며, 특허 침해 소송은 AI 모델 개발 과정에서의 지적 재산권 문제를 부각시켜 업계 전반에 영향을 미칠 수 있습니다.",
+      "source_name": "Reuters",
+      "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPWTR4ak5BdnRmV3hzYTZOcVhBYklWU01YRmtLak03b2hmeC1PMTd5blRQWUkxR2Q1ZXZWRC0xNkNxVDVoN2VOdTVlX1hFMXgwS1Y5TW1fUGt4NThQaEhRVFdna1YxUDhLTnBYUFJ6WTlFajlLM1BZTTRwNk5sWFMydkZtMlJNUnU4MWlDcUN6QmNtVHdUT1pLNXd6QXc4QVk0WmMtM1JxWU5XVC1PUGRIMVJNY2wzN1Z1d2N6WWJkbw?oc=5",
+      "published_date": "2026-11-12"
+    },
+    {
+      "category": "OpenAI",
+      "title": "OpenAI, 수천 건의 취약점을 발견한 보안 특화 모델 'GPT-6 Cyber' 공개",
+      "summary": "OpenAI가 보안에 특화된 새로운 모델인 'GPT-6 Cyber'를 공개하며, 이미 수천 건의 사이버 공격 취약점을 발견했다고 주장했습니다.",
+      "detail": "OpenAI는 기업 및 조직의 보안 강화를 목표로 GPT-6 Cyber 모델과 관련 보안 제품들을 출시했습니다. 이 모델은 악성 코드 분석, 취약점 탐지, 위협 예측 등 다양한 사이버 보안 업무에 활용될 수 있으며, OpenAI는 이 도구를 사용하지 않으면 조직들이 위험에 처할 수 있다고 경고하며 사용을 독려했습니다.",
+      "why_it_matters": "사이버 보안 분야는 AI의 핵심적인 응용 분야 중 하나이며, OpenAI의 GPT-6 Cyber 출시는 AI 기반 보안 솔루션 시장의 경쟁을 심화시킬 것입니다. 이는 기업들이 AI를 활용하여 보안 위협에 더욱 효과적으로 대응할 수 있게 하는 동시에, AI 자체의 잠재적 오용 가능성에 대한 논의도 다시 한번 촉발할 수 있습니다.",
+      "source_name": "Mashable",
+      "source_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE12NHZsclk2RGhrejRNeThJR3ltR01KcEN4ZTJOM3RzeDVsS1daYVBmX2dBMXM3U3ZaYVZGblFZeEYwell0NkVXYm5zbVJTUHEzaGF1S0IwZw?oc=5",
+      "published_date": "2026-11-12"
     }
   ]
 }
