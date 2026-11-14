@@ -1,45 +1,41 @@
 {
-  "date": "2026-11-13",
-  "updated_at": "11:33 KST",
+  "date": "2026-11-14",
+  "updated_at": "11:15 KST",
   "generation_mode": "RSS + Gemini summary (gemini-2.5-flash)",
   "update_status": {
     "ok": true,
     "message": "오늘 브리핑이 정상 업데이트되었습니다."
   },
-  "daily_summary": "구글과 앤트로픽이 각각 새로운 AI 모델과 IPO 소식으로 시장의 주목을 받는 가운데, 엔비디아 CEO 사임과 AI 반도체 수출 통제 강화 가능성이 글로벌 공급망에 긴장을 불어넣고 있습니다. 한편, 주요 AI 기업들을 대상으로 한 최첨단 AI 개발 중단 소송과 OpenAI의 보안 특화 모델 출시는 기술 발전과 규제, 그리고 응용 분야 확장 사이의 복잡한 역학 관계를 보여줍니다.",
+  "daily_summary": "OpenAI와 Google은 AI 에이전트의 금융 서비스를 출시하며 AI의 실제 경제 활동 통합을 가속화하고 있으며, Anthropic도 신규 모델과 엔터프라이즈 솔루션으로 경쟁력을 강화하고 있다. 한편, NVIDIA CEO의 사임과 AI 반도체 수출 규제 논란은 업계 전반에 큰 영향을 미치고 있으며, 미 연준은 AI 위험을 금융 시스템의 최대 위협으로 경고하며 규제의 중요성을 강조했다.",
   "ai_terms": [
     {
-      "term": "Attention",
-      "full_name": "Attention Mechanism",
-      "korean": "어텐션 메커니즘",
-      "explanation": "딥러닝 모델, 특히 트랜스포머에서 입력 데이터의 중요한 부분에 더 집중하게 하는 기술입니다. 모델이 긴 문장에서 특정 단어가 다른 단어와 어떻게 관련되는지 이해하는 데 도움을 줍니다.",
-      "example": "긴 보고서를 요약할 때, 어텐션 메커니즘을 사용하는 AI는 핵심 문장이나 단어에 더 큰 가중치를 두어 중요한 정보를 놓치지 않습니다."
+      "term": "Training",
+      "full_name": "Training (of an AI model)",
+      "korean": "모델 학습",
+      "explanation": "AI 모델이 데이터를 통해 특정 작업을 수행하는 방법을 배우는 과정입니다. 모델은 제공된 데이터를 분석하고 패턴을 찾아내어 성능을 개선합니다.",
+      "example": "챗봇을 학습시키기 위해 수많은 대화 데이터를 입력하여 사람의 언어를 이해하고 응답하도록 만듭니다."
     },
     {
-      "term": "Diffusion Model",
-      "full_name": "Diffusion Model",
-      "korean": "확산 모델",
-      "explanation": "노이즈가 섞인 이미지나 데이터를 점진적으로 원래의 깨끗한 상태로 되돌리는 방식으로 작동하는 생성 AI 모델입니다. 이를 통해 매우 사실적인 이미지나 다른 형태의 데이터를 만들어낼 수 있습니다.",
-      "example": "Midjourney나 DALL-E 3 같은 이미지 생성 AI는 확산 모델을 사용하여 텍스트 설명으로부터 실제 같은 이미지를 만들어냅니다."
+      "term": "Iteration",
+      "full_name": "Iteration",
+      "korean": "반복 (학습 반복)",
+      "explanation": "AI 모델 학습 과정에서 데이터의 작은 묶음(배치)을 사용하여 모델의 가중치를 한 번 업데이트하는 단계를 의미합니다. 여러 번의 반복을 통해 모델은 점진적으로 개선됩니다.",
+      "example": "자율주행차가 주행 데이터를 1000개의 작은 묶음으로 나누어 각 묶음을 처리할 때마다 한 번의 반복을 수행하며 운전 방법을 학습합니다."
     },
     {
-      "term": "On-device AI",
-      "full_name": "On-device Artificial Intelligence",
-      "korean": "온디바이스 AI",
-      "explanation": "인공지능 모델이 클라우드 서버가 아닌 스마트폰, 태블릿, 노트북 등 기기 자체에서 직접 데이터를 처리하고 추론하는 기술입니다. 인터넷 연결 없이도 AI 기능을 사용할 수 있고, 데이터 보안과 응답 속도를 향상시킵니다.",
-      "example": "스마트폰에서 인터넷 연결 없이 사진을 분석하여 자동으로 인물이나 사물을 태그하거나, 음성을 인식하여 비서를 실행하는 기능이 온디바이스 AI의 예시입니다."
+      "term": "Metric",
+      "full_name": "Metric",
+      "korean": "지표",
+      "explanation": "AI 모델의 성능을 측정하고 평가하는 데 사용되는 정량적인 기준입니다. 모델의 정확도, 속도, 효율성 등 다양한 측면을 파악하는 데 활용됩니다.",
+      "example": "사진 속 고양이를 얼마나 정확히 식별하는지 측정하기 위해 정확도(Accuracy)라는 지표를 사용합니다."
     }
   ],
   "exchange_rate": {
-    "usd_krw": 1334.1,
-    "date": "2026-11-12",
+    "usd_krw": 1337.13,
+    "date": "2026-11-13",
     "source": "Frankfurter"
   },
   "exchange_rate_history": [
-    {
-      "date": "2026-11-04",
-      "rate": 1338.58
-    },
     {
       "date": "2026-11-05",
       "rate": 1344.69
@@ -63,58 +59,62 @@
     {
       "date": "2026-11-12",
       "rate": 1334.1
+    },
+    {
+      "date": "2026-11-13",
+      "rate": 1337.13
     }
   ],
   "issues": [
     {
-      "category": "Google",
-      "title": "구글, 더욱 빠르고 스마트한 에이전트 워크플로우를 위한 Gemini 4 Hydrogen 출시",
-      "summary": "구글이 기존 Gemini 3.8 Flash를 대체하는 새로운 대규모 언어 모델인 Gemini 4 Hydrogen을 출시했으며, 이 모델은 향상된 속도, 지능 및 비용 효율성을 제공합니다.",
-      "detail": "Google DeepMind는 Gemini 4 Hydrogen이 이전 버전인 3.8 Flash를 완전히 대체하며, 특히 에이전트(Agent) 워크플로우에 최적화되어 복잡한 질문 이해 및 작업 처리 능력이 크게 개선되었다고 밝혔습니다. 이 모델은 기존 Argon 모델보다 높은 성능을 보이면서도 더 낮은 비용으로 제공될 수 있으며, 헬스케어 등 다양한 산업 분야에 적용될 예정입니다.",
-      "why_it_matters": "주요 AI 기업인 구글의 핵심 모델 업데이트는 AI 시장의 경쟁을 심화시키고, 특히 에이전트 기반 AI 서비스 개발을 가속화할 것입니다. 더 높은 성능과 비용 효율성은 기업 및 개발자들이 AI를 더 폭넓게 도입하는 데 기여할 것으로 예상됩니다.",
-      "source_name": "Google DeepMind",
-      "source_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5tcFA0eUdfTldGdV9NTDA4bkVfbVljVVZfaHg4OExYbXptenFGT3otNU40YXZQWE9ka3V3cGw1Z01EaDR6bFpUMHlGV0IyTG5tVDdrZU9jQnZJcm1nTm5UY0dQamlVRG1BYldB?oc=5",
-      "published_date": "2026-11-12"
-    },
-    {
-      "category": "Anthropic",
-      "title": "앤트로픽, IPO 임박 및 기업용 Claude 제품군 확장",
-      "summary": "AI 모델 Claude 개발사인 앤트로픽이 다가오는 11월 19일 IPO를 앞두고 있으며, 이미 IPO가 6배 이상 초과 청약되는 등 큰 관심을 받고 있습니다.",
-      "detail": "앤트로픽은 IPO를 앞두고 기업 시장 공략을 강화하기 위해 'Claude for Manufacturing'과 화상 통화에 참여하여 문서를 작성하고 화이트보드를 정리하는 'Claude Meetings' 같은 새로운 솔루션들을 발표했습니다. 또한 자체 호스팅이 가능한 Claude Managed Agents를 통해 기업 환경에서의 보안과 제어를 강화하는 방안도 제시했습니다.",
-      "why_it_matters": "앤트로픽의 IPO는 AI 기술 기업에 대한 투자자들의 뜨거운 관심을 보여주며, 경쟁사들과의 격차를 좁히기 위한 자금 확보의 발판이 될 것입니다. 동시에 기업용 AI 솔루션 확장은 실제 산업 현장에서의 AI 도입을 가속화하고, 앤트로픽의 시장 입지를 강화할 중요한 전략입니다.",
-      "source_name": "Yahoo Finance",
-      "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOYVlrWkVzSzVWeVdsNDFGams2U1ZST2dRSjQtY2R5c3YzVmw5UGg2YVM3VG1uVExFYVZBTGFXd01qZUc2dmpTdW83Q2dIUnh3X1BhaUF4S2tLbk9RSnhOS2c2N2lnOVNUNVpOQm9aZ0t0UFQxU3JEcVVjMXN6RzgwbkswUjlwZGQ2NEJQeFhKM1dZbUF1VEROY196OUU1QmNBXy01MHRVdnNlX3NBcGZDaGlreWxpbnBiSWllcDRhQQ?oc=5",
-      "published_date": "2026-11-12"
-    },
-    {
-      "category": "NVIDIA / Policy",
-      "title": "엔비디아 CEO 젠슨 황 사임, AI 반도체 대중국 수출 통제 강화 가능성 제기",
-      "summary": "엔비디아의 최고경영자(CEO) 젠슨 황의 사임 발표 이후, 미국의 AI 반도체 대중국 수출 통제가 더욱 강화될 가능성이 제기되고 있습니다.",
-      "detail": "젠슨 황의 사임은 엔비디아의 리더십에 큰 변화를 예고하며, 이는 AI 반도체 시장, 특히 대중국 수출 정책에 중요한 영향을 미칠 것으로 분석됩니다. 전문가들은 그의 사임이 미국 정부가 중국으로의 AI 칩 유입을 막기 위한 추가적인 조치를 취하는 계기가 될 수 있다고 보고 있으며, 이미 엔비디아 칩의 중국 우회 수출에 대한 우려가 제기되어 왔습니다.",
-      "why_it_matters": "엔비디아는 AI 반도체 시장의 압도적인 선두 주자로, CEO 교체는 회사의 전략과 시장 경쟁 구도에 큰 영향을 줄 수 있습니다. 특히 대중국 수출 통제 강화는 글로벌 AI 반도체 공급망에 큰 파장을 일으키고, 중국의 AI 발전 속도에도 영향을 미칠 수 있어 국제적인 주목을 받고 있습니다.",
+      "category": "NVIDIA",
+      "title": "NVIDIA 젠슨 황 CEO 사임 및 AI 반도체 수출 규제 논란",
+      "summary": "NVIDIA의 젠슨 황 CEO가 사임하고, 이와 관련하여 미국의 대중국 AI 반도체 수출 규제 강화와 중국의 AI 프로젝트에 미칠 영향에 대한 우려가 커지고 있다.",
+      "detail": "보도에 따르면 젠슨 황 CEO의 사임이 발표된 후, 미국은 중국에 대한 AI 반도체 수출 통제를 더욱 강화하는 움직임을 보이고 있다. 이로 인해 30억 달러 규모의 중국 AI 프로젝트가 차질을 빚을 위기에 처했으며, 말레이시아와 싱가포르에서도 밀수된 NVIDIA AI 칩에 대한 조사가 확대되고 있다.",
+      "why_it_matters": "NVIDIA는 AI 반도체 시장의 핵심 플레이어였으므로, CEO의 갑작스러운 사임은 시장에 큰 충격을 주고 주가 하락을 야기했다. 또한, 미중 기술 패권 경쟁의 심화 속에서 AI 반도체 공급망과 글로벌 AI 산업 발전에 중대한 영향을 미칠 것으로 예상된다.",
       "source_name": "Reuters",
-      "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRERObVhKZklNOEliOFhfQmhqMmZaQWktbkVWTXlxZU8zbUtxQ1cwZnZpaGJwZ1djUHFFVVlydTFsQUd3UUJEV0NOdUliUGY1ZGNKN1ZPWG1zYkpxcEgtNGJlSFVrTi1EVm84MnFFbWxmeXR1YmotNUdzVFBtUVU1VmhPR3ZGTHFUcHlSUnRQQmU0WUYyRi1fdnNHOHc3QUh2OWVsQURUb3BwVTVaMm9NRUdnbw?oc=5",
-      "published_date": "2026-11-12"
-    },
-    {
-      "category": "Legal / Policy",
-      "title": "주요 AI 개발사에 대한 연이은 소송 제기: 최첨단 AI 개발 중단 및 특허 침해 주장",
-      "summary": "비영리 단체들이 OpenAI, Google, Anthropic 등 주요 AI 개발사들을 상대로 최첨단 AI(프론티어 AI) 개발 중단을 요구하는 소송을 제기했으며, 별도로 특허 침해 소송도 진행 중입니다.",
-      "detail": "미국 내 비영리 단체들은 이들 거대 기술 기업들이 통제 불가능한 AI를 개발하고 있어 잠재적 위험이 크다고 주장하며 개발 중단을 법원에 요청했습니다. 이와는 별개로, 앤트로픽과 OpenAI는 뉴럴 네트워크 관련 특허를 침해했다는 주장에 기반한 소송에도 직면해 있어, AI 기술 개발에 대한 법적, 윤리적 논란이 가중되고 있습니다.",
-      "why_it_matters": "이 소송들은 AI 기술의 급속한 발전이 야기하는 사회적, 윤리적, 법적 문제에 대한 우려를 반영합니다. 최첨단 AI 개발 중단 요구는 AI 규제 및 안전 논의의 핵심 의제가 될 것이며, 특허 침해 소송은 AI 모델 개발 과정에서의 지적 재산권 문제를 부각시켜 업계 전반에 영향을 미칠 수 있습니다.",
-      "source_name": "Reuters",
-      "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPWTR4ak5BdnRmV3hzYTZOcVhBYklWU01YRmtLak03b2hmeC1PMTd5blRQWUkxR2Q1ZXZWRC0xNkNxVDVoN2VOdTVlX1hFMXgwS1Y5TW1fUGt4NThQaEhRVFdna1YxUDhLTnBYUFJ6WTlFajlLM1BZTTRwNk5sWFMydkZtMlJNUnU4MWlDcUN6QmNtVHdUT1pLNXd6QXc4QVk0WmMtM1JxWU5XVC1PUGRIMVJNY2wzN1Z1d2N6WWJkbw?oc=5",
-      "published_date": "2026-11-12"
+      "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOcGIzcVZhWDU2cVlTWlhGZFZUMGlCcldoTU4wc2Z2UUpqUzJiNWp3Sy1kTVFQTnRKbHVnY2cwWHh0WEx3YkV5ZVMxOUFnMmVIc0kzaHdHc0NEVm9NS3hsVTdfTHR1ZWR4OTc2NUNpXzUteWZvblRYcEFVRDBIVTQyanVZTGdDYVFTaDJLTWFYdWNmSzBtU09Dd1RZVkhLUjB0WkR2Rm0tVTZnXzctWTREMXF3QjhZNTUxMHhDWjJZMHc?oc=5",
+      "published_date": "2026-11-13"
     },
     {
       "category": "OpenAI",
-      "title": "OpenAI, 수천 건의 취약점을 발견한 보안 특화 모델 'GPT-6 Cyber' 공개",
-      "summary": "OpenAI가 보안에 특화된 새로운 모델인 'GPT-6 Cyber'를 공개하며, 이미 수천 건의 사이버 공격 취약점을 발견했다고 주장했습니다.",
-      "detail": "OpenAI는 기업 및 조직의 보안 강화를 목표로 GPT-6 Cyber 모델과 관련 보안 제품들을 출시했습니다. 이 모델은 악성 코드 분석, 취약점 탐지, 위협 예측 등 다양한 사이버 보안 업무에 활용될 수 있으며, OpenAI는 이 도구를 사용하지 않으면 조직들이 위험에 처할 수 있다고 경고하며 사용을 독려했습니다.",
-      "why_it_matters": "사이버 보안 분야는 AI의 핵심적인 응용 분야 중 하나이며, OpenAI의 GPT-6 Cyber 출시는 AI 기반 보안 솔루션 시장의 경쟁을 심화시킬 것입니다. 이는 기업들이 AI를 활용하여 보안 위협에 더욱 효과적으로 대응할 수 있게 하는 동시에, AI 자체의 잠재적 오용 가능성에 대한 논의도 다시 한번 촉발할 수 있습니다.",
+      "title": "OpenAI, AI 에이전트 결제 지원 'ChatGPT Wallet' 출시",
+      "summary": "OpenAI가 'ChatGPT Wallet'을 출시하여 AI 에이전트 'Dots'가 사용자 대신 직접 상품 구매 등의 결제 활동을 수행할 수 있게 되었다.",
+      "detail": "ChatGPT Wallet은 AI 에이전트가 사용자의 허가하에 결제를 처리할 수 있는 기능을 제공하며, OpenAI는 이 시스템이 안전하게 작동하도록 설계되었다고 강조하고 있다. 이로써 AI 에이전트가 현실 세계에서 경제적 활동을 직접 수행하는 새로운 단계로 진입하게 되었다.",
+      "why_it_matters": "AI 에이전트가 단순 정보 제공을 넘어 실제 구매 행위를 할 수 있게 됨으로써, AI의 자율성과 활용 범위가 크게 확장될 것으로 예상된다. 이는 전자상거래, 개인 비서 서비스 등 다양한 분야에 혁신적인 변화를 가져올 잠재력을 가진다.",
+      "source_name": "OpenAI",
+      "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5ab0pjcFNKdWdXUVFfbEMyNnBKUm56eDlpLXRjWktkSWtKNFBpQml6US05eHBPWnhCajF4V1lnZUhrZHY5U0dJb29BYldsRjlhWUxjVkFPdlhibmRYNkFMb1dn?oc=5",
+      "published_date": "2026-11-13"
+    },
+    {
+      "category": "Google",
+      "title": "Google Gemini, Google Wallet 연동 개인 금융 관리 기능 제공",
+      "summary": "Google이 Gemini에 Google Wallet 연동 기능을 추가하여, 사용자가 개인 금융 통찰력을 얻고 예산을 관리하며 숨겨진 구독을 찾아내는 등의 서비스를 제공한다.",
+      "detail": "Gemini는 이제 사용자의 Google Wallet 데이터를 분석하여 지출 내역을 파악하고, 개인화된 재정 조언을 제공할 수 있게 되었다. 이를 통해 사용자는 자신의 소비 습관을 개선하고 잠재적인 불필요한 지출을 줄이는 데 도움을 받을 수 있다.",
+      "why_it_matters": "구글이 AI를 개인의 민감한 금융 정보와 결합함으로써, AI의 일상생활 침투와 개인화된 서비스의 범위를 한층 더 넓혔다. 이는 AI가 개인의 재정 건강을 관리하는 중요한 도구가 될 가능성을 제시한다.",
+      "source_name": "blog.google",
+      "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQaVBtU2pIREI2VkItNWF5TEhZNHVPR2dOb0hXNXBBUmowWUZQdEduYnpfbHBrQzB2OHlkejFmN0pDa3RZYjUzUUNYTzlsWW1OLUR3c2M4b0lTWkU2bF82OWJuZ0swUWJlYm9pbndYRXdXU1d2aVBBQWx3VWhLbnNfOWVVMVdyWmVQYThR?oc=5",
+      "published_date": "2026-11-13"
+    },
+    {
+      "category": "Anthropic",
+      "title": "Anthropic, Claude Fable 5.2 및 Mythos 5.2 모델 공개 및 엔터프라이즈 확장",
+      "summary": "Anthropic이 새로운 대규모 언어 모델인 Claude Fable 5.2와 Mythos 5.2를 발표했으며, 동시에 Microsoft에 대항하는 오피스 도구와 제조 산업용 솔루션을 선보이며 엔터프라이즈 시장 공략을 강화했다.",
+      "detail": "새로운 Claude 모델들은 복잡한 문제 해결 능력이 향상되었음을 시사한다. 이와 함께 Anthropic은 자사 AI 에이전트를 기업이 자체 호스팅할 수 있도록 지원하고, 특히 제조 분야에 특화된 Claude 솔루션을 출시하여 공장 기록 분석 및 고장 진단 등의 기능을 제공한다.",
+      "why_it_matters": "Anthropic의 지속적인 모델 업데이트와 다양한 산업 및 엔터프라이즈 솔루션 출시는 AI 기술 경쟁 심화를 보여준다. 이는 기업들이 AI를 통해 업무 효율을 높이고 새로운 비즈니스 기회를 창출하는 데 중요한 역할을 할 것이다.",
       "source_name": "Mashable",
-      "source_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE12NHZsclk2RGhrejRNeThJR3ltR01KcEN4ZTJOM3RzeDVsS1daYVBmX2dBMXM3U3ZaYVZGblFZeEYwell0NkVXYm5zbVJTUHEzaGF1S0IwZw?oc=5",
-      "published_date": "2026-11-12"
+      "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOWGw3UFZ0ZUxYWk1VSm9nMXJUNkVIamQxQ1VsVlMtOElpV3ozckEwRWRlVkdrZUdDSkZwV1ZpODQtV1RYR2MxM0Z1UUo1LW9fSXBtZ3RJZ1RkT2hJRnJMQU5KRVZiQ3ZVSFBvM09sNG4taThSb3VKcjdiaEtGTWRDXw?oc=5",
+      "published_date": "2026-11-13"
+    },
+    {
+      "category": "Policy/Safety",
+      "title": "미 연방준비제도, AI 위험을 금융 시스템의 최대 위협으로 경고",
+      "summary": "미국 연방준비제도(Fed)의 설문조사 결과, AI 관련 위험이 금융 시스템의 가장 큰 위협 요인으로 부상했다.",
+      "detail": "연준의 최신 조사에서 응답자들은 AI 기술의 급속한 발전과 확산이 금융 안정성에 미칠 잠재적 위험에 대해 심각하게 우려하고 있는 것으로 나타났다. 이는 사이버 보안, 운영 리스크, 시스템적 취약성 등 다양한 측면에서 AI가 야기할 수 있는 문제에 대한 인식이 높아지고 있음을 반영한다.",
+      "why_it_matters": "세계 최고 권위의 금융 기관 중 하나인 연준이 AI를 금융 시스템의 주요 위협으로 지목했다는 점은 AI 규제 및 안전성 논의가 더욱 가속화될 것임을 의미한다. 이는 AI 기술 개발 및 도입 과정에서 안전과 리스크 관리가 최우선 과제가 될 것임을 시사한다.",
+      "source_name": "CNBC",
+      "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOd1luSGcydUl6NE15cEcydlNhSnRuNjNjVHdMQldrQjRYcXpLZ3FfbnNrWndndDNTaUowRWJ6NDg0dUdaN084LW00YU4tNEhPTXh6Ymx3WVFpZk5MQTgwVFpMX1o4cFdXT2lCQi1xSzlncG9mUkpDa0xTUF9BY2E3cXVnS2fSAYoBQVVfeXFMTmZFcVNQMElxVkdHNTFNMVBOYTg0SGVKNm5ISHM5N3pGUUxKSE5Za2ZuMmZNb3RnY0FpVWxNbWtIdXFIdm0wOWVIa3FXWVJJaVhhTHBzOVpJbzVnY2VGZk04WE5aRHVBdjdkRlVpSm1VQXo1ckRPRTV4aDNjNGJNeGlhSXZ4ZEhIa1dR?oc=5",
+      "published_date": "2026-11-13"
     }
   ]
 }
