@@ -1,0 +1,120 @@
+{
+  "date": "2026-11-18",
+  "updated_at": "12:39 KST",
+  "generation_mode": "RSS + Gemini summary (gemini-2.5-flash)",
+  "update_status": {
+    "ok": true,
+    "message": "오늘 브리핑이 정상 업데이트되었습니다."
+  },
+  "daily_summary": "OpenAI는 새로운 모델 출시와 함께 부정적 반응 및 법적 소송에 직면하며 AI 기술의 발전과 책임에 대한 논의를 촉발했습니다. 한편, 앤트로픽의 IPO, 구글의 로봇공학 AI 및 개인정보 보호 기능 강화, 엔비디아의 중국 AI 칩 수출 제한 이슈 등 주요 기업들의 동향도 주목받고 있습니다.",
+  "ai_terms": [
+    {
+      "term": "Latency",
+      "full_name": "Latency",
+      "korean": "지연 시간",
+      "explanation": "AI 시스템에서 요청이 시작되어 응답을 받기까지 걸리는 시간을 의미합니다. 이 시간이 짧을수록 시스템이 더 빠르게 반응한다고 볼 수 있습니다.",
+      "example": "ChatGPT에게 질문했을 때, 답변이 나오기까지 5초가 걸렸다면 그 5초가 지연 시간입니다."
+    },
+    {
+      "term": "Scalability",
+      "full_name": "Scalability",
+      "korean": "확장성",
+      "explanation": "AI 시스템이 더 많은 사용자나 더 많은 데이터를 처리하기 위해 얼마나 쉽게 용량을 늘리거나 줄일 수 있는지를 나타내는 능력입니다. 효율적으로 확장될수록 시스템은 더 유연하게 대응할 수 있습니다.",
+      "example": "갑자기 수십만 명의 사용자가 동시에 AI 서비스를 사용하더라도, 시스템이 안정적으로 작동하며 추가 리소스를 효율적으로 할당할 수 있다면 확장성이 좋다고 할 수 있습니다."
+    },
+    {
+      "term": "Throughput",
+      "full_name": "Throughput",
+      "korean": "처리량",
+      "explanation": "AI 시스템이 주어진 시간 동안 처리할 수 있는 작업의 총량을 의미합니다. 예를 들어, 초당 처리할 수 있는 요청의 수나 계산량으로 표현됩니다.",
+      "example": "스마트폰의 온디바이스 AI 칩이 초당 100장의 이미지를 분석할 수 있다면, 칩의 이미지 처리 처리량은 초당 100장입니다."
+    }
+  ],
+  "exchange_rate": {
+    "usd_krw": 1336.21,
+    "date": "2026-11-17",
+    "source": "Frankfurter"
+  },
+  "exchange_rate_history": [
+    {
+      "date": "2026-11-09",
+      "rate": 1346.79
+    },
+    {
+      "date": "2026-11-10",
+      "rate": 1339.0
+    },
+    {
+      "date": "2026-11-11",
+      "rate": 1336.9
+    },
+    {
+      "date": "2026-11-12",
+      "rate": 1334.1
+    },
+    {
+      "date": "2026-11-13",
+      "rate": 1337.13
+    },
+    {
+      "date": "2026-11-16",
+      "rate": 1334.87
+    },
+    {
+      "date": "2026-11-17",
+      "rate": 1336.21
+    }
+  ],
+  "issues": [
+    {
+      "category": "OpenAI",
+      "title": "OpenAI, GPT-6.2 Astra 및 Sol 모델 출시했으나 사용자 반응은 부정적, 해킹 가능성도 제기",
+      "summary": "OpenAI가 새로운 GPT-6.2 Astra 및 Sol 모델을 출시했으나, 일부 AI 파워 유저들로부터 \"거의 사용 불가능하다\"는 비판을 받았으며, 새로운 모델의 해킹 능력에 대한 우려도 제기되었습니다.",
+      "detail": "OpenAI는 ChatGPT와 Codex를 위한 새로운 GPT-6.2 Astra 및 Sol 모델을 공개하며 성능 향상을 기대했습니다. 하지만 VentureBeat 보도에 따르면, 출시 직후 AI 파워 유저들 사이에서는 모델이 \"본질적으로 사용 불가능하다\"는 부정적인 반응이 나왔습니다. 한편, Forbes 기사는 OpenAI의 새로운 해킹 모델이 Apple 기술에서 수십 개의 취약점을 발견했다고 보도하며, AI의 잠재적 위험에 대한 논란을 가중시켰습니다.",
+      "why_it_matters": "선도적인 AI 기업의 새로운 모델 출시는 AI 기술 발전의 방향성을 보여주지만, 동시에 성능에 대한 기대와 실제 사용자 경험의 괴리, 그리고 해킹과 같은 잠재적 위험성에 대한 논의를 촉발하여 AI 윤리 및 안전의 중요성을 부각시킵니다.",
+      "source_name": "VentureBeat",
+      "source_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOM0p5RXctRUhTQzMxTEdQYnJxaVozUkFlQmJOSEJrQjVfeEdrdDJBcExkcmhEUGpoZTN0dXo3dVhxajVwWlpWdVAyRzNDUTBEdi1rekFrT0l3VlgxMFVic1c1ZG9fTVpaVEh0UzAtOUdGRmtVSDdHdHpHRzRiWGY3QUVndjItemljNG8wZVJrNWo3azFrWTVHQmtWczhTcDdGblJmbjhiOFEyS0pULWNQSG9MVkNLVzhJTjBFaUtGaE16UFA0d1c2YzMtX3Z4Tkdm?oc=5",
+      "published_date": "2026-11-17"
+    },
+    {
+      "category": "Anthropic",
+      "title": "앤트로픽, AI 붐의 핵심 시험대로 이번 주 IPO 진행 예정",
+      "summary": "주요 AI 개발사인 앤트로픽이 이번 주 기업공개(IPO)를 진행할 예정이며, 이는 AI 산업의 투자 열기와 가치를 가늠하는 중요한 시험대가 될 것으로 보입니다.",
+      "detail": "챗봇 클로드(Claude)로 알려진 앤트로픽은 시장의 우려에도 불구하고 이번 주 IPO를 강행할 것으로 알려졌습니다. 블룸버그 등 외신 보도에 따르면 앤트로픽은 이미 IPO 가격을 희망 범위 최상단 또는 그 이상으로 제시하고 있으며, 아마존과 구글이 IPO 이후 앤트로픽 지분 1/4 이상을 소유하게 될 것으로 예상됩니다.",
+      "why_it_matters": "앤트로픽의 IPO는 거대 언어 모델(LLM) 경쟁의 주요 주자인 이 회사의 재정적 건전성과 시장의 AI 기술에 대한 전반적인 신뢰를 보여주는 지표가 됩니다. 이는 향후 AI 스타트업들의 투자 유치 및 상장에도 큰 영향을 미칠 수 있습니다.",
+      "source_name": "CBS News",
+      "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE10OUpMSF9LOVFSVk9ZbGszRUFCTm9sYjhnUk9IaWZWb1FieW4zUG1saWd5UlJBUHB2TXRvczNqVlExYkd4WEcxRGlwdC1PbHUtaEFfRno2WlE0TnBVTWFtMnBwTmRCc3ZGS19adHRmUTBCZw?oc=5",
+      "published_date": "2026-11-17"
+    },
+    {
+      "category": "OpenAI / 정책 및 규제",
+      "title": "캘리포니아 주, 안전장치 없이 AI 개발한 OpenAI를 고소",
+      "summary": "캘리포니아 주가 OpenAI를 상대로 안전장치 없이 AI를 개발하여 대중을 위험에 빠뜨렸다는 이유로 소송을 제기했으며, 오리건 주 법무장관도 유사한 우려를 표했습니다.",
+      "detail": "로스앤젤레스 타임스에 따르면 캘리포니아 주는 OpenAI가 적절한 안전장치 없이 AI 기술을 개발하여 대중을 위험에 빠뜨렸다고 주장하며 소송을 제기했습니다. NPR은 이 소송이 AI 에이전트가 소프트웨어 플랫폼을 해킹한 사건과 연관되어 있다고 보도했습니다. 오리건 주 법무장관 또한 OpenAI가 고의로 십대들에게 위험을 초래하고 있다고 비난하며 유사한 법적 조치를 취할 가능성을 시사했습니다.",
+      "why_it_matters": "AI 기술의 발전 속도가 빨라짐에 따라 안전 및 윤리적 문제에 대한 우려가 커지고 있으며, 이번 소송은 AI 개발사에 대한 규제 당국의 압력이 증가하고 있음을 보여줍니다. 이는 AI 기술 개발 방향과 법적 책임 범위에 중요한 선례가 될 수 있습니다.",
+      "source_name": "Los Angeles Times",
+      "source_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOVDUyUWJxQ21xTm9UblI2QmZKc2JBajhidWVtTXRvbDYxdDBmZF9KYUdiNExtMUlIZUo0LTlfTjNrNUN6RGxvMG94N2xyRXhIMGhHWGI5MWRBcmJDa3QxUG45VWh2ZkVvMzhGLWt4cm5VbTh4elR6S1E3eE9IUWFvUXVvc0hQT2lvQWxaRUJERHhCTEEyT192bW9zUW9jQnNFSDM0RmJ6RDA1a3l0Ykh6MThXNGYxRGh2WFRVT2lFanBvWnpwNWpqVURMS2k5SGVhbnAxQzU3TQ?oc=5",
+      "published_date": "2026-11-17"
+    },
+    {
+      "category": "Google",
+      "title": "Google, 로봇공학용 Gemini 4 Hydrogen 모델 및 에이전트 도구 공개, 사용자 개인정보 보호 기능 강화",
+      "summary": "Google이 로봇공학을 위한 더 빠르고 범용적인 모델인 Gemini 4 Hydrogen을 발표하고, Gemini 내 에이전트 도구들을 확장하며, 사용자 데이터로 AI를 훈련하는 것에 대한 옵트아웃 기능을 개선했습니다.",
+      "detail": "Google for Developers 블로그에 따르면 Google은 일반 목적 로봇공학을 위한 더욱 빠른 모델인 Gemini 4 Hydrogen을 선보였습니다. 또한 The Information 보도처럼 Gemini 내에서 더 많은 에이전트 도구들을 공개하여 AI의 자율적인 작업 수행 능력을 향상시키고 있습니다. 사용자 개인정보 보호와 관련하여, Google은 Gemini 사용자들이 자신의 데이터를 AI 모델 훈련에 사용하지 않도록 선택할 수 있는 기능을 더 쉽게 제공하고 있으며, 채팅 기록을 유지하면서도 데이터 훈련 옵트아웃이 가능해졌습니다.",
+      "why_it_matters": "Google의 이번 발표는 AI 모델이 실제 물리적 세계에서 더욱 복잡한 작업을 수행하도록 발전하고 있음을 보여줍니다. 동시에 개인정보 보호 기능 강화는 사용자 신뢰를 얻고 AI 서비스의 폭넓은 채택을 유도하는 데 중요한 역할을 합니다.",
+      "source_name": "Google for Developers Blog",
+      "source_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE01dDBZQUpzcHZreTMtTDUxTGhmTkhWVFBMdkNFMFByWTh4aWZ5MXpxMlFqc0JQZVVVdTRURUljaUtZZ0tPYTRUUnFIa0d6ak8tR3FlRndPVGo4TEJOZ0t0Y01LVlJkS3VxUDZpUU1LLTg?oc=5",
+      "published_date": "2026-11-17"
+    },
+    {
+      "category": "NVIDIA / AI 반도체",
+      "title": "엔비디아 임시 CEO, 중국에 AI 칩 수출 중단 선언",
+      "summary": "엔비디아의 임시 CEO는 더 이상 중국으로 AI 칩을 보내지 않을 것이라고 밝혔으며, 이는 중국으로의 AI 칩 수출 제한과 관련된 법적 위험에 대한 경고에 이은 것입니다.",
+      "detail": "블룸버그 보도에 따르면 엔비디아의 임시 CEO는 중국으로의 AI 칩 선적을 중단한다고 공식 발표했습니다. 앞서 엔비디아는 고객들에게 중국의 해외 AI 접근과 관련하여 법적 위험을 경고한 바 있습니다. 이러한 조치는 미국 정부의 강력한 수출 규제와 미중 기술 갈등이 심화되는 가운데 엔비디아가 직면한 복잡한 지정학적 상황을 반영합니다.",
+      "why_it_matters": "엔비디아는 AI 칩 시장의 선두 주자이며, 중국 시장은 중요한 성장 동력이었습니다. 이번 수출 중단 결정은 AI 반도체 공급망에 큰 영향을 미치고, 전 세계 AI 개발 및 산업 전반에 파급 효과를 가져올 수 있는 주요 지정학적 이벤트입니다.",
+      "source_name": "Bloomberg.com",
+      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVk5ZV2dpR3EyVEtJcVdSZTBCVGl6UE1qZ1gzNWdiaHJ3WGR1S3NUd2VRcWVzUWhjanFicXVzNi1zRWZNel9EdlVOaC1uMUFCckRXMkRGWkRZeHdZUnE4VTdtUkZ2N0dITkRYa040X29HanoxODdGVXV3NzEyOGhnR1VOb2VwcFNIcHFJQlFrNXM3T1hqQlN5WnB0MHJTU0R2cTZOUnBNbV9Ubm81clFKM0x5cHRxdw?oc=5",
+      "published_date": "2026-11-18"
+    }
+  ]
+}
