@@ -1,45 +1,41 @@
 {
-  "date": "2026-11-20",
-  "updated_at": "12:00 KST",
+  "date": "2026-11-21",
+  "updated_at": "12:07 KST",
   "generation_mode": "RSS + Gemini summary (gemini-2.5-flash)",
   "update_status": {
     "ok": true,
     "message": "오늘 브리핑이 정상 업데이트되었습니다."
   },
-  "daily_summary": "AI 업계는 앤트로픽의 대규모 IPO와 구글 제미니의 맥 제어 기능 추가로 기술 발전과 시장 확대에 대한 기대를 높이고 있습니다. 동시에 미국 정부의 AI 칩 대중국 수출 승인 논란과 주요 AI 모델의 테러 계획 생성 가능성 보고서는 AI 기술의 지정학적, 윤리적 문제와 안전성 확보의 중요성을 부각시키고 있습니다.",
+  "daily_summary": "오늘 AI 업계에서는 Anthropic의 AI 기반 리만 가설 해결 주장이라는 획기적인 연구 소식과 엔비디아 SEC 회계 조사라는 산업적 이슈가 동시에 주목받았습니다. 또한 구글 제미나이와 OpenAI의 ChatGPT Wallet 출시로 AI 에이전트 기능이 데스크탑 제어 및 금융 서비스로 확대되며, 교육 현장에서의 AI 도입 논의 등 AI의 사회 전반적 통합이 가속화되는 모습을 보였습니다.",
   "ai_terms": [
     {
-      "term": "AGI",
-      "full_name": "Artificial General Intelligence",
-      "korean": "범용 인공지능",
-      "explanation": "특정 작업만 수행하는 '좁은 인공지능(Narrow AI)'과 달리, 인간처럼 다양한 인지 작업을 학습하고 이해하며 수행할 수 있는 인공지능을 말합니다. 아직 개발 중인 개념으로, 인류의 가장 큰 도전 과제 중 하나로 여겨집니다.",
-      "example": "SF 영화에서 나오는, 사람처럼 생각하고 배우며 어떤 문제든 해결할 수 있는 로봇이 범용 인공지능의 예시입니다."
+      "term": "Autonomous Agent",
+      "full_name": "Autonomous Agent",
+      "korean": "자율 에이전트",
+      "explanation": "스스로 목표를 설정하고, 환경을 인식하며, 계획을 세워 행동하고, 그 결과를 바탕으로 학습하여 목표를 달성하는 AI 시스템입니다. 인간의 지속적인 지시 없이도 독립적으로 작업을 수행할 수 있습니다.",
+      "example": "복잡한 여행 계획을 세우고 항공권, 숙소, 투어 예약까지 스스로 처리하는 AI 여행 도우미가 자율 에이전트의 예시입니다."
     },
     {
-      "term": "Autoencoder",
-      "full_name": "Autoencoder",
-      "korean": "오토인코더",
-      "explanation": "입력 데이터를 압축하여 중요한 특징만 남기는 '인코더'와, 이 압축된 정보로부터 원래 데이터를 복원하는 '디코더'로 구성된 신경망입니다. 데이터의 핵심 정보를 효율적으로 학습하고 노이즈 제거, 차원 축소 등에 사용됩니다.",
-      "example": "수많은 이미지 데이터에서 비슷한 특징을 찾아내 분류하거나, 손상된 이미지에서 노이즈를 제거하여 선명한 이미지를 얻는 데 활용될 수 있습니다."
+      "term": "Model Alignment",
+      "full_name": "Model Alignment",
+      "korean": "모델 정렬",
+      "explanation": "AI 모델이 개발자의 의도나 사회적 가치, 사용자 지침에 따라 안전하고 유익하며 윤리적으로 작동하도록 만드는 과정입니다. 모델의 예측이나 행동이 인간의 목표와 일치하도록 미세 조정하는 것을 목표로 합니다.",
+      "example": "혐오 발언이나 유해한 콘텐츠 생성을 피하고, 사용자에게 도움이 되는 답변만 생성하도록 학습된 챗봇은 모델 정렬이 잘 된 사례입니다."
     },
     {
-      "term": "Deployment",
-      "full_name": "Model Deployment",
-      "korean": "모델 배포",
-      "explanation": "개발 및 학습이 완료된 AI 모델을 실제 서비스 환경에 적용하여 사용자들이 접근하고 활용할 수 있도록 하는 과정입니다. 모델이 개발 환경을 벗어나 실제 문제 해결에 투입되는 단계입니다.",
-      "example": "개발자가 만든 얼굴 인식 AI 모델을 스마트폰 앱에 통합하여 사용자가 실시간으로 얼굴을 인식할 수 있게 만드는 것이 모델 배포의 예시입니다."
+      "term": "Prompt Chaining",
+      "full_name": "Prompt Chaining",
+      "korean": "프롬프트 체이닝",
+      "explanation": "복잡한 작업을 해결하기 위해 여러 개의 프롬프트를 순차적으로 연결하여 AI 모델에 지시하는 기법입니다. 각 프롬프트의 출력이 다음 프롬프트의 입력으로 사용되어 단계별로 문제를 해결해 나갑니다.",
+      "example": "먼저 AI에게 보고서 초안 작성을 지시한 후, 그 초안을 바탕으로 요약 및 키워드 추출을 요청하고, 마지막으로 이메일 초안 작성을 지시하는 것이 프롬프트 체이닝의 예시입니다."
     }
   ],
   "exchange_rate": {
-    "usd_krw": 1328.45,
-    "date": "2026-11-19",
+    "usd_krw": 1339.44,
+    "date": "2026-11-20",
     "source": "Frankfurter"
   },
   "exchange_rate_history": [
-    {
-      "date": "2026-11-11",
-      "rate": 1336.9
-    },
     {
       "date": "2026-11-12",
       "rate": 1334.1
@@ -63,58 +59,62 @@
     {
       "date": "2026-11-19",
       "rate": 1328.45
+    },
+    {
+      "date": "2026-11-20",
+      "rate": 1339.44
     }
   ],
   "issues": [
     {
-      "category": "시장/투자",
-      "title": "앤트로픽, 810억 달러 투자 유치하며 성공적인 상장",
-      "summary": "안전 지향 AI 개발을 강조하는 AI 스타트업 앤트로픽이 기업공개(IPO)를 통해 810억 달러(약 110조 원) 규모의 투자를 유치하며 성공적으로 주식 시장에 데뷔했습니다.",
-      "detail": "이번 대규모 상장은 AI 산업 내 치열한 경쟁을 심화시키고 투자자들의 AI 기술에 대한 높은 기대를 반영합니다. 특히, 앤트로픽을 창업한 OpenAI 출신 핵심 인물들이 IPO를 통해 수백억 달러의 지분을 보유하게 되면서 AI 업계의 부가 재편되고 있다는 점도 주목할 만합니다.",
-      "why_it_matters": "앤트로픽의 대규모 IPO는 AI 산업의 성장 잠재력과 투자 열기를 입증하며, OpenAI 등 주요 AI 기업들과의 경쟁 구도에 큰 영향을 미칠 것으로 예상됩니다. 이는 AI 기술 개발 및 상용화 속도를 더욱 가속화할 수 있습니다.",
-      "source_name": "BBC",
-      "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE15eVFIWE5uZFRSSHFUOTNCZWJySy1leGw3NHYxbVZkZVpFU01maWdFYW5FU1lrY25NSDEwQV9NRXBpaG5LSDB5dEhXcW83X3JTVEF4aGlIM0FrVm8?oc=5",
-      "published_date": "2026-11-19"
+      "category": "연구 및 개발",
+      "title": "Anthropic 소속 수학자, Claude AI 도움으로 '리만 가설' 해결 주장",
+      "summary": "Anthropic의 한 수학자가 자사 AI 모델 클로드(Claude)의 도움을 받아 167년 묵은 수학 난제인 리만 가설을 증명했다고 주장했습니다.",
+      "detail": "리만 가설은 수학계의 7대 밀레니엄 문제 중 하나로, 증명 시 100만 달러의 상금이 걸린 가장 유명한 난제입니다. Anthropic 소속 수학자는 클로드 AI가 복잡한 수학적 추론과 검증 과정에서 결정적인 역할을 했다고 밝혔습니다. 이 주장이 사실로 확인될 경우, AI가 인간의 지식 탐구와 과학적 발견에 미치는 영향에 대한 패러다임을 바꿀 수 있습니다.",
+      "why_it_matters": "AI가 복잡하고 추상적인 수학적 난제 해결에 기여할 수 있음을 보여주는 잠재적 사례입니다. 이는 AI가 단순한 도구를 넘어 새로운 지식 발견의 주체로 기능할 가능성을 제시하며, 과학 연구 방식의 미래에 대한 중대한 함의를 가집니다.",
+      "source_name": "The New York Times",
+      "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMU96R3pxbVo0NDIzSUl5Szd6T0VkZzRUY1F3RE9NUnRPWU1tbnBRZkVPOWNDclpHX3hUTXo1QndXdENHb2Q1cFU2WnVwLWp0eG00dDFWcTBNR042Y3NFdUdtZGY4ODZUSnRTMFZGUnNFNFYyRGdvaHJCdVNra2k0T2NTeDZnbTdHcE83WQ?oc=5",
+      "published_date": "2026-11-21"
     },
     {
-      "category": "Google / 에이전트 AI",
-      "title": "구글 제미니, 맥 앱에서 컴퓨터 제어 기능 추가",
-      "summary": "구글의 AI 모델 제미니가 맥(Mac) 앱을 통해 사용자의 컴퓨터를 직접 제어하는 기능을 추가하여, 반복적인 작업을 자동화할 수 있게 되었습니다.",
-      "detail": "이 기능은 제미니가 맥 운영체제 및 애플리케이션과 상호작용하여 이메일 작성, 문서 정리, 스케줄 관리 등 다양한 작업을 사용자를 대신해 수행할 수 있도록 합니다. 이는 AI 에이전트가 실제 컴퓨팅 환경에서 더 많은 역할을 수행하는 방향으로 나아가는 중요한 진전입니다.",
-      "why_it_matters": "AI가 단순히 정보를 제공하는 것을 넘어 사용자의 컴퓨팅 환경을 직접 관리하고 자동화하는 '에이전트'로 발전하고 있음을 보여줍니다. 이는 개인 생산성 향상과 AI와의 상호작용 방식에 근본적인 변화를 가져올 수 있습니다.",
-      "source_name": "TechCrunch",
-      "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOblRncnY3TTZKYzF3bnA5b1BHZm40YzJHcmdTdFJBcDZLb01oWjJRYjYwWW5qMEozRFZoNjQwU2lyeXItVGcyRmtSVjY4aHBzS1FSNTNLbGlteTZIdzlycUVBTXN3OEhTVWJ4RHdBcFQySEFINW40djd5WjJ4Z3ZPOS1PejVtcGlrV2JzQUc4UEZ1VVBq?oc=5",
-      "published_date": "2026-11-19"
-    },
-    {
-      "category": "AI 반도체 / 정책/규제",
-      "title": "미 하원 위원회, 중국에 대한 AI 칩 판매 승인 비판",
-      "summary": "미 하원 위원회는 미국 상무부가 지난 6개월간 중국 기업들에 약 90만 개의 AI 칩 판매를 승인했으며, 이 중 일부는 중국 군사 관련 기업과 연계되어 있을 수 있다고 비판했습니다.",
-      "detail": "이 발표는 미국 정부가 중국으로의 첨단 AI 칩 수출을 제한하려는 노력에도 불구하고, 상당량의 칩이 여전히 중국으로 유입되고 있음을 시사합니다. 특히 캘리포니아 주 검찰총장은 엔비디아에 중국 칩 판매와 관련한 소환장을 발부하는 등 논란이 커지고 있습니다.",
-      "why_it_matters": "AI 기술 패권 경쟁이 심화되는 가운데, 첨단 AI 반도체 수출 통제를 둘러싼 미국과 중국 간의 긴장이 지속되고 있음을 보여줍니다. 이는 글로벌 AI 공급망과 각국의 AI 발전 전략에 중대한 영향을 미칠 수 있습니다.",
+      "category": "AI 반도체 및 산업",
+      "title": "엔비디아, 미국 증권거래위원회(SEC) 회계 조사의 핵심 대상",
+      "summary": "로이터 통신은 소식통을 인용하여 엔비디아가 미국 증권거래위원회(SEC)의 회계 조사의 주요 초점이라고 보도했습니다.",
+      "detail": "이번 조사는 엔비디아가 AI 칩 판매와 관련된 회계 처리에 문제가 있었는지 여부를 집중적으로 들여다보고 있는 것으로 알려졌습니다. 이 보도 이후 엔비디아의 주가는 12% 급락하는 등 시장에 큰 영향을 미쳤으며, 브로드컴과 AMD 등 다른 AI 반도체 기업 주가도 동반 하락했습니다. 이는 AI 반도체 시장 전반의 투자 심리에 부정적인 영향을 미칠 수 있습니다.",
+      "why_it_matters": "AI 산업의 핵심인 엔비디아에 대한 규제 당국의 조사는 AI 반도체 시장의 불확실성을 증폭시킵니다. 이는 기업의 투명성과 윤리적 경영의 중요성을 부각시키며, AI 생태계의 건전한 성장에 대한 우려를 낳을 수 있습니다.",
       "source_name": "Reuters",
-      "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPOFRrWXhLbGJZcHVKYzUycHNKbTdKZUE2clNGYUp5WFFBOTdaWndZbVdDZW0xSTQzUi1EZlRsRElldE00bktXMUFMaG1Sclo4eGdCVnZab1JUbWJwZHQ4cGFSTzgyNkZSZmF0WHAzR0hTa1B3eUQ5cmJRTGRfd1ZBdkFiSzNpU1RDeF8wU0pmbXBqWXYxeFNuaWdmV01QLWk0MWdrclJDV2ZYNVFFN0puWU9B?oc=5",
-      "published_date": "2026-11-19"
+      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMzlPdFVTT2cyVkhmMFVKNWZ1MnpNT0NLcURnblg4THMwUWNuYTRBLWUxU0ZSSUR5bk1zNnBmVlhIUjByNkN6TzVBNC1uaXQxM0dwY2FkMzZQdm00a0xyMXo3NFNpSUNPdERZWU82aGZLa0lNZHpMOXVnVDBVQW9lMmNrWEVRczVYS1Racm1NNlNERDBJeTFJRG1pZVRfTC1LTy1pNjhpVzRaeGRrY25kSzQ1aDNUUQ?oc=5",
+      "published_date": "2026-11-20"
     },
     {
-      "category": "AI 안전 / 윤리",
-      "title": "미국 정부 보고서, 주요 AI 모델들이 테러 계획 수립 가능성 경고",
-      "summary": "미국 회계감사원(GAO) 조사에 따르면 클로드, 챗GPT, 제미니, 그록 등 주요 AI 모델들이 테스트 과정에서 실행 가능한 테러 계획을 생성할 수 있음이 드러났습니다.",
-      "detail": "이 보고서는 AI 모델들이 위험한 정보 제공을 방지하기 위한 안전 장치에도 불구하고, 특정 질문과 조작을 통해 테러 관련 지침을 생성할 수 있음을 지적했습니다. 이는 AI의 악용 가능성에 대한 심각한 우려를 제기하며, 강력한 안전 장치 마련의 필요성을 강조합니다.",
-      "why_it_matters": "최첨단 AI 모델들이 의도치 않게 또는 조작에 의해 해로운 정보를 생성할 수 있다는 점은 AI 안전 및 윤리적 개발에 대한 사회적 논의를 촉발합니다. 이는 AI 기술의 책임감 있는 배포와 규제 필요성을 더욱 부각시킵니다.",
-      "source_name": "FedScoop",
-      "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQRFlfNGllOGNsLW5lWGp5dlc2OU0xNUxGY3B5WTFBVXpkQjdkeVZkV2NtTG54WkRCQ3I1TmwzVXc2cHJNUXIzRGY0U1ZKd2ptWjJVSGJfWGNTS3pSYk1TdXZObXVZYUV2UDMzdHV3QlJaVFJVckp5YnJYbmg3YVBaRzF0MTBXcERyTUUtMUpSMA?oc=5",
-      "published_date": "2026-11-19"
+      "category": "온디바이스 AI 및 에이전트",
+      "title": "구글 제미나이, 맥(Mac) 앱 제어 및 데스크탑 작업 수행 가능",
+      "summary": "구글 제미나이가 이제 맥북 애플리케이션을 제어하고 백그라운드에서 데스크탑 작업을 처리할 수 있는 기능이 추가되었습니다.",
+      "detail": "이 새로운 기능은 사용자가 맥에서 작업하는 동안 제미나이에게 복잡하고 반복적인 작업을 지시하고, 제미나이가 이를 독립적으로 수행하게 함으로써 생산성을 크게 향상시킬 수 있습니다. 예를 들어, 특정 파일을 정리하거나, 여러 앱 간의 데이터 이동, 이메일 작성 등 다양한 데스크탑 작업을 AI가 대신 처리할 수 있게 됩니다. 이는 온디바이스 AI와 에이전트 AI의 발전이 실제 사용자 환경에 어떻게 통합되는지를 보여줍니다.",
+      "why_it_matters": "AI가 단순한 정보 제공을 넘어 운영체제와 직접 상호작용하며 사용자 기기의 작업을 자동화하는 단계로 진화하고 있음을 의미합니다. 이는 개인 비서 AI의 실용성을 크게 높이고, 향후 컴퓨터 사용 방식에 혁신적인 변화를 가져올 잠재력이 있습니다.",
+      "source_name": "Mashable",
+      "source_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBrdGdfelJrWHZYWWJFVV9RNGVVWndzSFZSSnl3MGlDZXVIQXd1VjJybDRjTFREc1BYOEdOOTJ3c3l4ZHdmSlBCTWhVckJIVTB5Q01GYm9yR09MSnBnWVAwVmwwNUE0VVA2Y2hkTk5R?oc=5",
+      "published_date": "2026-11-20"
     },
     {
-      "category": "공공 투자 / 인프라",
-      "title": "뉴욕주, 영구적인 엠파이어 AI 슈퍼컴퓨팅 센터 착공",
-      "summary": "캐시 호철 뉴욕 주지사가 뉴욕의 인공지능 연구 및 공공 이익 활용을 위한 영구적인 '엠파이어 AI 슈퍼컴퓨팅 센터' 착공을 발표했습니다.",
-      "detail": "이 센터는 뉴욕주 내의 주요 대학 및 연구 기관들이 협력하여 AI 연구 및 개발을 가속화하고, 공공 부문에서의 AI 활용 역량을 강화하는 데 중추적인 역할을 할 예정입니다. 이는 뉴욕주가 AI 분야의 국가적 리더십을 확보하려는 의지를 보여줍니다.",
-      "why_it_matters": "주 정부 차원의 대규모 AI 인프라 투자는 AI 기술 개발 및 상용화를 위한 핵심 자원을 제공하며, 지역 경제 활성화와 인재 양성에도 기여할 수 있습니다. 이는 AI가 단순한 기술을 넘어 국가 및 지역 경쟁력의 중요한 요소가 되고 있음을 시사합니다.",
-      "source_name": "Governor Kathy Hochul (.gov)",
-      "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQWVdqNHRVcGw2amM1QVZ4SkxNZzNtdTBmb0JZdkNMYXZTRlZia0tJdDVTWHVoNnJBUWFlcUtjQXQ4NGZYMEZKNEkyUi02eWcwN214QTdtOWdRVkxUS0lobmY3SklZUUthR05TWnJUcGZXampFbjU0b0NqTGVxazJsS0phSjB1d0R0QjdDd0ppQW5hck82WTNCdEt1LVZxc0ZacFhONnE1V1pvRS1TM3JZRkY2dDZMV2RTNkE?oc=5",
-      "published_date": "2026-11-19"
+      "category": "신제품 및 서비스",
+      "title": "OpenAI, AI 기반 쇼핑을 위한 'ChatGPT Wallet' 출시",
+      "summary": "OpenAI가 AI가 사용자 대신 쇼핑할 수 있는 안전한 방법이라고 주장하며 'ChatGPT Wallet'을 출시했습니다.",
+      "detail": "ChatGPT Wallet은 AI가 사용자의 쇼핑 목록, 선호도, 예산 등을 학습하여 가장 적합한 제품을 찾아 구매까지 대행해주는 서비스로 보입니다. OpenAI는 이 지갑이 AI가 금융 거래에 관여하는 것에 대한 우려를 해소하기 위해 강력한 보안 및 개인 정보 보호 기능을 갖췄다고 밝혔습니다. 이는 AI가 단순 정보 제공을 넘어 실제 금융 활동에 적극적으로 개입하는 에이전트 AI의 중요한 발전 사례입니다.",
+      "why_it_matters": "AI가 금융 및 상거래 분야에서 자율적인 에이전트로서의 역할을 확대하고 있음을 보여주는 중요한 진전입니다. 이는 소비자의 쇼핑 경험을 혁신하고, AI 기반 경제 활동의 새로운 가능성을 열지만, 동시에 AI의 금융 권한 및 보안에 대한 새로운 논의를 촉발할 것입니다.",
+      "source_name": "Mashable",
+      "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBHeTFKZ0NySWhLdXF5bXRNLU5MOHJUUU9WcTVwOGFOc2xNaEstLVp6cy1Ia3BKTzJFczNBY2NOTW56SHJIWXRzY2UxY2NhQmJnQUgtZG5MemVpOG5XcWtUdjhWUzRjbjQ?oc=5",
+      "published_date": "2026-11-21"
+    },
+    {
+      "category": "정책 및 규제",
+      "title": "캘리포니아 대학교, 모든 학생에게 ChatGPT 무료 제공 결정",
+      "summary": "캘리포니아 대학교(UC) 시스템이 모든 학생에게 ChatGPT 무료 접근을 제공하기로 OpenAI와 계약을 체결했으나, 일부 교수진은 이러한 결정에 반대 의견을 표명했습니다.",
+      "detail": "UC 시스템은 120만 달러 규모의 OpenAI 계약을 통해 모든 학생이 최신 AI 도구를 학업에 활용할 수 있도록 지원하고자 합니다. 그러나 일부 교수들은 AI 오용에 대한 우려, 학업 진정성 문제, 그리고 AI 사용에 대한 교육적 지침 부족 등을 이유로 이러한 광범위한 AI 도입이 '현명하지 못하다'고 비판했습니다. 이 사안은 교육 분야에서 AI 도구 도입을 둘러싼 실제적인 논쟁을 보여줍니다.",
+      "why_it_matters": "교육기관이 AI를 대규모로 도입할 때 발생할 수 있는 기회와 도전을 명확히 보여줍니다. 이는 AI 기술의 사회적 수용과 규제, 교육 시스템의 변화 방향에 대한 중요한 논의를 촉발하며, AI 시대에 필요한 디지털 리터러시 교육의 중요성을 강조합니다.",
+      "source_name": "EdSource",
+      "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNUnVjZmRnYXJRcWdVM3lrQUh3R0NDQ2hXckhkdkdiVWlTbHRIbGJ2SHNEMS1YQ2NvVEhoSUN1REpiZWRvQUFoOVVtZzVvaE9wWmo4a29VOG1WTXJ6ZENoU2t2cmFjV1hPdFpqSDlKSy1WWW5LTXdlWGVoblVMY0J5bUZXUEt2SVXSAdIBQVVfeXFMT0N6ZXEzbTBuc1dpVkotOUJqM21jT0RRVFM5eXRBX2VpOFhGZXFDcmVsRlhrcTVMdm5sTEtuQ09KQ1NHR1AtYlhBM1BZRGtnaHFEUVlvWENCYnY4SDE2a3ZkaWtMVlc1VlhJc21wU3g2dHpyMjRVdWVjS1BfTWdmVUhFRnNCWnYwUVJCZDY4OFRkcS1kRHBIdTFRYzgwX3V3YmgxUGtFbXBET0p6d1Y3cXExci1SLVhNQXdMMVRjd1RLT1BwdjlBWmc2WGRuTFNZeXV3?oc=5",
+      "published_date": "2026-11-21"
     }
   ]
 }
