@@ -1,0 +1,120 @@
+{
+  "date": "2026-11-23",
+  "updated_at": "11:32 KST",
+  "generation_mode": "RSS + Gemini summary (gemini-2.5-flash)",
+  "update_status": {
+    "ok": true,
+    "message": "오늘 브리핑이 정상 업데이트되었습니다."
+  },
+  "daily_summary": "오늘 AI 업계에서는 Anthropic의 Claude가 리만 가설 증명에 기여했다는 중요한 연구 결과가 발표되었으며, OpenAI 과학자가 AI 개발 속도에 대한 업계 제한을 제안하는 등 안전 및 규제 논의가 활발했습니다. 한편, 구글 제미니가 GM 차량에 대규모로 탑재될 예정이고, 엔비디아의 대중국 AI 칩 판매에 대한 미국의 우려가 커지는 등 주요 기업들의 제품 출시 및 지정학적 이슈도 주목받고 있습니다.",
+  "ai_terms": [
+    {
+      "term": "Regression",
+      "full_name": "Regression",
+      "korean": "회귀 분석",
+      "explanation": "회귀 분석은 데이터들 사이의 관계를 파악하여 연속적인 숫자 값(예: 주택 가격, 온도)을 예측하는 머신러닝 방법입니다. 주어진 데이터를 기반으로 미래의 값을 추론하는 데 주로 사용됩니다.",
+      "example": "과거 주택 거래 데이터(면적, 방 개수, 위치)를 이용해 새로운 주택의 예상 가격을 예측하는 것이 회귀 분석의 한 예시입니다."
+    },
+    {
+      "term": "Semi-supervised Learning",
+      "full_name": "Semi-supervised Learning",
+      "korean": "준지도 학습",
+      "explanation": "준지도 학습은 레이블이 지정된 소량의 데이터와 레이블이 지정되지 않은 대량의 데이터를 모두 사용하여 모델을 훈련하는 방식입니다. 모든 데이터에 레이블을 지정하기 어려운 상황에서 유용하며, 지도 학습과 비지도 학습의 장점을 결합합니다.",
+      "example": "일부 사진만 '강아지' 또는 '고양이'로 분류된 채널에 나머지 수많은 미분류 사진들을 함께 학습시켜 모델의 성능을 향상시키는 것이 준지도 학습입니다."
+    },
+    {
+      "term": "Reward Model",
+      "full_name": "Reward Model",
+      "korean": "보상 모델",
+      "explanation": "보상 모델은 AI 모델의 행동이나 생성 결과가 얼마나 바람직한지 평가하여 보상 점수를 부여하는 모델입니다. 주로 강화 학습(RL)에서 인간의 피드백을 반영하여 AI를 훈련하고 정렬(alignment)하는 데 사용됩니다.",
+      "example": "ChatGPT와 같은 대규모 언어 모델이 사용자 질문에 더 정확하고 유용하게 답변하도록 훈련할 때, 사람의 선호도를 학습하여 올바른 답변에 높은 보상 점수를 주는 보상 모델이 활용됩니다."
+    }
+  ],
+  "exchange_rate": {
+    "usd_krw": 1339.44,
+    "date": "2026-11-20",
+    "source": "Frankfurter"
+  },
+  "exchange_rate_history": [
+    {
+      "date": "2026-11-12",
+      "rate": 1334.1
+    },
+    {
+      "date": "2026-11-13",
+      "rate": 1337.13
+    },
+    {
+      "date": "2026-11-16",
+      "rate": 1334.87
+    },
+    {
+      "date": "2026-11-17",
+      "rate": 1336.21
+    },
+    {
+      "date": "2026-11-18",
+      "rate": 1332.33
+    },
+    {
+      "date": "2026-11-19",
+      "rate": 1328.45
+    },
+    {
+      "date": "2026-11-20",
+      "rate": 1339.44
+    }
+  ],
+  "issues": [
+    {
+      "category": "연구/혁신",
+      "title": "Anthropic의 Claude, 리만 가설 증명에 기여",
+      "summary": "Anthropic의 한 수학자가 AI 모델 Claude의 도움을 받아 수천 년간 미해결이었던 수학의 난제, 리만 가설을 증명했다고 주장했습니다.",
+      "detail": "인류 역사상 가장 중요한 수학 문제 중 하나로 꼽히는 리만 가설의 증명에 Anthropic의 Claude가 결정적인 역할을 했다는 보도가 나왔습니다. 이는 AI가 복잡한 이론 수학 연구에서 인간의 능력을 보조하거나 확장할 수 있음을 시사하는 획기적인 사례로 평가됩니다. 만약 이 증명이 검증된다면, AI가 순수 과학 분야에서 엄청난 잠재력을 가짐을 보여주는 중요한 이정표가 될 것입니다.",
+      "why_it_matters": "이는 AI가 단순한 도구를 넘어 고도의 추론과 문제 해결 능력이 요구되는 과학 연구 분야에서도 핵심적인 역할을 할 수 있음을 보여주며, AI의 지적 능력과 미래 연구 방향에 대한 기대감을 높이는 중요한 사건입니다.",
+      "source_name": "The Independent",
+      "source_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTnliTkVvRWFBQ3NScjZ6bUlDT1plNFM3d3hDcWFsLVF2dnhnQW05QWZEc2tuaU5Ha2Y1b3g1bFdlSUd1eXF2b2VvT3hrNHN2dTJrRmZhN2QyWkhtY053UTlZN3dfQlpkMVBEclkxU0ZnMDFZanI4YTRWQ1F2YXhBd2Z3RVR5MXptR0poX3hYN0lMUQ?oc=5",
+      "published_date": "2026-11-22"
+    },
+    {
+      "category": "정책/규제",
+      "title": "OpenAI 수석 과학자, AI 모델 지능 지표에 따른 개발 제한 제안",
+      "summary": "OpenAI의 수석 과학자가 AI 모델의 지능 측정 지표에 기반하여 AI 개발에 업계 차원의 제한을 두어야 한다고 제안했습니다.",
+      "detail": "OpenAI의 수석 과학자는 AI의 잠재적 위험을 관리하기 위해 모델의 복잡성(perplexity) 등 지능 지표에 따라 개발 속도를 늦추거나 멈추는 방안을 논의해야 한다고 밝혔습니다. 이는 AI 안전에 대한 업계 내부의 우려를 반영하며, AI 기술의 급속한 발전에 대한 윤리적, 사회적 책임을 강조하는 목소리로 해석됩니다.",
+      "why_it_matters": "AI 선도 기업의 고위 관계자가 직접 AI 개발 속도 조절을 주장하는 것은 AI 안전과 규제에 대한 논의를 심화시키고, 향후 AI 산업 전반의 개발 방향과 정책 수립에 큰 영향을 미칠 수 있음을 의미합니다.",
+      "source_name": "Reuters",
+      "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPa0ZQb0xtalJ5djRmZmkwQnhmdDBlMEtncDUtUEJsUFBtWmptbkdVQ3c5QjY2TzhKN0NFT2ZzYnZmenQxY1lrUWFFYjJsdS1KazdRUkJINEJRemQ1alh6TGtnNW1nRE92bTF3RW9FMTIyODB3UmpBaW5oSzFDWDFVT3FXdjZDVzQ0TVNVd29nQzZvY3ByWVpBLUlhRVg0bFZiRHUxVjhqclptLUMycDJlYVBsQXQ4a28tRnFnbQ?oc=5",
+      "published_date": "2026-11-22"
+    },
+    {
+      "category": "지정학/반도체",
+      "title": "미국, 엔비디아의 대중국 AI 칩 판매와 관련하여 중국 스파이 기관 접촉 추적",
+      "summary": "미국이 엔비디아의 AI 칩 판매 사태 당시 앨리스 황(Alice Huang)과 중국 스파이 기관 간의 접촉을 추적했다고 뉴욕 타임즈가 보도했습니다.",
+      "detail": "미국 정보 당국이 엔비디아의 AI 칩이 중국으로 유출되는 상황과 관련하여, 앨리스 황이라는 인물이 중국 스파이 기관과 접촉한 사실을 추적했다고 전해졌습니다. 이는 미국의 대중국 AI 반도체 수출 통제 정책에 대한 심각한 위반 가능성을 시사하며, AI 기술 패권을 둘러싼 미중 갈등이 더욱 심화되고 있음을 보여줍니다.",
+      "why_it_matters": "이번 보도는 AI 반도체 기술이 국가 안보의 핵심 요소로 부상하면서, 기술 통제와 지정학적 긴장이 AI 산업의 공급망 및 기업 활동에 직접적인 영향을 미 미치고 있음을 명확히 보여줍니다.",
+      "source_name": "The New York Times",
+      "source_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPVzVyaXo0aXJLT2VuWXdDRlJIWEw1RDBlTWtxcG9RN2ZydEN0T2U5dnlCRnJXWFVKeVZ2X2JXUmpHUTQ5d0tCNHFGc0VKZHE4TFdVQXFId1k5YkRGU29pdF9VM3FES1ZDbEItTW9rQWRYQTVTakxtMG1uVnZwV1ZTRmc4XzV0MmtVX2NWYUhvWHM?oc=5",
+      "published_date": "2026-11-23"
+    },
+    {
+      "category": "제품/온디바이스 AI",
+      "title": "GM, 4백만 대의 차량에 구글 제미니 AI 통합 예정",
+      "summary": "GM이 10억 마일의 핸즈프리 주행을 달성했으며, 향후 4백만 대의 차량에 구글 제미니 AI를 탑재할 것이라고 발표했습니다.",
+      "detail": "GM은 자사의 운전자 지원 시스템에서 10억 마일의 핸즈프리 주행 기록을 세운 성과를 발표하며, 동시에 미래에 출시될 4백만 대의 차량에 구글의 제미니 AI를 통합할 계획을 밝혔습니다. 이는 자동차 산업에서 온디바이스 AI의 대규모 도입을 의미하며, 차량 내 사용자 경험과 자율 주행 기술 발전에 중요한 영향을 미칠 것으로 예상됩니다.",
+      "why_it_matters": "주요 자동차 제조업체가 구글의 최신 AI 모델을 대규모로 채택하는 것은 AI 기술이 자동차 산업의 핵심 경쟁력으로 자리 잡고 있음을 보여주며, 온디바이스 AI의 실생활 적용 범위가 크게 확대되고 있음을 나타냅니다.",
+      "source_name": "InsideEVs",
+      "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPU3V6MEVJXzRIeTVJVGtReHktUU82T1ljVFV0dFFPWlVqZno0MTRjd2RlYi0xRFlTZ0ItWDhuSUFIaEdlV2xqeVlXUjBxNUh2WTNMX2tSd25IZ1ZTa29JUi04cEFtUTlaU0pfRVBoWFgtVGZpYThrVUF5VV9SSmN0UlhtR1BNdzE2UDFGTQ?oc=5",
+      "published_date": "2026-11-22"
+    },
+    {
+      "category": "비즈니스/적용",
+      "title": "Anthropic, 제조 분야를 위한 Claude 출시로 기업용 AI 시장 공략 강화",
+      "summary": "Anthropic이 제조 산업의 행정 및 엔지니어링 워크플로우 자동화를 위한 'Claude for Manufacturing'을 출시하며 기업용 AI 솔루션 시장 진출을 확대했습니다.",
+      "detail": "Anthropic은 Claude for Manufacturing을 통해 제조 기업들이 관리 및 엔지니어링 프로세스를 효율적으로 자동화할 수 있도록 지원합니다. 이는 Anthropic이 기존의 범용 AI 모델을 넘어 특정 산업 분야에 최적화된 전문 AI 솔루션을 제공함으로써 기업 시장에서의 입지를 강화하려는 전략으로 풀이됩니다.",
+      "why_it_matters": "이번 출시는 주요 AI 개발사들이 일반 사용자용 서비스를 넘어 특정 산업의 복잡한 요구사항을 해결하는 전문화된 AI 솔루션으로 비즈니스 모델을 확장하고 있음을 보여주며, AI가 다양한 산업 분야에 깊이 통합되는 추세를 가속화할 것입니다.",
+      "source_name": "Robotics & Automation News",
+      "source_url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOY3lXYWhjdlk4eFo5OEllXzdkTDhnYWowOUFSZlNLakdEdXoxeG8xZTZjcWVMYWxxVTJCdEUycHZBdjhyMy1UUU9tcU9lMlFIb0t3cG85X1hNSWJLaGxnNEtSbVkyak0xLTJQVmNjSmwtQW80NVdGWU9sUmh0TGJhdWFLOTFRM1BONnZSOFE2YXpDREpxN2RIdnU0WXBGOTNtZ1dwNUVnTHpCOHdfU3VfVlRSVklsZ096TzBLNFlzUnFQVjJ3c0lJNHl3U0d0cGNPWkFYQTdfV01tRlZqYUJ2aHFGNXQwVlhX?oc=5",
+      "published_date": "2026-11-22"
+    }
+  ]
+}
