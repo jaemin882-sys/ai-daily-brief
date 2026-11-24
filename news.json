@@ -1,45 +1,41 @@
 {
-  "date": "2026-11-23",
-  "updated_at": "11:32 KST",
+  "date": "2026-11-24",
+  "updated_at": "14:55 KST",
   "generation_mode": "RSS + Gemini summary (gemini-2.5-flash)",
   "update_status": {
     "ok": true,
     "message": "오늘 브리핑이 정상 업데이트되었습니다."
   },
-  "daily_summary": "오늘 AI 업계에서는 Anthropic의 Claude가 리만 가설 증명에 기여했다는 중요한 연구 결과가 발표되었으며, OpenAI 과학자가 AI 개발 속도에 대한 업계 제한을 제안하는 등 안전 및 규제 논의가 활발했습니다. 한편, 구글 제미니가 GM 차량에 대규모로 탑재될 예정이고, 엔비디아의 대중국 AI 칩 판매에 대한 미국의 우려가 커지는 등 주요 기업들의 제품 출시 및 지정학적 이슈도 주목받고 있습니다.",
+  "daily_summary": "오늘 AI 업계는 엔비디아 CEO의 복귀와 국제 AI 칩 규제 관련 소식으로 지정학적 관심이 집중된 가운데, Anthropic의 수학 난제 해결과 구글의 Gemini 4 출시 등 기술적 진보가 이어졌다. 유엔은 AI 감독 합의를 촉구했으며, OpenAI는 Cisco와 협력하여 에이전트 AI 안전 도구를 선보이며 규제와 안전에 대한 중요성도 부각되었다.",
   "ai_terms": [
     {
-      "term": "Regression",
-      "full_name": "Regression",
-      "korean": "회귀 분석",
-      "explanation": "회귀 분석은 데이터들 사이의 관계를 파악하여 연속적인 숫자 값(예: 주택 가격, 온도)을 예측하는 머신러닝 방법입니다. 주어진 데이터를 기반으로 미래의 값을 추론하는 데 주로 사용됩니다.",
-      "example": "과거 주택 거래 데이터(면적, 방 개수, 위치)를 이용해 새로운 주택의 예상 가격을 예측하는 것이 회귀 분석의 한 예시입니다."
+      "term": "Ensemble Learning",
+      "full_name": "Ensemble Learning",
+      "korean": "앙상블 학습",
+      "explanation": "여러 개의 서로 다른 또는 동일한 머신러닝 모델(학습기)들을 조합하여 하나의 더 강력한 모델을 만드는 기법입니다. 각 모델의 장점을 활용하여 예측의 정확성과 안정성을 높입니다.",
+      "example": "날씨 예보 앱이 여러 기상청의 예측 모델을 종합해서 더 정확한 최종 예보를 제공하는 것과 같습니다."
     },
     {
-      "term": "Semi-supervised Learning",
-      "full_name": "Semi-supervised Learning",
-      "korean": "준지도 학습",
-      "explanation": "준지도 학습은 레이블이 지정된 소량의 데이터와 레이블이 지정되지 않은 대량의 데이터를 모두 사용하여 모델을 훈련하는 방식입니다. 모든 데이터에 레이블을 지정하기 어려운 상황에서 유용하며, 지도 학습과 비지도 학습의 장점을 결합합니다.",
-      "example": "일부 사진만 '강아지' 또는 '고양이'로 분류된 채널에 나머지 수많은 미분류 사진들을 함께 학습시켜 모델의 성능을 향상시키는 것이 준지도 학습입니다."
+      "term": "RLHF",
+      "full_name": "Reinforcement Learning from Human Feedback",
+      "korean": "인간 피드백 기반 강화 학습",
+      "explanation": "AI 모델이 사용자의 선호도나 지침을 따르도록 학습시키는 기법입니다. 사람의 평가를 보상 신호로 사용하여 모델이 더 유용하고 안전한 응답을 생성하도록 강화 학습합니다.",
+      "example": "챗봇이 사용자에게 더 자연스럽고 적절한 답변을 하도록, 사람들이 직접 '좋아요' 또는 '싫어요'를 눌러 피드백을 주는 것을 통해 학습하는 과정입니다."
     },
     {
-      "term": "Reward Model",
-      "full_name": "Reward Model",
-      "korean": "보상 모델",
-      "explanation": "보상 모델은 AI 모델의 행동이나 생성 결과가 얼마나 바람직한지 평가하여 보상 점수를 부여하는 모델입니다. 주로 강화 학습(RL)에서 인간의 피드백을 반영하여 AI를 훈련하고 정렬(alignment)하는 데 사용됩니다.",
-      "example": "ChatGPT와 같은 대규모 언어 모델이 사용자 질문에 더 정확하고 유용하게 답변하도록 훈련할 때, 사람의 선호도를 학습하여 올바른 답변에 높은 보상 점수를 주는 보상 모델이 활용됩니다."
+      "term": "Decision Tree",
+      "full_name": "Decision Tree",
+      "korean": "의사결정 트리",
+      "explanation": "데이터를 특정 기준에 따라 분리하며 질문을 던져나가는 방식으로 예측을 수행하는 모델입니다. 마치 나무 가지처럼 여러 질문을 통해 최종 결론에 도달합니다.",
+      "example": "은행에서 고객의 신용 등급을 평가할 때, '수입은 얼마인가?', '대출 이력이 있는가?' 등의 질문으로 고객을 분류하여 등급을 결정하는 과정과 유사합니다."
     }
   ],
   "exchange_rate": {
-    "usd_krw": 1339.44,
-    "date": "2026-11-20",
+    "usd_krw": 1348.85,
+    "date": "2026-11-23",
     "source": "Frankfurter"
   },
   "exchange_rate_history": [
-    {
-      "date": "2026-11-12",
-      "rate": 1334.1
-    },
     {
       "date": "2026-11-13",
       "rate": 1337.13
@@ -63,58 +59,62 @@
     {
       "date": "2026-11-20",
       "rate": 1339.44
+    },
+    {
+      "date": "2026-11-23",
+      "rate": 1348.85
     }
   ],
   "issues": [
     {
-      "category": "연구/혁신",
-      "title": "Anthropic의 Claude, 리만 가설 증명에 기여",
-      "summary": "Anthropic의 한 수학자가 AI 모델 Claude의 도움을 받아 수천 년간 미해결이었던 수학의 난제, 리만 가설을 증명했다고 주장했습니다.",
-      "detail": "인류 역사상 가장 중요한 수학 문제 중 하나로 꼽히는 리만 가설의 증명에 Anthropic의 Claude가 결정적인 역할을 했다는 보도가 나왔습니다. 이는 AI가 복잡한 이론 수학 연구에서 인간의 능력을 보조하거나 확장할 수 있음을 시사하는 획기적인 사례로 평가됩니다. 만약 이 증명이 검증된다면, AI가 순수 과학 분야에서 엄청난 잠재력을 가짐을 보여주는 중요한 이정표가 될 것입니다.",
-      "why_it_matters": "이는 AI가 단순한 도구를 넘어 고도의 추론과 문제 해결 능력이 요구되는 과학 연구 분야에서도 핵심적인 역할을 할 수 있음을 보여주며, AI의 지적 능력과 미래 연구 방향에 대한 기대감을 높이는 중요한 사건입니다.",
-      "source_name": "The Independent",
-      "source_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTnliTkVvRWFBQ3NScjZ6bUlDT1plNFM3d3hDcWFsLVF2dnhnQW05QWZEc2tuaU5Ha2Y1b3g1bFdlSUd1eXF2b2VvT3hrNHN2dTJrRmZhN2QyWkhtY053UTlZN3dfQlpkMVBEclkxU0ZnMDFZanI4YTRWQ1F2YXhBd2Z3RVR5MXptR0poX3hYN0lMUQ?oc=5",
-      "published_date": "2026-11-22"
-    },
-    {
-      "category": "정책/규제",
-      "title": "OpenAI 수석 과학자, AI 모델 지능 지표에 따른 개발 제한 제안",
-      "summary": "OpenAI의 수석 과학자가 AI 모델의 지능 측정 지표에 기반하여 AI 개발에 업계 차원의 제한을 두어야 한다고 제안했습니다.",
-      "detail": "OpenAI의 수석 과학자는 AI의 잠재적 위험을 관리하기 위해 모델의 복잡성(perplexity) 등 지능 지표에 따라 개발 속도를 늦추거나 멈추는 방안을 논의해야 한다고 밝혔습니다. 이는 AI 안전에 대한 업계 내부의 우려를 반영하며, AI 기술의 급속한 발전에 대한 윤리적, 사회적 책임을 강조하는 목소리로 해석됩니다.",
-      "why_it_matters": "AI 선도 기업의 고위 관계자가 직접 AI 개발 속도 조절을 주장하는 것은 AI 안전과 규제에 대한 논의를 심화시키고, 향후 AI 산업 전반의 개발 방향과 정책 수립에 큰 영향을 미칠 수 있음을 의미합니다.",
-      "source_name": "Reuters",
-      "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPa0ZQb0xtalJ5djRmZmkwQnhmdDBlMEtncDUtUEJsUFBtWmptbkdVQ3c5QjY2TzhKN0NFT2ZzYnZmenQxY1lrUWFFYjJsdS1KazdRUkJINEJRemQ1alh6TGtnNW1nRE92bTF3RW9FMTIyODB3UmpBaW5oSzFDWDFVT3FXdjZDVzQ0TVNVd29nQzZvY3ByWVpBLUlhRVg0bFZiRHUxVjhqclptLUMycDJlYVBsQXQ4a28tRnFnbQ?oc=5",
-      "published_date": "2026-11-22"
-    },
-    {
-      "category": "지정학/반도체",
-      "title": "미국, 엔비디아의 대중국 AI 칩 판매와 관련하여 중국 스파이 기관 접촉 추적",
-      "summary": "미국이 엔비디아의 AI 칩 판매 사태 당시 앨리스 황(Alice Huang)과 중국 스파이 기관 간의 접촉을 추적했다고 뉴욕 타임즈가 보도했습니다.",
-      "detail": "미국 정보 당국이 엔비디아의 AI 칩이 중국으로 유출되는 상황과 관련하여, 앨리스 황이라는 인물이 중국 스파이 기관과 접촉한 사실을 추적했다고 전해졌습니다. 이는 미국의 대중국 AI 반도체 수출 통제 정책에 대한 심각한 위반 가능성을 시사하며, AI 기술 패권을 둘러싼 미중 갈등이 더욱 심화되고 있음을 보여줍니다.",
-      "why_it_matters": "이번 보도는 AI 반도체 기술이 국가 안보의 핵심 요소로 부상하면서, 기술 통제와 지정학적 긴장이 AI 산업의 공급망 및 기업 활동에 직접적인 영향을 미 미치고 있음을 명확히 보여줍니다.",
-      "source_name": "The New York Times",
-      "source_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPVzVyaXo0aXJLT2VuWXdDRlJIWEw1RDBlTWtxcG9RN2ZydEN0T2U5dnlCRnJXWFVKeVZ2X2JXUmpHUTQ5d0tCNHFGc0VKZHE4TFdVQXFId1k5YkRGU29pdF9VM3FES1ZDbEItTW9rQWRYQTVTakxtMG1uVnZwV1ZTRmc4XzV0MmtVX2NWYUhvWHM?oc=5",
+      "category": "NVIDIA / 지정학",
+      "title": "엔비디아 젠슨 황 CEO, 미국-중국 AI 칩 갈등 속 복귀 및 중국 시장 확보",
+      "summary": "엔비디아 젠슨 황 CEO가 미국과 중국 간의 AI 칩 수출 규제 논란 속에서 복귀하여 중국 시장으로의 사업 경로를 확보하는 데 성공했다는 소식이 전해졌다.",
+      "detail": "보도에 따르면 젠슨 황 CEO는 워싱턴과의 갈등 속에서도 엔비디아 이사회에 의해 복귀했으며, 이는 미국-중국 AI 칩 경쟁 구도에서 엔비디아가 중국 시장에 대한 접근을 일정 부분 유지할 수 있게 된 것으로 해석된다. 이는 AI 반도체 산업의 핵심 플레이어인 엔비디아의 전략적 승리로 평가받는다.",
+      "why_it_matters": "이는 세계 AI 반도체 시장의 선두 주자인 엔비디아의 사업 전략과 미국 및 중국의 기술 패권 경쟁에 큰 영향을 미치며, 글로벌 AI 생태계의 향방을 좌우할 주요 사건이다.",
+      "source_name": "The Washington Post",
+      "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQ01rTDUyQUlHbDdURmstWlM2VWZFTkk3OTBNWWdOUWpfM3BKeE5yMXpEbUlzNGxLZUx2b0pOZWZZUm53WDFSUjhCMjJDTHdfbGJ3SmVGVG1wNzhRV1YwVnVYNkFtRG42LTVSVUNjZUw4UU5LdXRaZktCUzF6ZndpUFdFM2lZdmh5OTFVcG9BYkRZUEdyMC02T0RvNTJQcnJGUjZxMHgxaERRT0t1NFRIYk91OVZBdVU?oc=5",
       "published_date": "2026-11-23"
     },
     {
-      "category": "제품/온디바이스 AI",
-      "title": "GM, 4백만 대의 차량에 구글 제미니 AI 통합 예정",
-      "summary": "GM이 10억 마일의 핸즈프리 주행을 달성했으며, 향후 4백만 대의 차량에 구글 제미니 AI를 탑재할 것이라고 발표했습니다.",
-      "detail": "GM은 자사의 운전자 지원 시스템에서 10억 마일의 핸즈프리 주행 기록을 세운 성과를 발표하며, 동시에 미래에 출시될 4백만 대의 차량에 구글의 제미니 AI를 통합할 계획을 밝혔습니다. 이는 자동차 산업에서 온디바이스 AI의 대규모 도입을 의미하며, 차량 내 사용자 경험과 자율 주행 기술 발전에 중요한 영향을 미칠 것으로 예상됩니다.",
-      "why_it_matters": "주요 자동차 제조업체가 구글의 최신 AI 모델을 대규모로 채택하는 것은 AI 기술이 자동차 산업의 핵심 경쟁력으로 자리 잡고 있음을 보여주며, 온디바이스 AI의 실생활 적용 범위가 크게 확대되고 있음을 나타냅니다.",
-      "source_name": "InsideEVs",
-      "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPU3V6MEVJXzRIeTVJVGtReHktUU82T1ljVFV0dFFPWlVqZno0MTRjd2RlYi0xRFlTZ0ItWDhuSUFIaEdlV2xqeVlXUjBxNUh2WTNMX2tSd25IZ1ZTa29JUi04cEFtUTlaU0pfRVBoWFgtVGZpYThrVUF5VV9SSmN0UlhtR1BNdzE2UDFGTQ?oc=5",
-      "published_date": "2026-11-22"
+      "category": "Anthropic / 연구",
+      "title": "Anthropic의 Claude, 47년 된 수학 난제 'VP ≠ VNP' 증명 성공 발표",
+      "summary": "Anthropic의 AI 모델 Claude가 컴퓨터 과학 분야의 47년 된 미해결 수학 난제인 'VP ≠ VNP' 추측을 해결했다고 주장하며 AI의 추론 능력 발전을 시사했다.",
+      "detail": "Claude는 Valiant의 오래된 추측인 'VP ≠ VNP'를 증명했으며, 이는 AI가 인류의 가장 어려운 수학 문제 중 일부를 해결할 수 있는 잠재력을 보여주는 중요한 이정표로 평가받는다. 다만 일부에서는 증명 문서의 방대함과 복잡성을 지적하기도 했다.",
+      "why_it_matters": "이 성과는 AI의 고급 추론 및 문제 해결 능력의 진보를 상징하며, 미래 AI 연구 방향과 응용 분야에 광범위한 영향을 미칠 것으로 예상된다.",
+      "source_name": "WSJ",
+      "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQZ0x4ejFTYkxaVjZTM3hTS0o5b2IteVFjczV3UHlJa0pzZjg5bmlGY1k3UXU5My1zamU5VnNBUXdtOWJ3aHBReFMtNDJhQktiVTJpMFBjN1daM1lMMGRGTzItRi12T0VxaTAxV3ZocUhRUG00RWxWc0k5S05qYmtJT1ZvMlNjWjZiNndZTA?oc=5",
+      "published_date": "2026-11-24"
     },
     {
-      "category": "비즈니스/적용",
-      "title": "Anthropic, 제조 분야를 위한 Claude 출시로 기업용 AI 시장 공략 강화",
-      "summary": "Anthropic이 제조 산업의 행정 및 엔지니어링 워크플로우 자동화를 위한 'Claude for Manufacturing'을 출시하며 기업용 AI 솔루션 시장 진출을 확대했습니다.",
-      "detail": "Anthropic은 Claude for Manufacturing을 통해 제조 기업들이 관리 및 엔지니어링 프로세스를 효율적으로 자동화할 수 있도록 지원합니다. 이는 Anthropic이 기존의 범용 AI 모델을 넘어 특정 산업 분야에 최적화된 전문 AI 솔루션을 제공함으로써 기업 시장에서의 입지를 강화하려는 전략으로 풀이됩니다.",
-      "why_it_matters": "이번 출시는 주요 AI 개발사들이 일반 사용자용 서비스를 넘어 특정 산업의 복잡한 요구사항을 해결하는 전문화된 AI 솔루션으로 비즈니스 모델을 확장하고 있음을 보여주며, AI가 다양한 산업 분야에 깊이 통합되는 추세를 가속화할 것입니다.",
-      "source_name": "Robotics & Automation News",
-      "source_url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOY3lXYWhjdlk4eFo5OEllXzdkTDhnYWowOUFSZlNLakdEdXoxeG8xZTZjcWVMYWxxVTJCdEUycHZBdjhyMy1UUU9tcU9lMlFIb0t3cG85X1hNSWJLaGxnNEtSbVkyak0xLTJQVmNjSmwtQW80NVdGWU9sUmh0TGJhdWFLOTFRM1BONnZSOFE2YXpDREpxN2RIdnU0WXBGOTNtZ1dwNUVnTHpCOHdfU3VfVlRSVklsZ096TzBLNFlzUnFQVjJ3c0lJNHl3U0d0cGNPWkFYQTdfV01tRlZqYUJ2aHFGNXQwVlhX?oc=5",
-      "published_date": "2026-11-22"
+      "category": "Google / 모델",
+      "title": "구글, Gemini 4 Carbon 모델을 AI Pro 서비스에 출시",
+      "summary": "구글이 자사의 프리미엄 AI 서비스인 'Google Antigravity for AI Pro'에 최신 대규모 언어 모델인 Gemini 4 Carbon을 정식으로 제공하기 시작했다.",
+      "detail": "Gemini 4 Carbon은 Gemini 4 시리즈의 일부로, 구글의 AI Pro 구독자를 대상으로 'Antigravity' 플랫폼을 통해 접근 가능하며, 이는 구글의 최신 AI 기술이 사용자들에게 더 넓게 보급되고 있음을 보여준다. 다른 보도에 따르면 Gemini 4 Neon 등 다른 버전도 모멘텀을 얻고 있는 것으로 보인다.",
+      "why_it_matters": "구글의 핵심 AI 모델 업데이트는 경쟁사와의 기술 격차를 줄이고 AI 서비스의 성능 및 활용도를 높이는 데 기여하며, 이는 AI 생태계 전반에 영향을 미친다.",
+      "source_name": "9to5Google",
+      "source_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE82OGFkWXdyZHZITy1wbXdJTTJvdTFxX2xkMUdlTWtFeWZBSjNwUW54ZXAwcUhsYWJPYlZfbUZzOWdlWGEtZnpyRTROOGdPR2tJcVZ1b083c3FMVW9zRFk0T3Q4ekt3VnpRRU50bHdqNA?oc=5",
+      "published_date": "2026-11-23"
+    },
+    {
+      "category": "정책 / 규제",
+      "title": "UN 사무총장, 1년 내 AI 감독 합의 촉구",
+      "summary": "유엔 사무총장이 전 세계가 1년 안에 인공지능(AI)에 대한 포괄적인 감독 및 규제 방안에 합의할 것을 강력히 요청했다.",
+      "detail": "2026년 11월 23일 바베이도스에서 개최된 AI 안전에 관한 특별 정상회담 이후, 유엔 사무총장은 AI 기술의 빠른 발전과 잠재적 위험에 대응하기 위해 국제적인 협력과 통일된 규제 프레임워크 마련의 시급성을 강조했다.",
+      "why_it_matters": "이는 AI 안전과 윤리적 사용에 대한 국제 사회의 공감대가 커지고 있음을 보여주며, 앞으로 AI 개발 및 배포에 있어 국제적인 규제 논의가 더욱 활발해질 것임을 시사한다.",
+      "source_name": "Al Jazeera",
+      "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbVNBQl9aRURGZHBIc0xiTVRvOW9pWE0yaWdNVkZrNzJVZUtGb2luUUx2SzhCN1BQUXZzdFJLRDA4Q3FBVTg1WXZ0TkQ0S0EyOENRNi05NW50Y19RNkI5czBYMkQxX0NULW1nZUw1bENaYmk3ZVlGaFNJUUJxMUVjM0VERl90SzVDMm9qRHpzcjR1Q0lVVHZEWDh6c3RoRWs4NkI2eVBkZUXSAa4BQVVfeXFMUFFyTWlPTHRZcnY1QWNBZF85elMyeTRnQTFObnAwYUdDVnFYUDVGSEQyYm9CblpHcUpJMEJ1UmVBOHVqQ201VVFKOVVRNjBXakVValFUWi1DSTUxU294RjlHZ2toQTQ0Wm04Tm1YbFU4WTRlN25LLUQteE5MeFlhbG5PdzB2UWlsSmttRXNpY0hrdmJZaGZ1enNLczQ5d2JkaTFnYzNRV1c3UEgwemVB?oc=5",
+      "published_date": "2026-11-24"
+    },
+    {
+      "category": "OpenAI / 개발자 도구",
+      "title": "OpenAI와 Cisco, 에이전트 AI 안전 프로젝트 'Shirudo' 공개",
+      "summary": "OpenAI와 네트워크 보안 기업 Cisco가 자율적으로 작동하는 에이전트 AI의 안전성을 강화하기 위한 새로운 협력 프로젝트 'Shirudo'를 발표했다.",
+      "detail": "'Shirudo'는 에이전트 AI 시스템이 예상치 못한 위험한 행동을 하지 않도록 보호하고 모니터링하는 데 초점을 맞춘 개발자 도구 또는 프레임워크로 보인다. 이는 에이전트 AI의 신뢰성을 높여 다양한 산업 분야에서의 도입을 가속화할 것으로 기대된다.",
+      "why_it_matters": "에이전트 AI의 확산에 따라 안전성 확보가 중요해지는 시점에서, 주요 AI 개발사와 네트워크 보안 기업의 협력은 AI 시스템의 신뢰성과 책임성을 높이는 데 중요한 이정표가 될 것이다.",
+      "source_name": "OpenAI",
+      "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1lbHE3NTF3ZWJRR0tZOFo1MlRjVEVoYjNKaDdWSFVuYnpQQTZ0YTVnMC1nQm04dWZYWkp5TmRVeEg2V2FWZmROOFljV295eWxLMlZUaTh2Z3Y?oc=5",
+      "published_date": "2026-11-23"
     }
   ]
 }

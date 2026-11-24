@@ -1,0 +1,120 @@
+{
+  "date": "2026-11-24",
+  "updated_at": "14:55 KST",
+  "generation_mode": "RSS + Gemini summary (gemini-2.5-flash)",
+  "update_status": {
+    "ok": true,
+    "message": "오늘 브리핑이 정상 업데이트되었습니다."
+  },
+  "daily_summary": "오늘 AI 업계는 엔비디아 CEO의 복귀와 국제 AI 칩 규제 관련 소식으로 지정학적 관심이 집중된 가운데, Anthropic의 수학 난제 해결과 구글의 Gemini 4 출시 등 기술적 진보가 이어졌다. 유엔은 AI 감독 합의를 촉구했으며, OpenAI는 Cisco와 협력하여 에이전트 AI 안전 도구를 선보이며 규제와 안전에 대한 중요성도 부각되었다.",
+  "ai_terms": [
+    {
+      "term": "Ensemble Learning",
+      "full_name": "Ensemble Learning",
+      "korean": "앙상블 학습",
+      "explanation": "여러 개의 서로 다른 또는 동일한 머신러닝 모델(학습기)들을 조합하여 하나의 더 강력한 모델을 만드는 기법입니다. 각 모델의 장점을 활용하여 예측의 정확성과 안정성을 높입니다.",
+      "example": "날씨 예보 앱이 여러 기상청의 예측 모델을 종합해서 더 정확한 최종 예보를 제공하는 것과 같습니다."
+    },
+    {
+      "term": "RLHF",
+      "full_name": "Reinforcement Learning from Human Feedback",
+      "korean": "인간 피드백 기반 강화 학습",
+      "explanation": "AI 모델이 사용자의 선호도나 지침을 따르도록 학습시키는 기법입니다. 사람의 평가를 보상 신호로 사용하여 모델이 더 유용하고 안전한 응답을 생성하도록 강화 학습합니다.",
+      "example": "챗봇이 사용자에게 더 자연스럽고 적절한 답변을 하도록, 사람들이 직접 '좋아요' 또는 '싫어요'를 눌러 피드백을 주는 것을 통해 학습하는 과정입니다."
+    },
+    {
+      "term": "Decision Tree",
+      "full_name": "Decision Tree",
+      "korean": "의사결정 트리",
+      "explanation": "데이터를 특정 기준에 따라 분리하며 질문을 던져나가는 방식으로 예측을 수행하는 모델입니다. 마치 나무 가지처럼 여러 질문을 통해 최종 결론에 도달합니다.",
+      "example": "은행에서 고객의 신용 등급을 평가할 때, '수입은 얼마인가?', '대출 이력이 있는가?' 등의 질문으로 고객을 분류하여 등급을 결정하는 과정과 유사합니다."
+    }
+  ],
+  "exchange_rate": {
+    "usd_krw": 1348.85,
+    "date": "2026-11-23",
+    "source": "Frankfurter"
+  },
+  "exchange_rate_history": [
+    {
+      "date": "2026-11-13",
+      "rate": 1337.13
+    },
+    {
+      "date": "2026-11-16",
+      "rate": 1334.87
+    },
+    {
+      "date": "2026-11-17",
+      "rate": 1336.21
+    },
+    {
+      "date": "2026-11-18",
+      "rate": 1332.33
+    },
+    {
+      "date": "2026-11-19",
+      "rate": 1328.45
+    },
+    {
+      "date": "2026-11-20",
+      "rate": 1339.44
+    },
+    {
+      "date": "2026-11-23",
+      "rate": 1348.85
+    }
+  ],
+  "issues": [
+    {
+      "category": "NVIDIA / 지정학",
+      "title": "엔비디아 젠슨 황 CEO, 미국-중국 AI 칩 갈등 속 복귀 및 중국 시장 확보",
+      "summary": "엔비디아 젠슨 황 CEO가 미국과 중국 간의 AI 칩 수출 규제 논란 속에서 복귀하여 중국 시장으로의 사업 경로를 확보하는 데 성공했다는 소식이 전해졌다.",
+      "detail": "보도에 따르면 젠슨 황 CEO는 워싱턴과의 갈등 속에서도 엔비디아 이사회에 의해 복귀했으며, 이는 미국-중국 AI 칩 경쟁 구도에서 엔비디아가 중국 시장에 대한 접근을 일정 부분 유지할 수 있게 된 것으로 해석된다. 이는 AI 반도체 산업의 핵심 플레이어인 엔비디아의 전략적 승리로 평가받는다.",
+      "why_it_matters": "이는 세계 AI 반도체 시장의 선두 주자인 엔비디아의 사업 전략과 미국 및 중국의 기술 패권 경쟁에 큰 영향을 미치며, 글로벌 AI 생태계의 향방을 좌우할 주요 사건이다.",
+      "source_name": "The Washington Post",
+      "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQ01rTDUyQUlHbDdURmstWlM2VWZFTkk3OTBNWWdOUWpfM3BKeE5yMXpEbUlzNGxLZUx2b0pOZWZZUm53WDFSUjhCMjJDTHdfbGJ3SmVGVG1wNzhRV1YwVnVYNkFtRG42LTVSVUNjZUw4UU5LdXRaZktCUzF6ZndpUFdFM2lZdmh5OTFVcG9BYkRZUEdyMC02T0RvNTJQcnJGUjZxMHgxaERRT0t1NFRIYk91OVZBdVU?oc=5",
+      "published_date": "2026-11-23"
+    },
+    {
+      "category": "Anthropic / 연구",
+      "title": "Anthropic의 Claude, 47년 된 수학 난제 'VP ≠ VNP' 증명 성공 발표",
+      "summary": "Anthropic의 AI 모델 Claude가 컴퓨터 과학 분야의 47년 된 미해결 수학 난제인 'VP ≠ VNP' 추측을 해결했다고 주장하며 AI의 추론 능력 발전을 시사했다.",
+      "detail": "Claude는 Valiant의 오래된 추측인 'VP ≠ VNP'를 증명했으며, 이는 AI가 인류의 가장 어려운 수학 문제 중 일부를 해결할 수 있는 잠재력을 보여주는 중요한 이정표로 평가받는다. 다만 일부에서는 증명 문서의 방대함과 복잡성을 지적하기도 했다.",
+      "why_it_matters": "이 성과는 AI의 고급 추론 및 문제 해결 능력의 진보를 상징하며, 미래 AI 연구 방향과 응용 분야에 광범위한 영향을 미칠 것으로 예상된다.",
+      "source_name": "WSJ",
+      "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQZ0x4ejFTYkxaVjZTM3hTS0o5b2IteVFjczV3UHlJa0pzZjg5bmlGY1k3UXU5My1zamU5VnNBUXdtOWJ3aHBReFMtNDJhQktiVTJpMFBjN1daM1lMMGRGTzItRi12T0VxaTAxV3ZocUhRUG00RWxWc0k5S05qYmtJT1ZvMlNjWjZiNndZTA?oc=5",
+      "published_date": "2026-11-24"
+    },
+    {
+      "category": "Google / 모델",
+      "title": "구글, Gemini 4 Carbon 모델을 AI Pro 서비스에 출시",
+      "summary": "구글이 자사의 프리미엄 AI 서비스인 'Google Antigravity for AI Pro'에 최신 대규모 언어 모델인 Gemini 4 Carbon을 정식으로 제공하기 시작했다.",
+      "detail": "Gemini 4 Carbon은 Gemini 4 시리즈의 일부로, 구글의 AI Pro 구독자를 대상으로 'Antigravity' 플랫폼을 통해 접근 가능하며, 이는 구글의 최신 AI 기술이 사용자들에게 더 넓게 보급되고 있음을 보여준다. 다른 보도에 따르면 Gemini 4 Neon 등 다른 버전도 모멘텀을 얻고 있는 것으로 보인다.",
+      "why_it_matters": "구글의 핵심 AI 모델 업데이트는 경쟁사와의 기술 격차를 줄이고 AI 서비스의 성능 및 활용도를 높이는 데 기여하며, 이는 AI 생태계 전반에 영향을 미친다.",
+      "source_name": "9to5Google",
+      "source_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE82OGFkWXdyZHZITy1wbXdJTTJvdTFxX2xkMUdlTWtFeWZBSjNwUW54ZXAwcUhsYWJPYlZfbUZzOWdlWGEtZnpyRTROOGdPR2tJcVZ1b083c3FMVW9zRFk0T3Q4ekt3VnpRRU50bHdqNA?oc=5",
+      "published_date": "2026-11-23"
+    },
+    {
+      "category": "정책 / 규제",
+      "title": "UN 사무총장, 1년 내 AI 감독 합의 촉구",
+      "summary": "유엔 사무총장이 전 세계가 1년 안에 인공지능(AI)에 대한 포괄적인 감독 및 규제 방안에 합의할 것을 강력히 요청했다.",
+      "detail": "2026년 11월 23일 바베이도스에서 개최된 AI 안전에 관한 특별 정상회담 이후, 유엔 사무총장은 AI 기술의 빠른 발전과 잠재적 위험에 대응하기 위해 국제적인 협력과 통일된 규제 프레임워크 마련의 시급성을 강조했다.",
+      "why_it_matters": "이는 AI 안전과 윤리적 사용에 대한 국제 사회의 공감대가 커지고 있음을 보여주며, 앞으로 AI 개발 및 배포에 있어 국제적인 규제 논의가 더욱 활발해질 것임을 시사한다.",
+      "source_name": "Al Jazeera",
+      "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbVNBQl9aRURGZHBIc0xiTVRvOW9pWE0yaWdNVkZrNzJVZUtGb2luUUx2SzhCN1BQUXZzdFJLRDA4Q3FBVTg1WXZ0TkQ0S0EyOENRNi05NW50Y19RNkI5czBYMkQxX0NULW1nZUw1bENaYmk3ZVlGaFNJUUJxMUVjM0VERl90SzVDMm9qRHpzcjR1Q0lVVHZEWDh6c3RoRWs4NkI2eVBkZUXSAa4BQVVfeXFMUFFyTWlPTHRZcnY1QWNBZF85elMyeTRnQTFObnAwYUdDVnFYUDVGSEQyYm9CblpHcUpJMEJ1UmVBOHVqQ201VVFKOVVRNjBXakVValFUWi1DSTUxU294RjlHZ2toQTQ0Wm04Tm1YbFU4WTRlN25LLUQteE5MeFlhbG5PdzB2UWlsSmttRXNpY0hrdmJZaGZ1enNLczQ5d2JkaTFnYzNRV1c3UEgwemVB?oc=5",
+      "published_date": "2026-11-24"
+    },
+    {
+      "category": "OpenAI / 개발자 도구",
+      "title": "OpenAI와 Cisco, 에이전트 AI 안전 프로젝트 'Shirudo' 공개",
+      "summary": "OpenAI와 네트워크 보안 기업 Cisco가 자율적으로 작동하는 에이전트 AI의 안전성을 강화하기 위한 새로운 협력 프로젝트 'Shirudo'를 발표했다.",
+      "detail": "'Shirudo'는 에이전트 AI 시스템이 예상치 못한 위험한 행동을 하지 않도록 보호하고 모니터링하는 데 초점을 맞춘 개발자 도구 또는 프레임워크로 보인다. 이는 에이전트 AI의 신뢰성을 높여 다양한 산업 분야에서의 도입을 가속화할 것으로 기대된다.",
+      "why_it_matters": "에이전트 AI의 확산에 따라 안전성 확보가 중요해지는 시점에서, 주요 AI 개발사와 네트워크 보안 기업의 협력은 AI 시스템의 신뢰성과 책임성을 높이는 데 중요한 이정표가 될 것이다.",
+      "source_name": "OpenAI",
+      "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1lbHE3NTF3ZWJRR0tZOFo1MlRjVEVoYjNKaDdWSFVuYnpQQTZ0YTVnMC1nQm04dWZYWkp5TmRVeEg2V2FWZmROOFljV295eWxLMlZUaTh2Z3Y?oc=5",
+      "published_date": "2026-11-23"
+    }
+  ]
+}
