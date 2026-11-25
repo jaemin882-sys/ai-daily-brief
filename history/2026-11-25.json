@@ -1,0 +1,120 @@
+{
+  "date": "2026-11-25",
+  "updated_at": "13:51 KST",
+  "generation_mode": "RSS + Gemini summary (gemini-2.5-flash)",
+  "update_status": {
+    "ok": true,
+    "message": "오늘 브리핑이 정상 업데이트되었습니다."
+  },
+  "daily_summary": "오늘은 주요 AI 기업들이 새로운 모델 기능과 에이전트 개발 도구를 선보이며 기술 진보를 이끌었고, 동시에 미국 정부는 AI 규제 및 정책 강화에 나서며 업계 전반에 걸쳐 AI의 발전과 책임 있는 사용에 대한 논의가 활발했습니다.",
+  "ai_terms": [
+    {
+      "term": "Transformer",
+      "full_name": "Transformer",
+      "korean": "트랜스포머",
+      "explanation": "자연어 처리 분야에서 혁신을 가져온 신경망 아키텍처입니다. '어텐션 메커니즘'을 핵심으로 하여 입력 데이터의 각 부분이 다른 부분과 얼마나 관련 있는지 파악해, 문맥을 효과적으로 이해하고 정보를 처리합니다.",
+      "example": "ChatGPT와 같은 최신 대규모 언어 모델들은 트랜스포머 아키텍처를 기반으로 하여 복잡한 질문에도 유창하게 답변할 수 있습니다."
+    },
+    {
+      "term": "Seq2Seq",
+      "full_name": "Sequence-to-Sequence Model",
+      "korean": "시퀀스-투-시퀀스 모델",
+      "explanation": "입력 시퀀스를 받아 출력 시퀀스를 생성하는 신경망 모델입니다. 주로 번역, 요약 등 순서가 중요한 데이터 처리(자연어 처리)에 사용되며, 인코더와 디코더로 구성됩니다.",
+      "example": "해외여행 중 번역 앱에 한국어를 입력하면, 시퀀스-투-시퀀스 모델이 이를 영어로 바꿔서 출력해줍니다."
+    },
+    {
+      "term": "Data Pipeline",
+      "full_name": "Data Pipeline",
+      "korean": "데이터 파이프라인",
+      "explanation": "AI 모델 학습에 필요한 데이터를 수집, 전처리, 저장, 관리하는 일련의 자동화된 과정을 말합니다. 데이터의 품질과 효율적인 흐름을 보장하여 모델 개발을 지원합니다.",
+      "example": "온라인 쇼핑몰이 고객의 구매 기록을 AI 모델이 학습할 수 있는 형태로 가공하여 전달하는 자동화 시스템이 데이터 파이프라인입니다."
+    }
+  ],
+  "exchange_rate": {
+    "usd_krw": 1344.51,
+    "date": "2026-11-24",
+    "source": "Frankfurter"
+  },
+  "exchange_rate_history": [
+    {
+      "date": "2026-11-16",
+      "rate": 1334.87
+    },
+    {
+      "date": "2026-11-17",
+      "rate": 1336.21
+    },
+    {
+      "date": "2026-11-18",
+      "rate": 1332.33
+    },
+    {
+      "date": "2026-11-19",
+      "rate": 1328.45
+    },
+    {
+      "date": "2026-11-20",
+      "rate": 1339.44
+    },
+    {
+      "date": "2026-11-23",
+      "rate": 1348.85
+    },
+    {
+      "date": "2026-11-24",
+      "rate": 1344.51
+    }
+  ],
+  "issues": [
+    {
+      "category": "Policy/Regulation",
+      "title": "미국 법무부, '초지능 태스크 포스' 신설로 AI 규제 강화 예고",
+      "summary": "미국 법무부가 '초지능 태스크 포스'를 신설하여 AI 기술에 대한 보다 체계적인 법 집행과 규제 조율을 추진한다고 발표했습니다.",
+      "detail": "미 법무부(DOJ)는 최근 '초지능(Super Intelligence) 태스크 포스'를 발족하여 인공지능 분야의 규제 및 법 집행 활동을 강화할 방침입니다. 이는 AI 기술 발전 속도에 맞춰 잠재적 위험을 관리하고, 혁신을 저해하지 않으면서도 공정하고 안전한 AI 생태계를 조성하기 위한 노력의 일환으로 보입니다. 이 태스크 포스는 AI 관련 법 위반 사례에 대한 조사 및 처벌을 담당하며, AI 정책 수립에도 영향을 미칠 것으로 예상됩니다.",
+      "why_it_matters": "정부 차원의 전담 조직이 생겼다는 것은 AI 기술이 사회 전반에 미치는 영향이 심화됨에 따라 국가적인 관리와 감독이 필수적이라는 인식이 커지고 있음을 보여줍니다. 이는 AI 기업들의 개발 방향과 투자 전략에도 중대한 영향을 미치며, 향후 AI 산업의 법적, 윤리적 기준을 제시하는 중요한 이정표가 될 것입니다.",
+      "source_name": "JD Supra",
+      "source_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPN3M5NVlhTFR3T1hHeGpDeGNXQjVCQnEtWG1DS2JmUmVrUlR4QUpPZGloN1pXam9RSTJvSy1rRUpRZEl1OTFaMXJ1MVZ4Skt0ejE2TEVra1ZjUUUtWnJjLUZ0ZGF5ajlvMWI3LVBXTVBTd0tPbDE2UDdwZEtWbHRWUlY2U25ZcFhxcEE?oc=5",
+      "published_date": "2026-11-25"
+    },
+    {
+      "category": "OpenAI",
+      "title": "OpenAI의 GPT-6, 단백질 설계 능력 시연",
+      "summary": "OpenAI의 최신 모델인 GPT-6이 단백질 설계에서 내재적(intrinsic) 능력을 입증하여 생명과학 분야에서의 AI 활용 가능성을 높였습니다.",
+      "detail": "OpenAI는 GPT-6 모델이 단백질 설계 능력을 보여주는 연구 결과를 발표했습니다. 이는 GPT-6이 단순히 텍스트를 생성하는 것을 넘어, 복잡한 생물학적 구조를 이해하고 새로운 단백질을 디자인할 수 있음을 의미합니다. 이러한 능력은 신약 개발, 재료 과학 등 다양한 과학 연구 분야에 AI를 적용하는 새로운 길을 열 수 있습니다.",
+      "why_it_matters": "GPT-6의 단백질 설계 능력은 AI가 실제 과학 문제 해결에 기여하는 중요한 진전을 보여줍니다. 이는 AI가 단순한 도구를 넘어 연구의 핵심 주체로 발전할 수 있음을 시사하며, 생명공학 및 제약 산업에 혁신적인 변화를 가져올 잠재력을 가집니다.",
+      "source_name": "OpenAI",
+      "source_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOaUdETW1TNzZiLWl5Z2lOUkhpRmtFMGNxY2dRVV9URkpQX3RVRGpVZGk5Q055WEY4elV1X2VHWlVCYzZTQUMydEk4YThidXZUOUh4dlBZVmpfZ21jaTZIeVRQaEFmdFN5MDNkNDhhYU5qdTJEN3ZQeGRXNG5NS215c3hxa2hFbEFjWW1DVE93UXFkdw?oc=5",
+      "published_date": "2026-11-24"
+    },
+    {
+      "category": "Google",
+      "title": "Google DeepMind의 Gemini 에이전트, 양자 시뮬레이션 비용 최대 11.8배 절감",
+      "summary": "Google DeepMind의 Gemini AI 에이전트가 양자 시뮬레이션 비용을 최대 11.8배 절감하는 데 성공하여 양자 컴퓨팅 연구에 큰 진전을 가져왔습니다.",
+      "detail": "Google DeepMind는 Gemini 에이전트가 양자 시뮬레이션의 계산 비용을 혁신적으로 줄일 수 있음을 발표했습니다. 이 AI 에이전트는 복잡한 양자 알고리즘을 최적화하고 실행하는 과정을 효율화하여, 기존 방식 대비 최대 11.8배의 비용 절감 효과를 보였습니다. 이는 양자 컴퓨팅 연구의 속도를 가속화하고 실제 적용 가능성을 높이는 데 기여할 것으로 기대됩니다.",
+      "why_it_matters": "양자 시뮬레이션은 계산 비용이 매우 높아 연구에 어려움이 많았으나, Gemini 에이전트의 발전은 이러한 장벽을 크게 낮출 수 있습니다. 이는 AI가 최첨단 과학 연구 분야에서 복잡한 문제를 해결하는 데 핵심적인 역할을 할 수 있음을 보여주며, 양자 컴퓨터 개발과 활용에 새로운 동력을 제공할 것입니다.",
+      "source_name": "EdTech Innovation Hub",
+      "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZWdSOVQtbzA2TERjN3ZXNUhBd1ZiZkdyVkJhQklSYWZCck0zOWwtV0xZeGdUaS1GVXkzNUZDcGJ4a1RneXhxa0M0LUxCWElMSVRtaU5iakJZY2hNMTNYNnFhWXM2TWlXWm1Gb3V4anFsREMyZUdxZV9OcDlhQUNoOU9MR3g5TGIyckxhV3FHUWM5NHgyR3p0TWlFUDZXX3JVN004U29hUXE0d0NWR3ZBZzdDbjRpVENYX3BoTE9mYWw?oc=5",
+      "published_date": "2026-11-25"
+    },
+    {
+      "category": "Anthropic",
+      "title": "Anthropic, Claude로 생성된 AI 앱을 데스크톱 앱으로 전환 지원",
+      "summary": "Anthropic이 Claude를 통해 생성된 AI 애플리케이션 '아티팩트'를 macOS 및 Windows용 독립형 데스크톱 앱으로 설치할 수 있는 기능을 발표했습니다.",
+      "detail": "Anthropic은 Claude 사용자들이 Claude를 활용해 만든 AI 기반 도구인 '아티팩트'를 이제 Mac 및 Windows 운영체제에서 독립형 데스크톱 애플리케이션으로 직접 설치하고 사용할 수 있게 했다고 밝혔습니다. 이는 Claude를 통해 개발된 AI 에이전트 및 도구의 접근성을 크게 향상시키며, 사용자 경험을 개선하고 AI를 활용한 생산성 도구의 범위를 확장할 것입니다.",
+      "why_it_matters": "이 기능은 AI가 단순한 웹 기반 상호작용을 넘어 사용자 친화적인 독립형 소프트웨어로 발전하고 있음을 보여줍니다. 개발자들이 Claude를 통해 더욱 쉽게 AI 기반의 맞춤형 앱을 만들고 배포할 수 있게 되어, AI 에이전트의 활용성과 생태계 확장에 중요한 전환점이 될 것입니다.",
+      "source_name": "SiliconANGLE",
+      "source_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNak95N3VGUTZral9OeUxMdTFPTmE5TWJ2VThkMmFOWDU4YzhGNDJYSEdFNHhyS1daTl9kVXB5S3hoMXpjdXhWM3Z6UzFydzBRWEYxYlE4QjJ0U2VDUGlGOERKdkcweDBUSlVSX2hvZEtnUExFU1owdC1MbUFUVF9CTnB1OGNRazFHTlg2bEFmQzhKSjlSVUFEemhpNjVNVWxVSDRGQW4xR0ZfQU1FLWZlNU5NTUZRT2J1MnJLU1otYXlTUQ?oc=5",
+      "published_date": "2026-11-25"
+    },
+    {
+      "category": "AI Hardware/Policy",
+      "title": "미국 의회, AI 칩 수출 규제 법안 추진 및 미중 AI 경쟁 심화",
+      "summary": "미국 의회가 AI 칩 수출 규제 법안 3건을 추진하며 엔비디아(Nvidia) CEO의 복귀 소식과 함께 미중 AI 반도체 경쟁이 더욱 심화되고 있음을 보여주었습니다.",
+      "detail": "미국 의회가 중국으로의 AI 칩 수출을 제한하는 3건의 법안을 진전시키고 있습니다. 이는 미국이 AI 핵심 기술인 반도체 분야에서 중국에 대한 기술 우위를 유지하려는 노력의 일환입니다. 이러한 규제 강화는 엔비디아와 같은 주요 AI 칩 제조업체들의 사업 전략에 직접적인 영향을 미치며, 미국과 중국 간의 AI 기술 패권 경쟁이 심화되고 있음을 시사합니다.",
+      "why_it_matters": "AI 칩은 현대 AI 기술의 핵심 동력으로, 이에 대한 미국의 수출 통제 강화는 글로벌 AI 산업 공급망과 기술 발전에 큰 영향을 미칠 수 있습니다. 이는 단순히 반도체 기업을 넘어 AI 모델 개발 및 클라우드 서비스 제공 업체 등 전체 AI 생태계에 영향을 미치는 중요한 지정학적 이슈입니다.",
+      "source_name": "digitimes",
+      "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNYXQyQ0VDM3RURXo1bnFmQ2o0N3dsYjNfU0c1eUlURW9LQktud1p1c1hiTXdnZXJIYjlueElHb3lrdDFoUG1XQW5RSlp3ZVYwN1B3dWx2R2FFbmotTjJfc25tOXpqV3hzaW15OWNicVF0VXBpS0FpTnBxbEc3eE5taVZWT05uU3Fx?oc=5",
+      "published_date": "2026-11-25"
+    }
+  ]
+}
