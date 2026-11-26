@@ -1,0 +1,120 @@
+{
+  "date": "2026-11-26",
+  "updated_at": "13:08 KST",
+  "generation_mode": "RSS + Gemini summary (gemini-2.5-flash)",
+  "update_status": {
+    "ok": true,
+    "message": "오늘 브리핑이 정상 업데이트되었습니다."
+  },
+  "daily_summary": "오늘 AI 업계는 거대 기업들의 제품 통합 가속화와 함께 AI 안전 및 규제 문제가 심화되는 양상을 보였습니다. 특히 엔비디아 AI 칩의 대중국 우회 공급 논란은 하드웨어 공급망과 국제 관계에 중요한 파장을 일으키고 있습니다.",
+  "ai_terms": [
+    {
+      "term": "Agent",
+      "full_name": "Agent",
+      "korean": "에이전트",
+      "explanation": "환경을 인식하고 목표를 달성하기 위해 행동하는 AI 시스템 또는 소프트웨어 주체를 말합니다. 사람처럼 스스로 판단하고 특정 작업을 수행하는 역할을 합니다.",
+      "example": "날씨를 확인하고, 일정에 맞춰 회의 시간을 제안하는 AI 비서 앱은 사용자 대신 정보를 처리하고 행동하는 에이전트의 예시입니다."
+    },
+    {
+      "term": "Accuracy",
+      "full_name": "Accuracy",
+      "korean": "정확도",
+      "explanation": "AI 모델이 전체 데이터 중에서 올바르게 예측하거나 분류한 비율을 나타내는 지표입니다. 모델의 성능을 가장 직관적으로 보여주는 척도 중 하나입니다.",
+      "example": "사진 속 동물을 분류하는 AI 모델이 100장의 사진 중 95장을 정확하게 맞췄다면, 이 모델의 정확도는 95%입니다."
+    },
+    {
+      "term": "Few-shot Learning",
+      "full_name": "Few-shot Learning",
+      "korean": "소수 학습",
+      "explanation": "매우 적은 수의 예시 데이터(수 개에서 수십 개)만으로도 새로운 개념을 학습하거나 작업을 수행할 수 있도록 하는 AI 학습 방식입니다. 대규모 데이터 학습의 한계를 극복하는 데 도움을 줍니다.",
+      "example": "생소한 외국어 단어 몇 개만 보고도 비슷한 다른 단어의 의미를 유추하는 것처럼, AI가 몇 장의 희귀 동물 사진만으로 해당 동물을 식별하도록 학습하는 것이 소수 학습입니다."
+    }
+  ],
+  "exchange_rate": {
+    "usd_krw": 1345.4,
+    "date": "2026-11-25",
+    "source": "Frankfurter"
+  },
+  "exchange_rate_history": [
+    {
+      "date": "2026-11-17",
+      "rate": 1336.21
+    },
+    {
+      "date": "2026-11-18",
+      "rate": 1332.33
+    },
+    {
+      "date": "2026-11-19",
+      "rate": 1328.45
+    },
+    {
+      "date": "2026-11-20",
+      "rate": 1339.44
+    },
+    {
+      "date": "2026-11-23",
+      "rate": 1348.85
+    },
+    {
+      "date": "2026-11-24",
+      "rate": 1344.51
+    },
+    {
+      "date": "2026-11-25",
+      "rate": 1345.4
+    }
+  ],
+  "issues": [
+    {
+      "category": "NVIDIA",
+      "title": "미국 규제에도 불구하고 엔비디아 AI 칩, 중국 기업에 우회 공급 논란",
+      "summary": "미국 정부의 대중국 AI 칩 수출 규제에도 불구하고, 캘리포니아에 기반을 둔 중국 소유 기업들을 통해 엔비디아의 최첨단 AI 칩이 중국에 유입되고 있다는 조사가 나왔습니다.",
+      "detail": "CBS 뉴스의 조사에 따르면, 캘리포니아에 위치한 두 회사가 엔비디아의 가장 진보된 칩을 구매하고 있으며, 이 회사들이 실제로는 중국 소유인 것으로 밝혀졌습니다. 이는 미국의 첨단 AI 기술이 중국으로 흘러들어가는 것을 막기 위한 규제 노력에 중대한 허점을 드러내는 것입니다.",
+      "why_it_matters": "이 문제는 미국의 기술 안보와 대중국 견제 정책의 효과성에 대한 심각한 의문을 제기합니다. 첨단 AI 칩 공급망의 복잡성과 우회로를 통한 기술 유출은 AI 기술 경쟁 및 국가 안보에 광범위한 영향을 미칠 수 있습니다.",
+      "source_name": "CBS News",
+      "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9MazBWOG43cVJLUGh2S1V6N2JMc0w4ck1MYlVVVnhMLThiQ1lIOTZZQmVzdTBpMzljVVBJbDdNZm1oLXh5WmNNMXZybDl2SmR0dGNld3ZJRFI2NnpXX0R6S3hiWmxfTDhmN2txdFNxaEl4TVU5N0E?oc=5",
+      "published_date": "2026-11-25"
+    },
+    {
+      "category": "Anthropic",
+      "title": "앤트로픽, 클로드 아웃풋을 데스크톱 앱으로 설치 가능하도록 지원",
+      "summary": "앤트로픽(Anthropic)이 자사의 AI 모델 클로드(Claude)의 결과물을 맥(Mac) 앱 형태로 설치할 수 있는 기능을 출시하여 사용자 워크플로우에 AI를 더욱 깊숙이 통합하고 있습니다.",
+      "detail": "Inc.com에 따르면, 앤트로픽은 클로드의 '아티팩트(artifacts)' 기능을 통해 사용자들이 클로드의 아웃풋을 마치 독립적인 소프트웨어처럼 데스크톱에 설치하여 사용할 수 있도록 했습니다. 이는 웹 기반 채팅 인터페이스를 넘어, AI가 사용자의 작업 환경에 직접 통합되는 새로운 사용 경험을 제공합니다.",
+      "why_it_matters": "이러한 기능은 AI를 단순한 질의응답 도구가 아닌, 생산성 향상을 위한 상호작용 가능한 에이전트(Agent)로 활용하는 '에이전트 시대'의 중요한 진전으로 평가됩니다. AI가 사용자 운영체제 및 애플리케이션에 직접 통합됨으로써 개인 및 기업의 업무 방식에 큰 변화를 가져올 잠재력이 있습니다.",
+      "source_name": "Inc.com",
+      "source_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxONWprSmNQa2c3ckpWZTA3eU50VklIMnRaaDFWeHA4N2RlVlo3WjhVYkt0dXJ2aGllSDFSVUxfeG1kd2VlS0Iwel9VZTNLYkdaSGZVc2VTaWxXbDBFS3NpNHd5RnlQMDRqckxOTHlpYUllcFpLWExnb0ZzUXJGYTZ2OHlwSnZ1M2p3VEo1RlUybFdPQQ?oc=5",
+      "published_date": "2026-11-25"
+    },
+    {
+      "category": "Google",
+      "title": "구글 제미니, 지갑, 드라이브 및 다양한 앱 통합으로 생태계 확장",
+      "summary": "구글의 AI 모델 제미니(Gemini)가 구글 월렛, 드라이브 등 핵심 서비스와 다양한 앱에 통합되면서 구글 생태계 전반에 걸친 AI 경험 확장을 가속화하고 있습니다.",
+      "detail": "PCMag에 따르면, 구글의 AI 모드는 지갑, 드라이브 및 제미니 앱 통합을 통해 사용자 편의성을 높일 예정입니다. 이는 안드로이드 오토, 구글 홈, 심지어 맥북 제어까지 제미니 기능이 확대되는 광범위한 통합 노력의 일환으로, 구글이 제미니를 중심으로 자사 서비스 경험을 재편하려는 전략을 보여줍니다.",
+      "why_it_matters": "제미니의 광범위한 통합은 AI가 단순히 독립적인 도구가 아닌, 일상생활과 업무 전반에 스며드는 '환경 지능'을 구현하려는 구글의 비전을 보여줍니다. 이는 사용자에게 더욱 개인화되고 효율적인 AI 경험을 제공하며, 온디바이스 AI 활용 가능성을 높여 AI 대중화에 기여할 것으로 예상됩니다.",
+      "source_name": "PCMag",
+      "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQb0l3MmQtSEt5S0RIRGhfWXA0bUs5Njd5X1RRYjJZbUVia2tYTkIwcmZUSlRhbXU0VEdURmMtZDZWZVVHdEVZM1FQRjVhbjRlMFRqV0dMNW1KRWhnZEJLVjRLWTBLQjBOdXE3THNBSlhZTWN1eFNIQzJJZjJ6LTBrRHdMWjVnUjBvcThkMGNkTzZSeDlLcU02SW5R?oc=5",
+      "published_date": "2026-11-25"
+    },
+    {
+      "category": "OpenAI",
+      "title": "OpenAI, ChatGPT 서비스 통합에 따른 일부 사용자 사용량 제한 조정",
+      "summary": "OpenAI가 ChatGPT 채팅 및 업무 계정 병합 후 일부 헤비 사용자들의 사용량 제한이 더 빨리 찾아올 수 있다고 밝혔으며, 아동 성 착취 이미지 탐지 도구를 새로 도입했습니다.",
+      "detail": "TechCrunch에 따르면, OpenAI는 ChatGPT 채팅과 업무 계정을 통합하면서, 특히 사용량이 많은 이용자들의 경우 기존보다 사용량 제한에 더 빨리 도달할 수 있다고 공지했습니다. 이와 동시에, Mashable에 따르면 OpenAI는 아동 성 착취 이미지를 탐지하기 위한 새로운 AI 도구를 개발하여 서비스 안전성 강화에 나섰습니다.",
+      "why_it_matters": "사용량 제한 조정은 서비스 운영 효율화와 사용자 경험 관리의 일환으로 보이지만, 일부 사용자에게는 불편을 초래할 수 있습니다. 한편, 아동 성 착취 이미지 탐지 도구 도입은 AI 기술의 사회적 책임과 안전한 활용을 위한 OpenAI의 노력을 보여주는 중요한 조치입니다.",
+      "source_name": "TechCrunch",
+      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQWZET3dOcDNPZ1c3bnhSaGh6SkdXeGItdEl0dUNmbzVVZlhhSV8wZ1p0OTN5RDlfUXRZV3NMSXNnV2FxYXdVRWY5UnJZZ2FxbkVXNlFkWFFabHNfRTl2ZXJ5ZFVRd0prUkE0OFRYYktyVGNBemZkSGJZbXUzOVljaEtBdEhIT2Vydkhab2h1cFc0NDJyNVZMb29BQ3U2bUh3N2NETVpyenBmVVpRclBCWnpscjUwUQ?oc=5",
+      "published_date": "2026-11-25"
+    },
+    {
+      "category": "Research/Safety",
+      "title": "AI의 자기 개선 능력에 대한 연구자들의 우려와 규제 필요성 대두",
+      "summary": "일부 연구자들은 AI가 스스로 개선하는 능력을 갖게 될 경우 '악몽' 같은 시나리오를 초래할 수 있다고 경고하며, 이에 대한 국가 안보적 위험 및 정부 규제의 필요성이 강조되고 있습니다.",
+      "detail": "NPR에 따르면, AI가 스스로 능력을 향상시킬 수 있는 단계에 도달할 경우 예측 불가능한 결과를 낳을 수 있으며, 일부 연구자들은 이를 '악몽'으로 묘사하며 우려를 표명했습니다. New University에서는 AI가 국가 안보 위험이 될 수 있으며 정부 규제가 필요하다고 주장하는 등, AI의 발전 속도에 발맞춘 윤리적, 사회적 통제에 대한 요구가 커지고 있습니다.",
+      "why_it_matters": "AI의 자기 개선 능력은 인류에게 혁신적인 기회를 제공할 수 있지만, 동시에 통제 불능의 위험을 내포하고 있어 AI 안전 분야의 핵심적인 논쟁점입니다. 이러한 우려 증폭은 AI 개발 방향과 속도, 그리고 국제적인 규제 논의에 중대한 영향을 미칠 것입니다.",
+      "source_name": "NPR",
+      "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOUWtNdjNybENmU2pjNEdFZWpUcFQ1QkZkMFZXdHlHX3JER3U2ZjZrZUJuSmVMUkQtbTJoaldlVmF0U0FqTDlNeVhLdW1UUy04VkpNMWRUV0owT1B4X2s1eW5IVXNqandBbjFpREU0aXdGMzRVenZxbnlGWENyYnRaYXRiYXNlN0dtMnJ4RnFBNHNnbmdySzJxdGkwZXEtcjFtS0xKMFo3WnNHZlE?oc=5",
+      "published_date": "2026-11-25"
+    }
+  ]
+}
