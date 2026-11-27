@@ -1,0 +1,120 @@
+{
+  "date": "2026-11-27",
+  "updated_at": "13:06 KST",
+  "generation_mode": "RSS + Gemini summary (gemini-2.5-flash)",
+  "update_status": {
+    "ok": true,
+    "message": "오늘 브리핑이 정상 업데이트되었습니다."
+  },
+  "daily_summary": "금일 AI 업계에서는 미국의 반도체 수출 규제 강화로 인한 엔비디아의 동남아시아 출하 중단 소식과 AI 모델의 혁신적인 발전 및 실생활 적용 소식이 주를 이뤘습니다. 주요 AI 기업들은 법적, 윤리적 문제에 직면하고 있으며, 중국의 오픈소스 AI 기여도 또한 주목받고 있습니다.",
+  "ai_terms": [
+    {
+      "term": "Feature",
+      "full_name": "Feature",
+      "korean": "특성",
+      "explanation": "인공지능 모델이 학습하고 예측을 수행하는 데 사용되는 데이터의 개별적인 측정 가능한 속성 또는 특징입니다. 각 특성은 데이터 포인트의 중요한 정보를 담고 있습니다.",
+      "example": "사진 속 고양이의 '귀 길이', '털 색깔', '눈 모양' 등이 해당 고양이를 인식하는 데 사용되는 특성이라고 할 수 있습니다."
+    },
+    {
+      "term": "Data Collection",
+      "full_name": "Data Collection",
+      "korean": "데이터 수집",
+      "explanation": "인공지능 모델을 훈련시키기 위해 필요한 정보를 다양한 출처로부터 모으는 과정입니다. 모델의 성능은 수집된 데이터의 양과 품질에 크게 좌우됩니다.",
+      "example": "스마트폰 앱 개발을 위해 사용자들이 앱을 어떻게 사용하는지에 대한 익명화된 로그를 모으는 것이 데이터 수집의 한 예입니다."
+    },
+    {
+      "term": "Model Evaluation",
+      "full_name": "Model Evaluation",
+      "korean": "모델 평가",
+      "explanation": "학습된 인공지능 모델이 새로운, 보지 못한 데이터에 대해 얼마나 잘 작동하는지 측정하는 과정입니다. 이를 통해 모델의 성능을 객관적으로 파악하고 개선점을 찾을 수 있습니다.",
+      "example": "얼굴 인식 모델을 개발한 후, 모델이 훈련 과정에서 보지 못한 새로운 얼굴 사진을 통해 얼마나 정확하게 사람을 식별하는지 테스트하는 것이 모델 평가입니다."
+    }
+  ],
+  "exchange_rate": {
+    "usd_krw": 1344.65,
+    "date": "2026-11-26",
+    "source": "Frankfurter"
+  },
+  "exchange_rate_history": [
+    {
+      "date": "2026-11-18",
+      "rate": 1332.33
+    },
+    {
+      "date": "2026-11-19",
+      "rate": 1328.45
+    },
+    {
+      "date": "2026-11-20",
+      "rate": 1339.44
+    },
+    {
+      "date": "2026-11-23",
+      "rate": 1348.85
+    },
+    {
+      "date": "2026-11-24",
+      "rate": 1344.51
+    },
+    {
+      "date": "2026-11-25",
+      "rate": 1345.4
+    },
+    {
+      "date": "2026-11-26",
+      "rate": 1344.65
+    }
+  ],
+  "issues": [
+    {
+      "category": "AI 반도체 / 정책",
+      "title": "미국 규제 강화로 엔비디아, 동남아시아 AI 칩 출하 중단",
+      "summary": "미국의 대중국 AI 반도체 수출 규제 강화 조치로 인해 엔비디아가 동남아시아 일부 국가로의 AI 칩 판매를 중단했습니다.",
+      "detail": "미국 정부가 중국 기업들의 우회적인 AI 칩 확보를 막기 위해 수출 통제를 강화하면서, 엔비디아가 말레이시아, 싱가포르, 태국, 인도네시아 등 4개국으로의 서버 출하를 중단한 것으로 알려졌습니다. 이는 해당 국가들이 중국 관련 기업의 AI 칩 조달 통로로 활용될 수 있다는 우려에 따른 조치로 풀이됩니다.",
+      "why_it_matters": "이번 조치는 AI 반도체 공급망에 광범위한 영향을 미치며, 미국과 중국 간의 AI 기술 패권 경쟁이 심화되고 있음을 보여줍니다. 특정 국가의 AI 개발 속도와 인프라 구축에 직접적인 영향을 줄 수 있는 중요한 사건입니다.",
+      "source_name": "The New York Times",
+      "source_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNSHM3RHJjQzd5X25CS3B2YkpjVm9fa092SkJjUmlWLS1xRi1EaFZNam9wTi1lbUpmTXdPeVRaYXdjM2hnT2dLenQyQXVtOHZzcDJ5SkZSeGdlS0ZCZHMtMUNfclhqT3VJVUNmNy1yUmtNMnlnRkhvd1ZWV2FKdVQ1QmtB?oc=5",
+      "published_date": "2026-11-27"
+    },
+    {
+      "category": "에이전트 / 개발자 도구",
+      "title": "Anthropic의 Claude, 코딩 없이 앱 생성 및 GitHub 코드 검토 기능 공개",
+      "summary": "Anthropic의 Claude가 사용자가 코딩 없이 설치 가능한 애플리케이션을 생성하고, GitHub 풀 리퀘스트를 자동으로 검토 및 수정하는 'Claude Ship' 기능을 선보였습니다.",
+      "detail": "Claude는 이제 사용자가 지시만으로 Windows 및 Mac용 앱을 만들 수 있게 했으며, 특히 'Claude Ship'이라는 새로운 기능을 통해 개발자들이 GitHub에서 풀 리퀘스트를 자동으로 검토하고, 코드 수정 제안 및 승인까지 할 수 있게 되었습니다. 이는 AI 에이전트가 소프트웨어 개발 프로세스에 깊이 관여할 수 있는 새로운 가능성을 제시합니다.",
+      "why_it_matters": "코딩 없이 앱을 만들 수 있는 기능은 개발 장벽을 크게 낮춰 일반 사용자도 아이디어를 빠르게 현실화할 수 있게 합니다. 또한 'Claude Ship'은 개발자들의 생산성을 혁신적으로 향상시킬 잠재력을 가지며, AI 에이전트가 단순한 코드 생성 도구를 넘어 개발 워크플로우의 핵심 조력자로 진화하고 있음을 보여줍니다.",
+      "source_name": "Mashable",
+      "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1lOEh5SzRKaG8yT3M1czlwM09oU1gxQlFrdFB6b3lBQ0RmdkxyeG5XUXNUY01CcmdMT0lpS0o1YUx2TXNJTUhjeFJaR0RuRkNVcmJERnk3a0tnQ00?oc=5",
+      "published_date": "2026-11-27"
+    },
+    {
+      "category": "새 모델 / 온디바이스 AI",
+      "title": "Google Gemini 4, 수학적 추론 능력 입증 및 온디바이스 확장",
+      "summary": "Google의 Gemini 4 에이전트가 하루 만에 6개의 수학 증명을 성공적으로 수행하며 고급 추론 능력을 입증했으며, 동시에 Android Auto 및 GM 차량에 탑재되며 온디바이스 AI로서의 활용도를 높이고 있습니다.",
+      "detail": "Gemini 4는 특히 30년 된 난제를 포함한 여러 수학 증명에서 뛰어난 성과를 보여주며, 복잡한 문제 해결 능력에서의 발전을 과시했습니다. 또한 Gemini AI는 이제 Android Auto, CarPlay를 비롯해 2027년형 쉐보레 볼트(Chevy Bolt) 같은 GM 차량에 통합되어, 사용자가 차량 내에서 AI의 다양한 기능을 활용할 수 있게 되었습니다.",
+      "why_it_matters": "수학 증명에서의 성과는 AI의 논리적 추론 능력이 비약적으로 발전하고 있음을 나타내며, 과학 연구 및 문제 해결 분야에 큰 파급력을 가질 것입니다. 동시에 차량과 스마트폰 등 온디바이스 환경으로의 확장은 AI가 사용자 일상에 더욱 밀접하게 통합되고 있음을 의미하며, 실제 사용성을 크게 향상시킬 것으로 기대됩니다.",
+      "source_name": "R&D World",
+      "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNWm9PeXNkcS1WNGM2YnFTTTNaTkdaOTJCV2ZPMzI1V3RJVzV3Q3NxOURkZktGOHJhcDBFWkxJZTNaYmNJM2s1a2cyTGh6SDBUeF82Q3NNSm4xRGxuMG53QjczbXkxek5tLWU2S2o4dlZ5b2M3WjJzUHhLdWVHbWM0RmNqaGlOd1dGRU9UaEx0Zw?oc=5",
+      "published_date": "2026-11-26"
+    },
+    {
+      "category": "정책/규제 / AI 안전",
+      "title": "캘리포니아 주, OpenAI를 '공공의 골칫거리'로 고소하며 법적 압박 증대",
+      "summary": "캘리포니아 주가 OpenAI를 '공공의 골칫거리(public nuisance)' 혐의로 고소했으며, 이는 주요 AI 기업이 직면한 법적 및 규제적 압박이 심화되고 있음을 보여줍니다.",
+      "detail": "이번 고소는 OpenAI가 AI 개발 과정에서 발생할 수 있는 잠재적 위험과 사회적 부작용에 대한 책임을 져야 한다는 목소리가 커지고 있음을 시사합니다. 한편, OpenAI 내부적으로는 국방 분야에서의 AI 활용 제한 노력을 강화하고 있으며, OpenAI의 수석 과학자는 개척 AI(frontier AI) 개발에 대한 공동의 한계 설정을 제안하는 등 AI 안전 및 규제 논의가 활발히 진행되고 있습니다.",
+      "why_it_matters": "선도적인 AI 기업에 대한 법적 소송은 AI 기술의 윤리적, 사회적 책임에 대한 기준을 마련하는 중요한 계기가 될 수 있습니다. 이는 AI 개발 속도와 방향에 영향을 미치고, 향후 AI 산업 전반에 걸친 규제 환경을 형성하는 데 중요한 선례가 될 것입니다.",
+      "source_name": "Mashable",
+      "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5GQ2wzd0oyeklHS3VTa2dLLURCODZBN3JqeHBHWHR3MXNGRjUzSkRzT0JOUVJQeWxEbjZnMHV2cmxpajRZQlY4QUthc09iVUtESTdlUnZLUXhqdEpadXdtdk5IUnBlRjBWUEl0OXMtcFFERHBUT2c?oc=5",
+      "published_date": "2026-11-27"
+    },
+    {
+      "category": "정책/규제 / 오픈소스 AI",
+      "title": "중국 자체 개발 대규모 모델, 글로벌 오픈소스 AI 생태계에 영향력 확대",
+      "summary": "중국이 자체 개발한 대규모 AI 모델들이 글로벌 오픈소스 생태계에서 점차 중요한 역할을 하며 영향력을 확대하고 있으며, 이는 미·중 간 AI 기술 경쟁 구도를 심화시키고 있습니다.",
+      "detail": "People's Daily Online에 따르면, 중국의 토종 대규모 AI 모델들이 공개적으로 활용되며 전 세계 오픈소스 커뮤니티에 기여하고 있습니다. 이는 미국의 AI 기술 통제 노력에도 불구하고 중국이 자체적인 기술 발전을 통해 글로벌 AI 판도에 도전하고 있음을 보여줍니다. 세계경제포럼(WEF)은 미중 AI 경쟁이 초지능(Superintelligence)과 지정학적 문제로 확대되고 있다고 분석했습니다.",
+      "why_it_matters": "중국의 오픈소스 AI 기여 확대는 AI 기술의 탈중앙화 및 민주화에 긍정적인 영향을 미칠 수 있습니다. 동시에 이는 미국 중심의 AI 기술 패권에 대한 중요한 도전이며, 전 세계적인 AI 개발 및 연구의 다양성을 증진시키고 미·중 기술 경쟁의 새로운 양상을 제시하는 핵심 요소로 작용합니다.",
+      "source_name": "People's Daily Online",
+      "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE84TG1qeHI2UVRjSFZITlhPd0FObkg3MmNOZWpPZGc1a1NXeExfdzVMOHlkalF1VVhWakRwSUNEZHNObnJGYldXeUZ0MXkyLXFIdTJiUV90Q184bU4yRmRJRHoyUQ?oc=5",
+      "published_date": "2026-11-27"
+    }
+  ]
+}
