@@ -1,0 +1,120 @@
+{
+  "date": "2026-11-28",
+  "updated_at": "12:50 KST",
+  "generation_mode": "RSS + Gemini summary (gemini-2.5-flash)",
+  "update_status": {
+    "ok": true,
+    "message": "오늘 브리핑이 정상 업데이트되었습니다."
+  },
+  "daily_summary": "오늘 AI 업계는 주요 기업 간의 법적 공방, AI 안전성 및 개인정보 보호 문제, 그리고 핵심 AI 하드웨어 공급망 관련 지정학적 리스크 등 다방면에서 중요한 이슈들이 부각되었습니다. 특히 OpenAI와 Apple 간의 영업비밀 침해 소송은 경쟁 심화를 보여주며, Anthropic과 Google의 발표는 AI 개발의 책임감과 사용자 신뢰의 중요성을 강조합니다.",
+  "ai_terms": [
+    {
+      "term": "Perceptron",
+      "full_name": "Perceptron",
+      "korean": "퍼셉트론",
+      "explanation": "1950년대 후반에 개발된 가장 기본적인 형태의 인공 신경망입니다. 여러 개의 입력값을 받아 하나의 출력값을 내보내는 단순한 구조로, 선형적으로 분류 가능한 문제를 해결할 수 있습니다.",
+      "example": "스팸 메일을 분류하는 가장 기초적인 AI 모델을 만들 때, 이메일 제목이나 내용의 특정 단어 출현 여부를 입력값으로 받아 스팸 여부를 판단하는 퍼셉트론을 사용할 수 있습니다."
+    },
+    {
+      "term": "Neuron",
+      "full_name": "Artificial Neuron",
+      "korean": "인공 뉴런",
+      "explanation": "생물학적 뇌의 뉴런을 모방하여 만들어진 인공 신경망의 기본 구성 요소입니다. 여러 입력 신호를 받아 가중치와 합산한 후, 활성화 함수를 통해 최종 출력 신호를 내보냅니다.",
+      "example": "얼굴 인식 AI가 사람의 얼굴을 학습할 때, 각 인공 뉴런은 눈, 코, 입 같은 얼굴의 특정 특징을 감지하는 역할을 담당하여 전체적인 얼굴을 인식하는 데 기여합니다."
+    },
+    {
+      "term": "Regularization",
+      "full_name": "Regularization",
+      "korean": "정규화",
+      "explanation": "머신러닝 모델이 학습 데이터에 과도하게 맞춰져(과적합) 새로운 데이터에서 성능이 떨어지는 것을 방지하기 위한 기법입니다. 모델의 복잡도를 제한하여 일반화 성능을 향상시킵니다.",
+      "example": "사진 속 강아지와 고양이를 구분하는 AI를 만들 때, 특정 강아지 사진의 아주 미세한 특징까지 외워버리지 않도록 정규화 기법을 적용하면, 이전에 보지 못한 다른 강아지 사진도 정확히 분류할 수 있게 됩니다."
+    }
+  ],
+  "exchange_rate": {
+    "usd_krw": 1334.9,
+    "date": "2026-11-27",
+    "source": "Frankfurter"
+  },
+  "exchange_rate_history": [
+    {
+      "date": "2026-11-19",
+      "rate": 1328.45
+    },
+    {
+      "date": "2026-11-20",
+      "rate": 1339.44
+    },
+    {
+      "date": "2026-11-23",
+      "rate": 1348.85
+    },
+    {
+      "date": "2026-11-24",
+      "rate": 1344.51
+    },
+    {
+      "date": "2026-11-25",
+      "rate": 1345.4
+    },
+    {
+      "date": "2026-11-26",
+      "rate": 1344.65
+    },
+    {
+      "date": "2026-11-27",
+      "rate": 1334.9
+    }
+  ],
+  "issues": [
+    {
+      "category": "OpenAI/Apple",
+      "title": "OpenAI, 애플 상대 영업비밀 침해 소송 제기",
+      "summary": "OpenAI가 애플을 상대로 영업비밀 침해 소송을 제기하며, 애플이 자사 기밀 정보를 입수해 AI 기기 개발에 활용하고 공급업체들을 압박했다고 주장했습니다.",
+      "detail": "OpenAI는 애플이 자사의 AI 기술과 관련한 기밀 계획을 스파이를 통해 입수하여 아이폰을 능가할 수 있는 AI 기기 개발에 이용했으며, 동시에 공급업체들에게 OpenAI와의 협력을 중단하도록 압력을 가했다고 소장에서 밝혔습니다. 이는 최근 기술 기업 간 AI 주도권 경쟁이 격화되는 가운데 불거진 법적 분쟁입니다.",
+      "why_it_matters": "이 소송은 AI 시장에서 빅테크 기업 간의 경쟁이 기술 개발을 넘어 법적 분쟁으로 확대되고 있음을 보여줍니다. 이는 AI 기술의 지적 재산권 보호와 공정한 경쟁 환경 조성에 대한 중요한 선례를 남길 수 있으며, 미래 AI 제품 및 서비스 개발 방향에도 영향을 미칠 수 있습니다.",
+      "source_name": "Al Jazeera",
+      "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxON1UyNzVUM1VWYllDUVB5Rl9LVDYwZExiMWt2WFp4eWVUckVjdDhqbFFfSXR1b2NiRm9LbFZQZ2xlZTNkRmtaSkZnb2M4ekJwVkVxbE1jdmNlazc2QUMxallwb1JpTWRvVk9ZOW12SVM5MTZ4RS1CQkNGcW5qZlMySWJZTjBkNXBtZXByR0NuVWdJZWVXWW8zcWRsTUF1ZUJXMlNVNWxEM2l0VThn0gGyAUFVX3lxTE16T05QbEdEbTdCUklBU3kyX05YX2RxaTZrVl9yWTEtWDF4dThXOFAyODNDTjFHTy1LRmJkZEJpd1E0eTBOaWxkS0NXV1BIWFo0V1ZTU01JMzd5bVpkMHFWTEhSNEVBT3E1cXd1NVJFbEJtSXFURGpxMzlKOWtNTXg1amFKZDhEOWttUlhkU1Y2UmVnSUgwRWZqWmJmTzdRaVBNM01pczFxTnh0RzYxRk02MFE?oc=5",
+      "published_date": "2026-11-28"
+    },
+    {
+      "category": "Anthropic/AI Safety",
+      "title": "앤트로픽, AI 생물학 무기 오용 가능성 차단 발표",
+      "summary": "AI 개발사 앤트로픽(Anthropic)이 자사 AI 모델이 생물학 무기 개발 등 잠재적 위험한 오용 가능성을 차단했다고 밝혔습니다.",
+      "detail": "앤트로픽은 자사의 대규모 언어 모델 '클로드(Claude)'가 고위험 물질 생성이나 생물학적 위해를 가하는 방법을 알려주는 데 사용되는 것을 막기 위한 안전장치를 마련했다고 발표했습니다. 이는 AI 모델이 인류에 위협이 될 수 있는 정보를 제공하지 않도록 엄격한 정책과 기술적 방어 체계를 적용한 결과입니다.",
+      "why_it_matters": "이 발표는 프론티어 AI 모델의 안전성 및 윤리적 개발에 대한 업계의 책임감을 강조하며, AI 기술의 사회적 위험을 줄이기 위한 개발사의 구체적인 노력을 보여줍니다. 이는 AI 거버넌스와 규제 논의에도 중요한 근거를 제공할 것입니다.",
+      "source_name": "ABC News - Breaking News, Latest News and Videos",
+      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcHNiU2w4UlN0ZmswWlFZZHBCTFpzZW02U3RNQ29wVUJKQ2NsM2xjV1d4U0dtYjVhWUpmM1N3dm5HYkg3a1ZaMWlYUVdSMFN1SjlfOEt1bVZGNWdMLXFNcGpIZnhjT1FqNVZHdWR0QU40YWs5NlFzY01aekNoaTBja2lfUjRlODJ0c29ObjU2b2c2OHc0OTZQTzFZNNIBoAFBVV95cUxNdFdUcWN0blhrMU85WE55cGo2aldZRTIwT1lxZlA1a2tSS3lUNnJPTFlwRktnZlR0alhrNjlCX1J4T21CMlUwZEItRGhuVTZOajNpNHRoczNsek5nS2RuSTQ4MFFzZUFHRl9Ja01UVUg2VTlUVVozWFA3TVExSWp3d0daZm5KNWY1OHJWNTZEdHZ4ajlYdVF2aFJjVFRTcHZn?oc=5",
+      "published_date": "2026-11-27"
+    },
+    {
+      "category": "NVIDIA/Geopolitics",
+      "title": "엔비디아 AI 칩, 중국 내 암시장 거래 및 유출 논란 지속",
+      "summary": "미국 정부의 수출 통제에도 불구하고 엔비디아의 첨단 AI 칩이 중국 내 암시장에서 고가에 거래되거나 중국 데이터 센터에서 사용되고 있다는 보도가 이어지고 있습니다.",
+      "detail": "보도에 따르면 엔비디아의 최신 블랙웰(Blackwell) AI 칩이 미국 제재를 우회하여 중국의 데이터 센터에 유입되거나 암시장에서 수백만 달러에 판매되고 있습니다. 이는 미국 상원 의원들이 AI 칩의 중국 유출을 막기 위한 추가적인 조치를 촉구하는 배경이 되고 있으며, 미국의 수출 통제가 실효성을 잃고 있다는 지적도 나옵니다.",
+      "why_it_matters": "이 이슈는 AI 기술의 핵심인 고성능 반도체를 둘러싼 미중 기술 패권 경쟁의 현실과 한계를 보여줍니다. 수출 통제 조치의 실효성 논란은 향후 AI 반도체 공급망 및 글로벌 기술 협력 관계에 중대한 영향을 미칠 것이며, 중국의 AI 자립 가속화를 촉진할 수도 있습니다.",
+      "source_name": "New York Post",
+      "source_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQS0puVFFobWNIaE5UVjBQR2ctd0VEWVBYRXFXU2VzLXVBWnZ4MnlTSmN2VC1JMnM2X0Z6SDFYZXF2SW5kOFN5UGlZSGFVaFo2ZGNJS29BQmhzbVFGeDBuaEZHSDVnZjBEaW51N1BGWUVKR0JCTjRKZGhONVpIXzI2RkdIUFlOTFhIdjRVdGo3c2dtZnZQTmdmdXE0dEFEejhtV3o0cmtnU21lWjgzS3AwN3VReVdZb1o5eDloMXpRbUI2eTdIVjM0bFJZbHlfQ2FQWWZKQw?oc=5",
+      "published_date": "2026-11-27"
+    },
+    {
+      "category": "Google/Policy",
+      "title": "로스앤젤레스 교육청, 구글 AI 기능 차단 및 제품 사용 중단 검토",
+      "summary": "로스앤젤레스 통합 교육청(LAUSD)이 구글의 AI 기능 사용을 차단하고, 장기적으로 구글 제품 전반의 사용 중단을 검토하고 있다고 AP통신이 보도했습니다.",
+      "detail": "LAUSD는 구글의 AI 기능이 학생들의 학습과 개인정보 보호에 미칠 잠재적 영향에 대한 우려를 표명하며 이러한 결정을 내렸습니다. 교육청은 최근 도입된 새로운 AI 정책에도 불구하고 AI 기능이 교육 환경에 미치는 위험 요소를 신중하게 평가하고 있으며, 구글과의 파트너십 재검토 가능성도 시사했습니다.",
+      "why_it_matters": "이 결정은 교육 분야에서 AI 기술 도입 시 발생하는 윤리적, 교육적, 개인정보 보호 문제에 대한 중요한 사례를 제시합니다. 교육 기관의 이러한 움직임은 AI 개발사들에게 공공 부문에서의 AI 활용에 대한 더 엄격한 기준과 책임 있는 개발을 요구하게 될 것입니다.",
+      "source_name": "AP News",
+      "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPX28yVGlpUUl3UEpZMGJaTDRFbXBWR09uX1diWWotVXFuQ2JOTDlZRVVCUXRtN3FyUUNzczI2SG9sTXZXanlELUZfYU1YTHZ3enQ1NUoyUGU4NmwzNzJYV3l5ZjM0cHF0NHlhMDl2R3gwaWROaHREY3Zrd3BBd2hHd202WnFqWTJwSF9pSThfUk5wRV9TQkdBVC1zc09hbHh6M1BVVHJ5MUdmc2JzQmJ2YUJLaEkzSGJXNHc?oc=5",
+      "published_date": "2026-11-27"
+    },
+    {
+      "category": "Google/Privacy",
+      "title": "구글 제미나이, 사용자 이메일 등 개인 정보 외부 노출 위험 제기",
+      "summary": "구글의 AI 모델 제미나이(Gemini)가 특정 상황에서 사용자 Gmail이나 Google Drive 콘텐츠를 인간 검토자에게 노출할 위험이 있다는 연구 결과 및 보도가 나왔습니다.",
+      "detail": "보도에 따르면 구글은 제미나이 사용 시 특정 조건 하에 사용자 데이터(Gmail, Drive 등)가 인간 검토자에 의해 접근될 수 있음을 인정했습니다. 이는 AI 서비스 이용 약관에 명시되어 있지만, 많은 사용자가 인지하지 못하는 부분으로, AI가 민감한 개인 정보를 처리하는 과정에서의 프라이버시 침해 우려를 증폭시키고 있습니다.",
+      "why_it_matters": "이 문제는 AI 서비스의 사용자 데이터 처리 방식과 투명성에 대한 중요한 질문을 던집니다. 개인 정보 보호가 갈수록 중요해지는 시대에, AI 모델이 민감한 데이터를 어떻게 수집, 사용, 보호하는지에 대한 명확한 지침과 사용자 동의 절차가 더욱 강화되어야 함을 시사합니다.",
+      "source_name": "Fox News",
+      "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBKRW4tVXUxS2pZOUZ6WWtCMmpjSnJLbTlJbnFIeTVXV1FKSUM4QjVwdVZTR2dncnBwNzl5X1RvOUVEMVRGMnY2TDhOQ1BzV0Nrb2h2WnJUZmMxblNadDBnWGpTcHRZMzA2TmtHLTNQOTZiX1pWMmJDeXMwaURNdzTSAYQBQVVfeXFMTmIzYk1teW1pSnp2OXBHNTVIbElDSngydGlKNzJsbFZJY0paTS1lcFZObmUwOEROQ3ZQLUN5VVJkd3RJYkxOMWVESXVBMWdkVzVMSnhNQ2pXT01md0pyTE1URFJsNGc2ekY1ODdxYjZyOEk0VXZ3b3NhSnZ4UjdlME4zVDRE?oc=5",
+      "published_date": "2026-11-27"
+    }
+  ]
+}
